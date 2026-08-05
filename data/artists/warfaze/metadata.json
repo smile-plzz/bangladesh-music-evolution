@@ -1,0 +1,99 @@
+{
+  "id": "warfaze",
+  "name": "Warfaze",
+  "type": "band",
+  "formed_year": 1984,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Heavy Metal", "Hard Rock", "Progressive Metal"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Ibrahim Ahmed Kamal",
+      "role": "Lead Guitar (founding member; long-term creative force)",
+      "years_active": "1984–(with periods of reduced activity)",
+      "current": true
+    },
+    {
+      "name": "Sheikh Monirul Alam Tipu",
+      "role": "Drums",
+      "years_active": "long-term core member",
+      "current": true
+    },
+    {
+      "name": "Babna Karim",
+      "role": "Bass, Vocals (key early/mid period)",
+      "years_active": "early–mid periods",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Warfaze",
+      "year": 1991,
+      "type": "studio",
+      "label": "Sargam",
+      "notable_tracks": ["Boshe Achhi", "Ekti Chele", "Bichchhinno Abeg", "Shadhikhar"]
+    },
+    {
+      "title": "Obak Bhalobasha",
+      "year": 1994,
+      "type": "studio",
+      "notable_tracks": ["Obak Bhalobasha"]
+    },
+    {
+      "title": "Shotto",
+      "year": 2012,
+      "type": "studio",
+      "notable_tracks": ["Purnota"]
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Iron Maiden",
+      "evidence": "Early cover repertoire heavily featured Iron Maiden. Steve Harris-style bass approaches and dual-guitar / galloping aesthetics noted in secondary commentary. Foundational for the band's heavy metal identity.",
+      "source": "Wikipedia Warfaze & Bangladeshi heavy metal pages; multiple interviews and retrospective articles",
+      "confidence": "high"
+    },
+    {
+      "artist_or_genre": "Deep Purple / Whitesnake / Dokken / Guns N' Roses / Scorpions",
+      "evidence": "Documented early cover-band repertoire before original Bangla material. Helped acclimatize local audiences to hard rock and metal vocabulary.",
+      "source": "Band history sources and interviews",
+      "confidence": "high"
+    },
+    {
+      "artist_or_genre": "Metallica / broader thrash & classic metal",
+      "evidence": "Part of the wider influence ecosystem that shaped 1980s–90s Bangladeshi metal; frequently grouped with Iron Maiden as primary Western reference points for the scene.",
+      "source": "Scene histories and peer commentary",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "Pioneered original heavy metal and hard rock written and sung in Bangla. Early lyrics moved beyond pure romanticism into social themes, youth concerns, and later romantic defiance (e.g., 'Nei Proyojon'). Overcame cultural stigma of heavy music as 'oposhongskriti' / 'devil's music'. Tipu and others emphasize that they were among the first to deliver rock/metal in Bangla rather than remaining in the adhunik/pop register.",
+  "sound_evolution_summary": "Began as a cover-oriented hard rock/metal band in the mid-1980s. Breakthrough self-titled 1991 album established original Bangla metal vocabulary (aggressive riffs, dual-guitar work, powerful vocals). Subsequent albums explored progressive elements, ballads, and a wide stylistic range (from near-thrash to acoustic-leaning tracks). Production and technical polish increased over decades while core heavy identity remained. Multi-generational lineup changes helped maintain relevance.",
+  "concert_culture_notes": "Foundational to the live metal/rock circuit. Early university and BAMBA-organized shows were pivotal (first original Bangla material performed at University of Dhaka, April 1991/1992). Continues to draw multi-generational audiences. Large festival and headline presence.",
+  "listener_community_notes": "One of the most cited 'pioneer' and 'GOAT' nodes in Bangladeshi rock discourse. Appeals across generations; songs such as 'Purnota' and 'Obak Bhalobasha' retain strong contemporary streaming and social-media presence (including Coke Studio reinterpretations). Forms a central hub linking classic metal fans to later progressive and alternative scenes.",
+  "sources": [
+    {
+      "title": "Warfaze Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Warfaze",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Bangladeshi heavy metal Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bangladeshi_heavy_metal",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Why Warfaze is the GOAT of Bangla rock music (The Business Standard, 2026)",
+      "url": "https://www.tbsnews.net/splash/why-warfaze-goat-bangla-rock-music-1353671",
+      "type": "journalism"
+    },
+    {
+      "title": "Official Warfaze website",
+      "url": "https://warfaze.rocks/",
+      "type": "official"
+    }
+  ],
+  "tags": ["priority", "heavy-metal", "pioneer", "sound-evolution-case-study"],
+  "last_updated": "2026-08-05"
+}
