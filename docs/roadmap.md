@@ -6,16 +6,20 @@
 - [x] Conceptual frameworks (BMEM / BMEF) documented
 - [x] Methodology specified
 - [x] Core genres and priority artists listed
-- [ ] Literature review expansion and reference management
-- [ ] Initial artist metadata collection for priority bands
+- [x] Literature review working draft (key academic + secondary sources)
+- [x] Artist metadata schema designed
+- [x] Initial artist metadata for Artcell and Warfaze
+- [x] Draft master historical timeline (1971–present)
 
 ## Phase 2 — Data Collection
-- [ ] Historical timeline construction (1971–present)
-- [ ] Discography and release metadata for priority artists
+- [x] Historical timeline construction (first draft complete)
+- [ ] Expand discography and release metadata for priority artists
+- [ ] Additional priority artist profiles (James/Nagar Baul, Miles, Meghdol, LRB, Habib Wahid, Stoic Bliss, Arnob, Powersurge, etc.)
 - [ ] Public streaming and YouTube metrics collection
 - [ ] Concert and festival event database (≥500 target)
 - [ ] Social media and community discussion sampling
 - [ ] Artist interview / documentary / review corpus for influence claims
+- [ ] Concert / event schema design
 
 ## Phase 3 — Analysis
 - [ ] Build Bangladesh Music Preference Network (BMPN)
@@ -34,11 +38,12 @@
 - [ ] Revision and dissemination
 
 ## Immediate Next Actions
-1. Expand literature review (music sociology, South Asian popular music, computational approaches to music preference).
-2. Begin structured artist entries for the highest-priority acts (Artcell, Warfaze, James, Meghdol, Miles, Habib Wahid, Stoic Bliss, Arnob, etc.).
-3. Design data schemas for artists, concerts, and network edges.
-4. Prototype a small preference network using publicly available playlist / related-artist data.
+1. Add more priority artist profiles (James, Miles, Meghdol, LRB, Habib Wahid, Stoic Bliss, Arnob…).
+2. Design concert/event schema and begin event database.
+3. Collect public Spotify/YouTube signals for core artists.
+4. Prototype a small preference network using publicly available related-artist / playlist co-occurrence data.
+5. Deepen literature review (full texts of Quader & Redden 2014, Mitra thesis, theoretical sources).
 
 ---
 
-*This roadmap will be updated as the research progresses.*
+*Last updated: 2026-08-05*
