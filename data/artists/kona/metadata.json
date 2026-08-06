@@ -1,0 +1,52 @@
+{
+  "id": "kona",
+  "name": "Kona (Dilshad Nahar Kona)",
+  "type": "solo",
+  "formed_year": 2006,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Pop", "Playback/Film Music"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Dilshad Nahar Kona",
+      "role": "Vocals",
+      "years_active": "2006–present (earlier as member of Angels Four)",
+      "current": true
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Jamtika Bhalobasha",
+      "year": 2006,
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Contemporary pop / electronic-fusion production (via Fuad al Muqtadir collaborations)",
+      "evidence": "Kona's collaborations with producer Fuad al Muqtadir (e.g., 'Fuad featuring Kona') placed her classically trained voice within electronic/fusion pop production, mirroring the broader Habib Wahid-style folk-electronic fusion trend in Bangladeshi pop.",
+      "source": "Wikipedia Dilshad Nahar Kona; TheAudioDB artist profile",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "Trained in Nazrul Geeti at Nazrul Academy and formerly a member of the girl group Angels Four, Kona transitioned to a solo pop career with her 2006 debut Jamtika Bhalobasha (soft pop under Laser Vision), later blending her classical training with contemporary electronic-pop production through collaborations with Fuad al Muqtadir — illustrating the classical-training-to-pop-fusion pipeline common among female Bangladeshi pop vocalists of her generation.",
+  "sound_evolution_summary": "Formative period: classical training in Nazrul Geeti; early group experience in Angels Four. Solo breakthrough (2006): debut album Jamtika Bhalobasha introduced her as a soft-pop solo vocalist. Later period: extensive film playback career (Chorabali, 2012; Kacher Shatru, 2014; Warning, 2015; Bishwoshundori, 2020) culminating in the Bangladesh National Film Award for Best Female Playback Singer (2020), alongside pop-fusion collaborations (Fuad featuring Kona, Simply Kona).",
+  "concert_culture_notes": "Specific concert/festival data not yet documented in available sources — flagged for further research; visibility driven substantially by film playback and studio collaboration releases.",
+  "listener_community_notes": "Bridges classically trained vocal audiences and mainstream pop/film listeners; National Film Award recognition (2020) signals sustained mainstream industry standing within the Pop genre.",
+  "sources": [
+    {
+      "title": "Dilshad Nahar Kona — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dilshad_Nahar_Kona",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Kona — TheAudioDB.com",
+      "url": "https://www.theaudiodb.com/artist/117130-Kona",
+      "type": "profile"
+    }
+  ],
+  "tags": ["priority", "pop", "playback"],
+  "last_updated": "2026-08-06"
+}

@@ -14,7 +14,7 @@
 ## Phase 2 — Data Collection
 - [x] Historical timeline construction (first draft complete)
 - [ ] Expand discography and release metadata for priority artists
-- [x] Additional priority artist profiles (James/Nagar Baul, Miles, Meghdol, LRB, Habib Wahid, Stoic Bliss, Arnob, Powersurge, Karnival, Cryptic Fate, Tahsan) — 11 profiles now complete; Souls, Feedback, Ark, Mechanix, Ashes, Shohojia, Conclusion, Minar, Imran, Nancy, Kona, Muza, Hannan, Jalali Set still pending
+- [x] Priority artist profiles complete — 24 artists catalogued in `data/artists/` (see `data/artists/README.md` for full checklist). Shohojia and Owned could not be substantiated from available sources and remain open research items.
 - [ ] Public streaming and YouTube metrics collection
 - [x] Concert / event schema design (`data/schemas/concert.schema.json`)
 - [ ] Concert and festival event database (≥500 target) — 4 seed entries added (`data/concerts/`); large-scale collection still pending
@@ -38,11 +38,12 @@
 - [ ] Revision and dissemination
 
 ## Immediate Next Actions
-1. Add remaining priority artist profiles (Souls, Feedback, Ark, Mechanix, Ashes, Shohojia, Conclusion, Minar, Imran, Nancy, Kona, Muza, Hannan, Jalali Set, Owned).
-2. Expand the concert/event database beyond the 4 seed entries — target BAMBA/university-fest lineups and landmark diaspora tours; verify approximate dates flagged `needs-verification`.
-3. Collect public Spotify/YouTube signals for core artists.
-4. Prototype a small preference network using publicly available related-artist / playlist co-occurrence data (`data/networks/`).
-5. Deepen literature review (full texts of Quader & Redden 2014, Mitra thesis, theoretical sources).
+1. Expand the concert/event database beyond the 4 seed entries — target BAMBA/university-fest lineups and landmark diaspora tours; verify approximate dates flagged `needs-verification`.
+2. Collect public Spotify/YouTube signals for core artists (now unblocked — 24 artist profiles provide a solid base list).
+3. Prototype a small preference network using publicly available related-artist / playlist co-occurrence data (`data/networks/`).
+4. Catalogue newly surfaced influential artists not yet documented: Shironamhin, Aurthohin, Black, Shunno, Maqsood O' Dhaka.
+5. Revisit Shohojia and Owned once better sources are found; do not fabricate profiles in the meantime.
+6. Deepen literature review (full texts of Quader & Redden 2014, Mitra thesis, theoretical sources).
 
 ---
 

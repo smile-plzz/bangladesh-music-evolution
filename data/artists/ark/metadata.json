@@ -1,0 +1,65 @@
+{
+  "id": "ark",
+  "name": "Ark",
+  "type": "band",
+  "formed_year": 1991,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Mainstream Rock", "Hard Rock"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Ashiquzzaman Tulu",
+      "role": "Keyboards, Founder",
+      "years_active": "1991–present",
+      "current": true
+    },
+    {
+      "name": "Ridwan Nabi Pancham",
+      "role": "Founding member",
+      "years_active": "1991–unspecified",
+      "current": false
+    },
+    {
+      "name": "Shamim",
+      "role": "Founding member",
+      "years_active": "1991–unspecified",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "মুক্তিযুদ্ধ (Muktijuddho)",
+      "year": 1991,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Tajmahal",
+      "year": 1996,
+      "type": "studio",
+      "notable_tracks": ["Sweety"]
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Western hard rock traditions (general)",
+      "evidence": "Ark emerged as part of the same 1990s hard-rock wave as LRB and Nagar Baul, together forming the 'Big Three of Rock' credited with popularizing rock music in Bangladesh, implying a shared set of Western rock reference points typical of the era's cassette/import exposure.",
+      "source": "Wikipedia Ark (Bangladeshi band)",
+      "confidence": "low"
+    }
+  ],
+  "local_adaptation_notes": "Ark's debut album মুক্তিযুদ্ধ (Muktijuddho, 'Liberation War,' 1991) directly engaged national historical memory as subject matter for a hard rock album, paralleling Cryptic Fate's later similar thematic choice; the band's 1996 breakthrough single 'Sweety' (from Tajmahal) became one of the most enduring staples of Bangladeshi rock, demonstrating the genre's capacity for mass commercial crossover.",
+  "sound_evolution_summary": "Founding period (1991): formed by keyboardist Ashiquzzaman Tulu with Ridwan Nabi Pancham and Shamim; debut album মুক্তিযুদ্ধ engaged Liberation War themes. Breakthrough period (1996): second album Tajmahal, released via Soundtek, was a phenomenal commercial success driven by the single 'Sweety,' cementing Ark's status as one of the most popular rock bands of the 1990s. Later period: continued releases across five studio albums plus contributed compilation tracks, sustaining the band's presence within the mainstream rock canon.",
+  "concert_culture_notes": "As part of the 'Big Three of Rock' era, Ark benefited from the same 1990s expansion of large-scale Bangladeshi rock concert culture that elevated LRB and Nagar Baul to national prominence.",
+  "listener_community_notes": "Core member of the foundational 'Big Three of Rock' listener ecosystem (with Nagar Baul and LRB) that defined 1990s Bangladeshi rock fandom; 'Sweety' remains a rock-culture touchstone recognized across generations.",
+  "sources": [
+    {
+      "title": "Ark (Bangladeshi band) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ark_(Bangladeshi_band)",
+      "type": "encyclopedia"
+    }
+  ],
+  "tags": ["priority", "mainstream-rock", "big-three", "founding-era"],
+  "last_updated": "2026-08-06"
+}

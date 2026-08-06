@@ -1,0 +1,118 @@
+{
+  "id": "souls",
+  "name": "Souls",
+  "type": "band",
+  "formed_year": 1972,
+  "disbanded_year": null,
+  "origin_city": "Chittagong",
+  "genres": ["Mainstream Rock", "Pop Rock", "Blues Rock"],
+  "languages": ["bn", "en"],
+  "members": [
+    {
+      "name": "Partha Barua",
+      "role": "Vocals, Lead Guitar",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Meer Shahriar Hossain Masum",
+      "role": "Keyboards",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Maruf Hasan Talukder",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Nakib Khan",
+      "role": "Former member (joined after founder Lulu's departure, 1972)",
+      "years_active": "1972–unspecified",
+      "current": false
+    },
+    {
+      "name": "Pilu Khan",
+      "role": "Former member",
+      "years_active": "unspecified",
+      "current": false
+    },
+    {
+      "name": "Tapan Chowdhury",
+      "role": "Former member",
+      "years_active": "unspecified",
+      "current": false
+    },
+    {
+      "name": "Nasim Ali Khan",
+      "role": "Former member (joined 1977/1978)",
+      "years_active": "1977–unspecified",
+      "current": false
+    },
+    {
+      "name": "Ayub Bachchu",
+      "role": "Former member (joined 1977/1978; later founded LRB)",
+      "years_active": "1977–1980s",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Super Souls",
+      "year": 1980,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Colleger Corridore",
+      "year": 1982,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Manush Matir Kachakachi",
+      "year": 1987,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "East & West",
+      "year": 1988,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Jam",
+      "year": 2011,
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Western rock/pop cover circuit (general)",
+      "evidence": "Souls began performing cover songs of Western bands in Chittagong/Dhaka hotels in the early 1970s before shifting to original compositions, directly transmitting Western rock/pop conventions into the emerging Bangladeshi band scene.",
+      "source": "Wikipedia Souls (band); Band Music of Bangladesh profile",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "Formed in 1972 (originally as Shurela, renamed Souls in 1973) in the immediate post-Liberation period, Souls is among the very first generation of Bangladeshi bands to transition from hotel-circuit Western cover performance to original Bangla and English songwriting, functioning as a foundational training ground — the band's alumni (Ayub Bachchu, Nakib Khan, Pilu Khan, Tapan Chowdhury) went on to found or join other pivotal acts (notably LRB), making Souls a key node in the genealogy of Bangladeshi mainstream rock.",
+  "sound_evolution_summary": "Founding period (1972–1970s): formed in Chittagong shortly after independence, performing Western covers in hotel venues while developing original material; multiple formative lineup changes brought in future rock icons. Breakthrough period (1980s): debut album Super Souls (1980) followed by Colleger Corridore (1982), Manush Matir Kachakachi (1987) and East & West (1988) established the band within the pop-rock/blues-rock mainstream. Later period: continued output through 2011's Jam album, reflecting one of the longest active tenures in Bangladeshi rock history.",
+  "concert_culture_notes": "Rooted in Bangladesh's earliest hotel-circuit live music culture (e.g., InterContinental-style venues) before the band-based concert/festival circuit matured, reflecting the transitional performance economy of 1970s Dhaka/Chittagong.",
+  "listener_community_notes": "Regarded as one of the oldest and most foundational Bangladeshi rock/pop bands, with a listener base spanning the earliest cassette-era rock audiences through to later generations who encounter the band via its alumni's more famous later projects (LRB).",
+  "sources": [
+    {
+      "title": "Souls (band) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Souls_(band)",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "SOULS — One of The Oldest Pop Bands in Bangladesh — Band Music of Bangladesh",
+      "url": "http://bandmusicbd.blogspot.com/2012/02/souls-one-of-oldest-pop-bands-in.html",
+      "type": "profile"
+    }
+  ],
+  "tags": ["priority", "mainstream-rock", "founding-era"],
+  "last_updated": "2026-08-06"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "jalali-set",
+  "name": "Jalali Set",
+  "type": "collective",
+  "formed_year": 2014,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Hip-Hop", "Trap", "Alternative Hip-Hop", "Folk-Hip-Hop Fusion"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "MC Mugz",
+      "role": "Rapper (joined 2014; formerly of Deshi MCs)",
+      "years_active": "2014–present",
+      "current": true
+    },
+    {
+      "name": "Shafayat",
+      "role": "Rapper (joined 2014; formerly of RHG / Green Coast)",
+      "years_active": "2014–present",
+      "current": true
+    },
+    {
+      "name": "Double$",
+      "role": "Member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Shadhu",
+      "role": "Member (previously active in the underground scene)",
+      "years_active": "unspecified–present",
+      "current": true
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Sura Target",
+      "year": 2015,
+      "type": "single",
+      "notable_tracks": ["Sura Target"]
+    },
+    {
+      "title": "Level 13",
+      "year": 2016,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Bhober Pagol",
+      "year": 2022,
+      "type": "single",
+      "notable_tracks": ["Bhober Pagol"]
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "American hip-hop / trap production",
+      "evidence": "Jalali Set's sound is described as a fusion of hip-hop, trap and electronic music, reflecting direct absorption of contemporary American trap production techniques into the group's Level 13 (2016) material.",
+      "source": "Various music-scene profiles; halftimeonline.net Bangladesh hip-hop overview",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "Formed when MC Mugz (from the pioneering Deshi MCs crew) and Shafayat (from RHG/Green Coast) joined forces in 2014, Jalali Set built its identity on raw Dhaka street slang and socially conscious lyrics addressing politics, society and individual hardship; the 2022 single 'Bhober Pagol' explicitly fused hip-hop/trap with traditional Bangladeshi folk instrumentation (dotara, ektara), directly paralleling the folk-fusion adaptation strategies seen in Arnob's and Habib Wahid's work but applied within a hip-hop framework.",
+  "sound_evolution_summary": "Formative period (2014): coalesced from members of established underground crews (Deshi MCs, RHG/Green Coast) plus Shadhu, an established underground-scene figure. Breakthrough period (2015–2016): viral single 'Sura Target' (2015) preceded debut album Level 13 (2016), recognized for its raw local sound and Dhaka slang. Later period (2022): 'Bhober Pagol' extended the group's palette into folk-hip-hop fusion using traditional instruments, broadening the group's sonic and thematic range beyond straight trap/hip-hop.",
+  "concert_culture_notes": "Emerged from Dhaka's underground hip-hop crew scene (Deshi MCs, RHG/Green Coast lineage) rather than a mainstream media pipeline, consistent with the DIY, crew-based development pattern common to early 2010s Bangladeshi hip-hop before the genre's later mainstream/viral breakthroughs.",
+  "listener_community_notes": "A key node in the Bangladeshi hip-hop ecosystem alongside Stoic Bliss, Muza and Hannan, notable for bridging underground/socially-conscious hip-hop audiences with folk-music listener communities via tracks like 'Bhober Pagol.'",
+  "sources": [
+    {
+      "title": "Jalali Set biography — Last.fm",
+      "url": "https://www.last.fm/music/Jalali+Set/+wiki",
+      "type": "profile"
+    },
+    {
+      "title": "Bangladeshi hip-hop — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bangladeshi_hip-hop",
+      "type": "encyclopedia"
+    }
+  ],
+  "tags": ["priority", "hip-hop", "folk-fusion"],
+  "last_updated": "2026-08-06"
+}

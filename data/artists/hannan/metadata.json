@@ -1,0 +1,57 @@
+{
+  "id": "hannan",
+  "name": "Hannan (Hannan Hossain Shimul)",
+  "type": "solo",
+  "formed_year": 2024,
+  "disbanded_year": null,
+  "origin_city": "Narayanganj",
+  "genres": ["Hip-Hop", "Rap", "Protest Music"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Hannan Hossain Shimul",
+      "role": "Rapper, Vocals",
+      "years_active": "2024–present (public breakthrough; earlier career activity undocumented in available sources)",
+      "current": true
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Awaaz Utha (Awaj Uda)",
+      "year": 2024,
+      "type": "single",
+      "notable_tracks": ["Awaaz Utha"]
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Global protest/hip-hop tradition (general)",
+      "evidence": "Hannan's breakout track functions as a protest anthem within the July 2024 uprising context, situating his work within a broader global tradition of hip-hop as protest music; specific artist-level Western influence citations were not located in available sources.",
+      "source": "Wikipedia Awaaz Utha; Artists at Risk Connection statement",
+      "confidence": "low"
+    }
+  ],
+  "local_adaptation_notes": "Hannan Hossain Shimul's 'Awaaz Utha' (released 18 July 2024, produced with collaborator SnareByt) became a defining anthem of Bangladesh's July 2024 protest movement, directly embedding Bangla hip-hop within a specific national political moment; his subsequent arrest and the international human-rights response (Artists at Risk Connection) underscore hip-hop's role as a vehicle for youth political voice in the contemporary Bangladeshi scene, extending the socially conscious thread already present in Jalali Set's work.",
+  "sound_evolution_summary": "Breakthrough period (2024): rose to national and international attention with 'Awaaz Utha,' combining classic hip-hop production elements with direct, unvarnished protest lyrics; also associated with the hip-hop group Wrong Side. His documented public career is concentrated around this 2024 breakthrough moment; earlier career activity is not substantiated in currently available sources and should be treated as an open research question.",
+  "concert_culture_notes": "Public visibility concentrated in the digital/streaming and protest-movement context rather than a documented conventional concert circuit; his arrest generated substantial media and public-solidarity attention.",
+  "listener_community_notes": "Represents the socially-conscious, protest-oriented strand of the Bangladeshi hip-hop listener community, giving voice to underrepresented youth and drawing solidarity from both domestic fans and international human-rights/artist-advocacy organizations.",
+  "sources": [
+    {
+      "title": "Awaaz Utha — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Awaaz_Utha",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Artists at Risk Connection Condemns Arbitrary Arrest of Bangladeshi Rapper Hannan Hossain Shimul",
+      "url": "https://artistsatriskconnection.org/statement/artists-at-risk-connection-condemns-arbitrary-arrest-of-bangladeshi-rapper-hannan-hossain-shimul/",
+      "type": "statement"
+    },
+    {
+      "title": "Rapper Hannan freed — The Daily Star",
+      "url": "https://www.thedailystar.net/entertainment/music/news/rapper-hannan-freed-3670846",
+      "type": "news"
+    }
+  ],
+  "tags": ["priority", "hip-hop", "protest-music", "needs-verification"],
+  "last_updated": "2026-08-06"
+}

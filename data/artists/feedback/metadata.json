@@ -1,0 +1,93 @@
+{
+  "id": "feedback",
+  "name": "Feedback",
+  "type": "band",
+  "formed_year": 1976,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Mainstream Rock", "Pop Rock", "Blues Rock", "Jazz"],
+  "languages": ["bn", "en"],
+  "members": [
+    {
+      "name": "Foad Nasser Babu",
+      "role": "Keyboards, Founder",
+      "years_active": "1976–present",
+      "current": true
+    },
+    {
+      "name": "Labu Rahman",
+      "role": "Band member (joined 1986)",
+      "years_active": "1986–present",
+      "current": true
+    },
+    {
+      "name": "Enam Elahi Tonty",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Raihan Al Hasan",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Mohammad Danesh",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Shahnur Rahman Lumin",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Ariful Islam",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Feedback",
+      "year": 1981,
+      "type": "studio",
+      "notable_tracks": ["Aye Din Chiro Din Robey"]
+    },
+    {
+      "title": "Sragam Acoustics",
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Western pop rock, blues rock, and jazz traditions (general)",
+      "evidence": "Feedback's genre classification (pop rock, blues rock, jazz) and its origin performing at Dhaka's InterContinental Hotel in 1976 reflect the same expatriate/hotel-circuit Western-repertoire pipeline through which Souls and other founding-era bands absorbed international influences.",
+      "source": "Wikipedia Feedback (band); Last.fm FeedBack (BD) biography",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "Founded in 1976 by keyboardist Foad Nasser Babu, Feedback debuted at the InterContinental Hotel, Dhaka, before recording its first original song 'Aye Din Chiro Din Robey' (1980) and, after Labu Rahman joined in 1986, moving concerts out of hotels into standalone venues — marking a broader industry shift from hotel-lounge performance toward independent concert culture that other bands of the era also underwent.",
+  "sound_evolution_summary": "Founding period (1976–1980): formed and debuted in a hotel-circuit context typical of 1970s Dhaka; first recorded original song released in 1980. Consolidation period (1986 onward): Labu Rahman's arrival helped move the band toward standalone concerts and further studio albums (Feedback, Sragam Acoustics), blending pop rock, blues rock and jazz idioms. Later recognition: won Best Band from RTV in 1995 for 'Jai Jai Din,' reflecting sustained mainstream relevance across decades and multiple lineup changes.",
+  "concert_culture_notes": "Historically tied to Dhaka's hotel-lounge performance circuit (InterContinental Hotel debut, 1976) before transitioning to independent concerts from 1986 onward, illustrating the industry-wide move from hospitality-venue live music to a dedicated concert/festival ecosystem.",
+  "listener_community_notes": "One of the founding-generation mainstream rock/pop acts alongside Souls, contributing to the same alumni-and-influence network that shaped later prominent bands; RTV's 1995 Best Band recognition signals mainstream broadcast-era visibility.",
+  "sources": [
+    {
+      "title": "Feedback (band) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Feedback_(band)",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "FeedBack (BD) biography — Last.fm",
+      "url": "https://www.last.fm/music/FeedBack+(BD)/+wiki",
+      "type": "profile"
+    }
+  ],
+  "tags": ["priority", "mainstream-rock", "founding-era"],
+  "last_updated": "2026-08-06"
+}
