@@ -1,8 +1,8 @@
 {
   "description": "Prototype Bangladesh Music Preference Network (BMPN) built from publicly documented concert co-billing only. Nodes = artists in data/artists/; edges = artists that shared a concert bill in data/concerts/, weighted by number of shared events. This is an early proxy for audience/genre-community structure, not a validated preference network — streaming/playlist co-occurrence and social-listening data are needed for a fuller model (see docs/roadmap.md).",
-  "node_count": 26,
-  "edge_count": 6,
-  "isolated_node_count": 19,
+  "node_count": 35,
+  "edge_count": 15,
+  "isolated_node_count": 25,
   "nodes": [
     {
       "id": "ark",
@@ -39,6 +39,36 @@
       "genres": [
         "Alternative Rock",
         "Folk Rock"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "aurthohin",
+      "name": "Aurthohin",
+      "genres": [
+        "Alternative Rock",
+        "Progressive Metal",
+        "Groove Metal",
+        "Funk Rock"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "black",
+      "name": "Black",
+      "genres": [
+        "Alternative Rock",
+        "Grunge"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "chirkutt",
+      "name": "Chirkutt",
+      "genres": [
+        "Folk Rock",
+        "Alternative Rock",
+        "Bangla Fusion"
       ],
       "event_count": 0
     },
@@ -141,6 +171,16 @@
       "event_count": 0
     },
     {
+      "id": "lalon-band",
+      "name": "Lalon (Lalon Band)",
+      "genres": [
+        "Folk Fusion",
+        "Baul-influenced",
+        "Rock"
+      ],
+      "event_count": 0
+    },
+    {
       "id": "lrb",
       "name": "LRB (Love Runs Blind)",
       "genres": [
@@ -151,13 +191,23 @@
       "event_count": 1
     },
     {
+      "id": "maqsood-o-dhaka",
+      "name": "Maqsood O' Dhaka",
+      "genres": [
+        "Jazz Rock Fusion",
+        "Alternative Rock",
+        "Baul-influenced"
+      ],
+      "event_count": 1
+    },
+    {
       "id": "mechanix",
       "name": "Mechanix",
       "genres": [
         "Heavy Metal",
         "Thrash Metal"
       ],
-      "event_count": 1
+      "event_count": 2
     },
     {
       "id": "meghdol",
@@ -211,12 +261,54 @@
       "event_count": 0
     },
     {
+      "id": "nemesis",
+      "name": "Nemesis",
+      "genres": [
+        "Mainstream Rock",
+        "Alternative Rock"
+      ],
+      "event_count": 1
+    },
+    {
       "id": "powersurge",
       "name": "Powersurge",
       "genres": [
         "Thrash Metal",
         "Groove Metal",
         "Heavy Metal"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "renaissance",
+      "name": "Renaissance",
+      "genres": [
+        "Reggae",
+        "Jazz",
+        "Soft Rock",
+        "Mainstream Rock"
+      ],
+      "event_count": 1
+    },
+    {
+      "id": "shironamhin",
+      "name": "Shironamhin",
+      "genres": [
+        "Alternative Rock",
+        "Progressive Rock",
+        "Psychedelic Rock",
+        "Folk Rock",
+        "Symphonic Rock"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "shunno",
+      "name": "Shunno",
+      "genres": [
+        "Alternative Rock",
+        "Pop Rock",
+        "Soft Rock"
       ],
       "event_count": 0
     },
@@ -304,11 +396,84 @@
       ]
     },
     {
-      "source": "mechanix",
+      "source": "maqsood-o-dhaka",
+      "target": "mechanix",
+      "weight": 1,
+      "shared_events": [
+        "bamba-eid-concert-jamuna-future-park"
+      ]
+    },
+    {
+      "source": "maqsood-o-dhaka",
+      "target": "nemesis",
+      "weight": 1,
+      "shared_events": [
+        "bamba-eid-concert-jamuna-future-park"
+      ]
+    },
+    {
+      "source": "maqsood-o-dhaka",
+      "target": "renaissance",
+      "weight": 1,
+      "shared_events": [
+        "bamba-eid-concert-jamuna-future-park"
+      ]
+    },
+    {
+      "source": "maqsood-o-dhaka",
       "target": "warfaze",
       "weight": 1,
       "shared_events": [
-        "2009-artcell-10-years-insanity-sheraton"
+        "bamba-eid-concert-jamuna-future-park"
+      ]
+    },
+    {
+      "source": "mechanix",
+      "target": "nemesis",
+      "weight": 1,
+      "shared_events": [
+        "bamba-eid-concert-jamuna-future-park"
+      ]
+    },
+    {
+      "source": "mechanix",
+      "target": "renaissance",
+      "weight": 1,
+      "shared_events": [
+        "bamba-eid-concert-jamuna-future-park"
+      ]
+    },
+    {
+      "source": "mechanix",
+      "target": "warfaze",
+      "weight": 2,
+      "shared_events": [
+        "2009-artcell-10-years-insanity-sheraton",
+        "bamba-eid-concert-jamuna-future-park"
+      ]
+    },
+    {
+      "source": "nemesis",
+      "target": "renaissance",
+      "weight": 1,
+      "shared_events": [
+        "bamba-eid-concert-jamuna-future-park"
+      ]
+    },
+    {
+      "source": "nemesis",
+      "target": "warfaze",
+      "weight": 1,
+      "shared_events": [
+        "bamba-eid-concert-jamuna-future-park"
+      ]
+    },
+    {
+      "source": "renaissance",
+      "target": "warfaze",
+      "weight": 1,
+      "shared_events": [
+        "bamba-eid-concert-jamuna-future-park"
       ]
     }
   ]

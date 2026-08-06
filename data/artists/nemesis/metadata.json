@@ -1,0 +1,71 @@
+{
+  "id": "nemesis",
+  "name": "Nemesis",
+  "type": "band",
+  "formed_year": 1999,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Mainstream Rock", "Alternative Rock"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Zohad Reza Chowdhury",
+      "role": "Vocals (joined early 2000)",
+      "years_active": "2000–present",
+      "current": true
+    },
+    {
+      "name": "Ifaz Abrar Reza",
+      "role": "Guitar",
+      "years_active": "1999–present",
+      "current": true
+    },
+    {
+      "name": "Sultan Rafsan Khan",
+      "role": "Guitar",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Raquibun Nabi Ratul",
+      "role": "Bass",
+      "years_active": "unspecified–present",
+      "current": true
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Onneshon",
+      "year": 2005,
+      "type": "studio",
+      "notable_tracks": ["Obocheton", "Kolporajjo"]
+    },
+    {
+      "title": "Tritio Jatra",
+      "year": 2011,
+      "type": "studio",
+      "notable_tracks": ["Bir", "Kobe"]
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Unspecified in available sources",
+      "evidence": "Available sources document Nemesis's formation and hit singles but do not specify concrete Western artist or genre influences; flagged for further research (e.g., band interviews) rather than assumed.",
+      "source": "Wikipedia Nemesis (Bangladeshi band)",
+      "confidence": "hypothesized"
+    }
+  ],
+  "local_adaptation_notes": "Formed by recent high-school graduates with abundant free time, Nemesis's origin story — meeting future vocalist Zohad at a New Year's Eve rooftop party — reflects the informal, peer-network-driven formation pattern common to late-1990s/early-2000s Dhaka youth bands, later professionalizing via G-Series (debut album) and Dead Line Music (second album) label releases.",
+  "sound_evolution_summary": "Founding period (1999–2000): formed by high-school-age friends; vocalist Zohad Reza Chowdhury joined in early 2000 after a chance rooftop-party meeting. Breakthrough period (2005): debut album Onneshon (G-Series) produced enduring hits 'Obocheton' and 'Kolporajjo,' propelling the band to mainstream popularity through the late 2000s and early 2010s. Consolidation period (2011): second album Tritio Jatra (Dead Line Music) added further hits ('Bir,' 'Kobe') to the band's catalogue across a three-studio-album career to date.",
+  "concert_culture_notes": "Co-headlined the BAMBA Eid celebration concert at Jamuna Future Park alongside Warfaze, Maqsood O Dhaka, Renaissance and Mechanix (see data/concerts/bamba-eid-concert-jamuna-future-park.json), indicating an active presence within the multi-band festival circuit typical of mainstream Bangladeshi rock acts.",
+  "listener_community_notes": "One of the most popular mainstream/alternative rock bands of the late 2000s–early 2010s generation, appealing to listeners bridging the earlier 'Big Three' rock era and the newer alternative/indie scene.",
+  "sources": [
+    {
+      "title": "Nemesis (Bangladeshi band) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nemesis_(Bangladeshi_band)",
+      "type": "encyclopedia"
+    }
+  ],
+  "tags": ["mainstream-rock", "alternative-indie"],
+  "last_updated": "2026-08-06"
+}

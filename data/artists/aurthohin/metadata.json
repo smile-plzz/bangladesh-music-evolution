@@ -1,0 +1,70 @@
+{
+  "id": "aurthohin",
+  "name": "Aurthohin",
+  "type": "band",
+  "formed_year": 1998,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Alternative Rock", "Progressive Metal", "Groove Metal", "Funk Rock"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Saidus Salehin Khaled Sumon (Bassbaba Sumon)",
+      "role": "Vocals, Bass, Founder, Bandleader",
+      "years_active": "1998–present",
+      "current": true
+    },
+    {
+      "name": "Tonmoy Rahman",
+      "role": "Lead Guitar (founding)",
+      "years_active": "1998–unspecified",
+      "current": false
+    },
+    {
+      "name": "Ponir",
+      "role": "Rhythm Guitar (founding)",
+      "years_active": "1998–unspecified",
+      "current": false
+    },
+    {
+      "name": "Rumi Rahman",
+      "role": "Drums, Percussion (founding)",
+      "years_active": "1998–unspecified",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Trimatrik",
+      "year": 2000,
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Funk, jazz fusion, and progressive metal traditions (general)",
+      "evidence": "Sumon's personal interest in slap bass steered Aurthohin's sound toward funk-rock, and influences spanning funk, jazz fusion and progressive metal are evident across the band's catalogue — a comparatively rare combination within Bangladeshi rock, distinguishing Aurthohin from straighter hard-rock or metal peers.",
+      "source": "Wikipedia Aurthohin",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "Aurthohin grew directly out of frontman Sumon's earlier solo project Sumon O Aurthohin, recorded while he was still a member of Warfaze — making the band a direct genealogical branch of Bangladesh's heavy metal pioneers that pivoted toward a funk/jazz-fusion-inflected alternative rock sound; the band is also credited with actively supporting underground rock/metal acts, positioning it as an infrastructural as well as musical influence on the scene.",
+  "sound_evolution_summary": "Founding period (1998): formed by Sumon (fresh from Warfaze), Tonmoy Rahman, Ponir and Rumi Rahman. Breakthrough period (2000): debut album Trimatrik, one of the earliest hard rock records in Bangladesh, established the band nationally. Later period: eight to nine studio albums released over time, with the sound progressively incorporating progressive metal, groove metal and funk-rock elements as Sumon's slap-bass-driven sensibility matured; Sumon remains the sole continuous founding member.",
+  "concert_culture_notes": "Notable for its role supporting and mentoring underground rock/metal bands in Bangladesh, suggesting a concert-culture role beyond its own headline shows — functioning as a connective node within the live metal/rock scene ecosystem.",
+  "listener_community_notes": "Considered one of the pioneering bands of Bangladeshi alternative rock; its funk/jazz-fusion hybridity attracts listeners overlapping both the metal scene (via Sumon's Warfaze lineage) and more experimental alternative/progressive audiences.",
+  "sources": [
+    {
+      "title": "Aurthohin — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aurthohin",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Saidus Salehin Khaled Sumon — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Saidus_Salehin_Khaled_Sumon",
+      "type": "encyclopedia"
+    }
+  ],
+  "tags": ["alternative-indie", "progressive-metal", "funk-fusion"],
+  "last_updated": "2026-08-06"
+}

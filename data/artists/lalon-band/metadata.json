@@ -1,0 +1,118 @@
+{
+  "id": "lalon-band",
+  "name": "Lalon (Lalon Band)",
+  "type": "band",
+  "formed_year": 2001,
+  "disbanded_year": null,
+  "origin_city": "Khulna",
+  "genres": ["Folk Fusion", "Baul-influenced", "Rock"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Nigar Sultana Sumi",
+      "role": "Vocals, Founder, Bandleader",
+      "years_active": "2001–present",
+      "current": true
+    },
+    {
+      "name": "Mohonto Sarker",
+      "role": "Guitar",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Aarafat Bosnia",
+      "role": "Keyboards",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Tahjib Ur Rashid Adib",
+      "role": "Bass",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Thein Han Maung",
+      "role": "Drums, Band Leader",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "S M Anwar Reaz",
+      "role": "Sound Engineer",
+      "years_active": "unspecified–present",
+      "current": true
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Biprotip",
+      "year": 2007,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Khepa",
+      "year": 2009,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "B Protip",
+      "year": 2012,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Pagol",
+      "year": 2012,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Sada Kalo",
+      "year": 2013,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Baul Of Bengal",
+      "year": 2014,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "A Tribute to Fakir Lalon Sai",
+      "year": 2015,
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Electric rock instrumentation applied to Baul repertoire (general)",
+      "evidence": "The band integrates traditional Baul folk traditions with contemporary rock elements, including electric guitars and synthesizers, to reinterpret Fakir Lalon Shah's philosophical songs — a direct technological/idiomatic adaptation of Western rock-band instrumentation rather than a specific cited Western artist influence.",
+      "source": "Wikipedia Lalon Band",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "Founded in Khulna in 2001 by Nigar Sultana Sumi and named directly after the 19th-century Baul mystic-poet Fakir Lalon Shah, the band's entire creative mission centers on reinterpreting Lalon's philosophical songs — emphasizing spiritual unity and critique of religious dogma — through electric rock arrangements, making it one of the most direct and mission-driven folk-fusion acts in the corpus, alongside Arnob and Maqsood O' Dhaka's Baul-focused work.",
+  "sound_evolution_summary": "Founding period (2001): formed in Khulna by Sumi, explicitly built around Lalon Shah's repertoire and philosophy. Album period (2007–2015): Biprotip (2007) and Khepa (2009) established the band nationally; subsequent releases (B Protip, Pagol, both 2012; Sada Kalo, 2013; Baul Of Bengal, 2014; A Tribute to Fakir Lalon Sai, 2015) consolidated a prolific, mission-focused discography devoted to reinterpreting and disseminating Baul philosophy through rock arrangements.",
+  "concert_culture_notes": "Achieved significant international recognition, performing at the United Nations Headquarters in New York (2014) and the Jaffna Music Festival, Sri Lanka (2015), alongside domestic prominence including an appearance on Coke Studio Bangla (2023) — reflecting the band's stated commitment to spreading Bengali folk/Baul music worldwide.",
+  "listener_community_notes": "A central node within the Folk & Folk Fusion genre alongside Arnob and Coke Studio Bangla collaborators, with a listener base drawn specifically to Baul spiritual philosophy rendered in accessible rock form, plus strong international world-music audience recognition.",
+  "sources": [
+    {
+      "title": "Lalon Band — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lalon_Band",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Musical Flair of LALON — The Daily Star",
+      "url": "https://www.thedailystar.net/showbiz/cover-story/musical-flair-lalon-782827",
+      "type": "news"
+    }
+  ],
+  "tags": ["folk-fusion", "baul", "international-touring"],
+  "last_updated": "2026-08-06"
+}

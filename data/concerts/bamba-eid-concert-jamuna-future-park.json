@@ -12,11 +12,15 @@
   },
   "organizer": "BAMBA (Bangladesh Musical Bands Association)",
   "artists": [
-    { "artist_id": "warfaze", "billing": "co-headliner" }
+    { "artist_id": "warfaze", "billing": "co-headliner" },
+    { "artist_id": "maqsood-o-dhaka", "billing": "co-headliner" },
+    { "artist_id": "renaissance", "billing": "co-headliner" },
+    { "artist_id": "nemesis", "billing": "co-headliner" },
+    { "artist_id": "mechanix", "billing": "support" }
   ],
-  "genres_represented": ["Heavy Metal", "Mainstream Rock"],
+  "genres_represented": ["Heavy Metal", "Mainstream Rock", "Jazz Rock Fusion", "Alternative Rock"],
   "attendance_confidence": "unknown",
-  "notes": "Multi-band BAMBA-organized Eid celebration concert featuring Warfaze, Maqsood O Dhaka, Renaissance, Nemesis and Mechanix, illustrative of BAMBA's role as an industry association coordinating large multi-act rock/metal showcases around festival calendar dates (Eid). Year (2 August) is drawn from a Dhaka Tribune report; the specific year of the report requires further verification and is currently treated as approximate. Additional lineup artists (Maqsood O Dhaka, Renaissance, Nemesis, Mechanix) are not yet catalogued in data/artists and should be added in a future pass.",
+  "notes": "Multi-band BAMBA-organized Eid celebration concert featuring Warfaze, Maqsood O Dhaka, Renaissance, Nemesis and Mechanix, illustrative of BAMBA's role as an industry association coordinating large multi-act rock/metal showcases around festival calendar dates (Eid). Year (2 August) is drawn from a Dhaka Tribune report; the specific year of the report requires further verification and is currently treated as approximate.",
   "sources": [
     {
       "title": "Warfaze, Maqsood O Dhaka, Renaissance, Nemesis and Mechanix rocked the concert — Dhaka Tribune",

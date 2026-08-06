@@ -1,0 +1,113 @@
+{
+  "id": "renaissance",
+  "name": "Renaissance",
+  "type": "band",
+  "formed_year": 1985,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Reggae", "Jazz", "Soft Rock", "Mainstream Rock"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Naquib Khan",
+      "role": "Founder (formerly of Souls)",
+      "years_active": "1985–present",
+      "current": true
+    },
+    {
+      "name": "Pilu Khan",
+      "role": "Founder (formerly of Souls)",
+      "years_active": "1985–present",
+      "current": true
+    },
+    {
+      "name": "Reza Rahman",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Imran Rahman",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Kazi Hablu",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Kaartik",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Rumi",
+      "role": "Founding member",
+      "years_active": "1985–unspecified",
+      "current": false
+    },
+    {
+      "name": "Moto (Motto)",
+      "role": "Founding member",
+      "years_active": "1985–unspecified",
+      "current": false
+    },
+    {
+      "name": "Bogi (Bogey)",
+      "role": "Founding member",
+      "years_active": "1985–unspecified",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Renaissance",
+      "year": 1988,
+      "type": "studio",
+      "notable_tracks": ["Bhalo Lage Jochna Rate"]
+    },
+    {
+      "title": "Tritiyo Bishwo",
+      "year": 1993,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Ekattorer Renaissance",
+      "year": 1998,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Ekush Shotoke Renaissance",
+      "year": 2004,
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Reggae, jazz, and blues traditions (general)",
+      "evidence": "Renaissance's core genre profile combines reggae, jazz and soft rock, with jazz manifesting in improvisational guitar/keyboard solos and harmonic extensions beyond standard rock progressions, and blues influences contributing gritty, emotive lead guitar phrasing — an unusually eclectic combination relative to the harder-rock-dominant mainstream of the era.",
+      "source": "Wikipedia Renaissance (Bangladeshi band); Grokipedia profile",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "Formed in 1985 by Naquib Khan and Pilu Khan after departing Souls, Renaissance directly continued the founding-generation rock lineage while distinguishing itself through reggae and jazz textures rather than straight hard rock; the 1998 album Ekattorer Renaissance is a dedicated tribute to Liberation War-era songs from Swadhin Bangla Betar Kendra (the wartime clandestine radio station), directly linking the band's musicianship to national historical memory in a manner paralleling Ark's and Cryptic Fate's later work.",
+  "sound_evolution_summary": "Founding period (1985): formed by Souls alumni Naquib Khan and Pilu Khan with Rumi, Moto, Bogi and Reza. Breakthrough period (1988): self-titled debut album, featuring 'Bhalo Lage Jochna Rate,' shifted Bangladeshi band music toward more melody-driven, jazz/pop/rock-blended composition. Consolidation period (1993–2004): Tritiyo Bishwo (1993), the Liberation War tribute album Ekattorer Renaissance (1998), and Ekush Shotoke Renaissance (2004) demonstrated stylistic versatility spanning 1960s rock, heavy metal, rock and roll, and regional dialects.",
+  "concert_culture_notes": "Performed at the BAMBA multi-band Eid celebration concert at Jamuna Future Park alongside Warfaze, Maqsood O Dhaka, Nemesis and Mechanix (see data/concerts/bamba-eid-concert-jamuna-future-park.json), indicating continued active participation in the mainstream festival circuit decades after formation.",
+  "listener_community_notes": "As a direct offshoot of Souls, Renaissance is part of the same founding-generation genealogical cluster as Souls, LRB (via Ayub Bachchu) and other 1970s-80s-rooted acts, appealing to listeners who value melodic, genre-blending musicianship over straightforward hard rock.",
+  "sources": [
+    {
+      "title": "Renaissance (Bangladeshi band) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Renaissance_(Bangladeshi_band)",
+      "type": "encyclopedia"
+    }
+  ],
+  "tags": ["mainstream-rock", "founding-era", "jazz-fusion"],
+  "last_updated": "2026-08-06"
+}
