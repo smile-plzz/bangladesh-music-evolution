@@ -1,9 +1,20 @@
 {
   "description": "Prototype Bangladesh Music Preference Network (BMPN) built from publicly documented concert co-billing only. Nodes = artists in data/artists/; edges = artists that shared a concert bill in data/concerts/, weighted by number of shared events. This is an early proxy for audience/genre-community structure, not a validated preference network — streaming/playlist co-occurrence and social-listening data are needed for a fuller model (see docs/roadmap.md).",
-  "node_count": 35,
+  "node_count": 49,
   "edge_count": 15,
-  "isolated_node_count": 25,
+  "isolated_node_count": 39,
   "nodes": [
+    {
+      "id": "arbovirus",
+      "name": "Arbovirus",
+      "genres": [
+        "Nu Metal",
+        "Grunge",
+        "Pop Rock",
+        "Psychedelic Rock"
+      ],
+      "event_count": 0
+    },
     {
       "id": "ark",
       "name": "Ark",
@@ -54,6 +65,15 @@
       "event_count": 0
     },
     {
+      "id": "azam-khan-uchcharon",
+      "name": "Azam Khan & Uchcharon",
+      "genres": [
+        "Mainstream Rock",
+        "Bangla Pop"
+      ],
+      "event_count": 0
+    },
+    {
       "id": "black",
       "name": "Black",
       "genres": [
@@ -89,6 +109,16 @@
         "Progressive Metal"
       ],
       "event_count": 2
+    },
+    {
+      "id": "de-illumination",
+      "name": "De-illumination",
+      "genres": [
+        "Symphonic Metal",
+        "Symphonic Rock",
+        "Progressive Metal"
+      ],
+      "event_count": 0
     },
     {
       "id": "feedback",
@@ -127,6 +157,15 @@
       "genres": [
         "Pop",
         "Playback/Film Music"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "indalo",
+      "name": "Indalo",
+      "genres": [
+        "Alternative Rock",
+        "Grunge-influenced"
       ],
       "event_count": 0
     },
@@ -221,6 +260,15 @@
       "event_count": 0
     },
     {
+      "id": "metal-maze",
+      "name": "Metal Maze",
+      "genres": [
+        "Hard Rock",
+        "Heavy Metal"
+      ],
+      "event_count": 0
+    },
+    {
       "id": "miles",
       "name": "Miles",
       "genres": [
@@ -270,6 +318,27 @@
       "event_count": 1
     },
     {
+      "id": "nova",
+      "name": "Nova",
+      "genres": [
+        "Psychedelic Rock",
+        "Progressive Rock",
+        "Hard Rock",
+        "Soft Rock"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "poizon-green",
+      "name": "Poizon Green",
+      "genres": [
+        "Power Metal",
+        "Speed Metal",
+        "Thrash Metal"
+      ],
+      "event_count": 0
+    },
+    {
       "id": "powersurge",
       "name": "Powersurge",
       "genres": [
@@ -291,6 +360,24 @@
       "event_count": 1
     },
     {
+      "id": "rockstrata",
+      "name": "Rockstrata",
+      "genres": [
+        "Heavy Metal"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "severe-dementia",
+      "name": "Severe Dementia",
+      "genres": [
+        "Death Metal",
+        "Brutal Death Metal",
+        "Technical Death Metal"
+      ],
+      "event_count": 0
+    },
+    {
       "id": "shironamhin",
       "name": "Shironamhin",
       "genres": [
@@ -299,6 +386,18 @@
         "Psychedelic Rock",
         "Folk Rock",
         "Symphonic Rock"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "shonar-bangla-circus",
+      "name": "Shonar Bangla Circus",
+      "genres": [
+        "Psychedelic Rock",
+        "Alternative Rock",
+        "Folk Rock",
+        "Blues Rock",
+        "Progressive Rock"
       ],
       "event_count": 0
     },
@@ -323,6 +422,18 @@
       "event_count": 0
     },
     {
+      "id": "stentorian",
+      "name": "Stentorian",
+      "genres": [
+        "Heavy Metal",
+        "Soft Rock",
+        "Power Ballad",
+        "Thrash Metal",
+        "Progressive Metal"
+      ],
+      "event_count": 0
+    },
+    {
       "id": "stoic-bliss",
       "name": "Stoic Bliss",
       "genres": [
@@ -341,6 +452,24 @@
       "event_count": 0
     },
     {
+      "id": "trainwreck",
+      "name": "Trainwreck",
+      "genres": [
+        "Groove Metal",
+        "Thrash Metal"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "vibe",
+      "name": "Vibe",
+      "genres": [
+        "Heavy Metal",
+        "Alternative Rock"
+      ],
+      "event_count": 0
+    },
+    {
       "id": "warfaze",
       "name": "Warfaze",
       "genres": [
@@ -349,6 +478,14 @@
         "Progressive Metal"
       ],
       "event_count": 4
+    },
+    {
+      "id": "winning",
+      "name": "Winning",
+      "genres": [
+        "Mainstream Rock"
+      ],
+      "event_count": 0
     }
   ],
   "edges": [

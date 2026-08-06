@@ -1,0 +1,111 @@
+{
+  "id": "nova",
+  "name": "Nova",
+  "type": "band",
+  "formed_year": 1986,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Psychedelic Rock", "Progressive Rock", "Hard Rock", "Soft Rock"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Ahmed Fazal",
+      "role": "Founder",
+      "years_active": "1986–present",
+      "current": true
+    },
+    {
+      "name": "Noor",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Sumon",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Souren",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Murad",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Ahoban",
+      "type": "studio",
+      "notable_tracks": ["Ahoban"]
+    },
+    {
+      "title": "Shokti",
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Ghreena",
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Khoma",
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Shesh Dekha",
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Ora egaro jon",
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Betha",
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Pink Floyd / Queen / Deep Purple / The Doors",
+      "evidence": "Nova is directly documented as influenced by Pink Floyd, Queen, Deep Purple and The Doors, alongside domestic figures Azam Khan and Feedback — one of the more explicit combined domestic-and-Western influence citations in the corpus.",
+      "source": "Band Music of Bangladesh: Nova profile",
+      "confidence": "high"
+    },
+    {
+      "artist_or_genre": "Azam Khan / Feedback",
+      "evidence": "Nova cites Azam Khan and Feedback directly alongside its Western influences, indicating the band's psychedelic/progressive sound was built on both foreign and domestic founding-generation reference points simultaneously.",
+      "source": "Band Music of Bangladesh: Nova profile",
+      "confidence": "high"
+    }
+  ],
+  "local_adaptation_notes": "Formed in 1986 by Ahmed Fazal, Nova combined explicit Pink Floyd/Deep Purple/Queen/The Doors-style psychedelic and progressive hard rock with direct acknowledgment of domestic founding figures Azam Khan and Feedback as influences — an unusually well-documented dual (foreign + domestic) lineage that positions Nova as a bridge between the 1970s founding generation and the more internationally-styled progressive rock explored later by Artcell and Shironamhin.",
+  "sound_evolution_summary": "Founding period (1986): formed by Ahmed Fazal. Breakthrough period: debut album Ahoban's title track became widely popular. Extended catalogue: seven albums total (Ahoban, Shokti, Ghreena, Khoma, Shesh Dekha, Ora egaro jon, Betha), sustaining a multi-decade psychedelic/progressive/hard-rock career; specific release years for individual albums beyond the debut are not yet documented in available sources.",
+  "concert_culture_notes": "Specific concert/festival data not yet documented in available sources — flagged for further research.",
+  "listener_community_notes": "A key transitional act bridging the 1970s founding generation (Azam Khan, Feedback) and the later progressive/psychedelic rock scene (Artcell, Shironamhin, Shonar Bangla Circus), appealing to listeners drawn to the specific Pink Floyd/Deep Purple lineage of progressive hard rock.",
+  "sources": [
+    {
+      "title": "Nova (Bangladeshi band) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nova_(Bangladeshi_band)",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Nova is psychedelic, progressive and hard rock band of Bangladesh — Band Music of Bangladesh",
+      "url": "http://bandmusicbd.blogspot.com/2012/03/nova-is-psychedelic-progressive-and.html",
+      "type": "profile"
+    }
+  ],
+  "tags": ["mainstream-rock", "progressive-rock", "psychedelic-rock", "founding-era"],
+  "last_updated": "2026-08-06"
+}
