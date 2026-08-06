@@ -1,0 +1,98 @@
+{
+  "id": "arbovirus",
+  "name": "Arbovirus",
+  "type": "band",
+  "formed_year": 2001,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Nu Metal", "Grunge", "Pop Rock", "Psychedelic Rock"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Asif Asgar (Ranjan)",
+      "role": "Guitar, Lyricist, Founder",
+      "years_active": "2001–present",
+      "current": true
+    },
+    {
+      "name": "Suharto Sherif",
+      "role": "Guitar, Founder",
+      "years_active": "2001–unspecified",
+      "current": false
+    },
+    {
+      "name": "Ishtiaq Ahmed Shovon",
+      "role": "Vocals, Founder",
+      "years_active": "2001–unspecified",
+      "current": false
+    },
+    {
+      "name": "Ahsanur Rahman Himel",
+      "role": "Drums, Founder",
+      "years_active": "2001–unspecified",
+      "current": false
+    },
+    {
+      "name": "Nafeez Al Amin",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Ahmed Aldnane Alam",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Sufi Maverick",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "64minutes 53seconds",
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Montobyo Nishproyojon",
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Bishesh Droshtobyo",
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Nu Metal / Grunge (general Western)",
+      "evidence": "Arbovirus's debut album '64m 53s' is documented as blending grunge rock, nu metal, pop rock and psychedelic rock, and the band is directly credited with playing a pivotal role in popularizing nu metal within Bangladesh's rock landscape in the early 2000s — one of the clearer nu-metal-specific genre imports documented in this corpus.",
+      "source": "Wikipedia Arbovirus (band)",
+      "confidence": "high"
+    },
+    {
+      "artist_or_genre": "Blade II (comic book) — band name origin",
+      "evidence": "The band's name derives directly from a line in the Blade II comic ('Vampirism is an arbovirus...'), an unusually explicit pop-culture (rather than purely musical) Western reference point embedded in the band's core identity.",
+      "source": "Wikipedia Arbovirus (band)",
+      "confidence": "high"
+    }
+  ],
+  "local_adaptation_notes": "Formed by guitarist duo Suharto Sherif and Asif Asgar ('Ranjan') while in college (accounts place founding between 2001 and 2002, with first live show January 2003), Arbovirus is credited with directly shaping the sound of subsequent Bangladeshi acts — its debut album's grunge/nu-metal/funk fusion is cited as an influence on both Nemesis and Black, making Arbovirus an intra-scene influence node in addition to being a Western-genre importer.",
+  "sound_evolution_summary": "Founding period (2001–2003): formed by Sherif and Ranjan with Ishtiaq Ahmed Shovon (vocals) and Ahsanur Rahman Himel (drums); first live show January 2003. Debut period: '64minutes 53seconds' blended grunge, nu metal, pop rock and psychedelic rock, establishing the band as a nu-metal pioneer in Bangladesh and directly influencing peers Nemesis and Black. Later period: three further studio albums (Montobyo Nishproyojon, Bishesh Droshtobyo) plus twelve singles across mixed compilation albums, sustaining the band's catalogue across two decades under an evolved lineup (Ranjan, Nafeez Al Amin, Ahmed Aldnane Alam, Sufi Maverick).",
+  "concert_culture_notes": "Specific concert/festival data not yet documented in available sources — flagged for further research; the band's twelve appearances on mixed compilation albums indicate strong participation in the underground compilation-album promotional circuit typical of early-2000s Dhaka rock/metal bands.",
+  "listener_community_notes": "A directly influential node within the Bangladeshi alternative/metal ecosystem — its debut album's fusion approach is documented as a direct influence on Nemesis and Black — making Arbovirus a useful case study for intra-scene (rather than purely Western-to-Bangladesh) influence transmission in the BMEM framework.",
+  "sources": [
+    {
+      "title": "Arbovirus (band) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arbovirus_(band)",
+      "type": "encyclopedia"
+    }
+  ],
+  "tags": ["heavy-metal", "alternative-indie", "nu-metal", "genre-originator"],
+  "last_updated": "2026-08-06"
+}

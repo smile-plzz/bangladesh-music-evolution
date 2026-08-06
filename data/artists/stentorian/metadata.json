@@ -1,0 +1,101 @@
+{
+  "id": "stentorian",
+  "name": "Stentorian",
+  "type": "band",
+  "formed_year": 2001,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Heavy Metal", "Soft Rock", "Power Ballad", "Thrash Metal", "Progressive Metal"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Torsha Khan",
+      "role": "Vocals, Founder (past member)",
+      "years_active": "2001–unspecified",
+      "current": false
+    },
+    {
+      "name": "James Kabir",
+      "role": "Guitar, Founder",
+      "years_active": "2001–present",
+      "current": true
+    },
+    {
+      "name": "Tanim Sufyani",
+      "role": "Vocals",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Anabeel Sen",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Rabiul Awal Real",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Sumit Gaurab",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Ahmad Abdullah Saquib",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Shams Alim Biswas",
+      "role": "Bass, Founder (past member)",
+      "years_active": "2001–unspecified",
+      "current": false
+    },
+    {
+      "name": "Golam Waise",
+      "role": "Guitar, Founder (departed 2003)",
+      "years_active": "2001–2003",
+      "current": false
+    },
+    {
+      "name": "Bobby Khan",
+      "role": "Drums, Founder (past member)",
+      "years_active": "2001–unspecified",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Protimuhurtey",
+      "year": 2005,
+      "type": "studio",
+      "notable_tracks": ["Adrissho Juddho 2", "Bidrohi", "Jolosrot", "Anubhuti", "Mone pore na"]
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Multi-subgenre metal traditions (soft rock, power ballad, thrash metal, progressive metal)",
+      "evidence": "Stentorian's genre classification spans soft rock, power ballad, thrash metal and progressive metal simultaneously, indicating an eclectic, multi-influence approach rather than commitment to a single metal subgenre.",
+      "source": "Wikipedia Stentorian (band)",
+      "confidence": "low"
+    }
+  ],
+  "local_adaptation_notes": "Formed in early 2001 and debuting at a concert in the Indian High Commission Auditorium, Dhaka (October 2001), Stentorian is explicitly grouped by Wikipedia among the small founding cohort of bands — alongside Rockstrata, Warfaze, Aurthohin, Artcell, Black, Cryptic Fate, Metal Maze, Arbovirus, Nemesis, Vibe and Kronic — credited with popularizing heavy metal and hard rock in Bangladesh, situating it firmly within the genre's foundational generation.",
+  "sound_evolution_summary": "Founding period (2001): formed with original lineup Torsha Khan, James Kabir, Shams Alim Biswas, Golam Waise and Bobby Khan; debuted at the Indian High Commission Auditorium in Dhaka. Lineup transition (2003): Golam Waise departed but the band continued performing and composing. Breakthrough period (2005): debut album Protimuhurtey delivered the band's most enduring singles ('Adrissho Juddho 2,' 'Bidrohi,' 'Jolosrot,' 'Anubhuti,' 'Mone pore na'). Later period: continued under co-vocalists Torsha Khan and Tanim Sufyani with an evolved lineup.",
+  "concert_culture_notes": "Debuted at a diplomatic-venue concert (Indian High Commission Auditorium, Dhaka, 27 October 2001) rather than a typical club or festival stage, an atypical launch context among the bands documented in this corpus.",
+  "listener_community_notes": "Grouped among the founding cohort of Bangladeshi metal/hard rock popularizers alongside Rockstrata, Warfaze, Artcell, Cryptic Fate, Vibe and others, giving it historical standing within the metal scene's origin story even where individual mainstream visibility has been more modest than peers like Artcell or Warfaze.",
+  "sources": [
+    {
+      "title": "Stentorian (band) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stentorian_(band)",
+      "type": "encyclopedia"
+    }
+  ],
+  "tags": ["heavy-metal", "founding-era"],
+  "last_updated": "2026-08-06"
+}
