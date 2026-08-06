@@ -1,0 +1,52 @@
+{
+  "id": "conclusion",
+  "name": "Conclusion",
+  "type": "band",
+  "formed_year": 2011,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Alternative Rock", "Experimental Rock"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Atif Imtiaz",
+      "role": "Original Vocalist (departed for personal reasons)",
+      "years_active": "unspecified",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Mohakashchari (Space Travellers)",
+      "year": 2018,
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Owned (Bangladeshi band)",
+      "evidence": "Band members unanimously credited Owned as their key inspiration, indicating a primarily domestic (rather than Western) lineage of influence — an example of intra-scene Bangladeshi alternative-rock genealogy rather than direct Western import.",
+      "source": "The Business Standard — A fitting 'Conclusion': The band comes full circle",
+      "confidence": "high"
+    }
+  ],
+  "local_adaptation_notes": "Conclusion's debut album Mohakashchari (Space Travellers) built the band's identity around melodic alternative and experimental rock combined with a 'rock punch,' gaining recognition among urban youth during a documented mid-2000s to mid-2010s revival of the Bangladeshi rock scene; the band's explicit citation of a domestic band (Owned) as its primary influence — rather than a Western act — is notable evidence of a maturing, self-referential local alternative-rock lineage.",
+  "sound_evolution_summary": "Formative period: emerged during a broadly documented five-to-seven-year revival of Bangladeshi rock (as referenced in retrospective coverage), releasing the widely popular debut album Mohakashchari alongside scattered singles. Line-up transition: original vocalist Atif Imtiaz departed for personal reasons, a significant change for the band's identity. Later period: band marked its 15th year with a reunion solo show bringing together past and present members, indicating a legacy-oriented late-career phase.",
+  "concert_culture_notes": "Held a celebratory reunion solo show marking the band's 15th anniversary, reuniting past and present members — indicative of a dedicated, multi-generational fan base willing to support legacy-act live events.",
+  "listener_community_notes": "Frequently discussed as a defining act of the mid-2000s Bangladeshi rock revival among urban youth and young listeners, positioned within the Alternative/Indie genre grouping in the BMEM framework alongside Meghdol and Ashes.",
+  "sources": [
+    {
+      "title": "A fitting 'Conclusion': The band comes full circle — The Business Standard",
+      "url": "https://www.tbsnews.net/splash/fitting-conclusion-band-comes-full-circle-1260446",
+      "type": "news"
+    },
+    {
+      "title": "The Conclusion to a bygone era! — The Daily Star",
+      "url": "https://www.thedailystar.net/arts-entertainment/music/the-conclusion-bygone-era-1573927",
+      "type": "news"
+    }
+  ],
+  "tags": ["priority", "alternative-indie", "needs-verification"],
+  "last_updated": "2026-08-06"
+}

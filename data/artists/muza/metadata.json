@@ -1,0 +1,74 @@
+{
+  "id": "muza",
+  "name": "Muza (Muzahid Abdullah)",
+  "type": "solo",
+  "formed_year": 2013,
+  "disbanded_year": null,
+  "origin_city": "New York City (diaspora; born Balaganj, Osmani Nagar, Sylhet)",
+  "genres": ["Pop", "Electronic Pop", "Folk Fusion", "Urban/Hip-Hop-adjacent"],
+  "languages": ["bn", "en"],
+  "members": [
+    {
+      "name": "Muza (Muzahid Abdullah)",
+      "role": "Vocals, Songwriter, Producer",
+      "years_active": "2013–present",
+      "current": true
+    },
+    {
+      "name": "G' Anomaly (Gabriel)",
+      "role": "Creative Partner, Producer",
+      "years_active": "unspecified–present",
+      "current": true
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Noya Daman",
+      "year": 2021,
+      "type": "single",
+      "notable_tracks": ["Noya Daman"]
+    },
+    {
+      "title": "Beni Khuley",
+      "type": "single",
+      "notable_tracks": ["Beni Khuley"]
+    },
+    {
+      "title": "Jhumka",
+      "type": "single",
+      "notable_tracks": ["Jhumka"]
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Habib Wahid",
+      "evidence": "Muza has cited Habib Wahid's songs as his direct musical inspiration, indicating a primarily domestic (rather than purely Western) lineage of folk-electronic fusion influence carried into the Bangladeshi-American diaspora.",
+      "source": "Grokipedia Muza profile",
+      "confidence": "medium"
+    },
+    {
+      "artist_or_genre": "Urban/EDM production traditions (general)",
+      "evidence": "Muza layers traditional deshi instruments alongside non-traditional instruments (ukulele, flute) with electronic beats and urban production techniques, directly paralleling Habib Wahid's folk-EDM fusion approach but from a US diaspora production context.",
+      "source": "Grokipedia Muza profile",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "Raised in New York City from early childhood after emigrating from Sylhet, Muza's music specifically foregrounds Sylheti folk vocal styles and traditional deshi instrumentation fused with electronic/urban pop production — a diaspora-specific variant of the folk-fusion pattern also seen in Habib Wahid's domestic work, achieving viral reach with songs like 'Noya Daman,' 'Beni Khuley,' and 'Jhumka' that have collectively drawn hundreds of millions of views/streams.",
+  "sound_evolution_summary": "Formative period: began songwriting at age eight, drawing on Bengali cinema and cultural traditions and multilingual exposure (including Arabic). Career development: partnered with producer G' Anomaly to build a signature deshi-instrument-plus-electronic-beat sound. Breakthrough period: viral commercial success with 'Noya Daman,' 'Beni Khuley,' and 'Jhumka,' establishing Muza as a leading diaspora voice within Bangladeshi pop/folk-fusion.",
+  "concert_culture_notes": "As a diaspora-based artist (New York City), Muza's primary visibility and reach have been driven by streaming/viral video distribution rather than a domestic Bangladeshi touring circuit — a pattern shared with Stoic Bliss in the Hip-Hop genre.",
+  "listener_community_notes": "Bridges Bangladeshi diaspora and domestic pop/folk-fusion listener communities; his Sylheti-specific folk material also connects to regional folk listener networks distinct from the pan-Bangla mainstream pop audience.",
+  "sources": [
+    {
+      "title": "Muza — Grokipedia",
+      "url": "https://grokipedia.com/page/Muza",
+      "type": "profile"
+    },
+    {
+      "title": "MUZA – Musical Artist / International Band (official site)",
+      "url": "https://www.muzamusic.com/about-muza",
+      "type": "official"
+    }
+  ],
+  "tags": ["priority", "pop", "diaspora", "folk-fusion"],
+  "last_updated": "2026-08-06"
+}

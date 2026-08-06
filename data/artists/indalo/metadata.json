@@ -1,0 +1,99 @@
+{
+  "id": "indalo",
+  "name": "Indalo",
+  "type": "band",
+  "formed_year": 2012,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Alternative Rock", "Grunge-influenced"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Jon Kabir",
+      "role": "Vocals, Guitar, Founder (formerly of Black)",
+      "years_active": "2012–present",
+      "current": true
+    },
+    {
+      "name": "Zubair Hasan",
+      "role": "Guitar, Vocals, Founder (formerly of Aashor)",
+      "years_active": "2012–present",
+      "current": true
+    },
+    {
+      "name": "Bart Nandit Areng",
+      "role": "Bass (replaced Ahsan Titu)",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Mubarak Milon",
+      "role": "Drums (rejoined after Quazi Farhan's tenure)",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Ahsan Titu",
+      "role": "Bass, Founder (formerly of Aashor and Black; departed after first single)",
+      "years_active": "2012–unspecified",
+      "current": false
+    },
+    {
+      "name": "Dio Haque",
+      "role": "Drums, Founder (formerly of Nemesis; departed after health issues)",
+      "years_active": "2012–unspecified",
+      "current": false
+    },
+    {
+      "name": "Quazi Farhan",
+      "role": "Drums (interim, departed after second album recording)",
+      "years_active": "unspecified",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Kokhon Kibhabe Ekhane Ke Jane",
+      "year": 2015,
+      "type": "studio",
+      "notable_tracks": ["Hobeki", "Obosheshe", "ISD", "Mittha"]
+    },
+    {
+      "title": "Notun Khaame Purono Chithi",
+      "year": 2021,
+      "type": "ep",
+      "notable_tracks": []
+    },
+    {
+      "title": "Uttor Khujchi Dokkhine (unreleased second album)",
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Pearl Jam / Alice in Chains / Soundgarden / Stone Temple Pilots",
+      "evidence": "All band members are explicitly documented as greatly influenced by 1990s American grunge/alternative rock, specifically citing Pearl Jam, Alice in Chains, Soundgarden and Stone Temple Pilots as core inspirations.",
+      "source": "Wikipedia Indalo (band)",
+      "confidence": "high"
+    }
+  ],
+  "local_adaptation_notes": "Indalo is a direct 'supergroup' formation drawing members from three previously-catalogued bands — Jon Kabir from Black, Zubair Hasan and Ahsan Titu from Aashor (Titu also of Black), and Dio Haque from Nemesis — making it a clear case of cross-band genealogical convergence within the Bangladeshi alternative rock scene; the 2021 EP 'Notun Khaame Purono Chithi' is explicitly framed as a tribute to legendary local artists, directly acknowledging the scene's own history within new material.",
+  "sound_evolution_summary": "Founding period (2012): formed by Jon Kabir (Black), Zubair Hasan (Aashor), Ahsan Titu (Aashor/Black) and Dio Haque (Nemesis); first public performance 10 November 2012. Early lineup churn: Titu departed after recording debut single 'ISD,' replaced by Bart Nandit Areng; Dio Haque took a break after a heart attack and stroke, with Mubarak Milon and later Quazi Farhan filling in on drums before Milon's return. Debut album period (2015): Kokhon Kibhabe Ekhane Ke Jane established the band's grunge-influenced alternative rock sound. Later period (2021): EP Notun Khaame Purono Chithi paid tribute to legendary local artists; a second album (Uttor Khujchi Dokkhine) was recorded but remains unreleased.",
+  "concert_culture_notes": "Specific concert/festival data not yet documented in available sources — flagged for further research.",
+  "listener_community_notes": "As a cross-pollinated 'supergroup' drawing from Black, Aashor and Nemesis, Indalo functions as a direct node connecting multiple alternative-rock fan communities within the BMPN preference network; its members' documented health-related lineup disruptions (Dio Haque) also illustrate the human/biographical continuity challenges facing long-running Bangladeshi bands.",
+  "sources": [
+    {
+      "title": "Indalo (band) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Indalo_(band)",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "The Chronicles of #INDALOMEN — The Daily Star",
+      "url": "https://www.thedailystar.net/star-weekend/the-chronicles-indalomen-144850",
+      "type": "profile"
+    }
+  ],
+  "tags": ["alternative-indie", "grunge", "supergroup"],
+  "last_updated": "2026-08-06"
+}

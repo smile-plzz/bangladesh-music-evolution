@@ -1,0 +1,73 @@
+{
+  "id": "maqsood-o-dhaka",
+  "name": "Maqsood O' Dhaka",
+  "type": "band",
+  "formed_year": 1997,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": [
+    "Jazz Rock Fusion",
+    "Alternative Rock",
+    "Baul-influenced"
+  ],
+  "languages": [
+    "bn"
+  ],
+  "members": [
+    {
+      "name": "Maqsoodul Haque (Mac Haque)",
+      "role": "Vocals, Bandleader, Founder",
+      "years_active": "1997–present (previously Feedback frontman, 1976–1987/1996)",
+      "current": true
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Ogo Bhalobasa",
+      "year": 1999,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Global Bauliana",
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Jazz, funk, reggae, and blues traditions (via Feedback-era cover repertoire)",
+      "evidence": "Maqsoodul Haque built his musical foundation performing over 500 cover songs spanning pop/rock, funk/reggae, blues and jazz at the Chambeeli Restaurant, Hotel Intercontinental, from 1976 — directly informing the eclectic jazz-rock fusion identity of his later solo project.",
+      "source": "Bangladesh Poet of Impropriety discography blog; Wikipedia Maqsoodul Haque",
+      "confidence": "high"
+    }
+  ],
+  "local_adaptation_notes": "After a landmark 1976–1987/1996 tenure fronting Feedback (writing, composing and singing hits like 'Chithi,' 'Chokh,' 'Majhee' on Ullash, 1987, and the nationally beloved 'Melai Jairey' on Mela, 1990), Maqsoodul Haque founded Maqsood O' Dhaka in 1997 to pursue a more personal jazz-rock fusion direction; his later work — including two complete albums devoted to Baul music and the announced 'Global Bauliana' — represents one of the most direct and sustained engagements between Bangladeshi rock musicianship and the Baul/Lalon folk-spiritual tradition in the corpus, paralleling but distinct from Arnob's folk-fusion approach.",
+  "sound_evolution_summary": "Formative period (1976–1996): Maqsoodul Haque's 20-year tenure as Feedback's frontman, including the commercially pivotal albums Ullash (1987) and Mela (1990), established him as a major voice in Bangladeshi rock songwriting. Solo project period (1997 onward): departed Feedback to found Maqsood O' Dhaka, releasing Ogo Bhalobasa (1999) and pursuing an increasingly jazz-rock-fusion and Baul-influenced direction across a 12-album, 40+ year career, including dedicated Baul-music works and the announced socially-conscious Global Bauliana album after a 16-year album gap.",
+  "concert_culture_notes": "Career originated in Dhaka's 1970s hotel-restaurant live circuit (Chambeeli Restaurant, Hotel Intercontinental) — the same venue-type origin documented for Feedback and Souls — before transitioning to the standalone concert/album-release model of his solo-era work.",
+  "listener_community_notes": "Bridges the founding-era mainstream rock listener community (via his Feedback legacy) and a more specialized jazz-fusion/Baul-fusion audience through Maqsood O' Dhaka, making him a key transitional figure between Bangladesh's earliest rock generation and its folk-fusion strand.",
+  "sources": [
+    {
+      "title": "Maqsoodul Haque — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Maqsoodul_Haque",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "The Bangladesh Poet of Impropriety: Official Discography of Maqsoodul Haque",
+      "url": "http://tpoi.blogspot.com/2009/12/official-discography-of-maqsoodul-haque.html",
+      "type": "profile"
+    },
+    {
+      "title": "Maqsood O' Dhaka announces 'Global Bauliana' — The Daily Star",
+      "url": "https://www.thedailystar.net/arts-entertainment/music/news/maqsood-o-dhaka-announces-global-bauliana-1813204",
+      "type": "news"
+    }
+  ],
+  "tags": [
+    "mainstream-rock",
+    "jazz-fusion",
+    "folk-fusion",
+    "founding-era"
+  ],
+  "last_updated": "2026-08-06"
+}

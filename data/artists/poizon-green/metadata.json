@@ -1,0 +1,107 @@
+{
+  "id": "poizon-green",
+  "name": "Poizon Green",
+  "type": "band",
+  "formed_year": 1998,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Power Metal", "Speed Metal", "Thrash Metal"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Mollik",
+      "role": "Drums, Founder",
+      "years_active": "1998–present",
+      "current": true
+    },
+    {
+      "name": "Tanvyr",
+      "role": "Vocals, Founder",
+      "years_active": "1998–present",
+      "current": true
+    },
+    {
+      "name": "Shifa",
+      "role": "Guitar, Founder",
+      "years_active": "1998–present",
+      "current": true
+    },
+    {
+      "name": "Sunny",
+      "role": "Bass (2003–present)",
+      "years_active": "2003–present",
+      "current": true
+    },
+    {
+      "name": "Sumit",
+      "role": "Guitar (2012–present)",
+      "years_active": "2012–present",
+      "current": true
+    },
+    {
+      "name": "Malach HaMavet (Tunir)",
+      "role": "Guitar (2023–present)",
+      "years_active": "2023–present",
+      "current": true
+    },
+    {
+      "name": "Loton",
+      "role": "Bass (1998–99)",
+      "years_active": "1998–1999",
+      "current": false
+    },
+    {
+      "name": "Enayet",
+      "role": "Bass (1999–2001)",
+      "years_active": "1999–2001",
+      "current": false
+    },
+    {
+      "name": "Sourav",
+      "role": "Bass (2001–02)",
+      "years_active": "2001–2002",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Poizon Green",
+      "year": 2006,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "ফায়ারিং স্কোয়াড (Firing Squad)",
+      "year": 2014,
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Rockstrata",
+      "evidence": "Poizon Green explicitly cites Bangladeshi founding-era metal band Rockstrata as a hugely influential domestic reference point, directly demonstrating intra-scene genealogical transmission from the country's 'big four founders of heavy metal' to a subsequent generation.",
+      "source": "Encyclopaedia Metallum: Poizon Green profile",
+      "confidence": "high"
+    },
+    {
+      "artist_or_genre": "Black Sabbath / Sepultura / Pantera / Motörhead / Machine Head / Iron Maiden / Cannibal Corpse / Morbid Angel",
+      "evidence": "The band cites an unusually extensive and specific list of foreign power/thrash/death metal influences spanning multiple metal subgenres and eras, from 1970s proto-metal (Black Sabbath) through 1990s death metal (Cannibal Corpse, Morbid Angel).",
+      "source": "Encyclopaedia Metallum: Poizon Green profile",
+      "confidence": "high"
+    }
+  ],
+  "local_adaptation_notes": "Formed in December 1998 by three friends from the same Dhaka neighborhood (Mollik, Tanvyr, Shifa) with the explicit stated mission to musically represent 'hatred, aggression, death and social circumstances,' Poizon Green became recognized pioneers of Power/Thrash Metal in Bangladesh, eventually earning a G-Series record deal — notable both for its unusually long, well-documented lineup history (multiple bassists and guitarists tracked across 25+ years) and for its explicit citation of a domestic predecessor (Rockstrata) as a primary influence.",
+  "sound_evolution_summary": "Founding period (1998): formed by Mollik, Tanvyr and Shifa with an initial bassist rotation (Loton, then Enayet, then Sourav) reflecting the band's early instability. Stabilization period (2003 onward): bassist Sunny joined and remained long-term. Debut album period (2006): self-titled debut album Poizon Green, released via G-Series, cemented the band's power/thrash metal identity. Later period (2012–2023): additional guitarists Sumit (2012) and Malach HaMavet/Tunir (2023) joined; second album ফায়ারিং স্কোয়াড (Firing Squad) released in 2014.",
+  "concert_culture_notes": "Specific concert/festival data not yet documented in available sources — flagged for further research; the band's G-Series record deal situates it within the same major-label distribution pipeline used by many mainstream and metal-scene Bangladeshi acts (Warfaze, Black, Artcell).",
+  "listener_community_notes": "Recognized as pioneers of Power/Thrash Metal specifically within the Bangladeshi heavy metal ecosystem, with an explicit self-identified lineage from Rockstrata — useful evidence of domestic intergenerational influence transmission within the BMEM framework's 'local adaptation' dimension.",
+  "sources": [
+    {
+      "title": "Poizon Green — Encyclopaedia Metallum: The Metal Archives",
+      "url": "https://www.metal-archives.com/bands/Poizon_Green/75139",
+      "type": "profile"
+    }
+  ],
+  "tags": ["heavy-metal", "power-metal", "thrash-metal"],
+  "last_updated": "2026-08-06"
+}

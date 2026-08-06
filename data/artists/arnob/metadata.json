@@ -1,0 +1,81 @@
+{
+  "id": "arnob",
+  "name": "Shayan Chowdhury Arnob",
+  "type": "solo",
+  "formed_year": 1998,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Folk Fusion", "Indie Folk", "Baul-influenced"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Shayan Chowdhury Arnob",
+      "role": "Vocals, Multi-instrumentalist, Composer, Producer",
+      "years_active": "1998–present (Bangla) / 2005–present (solo)",
+      "current": true
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Chaina Bhabish",
+      "year": 2005,
+      "type": "studio",
+      "notable_tracks": ["She Je Boshe Ache"]
+    },
+    {
+      "title": "Hok Kolorob",
+      "year": 2006,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Doob",
+      "year": 2008,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Arnob & Friends Live",
+      "year": 2009,
+      "type": "live",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Jazz, Blues, Western rock (via band Bangla)",
+      "evidence": "The folk band Bangla, founded by Arnob in 1998, was explicitly noted as blending traditional Baul/Lalon material with Western flavours including jazz, blues and rock.",
+      "source": "Wikipedia Shayan Chowdhury Arnob; Wikipedia Bangla (band)",
+      "confidence": "high"
+    },
+    {
+      "artist_or_genre": "Santiniketan / Visva-Bharati arts education",
+      "evidence": "Arnob's formal training at Patha Bhavana and Kala Bhavana in Santiniketan (India) exposed him to a broader South Asian arts and music education that informed his cross-genre approach, distinct from the Dhaka rock-band pipeline.",
+      "source": "Wikipedia Shayan Chowdhury Arnob",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "Arnob's foundational move was forming the band Bangla (1998) explicitly to fuse Baul and Lalon folk traditions — the philosophical 'freedom' he found in Baul music being his stated inspiration — with Western musical idioms. His solo work builds on this synthesis with intimate, acoustic-leaning production, positioning him as a central figure in Bangladeshi folk fusion distinct from the rock-oriented mainstream lineage (James, LRB, Miles).",
+  "sound_evolution_summary": "Formative period (1998–2000s): co-founded and led the folk-fusion band Bangla, blending Baul/Lalon vocal traditions with jazz, blues, and rock instrumentation. Solo breakthrough (2004–2005): 'She Je Boshe Ache' (for TV drama Offbeat) and debut solo album Chaina Bhabish (2005) established his solo folk-fusion voice. Consolidation period (2006–2009): Hok Kolorob and Doob deepened the folk-fusion aesthetic and built a devoted following, followed by a live international-tour album in 2009.",
+  "concert_culture_notes": "Associated with intimate acoustic/live-band performance formats and international touring (noted international tour preceding the 2009 live album); performances often emphasize musicianship and folk instrumentation over large-scale rock production.",
+  "listener_community_notes": "Central reference artist for the Folk & Folk Fusion genre in the BMEM framework alongside Coke Studio Bangla and Baul artists; attracts listeners overlapping with both traditional folk audiences and urban, cosmopolitan indie/alternative listeners.",
+  "sources": [
+    {
+      "title": "Shayan Chowdhury Arnob — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shayan_Chowdhury_Arnob",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Bangla (band) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bangla_(band)",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Arnob biography — Last.fm",
+      "url": "https://www.last.fm/music/Arnob/+wiki",
+      "type": "profile"
+    }
+  ],
+  "tags": ["priority", "folk-fusion", "sound-evolution-case-study"],
+  "last_updated": "2026-08-06"
+}

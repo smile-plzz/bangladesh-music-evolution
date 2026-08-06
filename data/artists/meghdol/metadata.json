@@ -1,0 +1,117 @@
+{
+  "id": "meghdol",
+  "name": "Meghdol",
+  "type": "band",
+  "formed_year": 2003,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Alternative Rock", "Indie Rock", "Folk Rock", "Psychedelic Rock"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Shibu Kumer Shil",
+      "role": "Founding member",
+      "years_active": "2003–present",
+      "current": true
+    },
+    {
+      "name": "Mejbaur Rahman Sumon",
+      "role": "Founding member",
+      "years_active": "2003–present",
+      "current": true
+    },
+    {
+      "name": "Rasheed Sharif Shoaib",
+      "role": "Founding member",
+      "years_active": "2003–present",
+      "current": true
+    },
+    {
+      "name": "Masud Hasan Ujjal",
+      "role": "Founding member",
+      "years_active": "2003–unspecified",
+      "current": false
+    },
+    {
+      "name": "Amjad Hossain",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "MG Kibria",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Tanbeer Dawood Rony",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Shourov Sarkar",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Droher Montre Bhalobasha (Meghdol)",
+      "year": 2004,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Shohorbondi",
+      "year": 2009,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Esho Amar Shohore (single from planned album Aluminium-er Dana)",
+      "year": 2018,
+      "type": "single",
+      "notable_tracks": ["Esho Amar Shohore"]
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Charles Baudelaire (literary)",
+      "evidence": "The band's name Meghdol was inspired by a Baudelaire poem (L'Étranger), reflecting literary rather than purely musical Western influence on the band's conceptual identity.",
+      "source": "Wikipedia Meghdol",
+      "confidence": "medium"
+    },
+    {
+      "artist_or_genre": "Western alternative/psychedelic rock traditions (general)",
+      "evidence": "Band is characterized as blending indie rock, alternative rock, folk rock and psychedelic rock idioms without confining to a single genre.",
+      "source": "Wikipedia Meghdol; Grokipedia Meghdol",
+      "confidence": "low"
+    }
+  ],
+  "local_adaptation_notes": "Formed by Fine Arts students at the University of Dhaka, Meghdol built a distinctly literary, theatrical approach to Bangla songwriting, using poetic urban storytelling to address alienation, social discrimination, and everyday struggle in Dhaka — positioning the band within a lineage of post-liberation Bangla bands concerned with rebellion and identity rather than Western-style genre imitation.",
+  "sound_evolution_summary": "Formative period (2003–2004): formed by Dhaka University Fine Arts students; debut album Droher Montre Bhalobasha (2004) established the band's poetic, theatrical alternative-rock identity. Consolidation period (2009): Shohorbondi extended the sound before the band entered a nine-year hiatus. Revival period (2018–present): return via the single 'Esho Amar Shohore,' continuing the band's introspective, free-flowing approach across genres for a planned third album.",
+  "concert_culture_notes": "Associated with Dhaka's university and independent/underground gig circuit rather than large commercial concert productions, consistent with its roots in the Fine Arts student scene and long hiatus periods.",
+  "listener_community_notes": "Cited as a key act in redefining Bengali alternative music; forms a core reference point within the alternative/indie ecosystem alongside acts like Ashes, Shohojia, and Conclusion, appealing to listeners drawn to literary and socially engaged lyrics.",
+  "sources": [
+    {
+      "title": "Meghdol — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Meghdol",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Meghdol — Grokipedia",
+      "url": "https://grokipedia.com/page/Meghdol",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Meghdol feature — Homegrown (Dailyhunt syndication)",
+      "url": "https://m.dailyhunt.in/news/india/english/homegrown-epaper-homegrow/in+the+early+2000s+when+meghdol+made+its+first+foray+into+the+scene+it+was+stepping+into+a+lineage+defined+by+the+pioneering+bangla+bands+sound+of+rebellion+identity+and+postliberation+bangladesh-newsid-n713970684",
+      "type": "profile"
+    }
+  ],
+  "tags": ["priority", "alternative-indie", "sound-evolution-case-study"],
+  "last_updated": "2026-08-06"
+}

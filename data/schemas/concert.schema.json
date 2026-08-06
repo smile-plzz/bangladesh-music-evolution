@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Bangladeshi Concert / Festival Event",
+  "type": "object",
+  "required": ["id", "name", "date", "type"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "URL-friendly slug, prefixed by year where possible (e.g., 2023-artcell-otritio-launch)"
+    },
+    "name": {
+      "type": "string",
+      "description": "Event or festival name"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO date (YYYY-MM-DD); use YYYY-MM-01 or YYYY-01-01 placeholders when only year/month is known, and note precision in 'date_precision'"
+    },
+    "date_precision": {
+      "type": "string",
+      "enum": ["day", "month", "year", "approximate"],
+      "default": "day"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["concert", "festival", "album-launch", "university-fest", "diaspora-tour", "battle-of-bands", "corporate-branded", "charity", "other"]
+    },
+    "venue": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "city": { "type": "string" },
+        "country": { "type": "string", "default": "Bangladesh" },
+        "venue_type": {
+          "type": "string",
+          "enum": ["stadium", "open-air", "convention-centre", "university-campus", "club", "theatre", "outdoor-park", "other"]
+        }
+      }
+    },
+    "organizer": {
+      "type": "string",
+      "description": "Promoter, brand, university, or organization running the event"
+    },
+    "artists": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["artist_id"],
+        "properties": {
+          "artist_id": {
+            "type": "string",
+            "description": "Matches the 'id' field in the corresponding artist metadata.json (data/artists/<id>/metadata.json)"
+          },
+          "billing": {
+            "type": "string",
+            "enum": ["headliner", "co-headliner", "support", "guest"]
+          }
+        }
+      }
+    },
+    "genres_represented": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "estimated_attendance": {
+      "type": "integer",
+      "description": "Best-available public estimate; omit if unknown rather than guessing"
+    },
+    "attendance_confidence": {
+      "type": "string",
+      "enum": ["reported", "estimated", "unknown"]
+    },
+    "notes": {
+      "type": "string",
+      "description": "Historical significance, notable incidents, media coverage context"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": { "type": "string" },
+          "url": { "type": "string" },
+          "type": { "type": "string" },
+          "accessed": { "type": "string" }
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "last_updated": { "type": "string", "format": "date" }
+  }
+}

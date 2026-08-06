@@ -1,0 +1,121 @@
+{
+  "id": "karnival",
+  "name": "Karnival",
+  "type": "band",
+  "formed_year": 2006,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Progressive Rock", "Experimental Rock", "Grunge-influenced"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Tinu Rashid",
+      "role": "Founding member (sole remaining founder)",
+      "years_active": "2006–present",
+      "current": true
+    },
+    {
+      "name": "Khalid Ashraf",
+      "role": "Band member (joined 2011)",
+      "years_active": "2011–present",
+      "current": true
+    },
+    {
+      "name": "Mousum Dhamai",
+      "role": "Band member (joined 2011)",
+      "years_active": "2011–present",
+      "current": true
+    },
+    {
+      "name": "Salmi Rahman",
+      "role": "Band member (joined 2011)",
+      "years_active": "2011–present",
+      "current": true
+    },
+    {
+      "name": "Sabbir",
+      "role": "Founding member",
+      "years_active": "2006–unspecified",
+      "current": false
+    },
+    {
+      "name": "Tonmoy",
+      "role": "Founding member",
+      "years_active": "2006–unspecified",
+      "current": false
+    },
+    {
+      "name": "Sunny",
+      "role": "Founding member",
+      "years_active": "2006–unspecified",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Indraloy",
+      "year": 2009,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Attotshorgo",
+      "year": 2012,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Dysfunctional Motion Picture",
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Mohomukti",
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "The Beatles / Pink Floyd / Radiohead",
+      "evidence": "Karnival is explicitly cited as influenced by the Beatles, Pink Floyd and Radiohead among core references shaping its experimental, atmospheric rock direction.",
+      "source": "Last.fm Karnival biography; The Daily Star feature",
+      "confidence": "high"
+    },
+    {
+      "artist_or_genre": "Motorhead / Alice in Chains / Nirvana / Oasis",
+      "evidence": "Founders Tinu and Tonmoy set out to create a 'grungy sound,' with Nirvana and Alice in Chains cited as direct grunge-era influences alongside Motorhead and Oasis.",
+      "source": "Last.fm Karnival biography",
+      "confidence": "high"
+    },
+    {
+      "artist_or_genre": "Porcupine Tree / Megadeth",
+      "evidence": "Cited as influences bridging the band's progressive and heavier metal-adjacent experimental tendencies.",
+      "source": "Last.fm Karnival biography",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "Karnival's stated goal from formation was to create a 'grungy' sound distinct from Bangladesh's dominant metal and mainstream-rock lineages, resulting in Bangla-language material described as highly experimental and 'ahead of their time,' contributing to the country's progressive/experimental rock subgenre alongside acts like Artcell.",
+  "sound_evolution_summary": "Formative period (2006–2009): started as a passion project among friends aiming for a grunge-inflected sound; achieved a stable lineup by the band's second year and released debut album Indraloy (2009). Consolidation period (2011–2012): key members Khalid Ashraf, Mousum Dhamai and Salmi Rahman joined in 2011, becoming the band's most recognized faces; second album Attotshorgo followed in 2012. Later period: additional releases (Dysfunctional Motion Picture, Mohomukti) continued the band's experimental progressive-rock trajectory.",
+  "concert_culture_notes": "Associated with Dhaka's progressive/experimental rock circuit; specific concert/festival data not yet documented in available sources — flagged for further research.",
+  "listener_community_notes": "Recognized within the Bangladeshi rock ecosystem for pushing progressive and experimental metal forward; frequently referenced alongside Shironamhin in related-artist contexts, indicating overlap with the broader alternative/progressive listener base.",
+  "sources": [
+    {
+      "title": "KARNiVAL biography — Last.fm",
+      "url": "https://www.last.fm/music/KARNiVAL/+wiki",
+      "type": "profile"
+    },
+    {
+      "title": "What makes Karnival stand out? — The Daily Star",
+      "url": "https://www.thedailystar.net/entertainment/music/news/what-makes-karnival-stand-out-3454431",
+      "type": "news"
+    },
+    {
+      "title": "Bangladeshi rock — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bangladeshi_rock",
+      "type": "encyclopedia"
+    }
+  ],
+  "tags": ["priority", "progressive-rock", "experimental"],
+  "last_updated": "2026-08-06"
+}

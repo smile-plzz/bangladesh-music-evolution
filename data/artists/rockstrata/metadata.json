@@ -1,0 +1,51 @@
+{
+  "id": "rockstrata",
+  "name": "Rockstrata",
+  "type": "band",
+  "formed_year": 1991,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Heavy Metal"],
+  "languages": ["bn"],
+  "members": [],
+  "discography_summary": [
+    {
+      "title": "Rockstrata",
+      "year": 1991,
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Iron Maiden / Metallica / Megadeth",
+      "evidence": "Bangladeshi heavy metal, including Rockstrata as one of its founding bands, is documented as originating from the evolution of British and American heavy metal of the 1980s, with Iron Maiden, Metallica and Megadeth cited as the greatest influences on the scene's founding generation.",
+      "source": "Wikipedia Bangladeshi heavy metal",
+      "confidence": "medium"
+    },
+    {
+      "artist_or_genre": "Deep Purple / Black Sabbath / Motörhead",
+      "evidence": "1970s hard rock/proto-metal acts are cited as additional formative influences on the same founding generation of Bangladeshi metal bands that included Rockstrata.",
+      "source": "Wikipedia Bangladeshi heavy metal",
+      "confidence": "low"
+    }
+  ],
+  "local_adaptation_notes": "Rockstrata, alongside Warfaze and Aces, is identified as one of the 'big four founders of heavy metal' in Bangladesh — close friends who practiced together and jointly established the genre's local foundations in the early 1990s, predating the later progressive-metal (Artcell) and thrash-metal (Powersurge) waves.",
+  "sound_evolution_summary": "Founding period (1991): recorded self-titled debut album, one of the earliest heavy metal releases in Bangladesh, as part of the founding 'big four' alongside Warfaze and Aces. Hiatus: disbanded for unspecified reasons after this initial period. Revival period (c. 2012): band reunited, extending its legacy presence within the Bangladeshi metal scene decades after its founding contribution.",
+  "concert_culture_notes": "As one of the metal scene's founding bands (with Warfaze and Aces), Rockstrata's early-1990s activity predates the large-format festival circuit (Overload Festival, Banglalink Dhaka Rock Fest) documented for later metal generations; specific concert data for the band is not yet available and is flagged for further research.",
+  "listener_community_notes": "Positioned as a foundational, first-generation act within the Bangladeshi heavy metal listener ecosystem, historically significant primarily for its founding role rather than sustained mainstream visibility; appeals to metal historians and long-term genre enthusiasts more than a broad contemporary fanbase.",
+  "sources": [
+    {
+      "title": "Bangladeshi heavy metal — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bangladeshi_heavy_metal",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Rockstrata — Encyclopaedia Metallum: The Metal Archives",
+      "url": "https://www.metal-archives.com/bands/%E0%A6%B0%E0%A6%95%E0%A7%8D%E2%80%8C%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%9F%E0%A6%BE/14793",
+      "type": "profile"
+    }
+  ],
+  "tags": ["heavy-metal", "founding-era", "needs-verification"],
+  "last_updated": "2026-08-06"
+}

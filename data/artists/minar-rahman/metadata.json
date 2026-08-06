@@ -1,0 +1,64 @@
+{
+  "id": "minar-rahman",
+  "name": "Minar Rahman",
+  "type": "solo",
+  "formed_year": 2008,
+  "disbanded_year": null,
+  "origin_city": "Chittagong",
+  "genres": ["Pop", "Indie", "Folk-influenced Pop"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Minar Rahman (Mohammad Mizanur Rahman Minar)",
+      "role": "Vocals, Songwriter, Composer",
+      "years_active": "2008–present",
+      "current": true
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Danpitey",
+      "year": 2008,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Aari",
+      "year": 2011,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Aha Re",
+      "year": 2015,
+      "type": "studio",
+      "notable_tracks": ["Shada", "Jhoom", "Keu Kotha Rakheni"]
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Indie / folk / alternative pop traditions (general)",
+      "evidence": "Minar's debut album Danpitey (2008), entirely self-written, composed and performed, is credited with introducing a blend of indie, folk and alternative pop at a time when these genres were rarely explored in Bangladesh's mainstream music industry, indicating direct absorption of global indie-pop songwriting conventions.",
+      "source": "Wikipedia Minar Rahman; peoplepill.com profile",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "A self-taught singer-songwriter inspired by his father, Minar built his career on entirely self-produced solo albums (writing, composing, and performing all material himself from his 2008 debut), a distinctly independent/DIY model within Bangladeshi pop; his collaboration with Tahsan on the arrangement of breakout hit 'Shada' also illustrates cross-artist collaboration within the Pop genre's small circle of singer-songwriter-producers.",
+  "sound_evolution_summary": "Breakthrough period (2008): debut solo album Danpitey introduced a fresh indie/folk/alternative-pop identity, self-written and self-performed. Consolidation period (2011–2015): Aari (2011) and Aha Re (2015) extended this sound; 'Shada' (arranged with Tahsan) drove mainstream breakthrough, followed by highly viewed hits 'Jhoom' and 'Keu Kotha Rakheni.' Later period: continued output alongside parallel careers as a cartoonist (Unmad magazine, since 2008) and novelist (debut novel, 2019).",
+  "concert_culture_notes": "Specific concert/festival data not yet documented in available sources — flagged for further research.",
+  "listener_community_notes": "Represents a distinctive singer-songwriter node within the Pop genre, appealing to listeners drawn to indie/folk-inflected, self-authored songwriting rather than producer-driven or dance-oriented pop; his songs rank among the most-viewed Bangladeshi tracks on YouTube, indicating strong digital-era listener reach.",
+  "sources": [
+    {
+      "title": "Minar Rahman — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Minar_Rahman",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Minar Rahman — peoplepill.com",
+      "url": "https://peoplepill.com/i/minar-rahman",
+      "type": "profile"
+    }
+  ],
+  "tags": ["priority", "pop", "singer-songwriter"],
+  "last_updated": "2026-08-06"
+}

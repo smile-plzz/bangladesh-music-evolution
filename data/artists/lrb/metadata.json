@@ -1,0 +1,86 @@
+{
+  "id": "lrb",
+  "name": "LRB (Love Runs Blind)",
+  "type": "band",
+  "formed_year": 1991,
+  "disbanded_year": 2018,
+  "origin_city": "Chittagong",
+  "genres": ["Mainstream Rock", "Hard Rock", "Blues Rock"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Ayub Bachchu",
+      "role": "Lead Vocals, Guitar, Founder",
+      "years_active": "1991–2018 (band active until his death in 2018)",
+      "current": false
+    },
+    {
+      "name": "S.I. Tutul",
+      "role": "Keyboards (founding lineup)",
+      "years_active": "1991–unspecified",
+      "current": false
+    },
+    {
+      "name": "Saidul Hasan Swapan",
+      "role": "Bass (founding lineup)",
+      "years_active": "1991–unspecified",
+      "current": false
+    },
+    {
+      "name": "Habib Anwar Joy",
+      "role": "Drums (founding lineup)",
+      "years_active": "1991–unspecified",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "LRB I & LRB II",
+      "year": 1992,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Shukh",
+      "year": 1993,
+      "type": "studio",
+      "notable_tracks": ["Cholo Bodle Jai"]
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Western hard rock/blues rock (general)",
+      "evidence": "Ayub Bachchu, previously a member of James's early band Feelings, drew on Western blues-rock and hard rock guitar traditions in developing LRB's sound; the band's original name derived from an inadvertent misattribution of the Australian band Little River Band before settling on Love Runs Blind.",
+      "source": "Wikipedia Love Runs Blind; Ayub Bachchu Foundation biography",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "LRB's double-album debut (LRB I & LRB II, 1992) was the first double album in Bangladeshi music, and Shukh (1993)'s 'Cholo Bodle Jai' became one of Bangladesh's most enduring rock anthems, embedding Western hard-rock guitar work within emotionally direct Bangla lyrics that resonated broadly with domestic audiences.",
+  "sound_evolution_summary": "Founding period (1991–1992): formation in Chittagong and rapid rise via the landmark double-album debut. Breakthrough period (1993): Shukh cemented LRB's identity as a guitar-driven hard/blues rock act with a signature domestic anthem. Later period (through 2018): fourteen studio albums total, sustained mainstream rock relevance until Ayub Bachchu's death in October 2018, after which the band's active era ended.",
+  "concert_culture_notes": "Toured internationally, including the US, and LRB is cited as the only Bangladeshi rock band to have performed at Madison Square Garden, New York — a landmark moment for Bangladeshi rock's international visibility.",
+  "listener_community_notes": "Core member of the 'Big Three of Rock' (with James/Nagar Baul and Ark) that anchored 1990s Bangladeshi rock fandom; Ayub Bachchu's death in 2018 triggered a large public mourning response, reflecting the band's deep cultural embedding beyond a typical fan community.",
+  "sources": [
+    {
+      "title": "Love Runs Blind — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Love_Runs_Blind",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Love Runs Blind discography — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Love_Runs_Blind_discography",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Ayub Bachchu — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ayub_Bachchu",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Rock Icon — Ayub Bachchu Foundation",
+      "url": "https://ayubbachchu.foundation/rock-icon/",
+      "type": "profile"
+    }
+  ],
+  "tags": ["priority", "mainstream-rock", "hard-rock", "big-three", "founding-era"],
+  "last_updated": "2026-08-06"
+}

@@ -1,0 +1,106 @@
+{
+  "id": "cryptic-fate",
+  "name": "Cryptic Fate",
+  "type": "band",
+  "formed_year": 1993,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Heavy Metal", "Progressive Metal"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "K. Sarfaraz Latifullah",
+      "role": "Guitar, Founder",
+      "years_active": "1993–present",
+      "current": true
+    },
+    {
+      "name": "Shakib Chowdhury",
+      "role": "Bass (founding), Vocals (current)",
+      "years_active": "1993–present",
+      "current": true
+    },
+    {
+      "name": "Waheduzzaman Khan (Wahed)",
+      "role": "Guitar, Founder",
+      "years_active": "1993–unspecified",
+      "current": false
+    },
+    {
+      "name": "Iresh Zaker",
+      "role": "Vocals (original lineup)",
+      "years_active": "1993–unspecified",
+      "current": false
+    },
+    {
+      "name": "Farshed Mahmud",
+      "role": "Drums (original lineup)",
+      "years_active": "1993–unspecified",
+      "current": false
+    },
+    {
+      "name": "Farhan Samad",
+      "role": "Guitar (current lineup)",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Jeffrey Ovijit",
+      "role": "Drums (current lineup)",
+      "years_active": "unspecified–present",
+      "current": true
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Ends are Forever",
+      "year": 1995,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "শ্রেষ্ঠ (Greatness)",
+      "year": 2001,
+      "type": "studio",
+      "notable_tracks": ["Cholo Bangladesh"]
+    },
+    {
+      "title": "দানব (Monster)",
+      "year": 2006,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "নয় মাস (Nine Months)",
+      "year": 2024,
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Western heavy metal traditions (general, founding era)",
+      "evidence": "Formed in February 1993 by Wahed and Sarfaraz specifically as a metal band in the early wave of Bangladeshi heavy metal, predating the country's later progressive-metal boom (Artcell, Karnival) and reflecting first-generation exposure to international metal via limited import/cassette channels typical of the era.",
+      "source": "Wikipedia Cryptic Fate; bandmusicbd.blogspot.com profile",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "Cryptic Fate's second album 'শ্রেষ্ঠ (Greatness)' (2001) was thematically built around Bangladesh's Liberation War, and its single 'Cholo Bangladesh' became a nationally resonant commercial hit, earning a record deal with G-Series — a clear example of heavy metal instrumentation applied to explicitly nationalist/historical Bangla lyrical content, distinguishing the band from purely Western-mimetic metal acts.",
+  "sound_evolution_summary": "Founding period (1993–1995): formed by school friends as one of Bangladesh's pioneering heavy metal bands; debut album Ends are Forever (1995) established a straightforward heavy metal sound. Transitional period (2001): শ্রেষ্ঠ (Greatness) marked a shift toward progressive metal songwriting alongside its Liberation War concept and produced the hit single 'Cholo Bangladesh.' Later periods (2006, 2024): দানব (Monster) and নয় মাস (Nine Months) continued the band's progressive metal direction across a three-decade active career with an over 15-year gap between its third and fourth albums.",
+  "concert_culture_notes": "Long-running act within Dhaka's rock/metal concert circuit since the early 1990s; 'Cholo Bangladesh' remained on Bangladeshi charts for multiple months, indicating crossover from underground metal shows to broader mainstream concert and media exposure.",
+  "listener_community_notes": "One of the pioneering heavy/progressive metal acts referenced in the country's metal scene alongside Warfaze and Artcell, with particular resonance among listeners connecting metal music to national historical narrative (Liberation War themes).",
+  "sources": [
+    {
+      "title": "Cryptic Fate — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cryptic_Fate",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Cryptic Fate is a Progressive Metal Band — Band Music of Bangladesh",
+      "url": "http://bandmusicbd.blogspot.com/2012/04/cryptic-fate-is-progressive-metal-band.html",
+      "type": "profile"
+    }
+  ],
+  "tags": ["priority", "heavy-metal", "progressive-metal", "founding-era"],
+  "last_updated": "2026-08-06"
+}

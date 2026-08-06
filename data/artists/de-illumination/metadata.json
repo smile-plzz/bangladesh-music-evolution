@@ -1,0 +1,101 @@
+{
+  "id": "de-illumination",
+  "name": "De-illumination",
+  "type": "band",
+  "formed_year": 2006,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Symphonic Metal", "Symphonic Rock", "Progressive Metal"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Shams Mansoor Ghani",
+      "role": "Keyboards (formerly of Warfaze)",
+      "years_active": "2006–present",
+      "current": true
+    },
+    {
+      "name": "Sazzad Arefeen",
+      "role": "Founder",
+      "years_active": "2006–present",
+      "current": true
+    },
+    {
+      "name": "Aqib Kamal",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Anabil Sen",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Zillur Rahman Mithu",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Samiul Islam",
+      "role": "Former member",
+      "years_active": "unspecified",
+      "current": false
+    },
+    {
+      "name": "Sabbir",
+      "role": "Former member",
+      "years_active": "unspecified",
+      "current": false
+    },
+    {
+      "name": "Rozario Rony",
+      "role": "Former member",
+      "years_active": "unspecified",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Dabanol (mixed album; feat. 'Choto Shopno', 'Jantrik Joddha')",
+      "year": 2008,
+      "type": "mixed",
+      "notable_tracks": ["Choto Shopno", "Jantrik Joddha"]
+    },
+    {
+      "title": "Rage-1 (mixed album; feat. 'Ekhoni Shomoy')",
+      "year": 2008,
+      "type": "mixed",
+      "notable_tracks": ["Ekhoni Shomoy"]
+    },
+    {
+      "title": "অনিবার্য (Inevitable)",
+      "year": 2010,
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "International symphonic rock/metal traditions (general)",
+      "evidence": "De-illumination was explicitly formed with the vision of introducing symphonic rock/symphonic metal to Bangladeshi music, a genre founder Sazzad Arefeen had been studying since 1999 — a deliberate, research-driven import of a specific global metal subgenre rather than incidental exposure.",
+      "source": "Wikipedia De-illumination",
+      "confidence": "high"
+    }
+  ],
+  "local_adaptation_notes": "Co-founded by Sazzad Arefeen (who had studied symphonic metal since 1999) and Shams Mansoor Ghani, then Warfaze's keyboardist, De-illumination represents a direct lineage connection from Bangladesh's heavy metal founding generation (via Warfaze) into a deliberately imported subgenre; the band's name itself articulates a philosophical stance — rejecting 'illuminated exterior, full of imposed knowledge and prejudice' in favor of embracing one's inner light or darkness — giving the symphonic-metal import an explicitly localized conceptual framing.",
+  "sound_evolution_summary": "Formative period (2006): formed with the explicit mission of introducing symphonic rock/metal to Bangladesh, drawing on Shams Mansoor Ghani's Warfaze pedigree. Pre-album period (2008): appeared on two mixed compilation albums (Dabanol, Rage-1) to build recognition ahead of a full-length release. Debut album period (2010): অনিবার্য (Inevitable) delivered the band's first full-length symphonic metal statement, cementing its status as Bangladesh's first symphonic rock/metal act.",
+  "concert_culture_notes": "Specific concert/festival data not yet documented in available sources — flagged for further research; the band's genre-pioneer status (first symphonic rock/metal act in Bangladesh) likely positioned it within the same progressive/heavy-metal festival circuit as Artcell, Warfaze and Cryptic Fate.",
+  "listener_community_notes": "Occupies a distinct niche within the Progressive/Metal genre ecosystem as Bangladesh's specifically symphonic-metal pioneer, appealing to listeners seeking orchestral/keyboard-driven textures beyond the guitar-centric progressive metal of Artcell or the straight heavy metal of Warfaze and Cryptic Fate.",
+  "sources": [
+    {
+      "title": "De-illumination — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/De-illumination",
+      "type": "encyclopedia"
+    }
+  ],
+  "tags": ["heavy-metal", "progressive-metal", "symphonic-metal", "genre-originator"],
+  "last_updated": "2026-08-06"
+}

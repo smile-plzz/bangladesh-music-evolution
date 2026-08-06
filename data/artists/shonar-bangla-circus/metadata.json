@@ -1,0 +1,93 @@
+{
+  "id": "shonar-bangla-circus",
+  "name": "Shonar Bangla Circus",
+  "type": "band",
+  "formed_year": 2018,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Psychedelic Rock", "Alternative Rock", "Folk Rock", "Blues Rock", "Progressive Rock"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Probar Ripon",
+      "role": "Vocals, Rhythm Guitar, Lyricist, Founder",
+      "years_active": "2018–present",
+      "current": true
+    },
+    {
+      "name": "Saad Chowdhury",
+      "role": "Keyboards",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Shakil Haque",
+      "role": "Bass Guitar",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Seth Panduranga Bloomberg",
+      "role": "Guitar",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Hasin Arian",
+      "role": "Drums",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Dewan Enamul Hasan Raju",
+      "role": "Drums (past member)",
+      "years_active": "unspecified",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Hyena Express",
+      "year": 2020,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Mahashmashan",
+      "year": 2026,
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Surreal literature and psychedelic/progressive rock traditions (general)",
+      "evidence": "The band's work leans heavily on surreal literature, long-form conceptual arcs and a theatrical sensibility, with songs unfolding slowly around philosophical inquiry into civilisation, decay and resistance — an approach paralleling international psychedelic/progressive-rock concept-album traditions rather than citing a specific Western artist.",
+      "source": "The Business Standard — Shonar Bangla Circus profile",
+      "confidence": "low"
+    }
+  ],
+  "local_adaptation_notes": "Founded by Probar Ripon, who named the band after a circus troupe from his childhood, Shonar Bangla Circus deliberately avoids confinement to a single genre, blending rock, blues, folk, jazz and metal within long-form, literarily-informed conceptual works — representing one of the most recent (2018-founded) and formally ambitious additions to the Bangladeshi alternative/psychedelic rock scene documented in this corpus, with its 2026 double album Mahashmashan extending the conceptual arc begun on 2020's Hyena Express.",
+  "sound_evolution_summary": "Founding period (2018): formed by Probar Ripon; roughly 18 months of development preceded the band's public debut work. Debut period (2020): Hyena Express released directly on YouTube, gaining recognition for its conceptual, experimental approach and introducing a distinct new sound to Bangladeshi rock. Consolidation period (2026): double album Mahashmashan (17 tracks, released 8 January 2026 on streaming platforms) extended the conceptual continuity established by Hyena Express, cementing the band's boundary-defying, theatrical approach.",
+  "concert_culture_notes": "Held its first-ever solo concert as a milestone event (per contemporaneous Business Standard coverage), suggesting the band built its reputation primarily through recorded/streamed conceptual works before establishing a dedicated live concert presence — a notably different trajectory from bands that built audiences through the club/festival circuit first.",
+  "listener_community_notes": "Represents the newest generation of the Alternative/Indie and Progressive Rock genre ecosystem, appealing to listeners drawn to literary, conceptually ambitious long-form rock in the lineage of Shironamhin's philosophical/progressive approach but with a more overtly theatrical, genre-agnostic execution.",
+  "sources": [
+    {
+      "title": "Shonar Bangla Circus — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shonar_Bangla_Circus",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Shonar Bangla Circus: Was it the calm or the scream that drew you to them? — The Business Standard",
+      "url": "https://www.tbsnews.net/splash/shonar-bangla-circus-was-it-calm-or-scream-drew-you-them-1355291",
+      "type": "profile"
+    },
+    {
+      "title": "Shonar Bangla Circus returns with double album 'Mohashoshan' — The Daily Star",
+      "url": "https://www.thedailystar.net/news/shonar-bangla-circus-returns-double-album-mohashoshan-4077571",
+      "type": "news"
+    }
+  ],
+  "tags": ["alternative-indie", "psychedelic-rock", "concept-album", "recent-era"],
+  "last_updated": "2026-08-06"
+}

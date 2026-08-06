@@ -1,0 +1,56 @@
+{
+  "id": "azam-khan-uchcharon",
+  "name": "Azam Khan & Uchcharon",
+  "type": "band",
+  "formed_year": 1972,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Mainstream Rock", "Bangla Pop"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Azam Khan (Mahbubul Haque Khan)",
+      "role": "Lead Vocals, Founder",
+      "years_active": "1972–2011 (Azam Khan's death)",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Singles/hits (album details not fully documented in available sources)",
+      "type": "compilation",
+      "notable_tracks": ["Rail Liner Oi Bostite", "Alal ar Dulal", "Saleka Maleka", "Papri Keno Bojhena"]
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Western pop/rock traditions (general, 1970s)",
+      "evidence": "Azam Khan and Uchcharon are credited with blending Western musical influences with Bengali lyrics, local stories and social realities to create a new pop musical movement; specific Western artist citations were not located in available sources.",
+      "source": "Wikipedia Azam Khan (singer); Banglapedia",
+      "confidence": "low"
+    }
+  ],
+  "local_adaptation_notes": "A 1971 Liberation War freedom fighter (Sector 2, under Brigadier Khaled Mosharraf) who founded Uchcharon in 1972 in the immediate post-independence period, Azam Khan — honorifically titled the 'Pop Guru of Bangladesh' — is considered a founding figure of Bangladeshi rock/pop itself, predating even Souls and Feedback as a commercial force; his hits directly addressed everyday social realities and local stories in Bangla, establishing the template that later mainstream rock (James, LRB, Ark) would build upon.",
+  "sound_evolution_summary": "Founding period (1972 onward): formed Uchcharon immediately after the Liberation War, achieving widespread commercial success throughout the 1970s with hits like 'Rail Liner Oi Bostite,' 'Alal ar Dulal,' 'Saleka Maleka,' and 'Papri Keno Bojhena.' Legacy status: alongside contemporaries Fakir Alamgir, Ferdous Wahid, Firoz Shai, Najma Zaman and Pilu Momtaz, credited with pioneering and popularizing Bangla pop music as a commercial genre, directly preceding the 1970s-80s rise of Souls, Feedback and the later 'Big Three' rock bands.",
+  "concert_culture_notes": "As the foundational figure of Bangladeshi pop/rock, Azam Khan's era predates the modern concert/festival circuit documented for later bands; his commemorative death anniversary (5 June) continues to generate national media retrospectives, indicating sustained cultural-memory significance beyond a typical concert-attendance metric.",
+  "listener_community_notes": "Regarded as the founding figure of the entire Mainstream Rock/Bangla Pop genre lineage in the BMEM framework — the historical root from which Souls, Feedback, and the 'Big Three' rock era (James, LRB, Ark) all descend; his death anniversary retrospectives indicate a listener community spanning multiple generations who encounter his catalogue as foundational national pop heritage rather than as a living contemporary act.",
+  "sources": [
+    {
+      "title": "Azam Khan (singer) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Azam_Khan_(singer)",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Khan, Azam — Banglapedia",
+      "url": "https://en.banglapedia.org/index.php/Khan,_Azam",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Remembering 'Pop Guru' on 15th death anniversary — Daily Sun",
+      "url": "https://www.daily-sun.com/5/878323",
+      "type": "news"
+    }
+  ],
+  "tags": ["mainstream-rock", "founding-era", "genre-originator"],
+  "last_updated": "2026-08-06"
+}
