@@ -1,0 +1,75 @@
+{
+  "id": "habib-wahid",
+  "name": "Habib Wahid",
+  "type": "solo",
+  "formed_year": 2003,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Pop", "Electronic Pop", "Folk Fusion"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Habib Wahid",
+      "role": "Vocals, Production, Composition",
+      "years_active": "2003–present",
+      "current": true
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Krishno",
+      "year": 2003,
+      "type": "studio",
+      "notable_tracks": ["Krishno"]
+    },
+    {
+      "title": "Moina Go",
+      "year": 2005,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Shono",
+      "year": 2008,
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Karsh Kale / British-Asian electronic music scene",
+      "evidence": "While studying audio engineering in the UK, Habib Wahid worked with Asian-fusion producers such as Karsh Kale, directly shaping his approach to blending electronic/urban production techniques with South Asian folk material.",
+      "source": "Wikipedia Habib Wahid; peoplepill.com profile",
+      "confidence": "medium"
+    },
+    {
+      "artist_or_genre": "EDM / techno production traditions",
+      "evidence": "Wahid's signature style fuses traditional Baul/Lalon folk elements with modern techno, urban beats, and pop-electronic production, a direct adaptation of Western/global electronic dance music techniques to Bangla folk source material.",
+      "source": "Wikipedia Habib Wahid; Putumayo artist profile",
+      "confidence": "high"
+    }
+  ],
+  "local_adaptation_notes": "As the son of pop artist Ferdous Wahid, Habib Wahid built on a family pop lineage while pioneering a specifically Bangladeshi fusion genre: traditional Baul and Lalon folk vocal/melodic material re-rendered through electronic production, EDM textures and urban pop-beat arrangements. This made him a pivotal figure in shifting Bangladeshi pop away from purely band-based rock/pop toward producer-driven, studio-centric electronic-folk fusion.",
+  "sound_evolution_summary": "Breakthrough period (2003): debut album Krishno introduced his folk-electronic fusion approach and produced an instant hit title track. Consolidation period (2005–2008): Moina Go and Shono extended the fusion sound and established him as a leading pop producer-artist. Later period: continued work as composer/producer across films and singles, including award-winning film scoring (Bangladesh National Film Award for Best Music Director, Projapoti, 2011), reflecting a shift toward broader production/composition work beyond solo albums.",
+  "concert_culture_notes": "Primarily a studio/production-centered artist; public visibility driven more by radio, television, and streaming hits and film soundtrack work than by a dedicated touring band circuit, distinguishing his career pattern from guitar-band acts like LRB or Miles.",
+  "listener_community_notes": "Represents a pivotal node bridging traditional folk/Baul listener communities and younger, urban pop/electronic audiences; frequently referenced as a key figure in the Pop genre's global-influence column (contemporary pop, R&B, electronic pop) within the BMEM framework.",
+  "sources": [
+    {
+      "title": "Habib Wahid — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Habib_Wahid",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Habib Wahid (Bangladesh) — Putumayo",
+      "url": "https://www.putumayo.com/habibwahid",
+      "type": "profile"
+    },
+    {
+      "title": "Habib Wahid — peoplepill.com",
+      "url": "https://peoplepill.com/i/habib-wahid/",
+      "type": "profile"
+    }
+  ],
+  "tags": ["priority", "pop", "electronic-fusion"],
+  "last_updated": "2026-08-06"
+}

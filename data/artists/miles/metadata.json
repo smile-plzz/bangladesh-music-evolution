@@ -1,0 +1,117 @@
+{
+  "id": "miles",
+  "name": "Miles",
+  "type": "band",
+  "formed_year": 1979,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Mainstream Rock", "Pop Rock"],
+  "languages": ["bn", "en"],
+  "members": [
+    {
+      "name": "Hamin Ahmed",
+      "role": "Vocals, Guitar",
+      "years_active": "1979–present",
+      "current": true
+    },
+    {
+      "name": "Shafin Ahmed",
+      "role": "Vocals, Bass",
+      "years_active": "1979–present",
+      "current": true
+    },
+    {
+      "name": "Manam Ahmed",
+      "role": "Keyboards, Keytar, Vocals",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Syed Ziaur Rahman Turjo",
+      "role": "Drums, Percussion",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Iqbal Asif Jewel",
+      "role": "Guitar, Vocals",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Happy Akhand",
+      "role": "Founding member (deceased)",
+      "years_active": "1979",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Miles",
+      "year": 1982,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "A Step Farther",
+      "year": 1986,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Protisruti",
+      "year": 1991,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Prottasha",
+      "year": 1993,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Probaho",
+      "year": 1999,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Proticchobi",
+      "year": 2015,
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Western pop/rock (general)",
+      "evidence": "Miles began performing English-language rock/pop material (debut album Miles, 1982) before transitioning to Bangla songwriting; Shafin Ahmed's exposure to Western musical training in England is cited as a formative influence on the band's sound.",
+      "source": "Wikipedia Miles (band); Wikipedia Shafin/Hamin Ahmed pages",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "After releasing English-language material in the early 1980s, Miles pivoted to Bangla-language songwriting starting with Protisruti (1991), consciously blending Eastern melodic sensibilities with Western rock/pop arrangements — a deliberate strategy credited with helping the band cross over to mass Bangladeshi audiences while retaining international-caliber production.",
+  "sound_evolution_summary": "Early period (1979–1980s): English-language rock/pop oriented toward international audiences, reflecting the band's origins performing covers and originals in Dhaka's expatriate/diplomatic circuit. Transitional/breakthrough period (1991–1999): shift to Bangla-language albums (Protisruti, Prottasha, Probaho) established Miles as a mainstream rock institution with widely popular Bangla rock anthems. Later period (2000s–2015): continued output (Proticchobi, 2015) with refined pop-rock production while maintaining the band's core melodic identity.",
+  "concert_culture_notes": "Regarded as one of South Asia's most popular rock bands with an extensive international touring history, including performances across the Bangladeshi diaspora (UK, US, Middle East) and major domestic festival/stadium shows.",
+  "listener_community_notes": "One of the most broadly cross-generational fan bases in Bangladeshi rock, spanning listeners who first encountered the band's English-language era and later generations who grew up with its Bangla-language hits.",
+  "sources": [
+    {
+      "title": "Miles (band) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Miles_(band)",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Hamin Ahmed — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hamin_Ahmed",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Iqbal Asif Jewel — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Iqbal_Asif_Jewel",
+      "type": "encyclopedia"
+    }
+  ],
+  "tags": ["priority", "mainstream-rock", "founding-era"],
+  "last_updated": "2026-08-06"
+}

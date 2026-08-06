@@ -1,0 +1,111 @@
+{
+  "id": "stoic-bliss",
+  "name": "Stoic Bliss",
+  "type": "band",
+  "formed_year": 2004,
+  "disbanded_year": null,
+  "origin_city": "Queens, New York (diaspora origin; Bangladesh-focused output)",
+  "genres": ["Hip-Hop", "Rap"],
+  "languages": ["bn", "en"],
+  "members": [
+    {
+      "name": "Kazi Rahman",
+      "role": "Rapper, Founding member",
+      "years_active": "2004–present",
+      "current": true
+    },
+    {
+      "name": "Ac1d",
+      "role": "Rapper, Founding member",
+      "years_active": "2004–present",
+      "current": true
+    },
+    {
+      "name": "Xtro",
+      "role": "Former member",
+      "years_active": "2004–unspecified (departed after internal disputes)",
+      "current": false
+    },
+    {
+      "name": "B1shop",
+      "role": "Former member",
+      "years_active": "2004–unspecified",
+      "current": false
+    },
+    {
+      "name": "Tizzy",
+      "role": "Former member",
+      "years_active": "2004–unspecified",
+      "current": false
+    },
+    {
+      "name": "Rul",
+      "role": "Former member",
+      "years_active": "2004–unspecified",
+      "current": false
+    },
+    {
+      "name": "Mana",
+      "role": "Former member",
+      "years_active": "2004–unspecified",
+      "current": false
+    },
+    {
+      "name": "Fly",
+      "role": "Former member",
+      "years_active": "2004–unspecified",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Light Years Ahead",
+      "year": 2006,
+      "type": "studio",
+      "notable_tracks": ["Abar Jigay"]
+    },
+    {
+      "title": "Kolponar Baire",
+      "year": 2007,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Bangali Bangali",
+      "year": 2022,
+      "type": "single",
+      "notable_tracks": ["Bangali Bangali"]
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "American Hip-Hop",
+      "evidence": "Formed in Queens, New York, by Bangladeshi-American members, Stoic Bliss directly imported American hip-hop production and rap conventions, introducing them to Bangladeshi audiences largely via blogs before mainstream social media existed.",
+      "source": "Wikipedia Stoic Bliss; Wikipedia Bangladeshi hip-hop",
+      "confidence": "high"
+    }
+  ],
+  "local_adaptation_notes": "Stoic Bliss's key local-adaptation innovation was 'Banglish' — a Bangla-English rap fusion style — enabling American hip-hop conventions to be delivered in a code-switched form intelligible and culturally resonant to Bangladeshi youth audiences. As a diaspora act (Queens, NY origin) reaching back into the domestic Bangladeshi market, the group functioned as a key transnational conduit for hip-hop's introduction to Bangladesh, working with early local producers AQ Finest and DJ DEPIC.",
+  "sound_evolution_summary": "Formative period (2004): formed in the Bangladeshi diaspora community of Queens, New York; began circulating music via blogs, effectively introducing hip-hop to Bangladeshi audiences ahead of the social-media era. Breakthrough period (2006–2007): debut album Light Years Ahead (2006) sold an estimated 250,000+ copies within 10 months and produced the hit 'Abar Jigay,' followed by Kolponar Baire (2007); internal disputes over contract transparency led to the departure of several members. Later period: continued singles output (e.g., 'Bangali Bangali,' 2022) sustaining the group's legacy status within Bangladeshi hip-hop.",
+  "concert_culture_notes": "As a diaspora-originated act, historically had a distinct relationship to Bangladeshi live concert culture compared to domestic bands, with reach into Bangladesh driven more by recorded/blog-distributed music than a conventional domestic touring circuit in its formative years.",
+  "listener_community_notes": "Widely credited as foundational to the Bangladeshi hip-hop listener community and the broader Bangla rap ecosystem (alongside Muza, Hannan, Jalali Set), with the group's early blog-based distribution model shaping how later Bangladeshi hip-hop artists reached audiences before mainstream platforms existed.",
+  "sources": [
+    {
+      "title": "Stoic Bliss — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stoic_Bliss",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Bangladeshi hip-hop — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bangladeshi_hip-hop",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "THE HIP-HOP STORY — The Daily Star",
+      "url": "https://www.thedailystar.net/shout/cover-story/news/the-hip-hop-story-1666549",
+      "type": "news"
+    }
+  ],
+  "tags": ["priority", "hip-hop", "diaspora", "founding-era"],
+  "last_updated": "2026-08-06"
+}

@@ -14,7 +14,7 @@
 ## Phase 2 — Data Collection
 - [x] Historical timeline construction (first draft complete)
 - [ ] Expand discography and release metadata for priority artists
-- [ ] Additional priority artist profiles (James/Nagar Baul, Miles, Meghdol, LRB, Habib Wahid, Stoic Bliss, Arnob, Powersurge, etc.)
+- [x] Additional priority artist profiles (James/Nagar Baul, Miles, Meghdol, LRB, Habib Wahid, Stoic Bliss, Arnob) — Powersurge and further artists still pending
 - [ ] Public streaming and YouTube metrics collection
 - [ ] Concert and festival event database (≥500 target)
 - [ ] Social media and community discussion sampling
@@ -38,7 +38,7 @@
 - [ ] Revision and dissemination
 
 ## Immediate Next Actions
-1. Add more priority artist profiles (James, Miles, Meghdol, LRB, Habib Wahid, Stoic Bliss, Arnob…).
+1. Add remaining priority artist profiles (Powersurge, and additional genre-representative artists e.g. Karnival, Owned, Cryptic Fate, Ashes, Tahsan, Minar, Imran, Coke Studio Bangla, Muza, Hannan, Jalali Set).
 2. Design concert/event schema and begin event database.
 3. Collect public Spotify/YouTube signals for core artists.
 4. Prototype a small preference network using publicly available related-artist / playlist co-occurrence data.
@@ -46,4 +46,4 @@
 
 ---
 
-*Last updated: 2026-08-05*
+*Last updated: 2026-08-06*
