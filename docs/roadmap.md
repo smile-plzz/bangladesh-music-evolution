@@ -14,12 +14,12 @@
 ## Phase 2 — Data Collection
 - [x] Historical timeline construction (first draft complete)
 - [ ] Expand discography and release metadata for priority artists
-- [x] Additional priority artist profiles (James/Nagar Baul, Miles, Meghdol, LRB, Habib Wahid, Stoic Bliss, Arnob) — Powersurge and further artists still pending
+- [x] Additional priority artist profiles (James/Nagar Baul, Miles, Meghdol, LRB, Habib Wahid, Stoic Bliss, Arnob, Powersurge, Karnival, Cryptic Fate, Tahsan) — 11 profiles now complete; Souls, Feedback, Ark, Mechanix, Ashes, Shohojia, Conclusion, Minar, Imran, Nancy, Kona, Muza, Hannan, Jalali Set still pending
 - [ ] Public streaming and YouTube metrics collection
-- [ ] Concert and festival event database (≥500 target)
+- [x] Concert / event schema design (`data/schemas/concert.schema.json`)
+- [ ] Concert and festival event database (≥500 target) — 4 seed entries added (`data/concerts/`); large-scale collection still pending
 - [ ] Social media and community discussion sampling
 - [ ] Artist interview / documentary / review corpus for influence claims
-- [ ] Concert / event schema design
 
 ## Phase 3 — Analysis
 - [ ] Build Bangladesh Music Preference Network (BMPN)
@@ -38,10 +38,10 @@
 - [ ] Revision and dissemination
 
 ## Immediate Next Actions
-1. Add remaining priority artist profiles (Powersurge, and additional genre-representative artists e.g. Karnival, Owned, Cryptic Fate, Ashes, Tahsan, Minar, Imran, Coke Studio Bangla, Muza, Hannan, Jalali Set).
-2. Design concert/event schema and begin event database.
+1. Add remaining priority artist profiles (Souls, Feedback, Ark, Mechanix, Ashes, Shohojia, Conclusion, Minar, Imran, Nancy, Kona, Muza, Hannan, Jalali Set, Owned).
+2. Expand the concert/event database beyond the 4 seed entries — target BAMBA/university-fest lineups and landmark diaspora tours; verify approximate dates flagged `needs-verification`.
 3. Collect public Spotify/YouTube signals for core artists.
-4. Prototype a small preference network using publicly available related-artist / playlist co-occurrence data.
+4. Prototype a small preference network using publicly available related-artist / playlist co-occurrence data (`data/networks/`).
 5. Deepen literature review (full texts of Quader & Redden 2014, Mitra thesis, theoretical sources).
 
 ---

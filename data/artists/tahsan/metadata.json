@@ -1,0 +1,57 @@
+{
+  "id": "tahsan",
+  "name": "Tahsan Rahman Khan",
+  "type": "solo",
+  "formed_year": 2004,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Pop", "Alternative Rock (via Black)"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Tahsan Rahman Khan",
+      "role": "Vocals, Keyboards, Songwriter, Composer",
+      "years_active": "late 1990s (as keyboardist/vocalist of Black)–present",
+      "current": true
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Kothopokothon",
+      "year": 2004,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Icche",
+      "type": "studio",
+      "notable_tracks": ["Alo Alo"]
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Grunge / Alternative Rock (via band Black)",
+      "evidence": "Tahsan was formerly the keyboardist and second vocalist of Black, described as a grunge and alternative rock band, giving him a Western rock-idiom foundation prior to his romantic-pop solo career.",
+      "source": "Wikipedia Tahsan Rahman Khan",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "Trained in classical/traditional vocal contexts at Shishu Academy and Chhayanat before joining the alternative rock band Black, Tahsan pivoted to a solo career built on melodic, romantic Bangla pop songwriting (Kothopokothon, 2004) that became broadly popular across generations, later expanding his public profile through television and film acting.",
+  "sound_evolution_summary": "Formative period (late 1990s–early 2000s): keyboardist and second vocalist for the grunge/alternative rock band Black. Solo breakthrough (2004): debut solo album Kothopokothon launched his career as a romantic pop singer-songwriter. Consolidation period: album Icche and its single 'Alo Alo' became generational anthems; discography expanded to 200+ songs including numerous collaborations, alongside a parallel acting career beginning with the 2004 drama 'Offbeat.'",
+  "concert_culture_notes": "Prominent presence in Bangladeshi television, telefilm and mainstream media-driven concert/promotional circuits rather than a dedicated touring-band model, reflecting his dual music/acting celebrity status.",
+  "listener_community_notes": "Represents a key Pop-genre reference artist in the BMEM framework; his romantic, melodic songwriting draws a broad mainstream and youth audience distinct from the harder rock/metal listener communities, with crossover appeal via his acting career.",
+  "sources": [
+    {
+      "title": "Tahsan Rahman Khan — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tahsan_Rahman_Khan",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Tahsan Rahman Khan — peoplepill.com",
+      "url": "https://peoplepill.com/i/tahsan-rahman-khan",
+      "type": "profile"
+    }
+  ],
+  "tags": ["priority", "pop"],
+  "last_updated": "2026-08-06"
+}

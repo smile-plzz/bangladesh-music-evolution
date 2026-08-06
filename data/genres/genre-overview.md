@@ -139,3 +139,11 @@ Across all genres the research examines:
 5. **Industry Position** — relationship to labels, independence, digital platforms, monetization
 
 These themes feed directly into the Bangladesh Musical Ecosystem Model (BMEM).
+
+---
+
+## Platform Note: Coke Studio Bangla
+
+Coke Studio Bangla launched on 7 February 2022 as the Bangladeshi edition of the international Coke Studio franchise (following Pakistan, 2008, and India, 2011), positioning fusion music — blending classical, folk, Sufi, qawwali, and contemporary genres — as its signature format. Shayan Chowdhury Arnob served as music producer/director for the first season, directly tying the platform to the Folk & Folk Fusion genre's leading practitioner. Season 1 featured regional folk traditions (Bhawaiya from northern Bengal, Maizbhandari from Chattogram, Bhatiyali riverine folk music) reinterpreted with contemporary bands such as Shironamhin and Jalali Set, and drew on the legacies of Rabindranath Tagore and Baul song traditions. As a corporate-backed, high-production platform, Coke Studio Bangla functions as a significant industry mechanism for cross-genre visibility and hybridity within the BMEM's Industry Transformation dimension.
+
+**Sources**: [Coke Studio Bangla officially launches — The Quint](https://www.thequint.com/news/world/coke-studio-bangla-officially-launches-in-bangladesh); [Coke Studio Bangla launch — The Business Standard](https://www.tbsnews.net/splash/coke-studio-bangla-launch-majestic-night-soulful-music-368413); [Coke Studio Bangla Celebrates Bangladeshi Culture and History — New Lines Magazine](https://newlinesmag.com/reportage/coke-studio-bangla-celebrates-bangladeshi-culture-and-history-one-song-at-a-time/)

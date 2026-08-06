@@ -1,0 +1,34 @@
+{
+  "id": "2019-artcell-20th-anniversary-iccb",
+  "name": "Artcellism: Artcell 20th Anniversary Open-Air Concert",
+  "date": "2019-12-01",
+  "date_precision": "month",
+  "type": "concert",
+  "venue": {
+    "name": "Expo Zone, International Convention City Bashundhara (ICCB)",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "venue_type": "open-air"
+  },
+  "organizer": "Artcell (self-organized/promoted)",
+  "artists": [
+    { "artist_id": "artcell", "billing": "headliner" }
+  ],
+  "genres_represented": ["Progressive Metal", "Progressive Rock", "Heavy Metal"],
+  "attendance_confidence": "reported",
+  "notes": "Marked Artcell's 20th anniversary; thousands of fans gathered at the ICCB Expo Zone for the open-air celebration, reflecting the band's capacity to draw large-scale audiences beyond typical club/campus shows. Exact month within late 2019 requires further verification.",
+  "sources": [
+    {
+      "title": "Artcellism: A 20 years old phenomenon — The Business Standard",
+      "url": "https://www.tbsnews.net/entertainment/artcellism-20-years-old-phenomenon",
+      "type": "news"
+    },
+    {
+      "title": "Artcellism: A journey 20 years in the making — The Business Standard",
+      "url": "https://www.tbsnews.net/entertainment/artcellism-journey-20-years-making",
+      "type": "news"
+    }
+  ],
+  "tags": ["anniversary", "open-air", "progressive-metal", "large-scale"],
+  "last_updated": "2026-08-06"
+}

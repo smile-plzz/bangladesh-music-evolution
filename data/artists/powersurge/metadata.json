@@ -1,0 +1,105 @@
+{
+  "id": "powersurge",
+  "name": "Powersurge",
+  "type": "band",
+  "formed_year": 2006,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Thrash Metal", "Groove Metal", "Heavy Metal"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Saimum Hasan Nahian",
+      "role": "Rhythm Guitar, Founder",
+      "years_active": "2006–present",
+      "current": true
+    },
+    {
+      "name": "Samiul Islam",
+      "role": "Drums, Founder",
+      "years_active": "2006–present",
+      "current": true
+    },
+    {
+      "name": "Jamshed Chowdhury",
+      "role": "Vocals",
+      "years_active": "2006–present",
+      "current": true
+    },
+    {
+      "name": "Samir Hafiz",
+      "role": "Lead Guitar (original lineup)",
+      "years_active": "2006–unspecified",
+      "current": false
+    },
+    {
+      "name": "Schizan Shahed Antu",
+      "role": "Bass (original lineup)",
+      "years_active": "2006–unspecified",
+      "current": false
+    },
+    {
+      "name": "Arefin",
+      "role": "Bass (later lineup)",
+      "years_active": "unspecified–present",
+      "current": true
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Underground (mixed album; feat. 'Durbodhyo Manusatta')",
+      "year": 2006,
+      "type": "mixed",
+      "notable_tracks": ["দুর্বোধ্য মনুষত্ব (Rampant Humanity)"]
+    },
+    {
+      "title": "Auprostut Juddho",
+      "year": 2008,
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Metallica / Slayer / Megadeth / Exodus (American thrash metal)",
+      "evidence": "Founders Nahian and Samiul Islam explicitly formed the band in January 2006 drawing on American and German thrash/heavy metal influences; the band cites Metallica, Slayer, Megadeth and Exodus among core references.",
+      "source": "Wikipedia Powersurge (band)",
+      "confidence": "high"
+    },
+    {
+      "artist_or_genre": "Sepultura / Kreator / Sodom (German/Brazilian thrash metal)",
+      "evidence": "Named alongside American acts as direct genre-founding influences on the band's sound.",
+      "source": "Wikipedia Powersurge (band)",
+      "confidence": "high"
+    },
+    {
+      "artist_or_genre": "Lamb of God / Dream Theater / Pink Floyd",
+      "evidence": "Cited as additional inspirations shaping the band's groove-metal and more expansive compositional elements beyond straight thrash.",
+      "source": "Wikipedia Powersurge (band)",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "Powersurge situates itself within the 'East Bengal extreme metal scene,' rendering Bangla-language lyrics and thematic content (including on the liberation-war-adjacent underground scene) within a thrash/groove metal framework directly modeled on American and German genre pioneers, with comparatively less folk-fusion adaptation than acts like Artcell or Cryptic Fate.",
+  "sound_evolution_summary": "Formative period (2006): formed by Nahian and Samiul Islam as a dedicated thrash metal project; gained public attention winning the D-Rockstar II talent competition in 2007. Debut album period (2008): Auprostut Juddho established the band's full-length thrash/groove metal identity, following the 2006 compilation single.",
+  "concert_culture_notes": "Emerged through Dhaka's underground metal/rock talent-show and compilation-album circuit (D-Rockstar II, Underground mixed album), reflecting the mid-2000s underground metal scene's reliance on battle-of-the-bands events and mixed compilations for exposure.",
+  "listener_community_notes": "Positioned as a pioneering thrash metal act within the Bangladeshi heavy metal ecosystem, appealing to listeners of the harder-edged extreme metal scene distinct from the more melodic/progressive metal audiences of Artcell or Karnival.",
+  "sources": [
+    {
+      "title": "Powersurge (band) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Powersurge_(band)",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Bangladeshi heavy metal — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bangladeshi_heavy_metal",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Promoting thrash metal in Bangladeshi music scene — The Daily Star",
+      "url": "https://www.thedailystar.net/news-detail-19356",
+      "type": "news"
+    }
+  ],
+  "tags": ["priority", "heavy-metal", "thrash-metal"],
+  "last_updated": "2026-08-06"
+}

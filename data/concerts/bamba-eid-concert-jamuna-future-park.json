@@ -1,0 +1,29 @@
+{
+  "id": "bamba-eid-concert-jamuna-future-park",
+  "name": "BAMBA Eid Celebration Concert",
+  "date": "2019-08-02",
+  "date_precision": "approximate",
+  "type": "festival",
+  "venue": {
+    "name": "Jamuna Future Park",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "venue_type": "outdoor-park"
+  },
+  "organizer": "BAMBA (Bangladesh Musical Bands Association)",
+  "artists": [
+    { "artist_id": "warfaze", "billing": "co-headliner" }
+  ],
+  "genres_represented": ["Heavy Metal", "Mainstream Rock"],
+  "attendance_confidence": "unknown",
+  "notes": "Multi-band BAMBA-organized Eid celebration concert featuring Warfaze, Maqsood O Dhaka, Renaissance, Nemesis and Mechanix, illustrative of BAMBA's role as an industry association coordinating large multi-act rock/metal showcases around festival calendar dates (Eid). Year (2 August) is drawn from a Dhaka Tribune report; the specific year of the report requires further verification and is currently treated as approximate. Additional lineup artists (Maqsood O Dhaka, Renaissance, Nemesis, Mechanix) are not yet catalogued in data/artists and should be added in a future pass.",
+  "sources": [
+    {
+      "title": "Warfaze, Maqsood O Dhaka, Renaissance, Nemesis and Mechanix rocked the concert — Dhaka Tribune",
+      "url": "https://www.dhakatribune.com/bangladesh/bangladesh-others/73662/warfaze-maqsood-o-dhaka-renaissance-nemesis-and",
+      "type": "news"
+    }
+  ],
+  "tags": ["multi-band", "festival", "bamba", "needs-verification"],
+  "last_updated": "2026-08-06"
+}
