@@ -1,0 +1,31 @@
+{
+  "id": "2026-overload-festival-bccc",
+  "name": "Overload Festival Dhaka (X Force Presents)",
+  "date": "2026-07-10",
+  "date_precision": "day",
+  "type": "festival",
+  "venue": {
+    "name": "Hall of Fame, Bangladesh China Friendship Conference Center (BCCC)",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "venue_type": "convention-centre"
+  },
+  "organizer": "X Force",
+  "artists": [
+    { "artist_id": "artcell", "billing": "co-headliner" },
+    { "artist_id": "cryptic-fate", "billing": "co-headliner" },
+    { "artist_id": "warfaze", "billing": "co-headliner" }
+  ],
+  "genres_represented": ["Progressive Metal", "Heavy Metal"],
+  "attendance_confidence": "unknown",
+  "notes": "Large-scale multi-band metal festival bringing together three of the pioneering Bangladeshi metal acts (Artcell, Cryptic Fate, Warfaze) on one bill, illustrating the continued vitality of large-format metal festivals in the mid-2020s Dhaka scene. Full supporting lineup ('other prominent bands') not yet itemized in available sources.",
+  "sources": [
+    {
+      "title": "X Force Presents Overload Festival Dhaka — Happening Next",
+      "url": "https://happeningnext.com/event/x-force-presents-overload-festival-dhaka-eid3a0drtuf3v",
+      "type": "event-listing"
+    }
+  ],
+  "tags": ["festival", "metal-scene", "multi-band"],
+  "last_updated": "2026-08-06"
+}

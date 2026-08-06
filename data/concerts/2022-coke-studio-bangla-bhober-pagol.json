@@ -1,0 +1,29 @@
+{
+  "id": "2022-coke-studio-bangla-bhober-pagol",
+  "name": "Coke Studio Bangla Season 1 — \"Bhober Pagol\"",
+  "date": "2022-05-03",
+  "date_precision": "day",
+  "type": "corporate-branded",
+  "venue": {
+    "name": "Coke Studio Bangla production studio (broadcast/streamed episode, not a live-audience concert)",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "venue_type": "other"
+  },
+  "organizer": "Coca-Cola Bangladesh / Coke Studio Bangla production (music direction: Shayan Chowdhury Arnob)",
+  "artists": [
+    { "artist_id": "jalali-set", "billing": "co-headliner" }
+  ],
+  "genres_represented": ["Hip-Hop", "Folk Fusion"],
+  "attendance_confidence": "unknown",
+  "notes": "Episode of Coke Studio Bangla Season 1 (aired 7 Feb–1 Sep 2022) pairing vocalist Nigar Sumi with hip-hop group Jalali Set on 'Bhober Pagol,' a track fusing hip-hop/trap with traditional Bangladeshi folk instrumentation (dotara, ektara). Represents a produced broadcast/streaming performance rather than a ticketed live-audience concert; included here to capture the platform's role in cross-genre collaboration documented in data/genres/genre-overview.md. Nigar Sumi is not yet catalogued as an artist in this dataset.",
+  "sources": [
+    {
+      "title": "Coke Studio Bangla season 1 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Coke_Studio_Bangla_season_1",
+      "type": "encyclopedia"
+    }
+  ],
+  "tags": ["coke-studio-bangla", "broadcast", "folk-hip-hop-fusion"],
+  "last_updated": "2026-08-06"
+}

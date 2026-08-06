@@ -1,0 +1,32 @@
+{
+  "id": "2009-artcell-10-years-insanity-sheraton",
+  "name": "10 Years of Artcell In-sanity",
+  "date": "2009-10-01",
+  "date_precision": "month",
+  "type": "concert",
+  "venue": {
+    "name": "Winter Garden, Hotel Sheraton (Dhaka Sheraton)",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "venue_type": "theatre"
+  },
+  "organizer": "Artcell (self-organized/promoted)",
+  "artists": [
+    { "artist_id": "artcell", "billing": "headliner" },
+    { "artist_id": "warfaze", "billing": "guest" },
+    { "artist_id": "cryptic-fate", "billing": "guest" },
+    { "artist_id": "mechanix", "billing": "guest" }
+  ],
+  "genres_represented": ["Progressive Metal", "Heavy Metal"],
+  "attendance_confidence": "unknown",
+  "notes": "10th-anniversary celebration concert for Artcell; members of Warfaze, Cryptic Fate, Mechanix and Reborn attended/performed, illustrating strong cross-band solidarity within the Dhaka metal scene. 'Reborn' is mentioned in coverage but not yet catalogued as an artist in this dataset. Exact date within October 2009 requires further verification.",
+  "sources": [
+    {
+      "title": "A tribute to Bangladeshi rock music — The Daily Star",
+      "url": "https://www.thedailystar.net/news-detail-109579",
+      "type": "news"
+    }
+  ],
+  "tags": ["anniversary", "metal-scene", "multi-band", "needs-verification"],
+  "last_updated": "2026-08-06"
+}

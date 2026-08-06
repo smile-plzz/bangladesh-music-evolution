@@ -17,12 +17,12 @@
 - [x] Priority artist profiles complete — 24 artists catalogued in `data/artists/` (see `data/artists/README.md` for full checklist). Shohojia and Owned could not be substantiated from available sources and remain open research items.
 - [ ] Public streaming and YouTube metrics collection
 - [x] Concert / event schema design (`data/schemas/concert.schema.json`)
-- [ ] Concert and festival event database (≥500 target) — 4 seed entries added (`data/concerts/`); large-scale collection still pending
+- [ ] Concert and festival event database (≥500 target) — 8 seed entries added (`data/concerts/`); large-scale collection still pending
 - [ ] Social media and community discussion sampling
 - [ ] Artist interview / documentary / review corpus for influence claims
 
 ## Phase 3 — Analysis
-- [ ] Build Bangladesh Music Preference Network (BMPN)
+- [x] Build Bangladesh Music Preference Network (BMPN) — prototype only (`data/networks/bmpn-prototype.json`, generated via `analysis/scripts/build_bmpn_prototype.py`); needs streaming/social data to move beyond concert co-billing
 - [ ] Community detection and listener ecosystem mapping
 - [ ] Sound evolution case studies (Artcell, Meghdol, Warfaze, selected others)
 - [ ] Concert ecosystem typology and mapping
@@ -38,11 +38,11 @@
 - [ ] Revision and dissemination
 
 ## Immediate Next Actions
-1. Expand the concert/event database beyond the 4 seed entries — target BAMBA/university-fest lineups and landmark diaspora tours; verify approximate dates flagged `needs-verification`.
-2. Collect public Spotify/YouTube signals for core artists (now unblocked — 24 artist profiles provide a solid base list).
-3. Prototype a small preference network using publicly available related-artist / playlist co-occurrence data (`data/networks/`).
-4. Catalogue newly surfaced influential artists not yet documented: Shironamhin, Aurthohin, Black, Shunno, Maqsood O' Dhaka.
-5. Revisit Shohojia and Owned once better sources are found; do not fabricate profiles in the meantime.
+1. Expand the concert/event database beyond the 8 seed entries — target BAMBA/university-fest lineups and landmark diaspora tours; verify approximate dates flagged `needs-verification`. More concert data directly densifies the BMPN prototype.
+2. Collect public Spotify/YouTube signals for core artists and integrate as a second edge type in the BMPN (currently concert-co-billing only).
+3. Catalogue newly surfaced influential artists not yet documented: Shironamhin, Aurthohin, Black, Shunno, Maqsood O' Dhaka, Reborn, Nigar Sumi (all referenced in concert sources gathered this pass).
+4. Revisit Shohojia and Owned once better sources are found; do not fabricate profiles in the meantime.
+5. Once the graph has more edges, run community detection (e.g. Louvain) to identify listener-ecosystem clusters.
 6. Deepen literature review (full texts of Quader & Redden 2014, Mitra thesis, theoretical sources).
 
 ---
