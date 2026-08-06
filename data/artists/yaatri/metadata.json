@@ -1,0 +1,82 @@
+{
+  "id": "yaatri",
+  "name": "Yaatri",
+  "type": "band",
+  "formed_year": 2004,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Alternative Rock", "Pop Rock"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Rashed Uddin Ahmed Topu",
+      "role": "Vocals, Songwriter, Founder",
+      "years_active": "2004–present",
+      "current": true
+    },
+    {
+      "name": "Shams Alim Biswas",
+      "role": "Band member (also of Stentorian)",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Emran Khan",
+      "role": "Keys, Production, Founder",
+      "years_active": "2004–unspecified",
+      "current": false
+    },
+    {
+      "name": "Tony Vincent Gomes",
+      "role": "Former member",
+      "years_active": "unspecified",
+      "current": false
+    },
+    {
+      "name": "Bipu",
+      "role": "Former member",
+      "years_active": "unspecified",
+      "current": false
+    },
+    {
+      "name": "Mitu",
+      "role": "Former member",
+      "years_active": "unspecified",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Daak",
+      "year": 2006,
+      "type": "studio",
+      "notable_tracks": ["Daak"]
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Mellow/soft rock traditions (general)",
+      "evidence": "Yaatri is characterized as a 'mello rock' band with relatable pop melodies, reflecting a gentler, more accessible alternative-rock idiom than the harder rock/metal mainstream of its era; specific Western artist citations were not located in available sources.",
+      "source": "The Amazing Music of Yaatri — Bangladesh.com",
+      "confidence": "low"
+    }
+  ],
+  "local_adaptation_notes": "Formed in 2004 by Topu and Emran while students at North South University, Yaatri built its identity on mellow, relatable songwriting reflecting everyday life themes rather than the more technically demonstrative progressive/metal aesthetic dominant among contemporaries like Artcell and Karnival; the university-formation pattern (also seen with Shironamhin and Meghdol) underscores the campus-band pipeline as a recurring origin story across multiple genre categories.",
+  "sound_evolution_summary": "Founding period (2004): formed at North South University by Topu (vocals/songwriting) and Emran (keys/production). Breakthrough period (2006): debut album Daak, released via G-Series in both paperback and cassette formats, quickly climbed to number one on Bangladesh's music charts, with the title track becoming widely noted for its 'overwhelmingly fresh' relatable songwriting.",
+  "concert_culture_notes": "Specific concert/festival data not yet documented in available sources — flagged for further research.",
+  "listener_community_notes": "Represents the gentler, mellow-rock strand of the Alternative/Indie genre, appealing to listeners drawn to relatable, everyday-life lyrical themes over the more technically demonstrative or politically charged material found elsewhere in the alternative rock ecosystem (e.g., Shunno's 'Shono Mohajon').",
+  "sources": [
+    {
+      "title": "Yaatri — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yaatri",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "The Amazing Music of Yaatri — Bangladesh.com",
+      "url": "https://www.bangladesh.com/blog/the-amazing-music-of-yaatri/",
+      "type": "profile"
+    }
+  ],
+  "tags": ["alternative-indie", "university-formed"],
+  "last_updated": "2026-08-06"
+}

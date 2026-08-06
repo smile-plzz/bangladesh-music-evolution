@@ -1,8 +1,8 @@
 {
   "description": "Prototype Bangladesh Music Preference Network (BMPN) built from publicly documented concert co-billing only. Nodes = artists in data/artists/; edges = artists that shared a concert bill in data/concerts/, weighted by number of shared events. This is an early proxy for audience/genre-community structure, not a validated preference network — streaming/playlist co-occurrence and social-listening data are needed for a fuller model (see docs/roadmap.md).",
-  "node_count": 49,
+  "node_count": 52,
   "edge_count": 15,
-  "isolated_node_count": 39,
+  "isolated_node_count": 42,
   "nodes": [
     {
       "id": "arbovirus",
@@ -117,6 +117,15 @@
         "Symphonic Metal",
         "Symphonic Rock",
         "Progressive Metal"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "deshi-mcs",
+      "name": "Deshi MCs",
+      "genres": [
+        "Hip-Hop",
+        "Gangsta Rap"
       ],
       "event_count": 0
     },
@@ -349,6 +358,14 @@
       "event_count": 0
     },
     {
+      "id": "prometheus",
+      "name": "Prometheus",
+      "genres": [
+        "Mainstream Rock"
+      ],
+      "event_count": 0
+    },
+    {
       "id": "renaissance",
       "name": "Renaissance",
       "genres": [
@@ -484,6 +501,15 @@
       "name": "Winning",
       "genres": [
         "Mainstream Rock"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "yaatri",
+      "name": "Yaatri",
+      "genres": [
+        "Alternative Rock",
+        "Pop Rock"
       ],
       "event_count": 0
     }

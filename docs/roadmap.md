@@ -14,7 +14,7 @@
 ## Phase 2 — Data Collection
 - [x] Historical timeline construction (first draft complete)
 - [ ] Expand discography and release metadata for priority artists
-- [x] Priority artist profiles complete — 24 artists catalogued in `data/artists/` (see `data/artists/README.md` for full checklist). Shohojia and Owned could not be substantiated from available sources and remain open research items.
+- [x] Priority artist profiles complete and substantially expanded — **52 artists** catalogued in `data/artists/` (see `data/artists/README.md` for full checklist), spanning founding-era pioneers (Azam Khan, Souls, Feedback, Renaissance, Nova, Winning, Prometheus), the full metal-scene genealogy (Rockstrata → Poizon Green/Stentorian/Vibe/Metal Maze → Artcell/Karnival/De-illumination → Severe Dementia/Trainwreck), alternative rock (Shironamhin, Aurthohin, Black, Shunno, Chirkutt, Indalo, Shonar Bangla Circus, Yaatri), hip-hop origins (Deshi MCs, Stoic Bliss, Muza, Hannan, Jalali Set), and folk fusion (Arnob, Lalon Band, Maqsood O' Dhaka). Shohojia and Owned could not be substantiated from available sources and remain open research items; "Ashestoangels" was investigated and ruled out as a UK band.
 - [ ] Public streaming and YouTube metrics collection
 - [x] Concert / event schema design (`data/schemas/concert.schema.json`)
 - [ ] Concert and festival event database (≥500 target) — 8 seed entries added (`data/concerts/`); large-scale collection still pending
@@ -38,9 +38,9 @@
 - [ ] Revision and dissemination
 
 ## Immediate Next Actions
-1. Expand the concert/event database beyond the 8 seed entries — target BAMBA/university-fest lineups and landmark diaspora tours; verify approximate dates flagged `needs-verification`. More concert data directly densifies the BMPN prototype.
+1. Expand the concert/event database beyond the 8 seed entries — target BAMBA/university-fest lineups and landmark diaspora tours, and specifically source concert data for the ~28 newly catalogued artists (currently 42 of 52 nodes are isolated in the BMPN prototype for lack of concert co-billing data). Verify approximate dates flagged `needs-verification`.
 2. Collect public Spotify/YouTube signals for core artists and integrate as a second edge type in the BMPN (currently concert-co-billing only).
-3. Catalogue newly surfaced influential artists not yet documented: Shironamhin, Aurthohin, Black, Shunno, Maqsood O' Dhaka, Reborn, Nigar Sumi (all referenced in concert sources gathered this pass).
+3. Continue cataloguing artists referenced but not yet substantiated: Kronic, Nigar Sumi (Coke Studio Bangla vocalist), Reborn, and additional contemporary pop/hip-hop acts.
 4. Revisit Shohojia and Owned once better sources are found; do not fabricate profiles in the meantime.
 5. Once the graph has more edges, run community detection (e.g. Louvain) to identify listener-ecosystem clusters.
 6. Deepen literature review (full texts of Quader & Redden 2014, Mitra thesis, theoretical sources).
