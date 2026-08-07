@@ -1,0 +1,51 @@
+{
+  "id": "imran-mahmudul",
+  "name": "Imran Mahmudul",
+  "type": "solo",
+  "formed_year": 2008,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Pop", "Playback/Film Music"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Imran Mahmudul",
+      "role": "Vocals, Composer",
+      "years_active": "2008–present",
+      "current": true
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Shopnoloke",
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Contemporary Asian pop",
+      "evidence": "Imran Mahmudul's musical approach is described as blending several cultural influences reflecting both his Bangladeshi heritage and his love of Asian pop music, distinguishing his sound from the more Western-rock-descended mainstream pop lineage.",
+      "source": "Viberate artist profile",
+      "confidence": "low"
+    }
+  ],
+  "local_adaptation_notes": "Trained in composition and sound engineering under producer Arfin Rumey, Imran began his career as a film playback singer (Bhalobashar Lal Golap, 2008) and as first runner-up on the televised talent competition Channel i Sera Kontho (2008), reflecting the increasingly dominant TV-talent-show-to-playback-career pipeline in 2000s-2010s Bangladeshi pop, distinct from the band-based route of earlier rock generations.",
+  "sound_evolution_summary": "Breakthrough period (2008): entered the industry via Channel i Sera Kontho and his film playback debut; debut studio album Shopnoloke followed, composed by Arfin Rumey. Consolidation period (2014–2016): 'Fire Eshona' (2014) became the second most-viewed Bangladeshi song on YouTube that year; won Best Male Singer at the Meril Prothom Alo Awards for 'Dil Dil Dil' (Bossgiri, 2016). Later period: extensive catalogue of collaborative duets (with Oyshee, Palak Muchhal, Baby Naznin) sustaining mainstream chart and streaming presence.",
+  "concert_culture_notes": "Career trajectory driven substantially by television talent-show visibility and film soundtrack placement rather than a dedicated touring-band circuit, typical of the TV/streaming-era pop pathway distinct from earlier rock-band concert culture.",
+  "listener_community_notes": "Represents the televised-talent-show-to-playback-stardom pathway within the Pop genre in the BMEM framework, with a large YouTube-driven listener base and strong crossover into Bangladeshi film music audiences.",
+  "sources": [
+    {
+      "title": "Imran Mahmudul — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Imran_Mahmudul",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Imran Mahmudul discography — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Imran_Mahmudul_discography",
+      "type": "encyclopedia"
+    }
+  ],
+  "tags": ["priority", "pop", "playback"],
+  "last_updated": "2026-08-06"
+}

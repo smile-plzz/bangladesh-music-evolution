@@ -1,0 +1,92 @@
+{
+  "id": "deshi-mcs",
+  "name": "Deshi MCs",
+  "type": "collective",
+  "formed_year": 2005,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Hip-Hop", "Gangsta Rap"],
+  "languages": ["bn", "en"],
+  "members": [
+    {
+      "name": "Mc Shaq",
+      "role": "Rapper, Founder",
+      "years_active": "2005–present",
+      "current": true
+    },
+    {
+      "name": "SkibKhan",
+      "role": "Rapper, Founder",
+      "years_active": "2005–present",
+      "current": true
+    },
+    {
+      "name": "Xplosive Flowrical",
+      "role": "Rapper, Founder",
+      "years_active": "2005–present",
+      "current": true
+    },
+    {
+      "name": "Mc Mugz (Syed Mohammad Sohel)",
+      "role": "Rapper (joined after founding; later co-founded Jalali Set)",
+      "years_active": "unspecified–2014 (Jalali Set formed 2014)",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Banned version 1",
+      "year": 2006,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Kata Tarer Bera (with producer Jasper)",
+      "type": "studio",
+      "notable_tracks": ["Ganjam"]
+    },
+    {
+      "title": "Banned version 2.0",
+      "year": 2008,
+      "type": "studio",
+      "notable_tracks": ["Banglai Hip hop", "Taka", "Boma Hamla", "Genjaam (street version)"]
+    },
+    {
+      "title": "Bodybags",
+      "year": 2017,
+      "type": "single",
+      "notable_tracks": ["Bodybags"]
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Tupac / Biggie / Eminem / Big L",
+      "evidence": "Member SkibKhan is documented as hugely influenced by Tupac, Biggie, Eminem and Big L — a direct, explicit citation of core 1990s-2000s American hip-hop/gangsta rap figures shaping the group's foundational sound.",
+      "source": "The Daily Star — We invented Bangla Rap: Mc Mugz",
+      "confidence": "high"
+    }
+  ],
+  "local_adaptation_notes": "Formed in mid-2005 initially as 'E.N.L.' (Enlightenment) before rebranding as Deshi MCs, the crew is widely considered the pioneer of the Bangla gangsta rap subgenre — MC Mugz has directly claimed 'We invented Bangla Rap' in press coverage — predating Stoic Bliss's more internationally-oriented diaspora hip-hop by roughly a year and representing a distinct, domestically-rooted origin point for Bangladeshi hip-hop alongside the Queens-diaspora lineage.",
+  "sound_evolution_summary": "Founding period (2005): formed as E.N.L. by Mc Shaq, SkibKhan and Xplosive Flowrical, later joined by Mc Mugz and rebranded Deshi MCs. Breakthrough period (2006–2008): debut album Banned version 1 (2006) followed by the Jasper-produced collaborative album Kata Tarer Bera, whose single 'Ganjam' drove mass popularity; second album Banned version 2.0 (2008) extended the group's catalogue with tracks addressing hip-hop identity and social themes ('Banglai Hip hop,' 'Boma Hamla'). Later period (2017): returned with the single 'Bodybags' after an extended hiatus. Alumni note: Mc Mugz went on to co-found Jalali Set (2014) with Shafayat, directly linking Deshi MCs to the later, more folk-fusion-oriented generation of Bangladeshi hip-hop.",
+  "concert_culture_notes": "Specific concert/festival data not yet documented in available sources — flagged for further research; the group's foundational role in Bangla gangsta rap likely shaped early underground hip-hop performance culture in Dhaka prior to the genre's later mainstream/streaming-driven visibility.",
+  "listener_community_notes": "Considered the founding pioneers of the Bangla gangsta rap subgenre and a direct genealogical predecessor to Jalali Set via member Mc Mugz, making Deshi MCs a key origin node within the Hip-Hop genre's listener ecosystem alongside Stoic Bliss.",
+  "sources": [
+    {
+      "title": "Deshi MCs biography — Last.fm",
+      "url": "https://www.last.fm/music/Deshi+MCs/+wiki",
+      "type": "profile"
+    },
+    {
+      "title": "We invented Bangla Rap: Mc Mugz — The Daily Star",
+      "url": "https://www.thedailystar.net/entertainment/music/news/we-invented-bangla-rap-mc-mugz-3543736",
+      "type": "news"
+    },
+    {
+      "title": "Bangladeshi hip-hop — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bangladeshi_hip-hop",
+      "type": "encyclopedia"
+    }
+  ],
+  "tags": ["hip-hop", "gangsta-rap", "genre-originator", "founding-era"],
+  "last_updated": "2026-08-06"
+}

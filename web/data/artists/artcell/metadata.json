@@ -1,0 +1,105 @@
+{
+  "id": "artcell",
+  "name": "Artcell",
+  "type": "band",
+  "formed_year": 1999,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Progressive Metal", "Progressive Rock", "Heavy Metal"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "George Lincoln D'Costa",
+      "role": "Lead Vocals, Rhythm Guitar",
+      "years_active": "1999–present",
+      "current": true
+    },
+    {
+      "name": "Saef Al Nazi (Cézanne)",
+      "role": "Bass",
+      "years_active": "1999–present",
+      "current": true
+    },
+    {
+      "name": "Kazi Sajjadul Asheqeen (Shaju)",
+      "role": "Drums",
+      "years_active": "1999–present",
+      "current": true
+    },
+    {
+      "name": "Ershad Zaman",
+      "role": "Lead Guitar",
+      "years_active": "1999–(departed; later years vary)",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Onno Shomoy",
+      "year": 2002,
+      "type": "studio",
+      "notable_tracks": ["Onno Shomoy", "Dukkho Bilash", "Chile Kothar Sepai"]
+    },
+    {
+      "title": "Oniket Prantor",
+      "year": 2006,
+      "type": "studio",
+      "notable_tracks": ["Oniket Prantor", "Rahur Grash", "Gontobbohin"]
+    },
+    {
+      "title": "Otritio",
+      "year": 2023,
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Dream Theater",
+      "evidence": "Band members have repeatedly cited Dream Theater (especially Images and Words and A Change of Seasons) as pivotal in shifting them toward progressive metal, odd time signatures, and technical playing. John Petrucci influenced Ershad's lead style; Mike Portnoy influenced Shaju's drumming.",
+      "source": "Wikipedia Artcell page; Bass Musician Magazine interview with Cézanne (2021); Times of India interview (2007); official band materials",
+      "confidence": "high"
+    },
+    {
+      "artist_or_genre": "Metallica",
+      "evidence": "Early underground shows featured Metallica covers. Lincoln cites Metallica as a school-era influence. Frequently listed among core influences.",
+      "source": "Official Artcell materials; Wikipedia; interviews",
+      "confidence": "high"
+    },
+    {
+      "artist_or_genre": "Pink Floyd",
+      "evidence": "Cited as a major influence on atmospheric and conceptual aspects. Cézanne (2007 interview) and other members reference Pink Floyd as among the biggest influences.",
+      "source": "Times of India interview; later secondary sources",
+      "confidence": "high"
+    },
+    {
+      "artist_or_genre": "Sepultura / Pantera / Opeth",
+      "evidence": "Sepultura and Pantera named as early heavy influences; Opeth cited by Cézanne for specific bass lines and later aesthetic direction.",
+      "source": "Interviews and band statements",
+      "confidence": "high"
+    }
+  ],
+  "local_adaptation_notes": "Artcell consciously chose to write and perform in Bangla. Members have noted prior exposure to Bangladeshi folk, Rabindra Sangeet, Lalon, and Nazrul songs as a foundational layer that informs melodies and arrangements. Lyrics are noted for literary complexity and conceptual depth (early lyricist Rupok; later Ruman Ahmed and band members). The result is progressive metal that remains culturally grounded rather than a pure imitation of Western prog.",
+  "sound_evolution_summary": "Early work (Onno Shomoy era): rawer progressive/heavy metal with strong guitar focus and technical ambition. Mid period (Oniket Prantor): increased melodic and atmospheric elements alongside complexity. Later work (Otritio and singles): further refinement of production, conceptual storytelling, and broader sonic experimentation while retaining progressive identity.",
+  "concert_culture_notes": "Strong dedicated fan base; university and festival circuit historically important; large open-air and convention-centre shows in later years (e.g., Otritio open-air at ICCB). Also undertakes diaspora tours (Canada, Australia, etc.).",
+  "listener_community_notes": "Attracts listeners seeking technical complexity, emotional depth, and literary Bangla lyrics. Forms a distinct node within the broader metal/prog ecosystem, with overlap to classic metal fans (Warfaze lineage) and alternative audiences.",
+  "sources": [
+    {
+      "title": "Artcell Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Artcell",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Cézanne – The Art of Bangladeshi Progressive Metal Bass (Bass Musician Magazine, 2021)",
+      "url": "https://bassmusicianmagazine.com/2021/01/cezanne-the-art-of-bangladeshi-progressive-metal-bass/",
+      "type": "interview"
+    },
+    {
+      "title": "Official Artcell website",
+      "url": "https://artcell.band/",
+      "type": "official"
+    }
+  ],
+  "tags": ["priority", "progressive-metal", "sound-evolution-case-study"],
+  "last_updated": "2026-08-05"
+}

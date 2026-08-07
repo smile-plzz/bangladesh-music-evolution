@@ -1,0 +1,98 @@
+{
+  "id": "prometheus",
+  "name": "Prometheus",
+  "type": "band",
+  "formed_year": 1986,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Mainstream Rock"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Biplob",
+      "role": "Lead Vocals, Founder, Bandleader",
+      "years_active": "1986–present",
+      "current": true
+    },
+    {
+      "name": "Quyel",
+      "role": "Founding member",
+      "years_active": "1986–unspecified",
+      "current": false
+    },
+    {
+      "name": "Rezwan",
+      "role": "Founding member",
+      "years_active": "1986–unspecified",
+      "current": false
+    },
+    {
+      "name": "Arif",
+      "role": "Founding member",
+      "years_active": "1986–unspecified",
+      "current": false
+    },
+    {
+      "name": "Bulbul",
+      "role": "Founding member",
+      "years_active": "1986–unspecified",
+      "current": false
+    },
+    {
+      "name": "Shareq",
+      "role": "Founding member",
+      "years_active": "1986–unspecified",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Swadhinota Chai",
+      "year": 1988,
+      "type": "studio",
+      "notable_tracks": ["Swadhinota Chai"]
+    },
+    {
+      "title": "Hooray!",
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "6 Band '99 Volume-2 (mixed album)",
+      "year": 1999,
+      "type": "mixed",
+      "notable_tracks": []
+    },
+    {
+      "title": "Hit! Run! Out!",
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Unspecified in available sources",
+      "evidence": "Available sources document Prometheus's formation, longevity and popular tracks but do not specify concrete Western artist or genre influences; flagged for further research rather than assumed.",
+      "source": "The Daily Star — Biplob strikes the right note",
+      "confidence": "hypothesized"
+    }
+  ],
+  "local_adaptation_notes": "Formed on 17 July 1986 by Biplob, Quyel, Rezwan, Arif, Bulbul and Shareq, Prometheus's title track 'Swadhinota Chai' ('I Want Independence,' 1988) engaged national-liberation themes early in the band's career, continuing the pattern (also seen in Ark, Cryptic Fate, Renaissance) of Bangladeshi rock bands directly addressing the 1971 Liberation War and independence within otherwise Western-instrumented rock songs; the band's most distinctive documented achievement is its sheer longevity, remaining active under Biplob's continuous leadership since 1986.",
+  "sound_evolution_summary": "Founding period (1986): formed by a six-member lineup with Biplob as lead vocalist; released debut album Swadhinota Chai two years later (1988). Extended catalogue period: additional albums (Hooray!, Hit! Run! Out!) and a 1999 mixed-album appearance (6 Band '99 Volume-2) built out a durable catalogue including popular tracks like 'Miloner Rokto,' 'Sharnali Bhore,' 'Chaand Shajalo,' 'Nur Hossain' and 'Laal Miah.' Legacy status: Biplob has remained the band's constant leader across nearly four decades, an unusually long single-leader tenure within the mainstream rock genre.",
+  "concert_culture_notes": "Specific concert/festival data not yet documented in available sources — flagged for further research.",
+  "listener_community_notes": "Notable primarily for sustained longevity within the Mainstream Rock genre under a single continuous bandleader (Biplob) since 1986, giving the band a durable multi-generational catalogue even where individual song-level mainstream visibility is more modest than peers like Ark or LRB.",
+  "sources": [
+    {
+      "title": "Biplob strikes the right note — The Daily Star",
+      "url": "https://www.thedailystar.net/news-detail-260034",
+      "type": "news"
+    },
+    {
+      "title": "Biplob — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Biplob",
+      "type": "encyclopedia"
+    }
+  ],
+  "tags": ["mainstream-rock", "founding-era"],
+  "last_updated": "2026-08-06"
+}

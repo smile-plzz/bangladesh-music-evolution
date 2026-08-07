@@ -1,0 +1,34 @@
+{
+  "id": "2025-james-european-tour-london-opener",
+  "name": "James European Tour — London Opener",
+  "date": "2025-07-25",
+  "date_precision": "day",
+  "type": "diaspora-tour",
+  "venue": {
+    "name": "Unspecified venue, London",
+    "city": "London",
+    "country": "United Kingdom",
+    "venue_type": "other"
+  },
+  "organizer": "Unspecified tour promoter",
+  "artists": [
+    { "artist_id": "james-nagar-baul", "billing": "headliner" }
+  ],
+  "genres_represented": ["Mainstream Rock"],
+  "attendance_confidence": "unknown",
+  "notes": "Opening date of James's two-month European tour spanning six major European cities (including London, Portugal, and Cyprus), following a prior run of US shows for expatriate Bangladeshi audiences. Illustrates the mature, multi-decade diaspora touring circuit sustaining Bangladeshi mainstream rock acts well past their 1990s domestic breakthrough era. Exact venue name not yet confirmed in available sources.",
+  "sources": [
+    {
+      "title": "James set to perform across Europe this summer — The Daily Star",
+      "url": "https://www.thedailystar.net/culture/music/news/james-set-perform-across-europe-summer-4199331",
+      "type": "news"
+    },
+    {
+      "title": "Bangladeshi Rockstar James Outlines Two-Month European Tour — Music Gurukul, GOLN",
+      "url": "https://musicgoln.com/bangladeshi-rockstar-james-outlines-two-month-european-tour/",
+      "type": "news"
+    }
+  ],
+  "tags": ["diaspora", "international", "veteran-act", "needs-verification"],
+  "last_updated": "2026-08-06"
+}

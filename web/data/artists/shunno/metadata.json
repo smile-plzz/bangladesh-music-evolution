@@ -1,0 +1,100 @@
+{
+  "id": "shunno",
+  "name": "Shunno",
+  "type": "band",
+  "formed_year": 2007,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Alternative Rock", "Pop Rock", "Soft Rock"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Imrul Karim Emil",
+      "role": "Founder",
+      "years_active": "2007–present",
+      "current": true
+    },
+    {
+      "name": "Shaker Raza",
+      "role": "Founder",
+      "years_active": "2007–present",
+      "current": true
+    },
+    {
+      "name": "Andrew Michael Gomez",
+      "role": "Band member (joined shortly after founding)",
+      "years_active": "2007–present",
+      "current": true
+    },
+    {
+      "name": "Rafatul Bari Labib",
+      "role": "Band member (joined shortly after founding)",
+      "years_active": "2007–present",
+      "current": true
+    },
+    {
+      "name": "Ishmamul Farhad",
+      "role": "Lead Guitar (joined 2016)",
+      "years_active": "2016–present",
+      "current": true
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Notun Srot",
+      "year": 2008,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Shoto Asha",
+      "year": 2009,
+      "type": "studio",
+      "notable_tracks": ["Shoto Asha"]
+    },
+    {
+      "title": "Gorbo Bangladesh",
+      "year": 2011,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Bhaago",
+      "year": 2014,
+      "type": "studio",
+      "notable_tracks": ["Shono Mohajon"]
+    },
+    {
+      "title": "Lottery",
+      "year": 2017,
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Western pop rock/soft rock traditions (general)",
+      "evidence": "Shunno's genre profile (alternative rock, pop rock, pop, soft rock) reflects a melodic, accessible rock idiom consistent with mainstream Western pop-rock conventions; specific artist-level influence citations were not located in available sources.",
+      "source": "Wikipedia Shunno; Band Music of Bangladesh profile",
+      "confidence": "low"
+    }
+  ],
+  "local_adaptation_notes": "Shunno achieved a rare instance of a rock song becoming genuinely national civic property: 'Shoto Asha' (2009) became the official theme song for the 2011 Cricket World Cup, and 'Shono Mohajon' (from Bhaago, 2014), originally about oppression under dictatorship, was spontaneously adopted as the 'unofficial anthem' of the 2024 Student–People's uprising — demonstrating how alternative rock lyrics can be re-activated by listeners as protest material years after release, independent of the band's original framing.",
+  "sound_evolution_summary": "Founding period (2007): formed by Imrul Karim Emil and Shaker Raza, quickly joined by Andrew Michael Gomez and Rafatul Bari Labib. Breakthrough period (2008–2009): debut album Notun Srot (2008) followed by Shoto Asha (2009), whose title track became the 2011 Cricket World Cup theme song — a major mainstream crossover moment. Consolidation period (2011–2017): Gorbo Bangladesh (2011), Bhaago (2014, featuring the politically resonant 'Shono Mohajon'), and Lottery (2017) sustained the band's popularity, with lineup expansion (Ishmamul Farhad, 2016) refreshing the sound.",
+  "concert_culture_notes": "Specific concert/festival data not yet documented in available sources — flagged for further research; the band's association with the 2011 Cricket World Cup indicates significant mainstream broadcast/national-event visibility beyond the standard concert circuit.",
+  "listener_community_notes": "Represents alternative rock's capacity for genuine mass-cultural crossover — via sport (Cricket World Cup anthem) and political movements (2024 uprising anthem) — giving the band's listener base an unusually broad, cross-demographic character extending well beyond a typical rock-fan niche.",
+  "sources": [
+    {
+      "title": "Shunno — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shunno",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Shunno is a Pop-Rock Band from Bangladesh — Band Music of Bangladesh",
+      "url": "http://bandmusicbd.blogspot.com/2012/04/shunno-is-pop-rock-band-from-bangladesh.html",
+      "type": "profile"
+    }
+  ],
+  "tags": ["alternative-indie", "cultural-crossover"],
+  "last_updated": "2026-08-06"
+}

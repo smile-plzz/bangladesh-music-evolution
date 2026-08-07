@@ -1,0 +1,127 @@
+{
+  "id": "shironamhin",
+  "name": "Shironamhin",
+  "type": "band",
+  "formed_year": 1996,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": [
+    "Alternative Rock",
+    "Progressive Rock",
+    "Psychedelic Rock",
+    "Folk Rock",
+    "Symphonic Rock"
+  ],
+  "languages": [
+    "bn"
+  ],
+  "members": [
+    {
+      "name": "Ziaur Rahman",
+      "role": "Guitar, Founder",
+      "years_active": "1996–present",
+      "current": true
+    },
+    {
+      "name": "Tanzir Tuhin",
+      "role": "Vocals (joined 2002)",
+      "years_active": "2002–present",
+      "current": true
+    },
+    {
+      "name": "Kazi Ahmad Shafin",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Sudipto Sinha Dipu",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Sheikh Ishtiaque",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Symon Chowdhury",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Jewel",
+      "role": "Guitar, Founder",
+      "years_active": "1996–unspecified",
+      "current": false
+    },
+    {
+      "name": "Bulbul Hasan",
+      "role": "Vocals, Founder",
+      "years_active": "1996–2002",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Jahaji",
+      "year": 2004,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Bondho Janala",
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Shironamhin Rabindranath",
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Shironamhin Shironamhin",
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "The Only Headliner (25th Anniversary Live)",
+      "year": 2023,
+      "type": "live",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Psychedelic and progressive rock traditions (general)",
+      "evidence": "Shironamhin is distinguished for extended psychedelic and progressive compositions and multi-instrumental experimentation, becoming a leading band of the Bengali progressive rock genre; debut album Jahaji is explicitly classified as psychedelic rock/folk rock.",
+      "source": "Wikipedia Shironamhin",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "Formed by university students who began by jamming on campus and street corners, Shironamhin built a reputation on philosophical Bangla lyrics addressing love, grief and identity within extended, multi-part progressive/psychedelic compositions; the album 'Shironamhin Rabindranath' explicitly engages Rabindra Sangeet/Tagore's legacy, directly fusing the band's progressive-rock idiom with classical Bengali literary and musical tradition.",
+  "sound_evolution_summary": "Founding period (1996–2002): formed by Ziaur Rahman, Jewel and Bulbul Hasan as a campus/underground act; Tanzir Tuhin joined as vocalist in 2002, stabilizing the band's classic lineup. Breakthrough period (2004): debut album Jahaji established the band's psychedelic/folk-progressive rock identity. Consolidation period: Bondho Janala, Shironamhin Rabindranath, and Shironamhin Shironamhin extended national recognition, with the Rabindranath-themed album directly bridging progressive rock and classical Bengali repertoire. Legacy period (2023): 25th-anniversary live album The Only Headliner documented the band's enduring live drawing power.",
+  "concert_culture_notes": "Frequently appears on major multi-band bills (e.g., alongside Warfaze and AvoidRafa per contemporaneous concert listings), and its 25th-anniversary show generated an official live album — evidence of a large, dedicated, multi-decade fan base capable of sustaining headline-level anniversary concerts.",
+  "listener_community_notes": "One of the most consistently popular Bangladeshi alternative/progressive rock acts across nearly three decades, appealing to listeners drawn to philosophical lyricism and genre-blending (psychedelic, folk, symphonic) rather than a single fixed style; frequently referenced alongside Meghdol and Shunno as a pillar of the alternative rock listener ecosystem.",
+  "sources": [
+    {
+      "title": "Shironamhin — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shironamhin",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "About Us — Shironamhin (official site)",
+      "url": "https://shironamhin.net/about-us/",
+      "type": "official"
+    }
+  ],
+  "tags": [
+    "alternative-indie",
+    "progressive-rock",
+    "sound-evolution-case-study"
+  ],
+  "last_updated": "2026-08-06"
+}

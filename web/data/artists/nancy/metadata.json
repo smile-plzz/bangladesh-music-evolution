@@ -1,0 +1,88 @@
+{
+  "id": "nancy",
+  "name": "Nancy (Nazmun Munira Nancy)",
+  "type": "solo",
+  "formed_year": 2002,
+  "disbanded_year": null,
+  "origin_city": "Netrakona",
+  "genres": ["Pop", "Playback/Film Music", "Folk-influenced Pop"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Nazmun Munira Nancy",
+      "role": "Vocals",
+      "years_active": "2002–present",
+      "current": true
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Bhalobasha Odhora",
+      "year": 2009,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Rong",
+      "year": 2012,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Jhora Pata",
+      "year": 2012,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Dushtu Chhele",
+      "year": 2015,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Amar Priyotomo",
+      "year": 2016,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Bhalobashbo Bolei",
+      "year": 2016,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Jonak Joley",
+      "year": 2024,
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Contemporary Indian/South Asian pop",
+      "evidence": "Nancy's music is described as combining traditional sounds from Bangladesh and India with contemporary pop beats, indicating direct absorption of South Asian regional pop production trends alongside indigenous folk/Nazrul material.",
+      "source": "BiographyBD Nancy profile; peoplepill-style secondary profiles",
+      "confidence": "low"
+    }
+  ],
+  "local_adaptation_notes": "Beginning her career in 2002 as an enlisted Bangladesh Betar artist specializing in Nazrul, modern, and folk singing, Nancy's subsequent solo pop career (from Bhalobasha Odhora, 2009 onward) and prolific film playback work reflect a common Bangladeshi trajectory: formal training in traditional/classical vocal repertoire (Nazrul Geeti) as the foundation for a later mainstream pop and playback career.",
+  "sound_evolution_summary": "Formative period (2002): enlisted Bangladesh Betar artist performing Nazrul, modern and folk repertoire; playback debut with 'Hridoyer Kotha,' followed by widely admired songs in 'Akash Chhowa Bhalobasha.' Solo album period (2009–2016): Bhalobasha Odhora (2009) through Bhalobashbo Bolei (2016) established a sustained solo pop discography blending traditional and contemporary elements. Later period: continued output through Jonak Joley (2024), alongside six Meril-Prothom Alo Best Female Singer awards and a National Film Award for Best Female Playback Singer (Projapoti, 2011).",
+  "concert_culture_notes": "Specific concert/festival data not yet documented in available sources — flagged for further research; career visibility driven substantially by radio (Bangladesh Betar), film playback, and broadcast awards circuits.",
+  "listener_community_notes": "Represents a Nazrul/folk-trained entrant into mainstream Pop, appealing to listeners bridging traditional vocal repertoire and contemporary romantic pop; sustained six-time Meril-Prothom Alo recognition signals broad, durable mainstream popularity.",
+  "sources": [
+    {
+      "title": "Nazmun Munira Nancy — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nazmun_Munira_Nancy",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "BD Singer Nancy Bio — Biographybd",
+      "url": "https://biographybd.com/nancy/",
+      "type": "profile"
+    }
+  ],
+  "tags": ["priority", "pop", "playback"],
+  "last_updated": "2026-08-06"
+}

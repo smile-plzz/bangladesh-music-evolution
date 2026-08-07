@@ -1,0 +1,93 @@
+{
+  "id": "severe-dementia",
+  "name": "Severe Dementia",
+  "type": "band",
+  "formed_year": 2004,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Death Metal", "Brutal Death Metal", "Technical Death Metal"],
+  "languages": ["bn", "en"],
+  "members": [
+    {
+      "name": "Riasat Azmi",
+      "role": "Vocals (joined after 2016 hiatus)",
+      "years_active": "2016–present",
+      "current": true
+    },
+    {
+      "name": "Saimum Hasan Nahian",
+      "role": "Guitar, Co-founder (also of Powersurge)",
+      "years_active": "2004–present",
+      "current": true
+    },
+    {
+      "name": "Samir Hafiz Khan",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Kawsar Ahmed Pervez",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Raef al Hasan Rafa",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Ahmed Shawki",
+      "role": "Founding Vocalist (departed for Australia; inactive 2012–2016)",
+      "years_active": "2004–2012",
+      "current": false
+    },
+    {
+      "name": "Arefin Ahmed Sazeed",
+      "role": "Former member",
+      "years_active": "unspecified",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Epitaph of Plassey",
+      "year": 2007,
+      "type": "ep",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "International brutal/technical death metal (general)",
+      "evidence": "Severe Dementia is classified as a Brutal Death Metal band with technical influences and was signed to the international label Demonstealer Records and later Transcending Obscurity Asia, indicating direct engagement with the global extreme-metal label/genre ecosystem rather than domestic mainstream rock influences.",
+      "source": "Wikipedia Severe Dementia (band); Transcending Obscurity Asia signing announcement",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "Formed in January 2004 (initially performing as '666' until 2006) by Ahmed Shawki and Saimum Hasan Nahian (who also co-founded Powersurge), Severe Dementia introduced extreme/death metal to a Dhaka scene largely unfamiliar with the genre; the band's thematic focus on ancient and historical events with major national/civilizational impact — reflected in the EP title 'Epitaph of Plassey' (referencing the 1757 Battle of Plassey, a pivotal moment in South Asian colonial history) — grounds extreme metal's global aesthetic in regional historical narrative.",
+  "sound_evolution_summary": "Founding period (2004–2006): formed as '666,' then renamed Severe Dementia, pioneering death metal within Dhaka's then-unfamiliar extreme metal scene. Breakthrough period (2007): debut EP Epitaph of Plassey, released via Demonstealer Records, is considered the first death metal record in Bangladesh and highly influential within the 'East Bengal Extreme Metal' scene; the band also undertook the first-ever overseas tour by a Bangladeshi underground band (India, April 2007). Hiatus and revival (2012–2016): inactive after vocalist Ahmed Shawki emigrated to Australia; Riasat Azmi took over vocals upon the band's 2016 return, followed by a later signing to Transcending Obscurity Asia.",
+  "concert_culture_notes": "Made history as the first Bangladeshi underground band to tour overseas (India, 2007), a landmark moment establishing that the country's extreme metal scene could reach international underground audiences well before mainstream Bangladeshi acts achieved comparable international stage presence.",
+  "listener_community_notes": "A pioneering, foundational node of the 'East Bengal Extreme Metal' scene distinct from and more underground than the mainstream heavy/progressive metal ecosystem (Artcell, Warfaze, Cryptic Fate), with listener appeal concentrated among global extreme-metal subculture audiences via international label distribution.",
+  "sources": [
+    {
+      "title": "Severe Dementia (band) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Severe_Dementia_(band)",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Epitaph of Plassey — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Epitaph_of_Plassey",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Bangladesh death metal legends Severe Dementia sign to Transcending Obscurity Asia",
+      "url": "https://tometal.com/bangladesh-death-metal-legends-severe-dementia-sign-transcending-obscurity-asia/",
+      "type": "news"
+    }
+  ],
+  "tags": ["heavy-metal", "death-metal", "underground", "international-touring"],
+  "last_updated": "2026-08-06"
+}

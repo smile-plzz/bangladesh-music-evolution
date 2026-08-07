@@ -1,0 +1,110 @@
+{
+  "id": "james-nagar-baul",
+  "name": "James (Nagar Baul)",
+  "type": "band",
+  "formed_year": 1977,
+  "disbanded_year": null,
+  "origin_city": "Chittagong",
+  "genres": ["Mainstream Rock", "Blues Rock", "Folk Rock"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Faruq Mahfuz Anam (James / Guru James)",
+      "role": "Lead Vocals, Guitar, Songwriter, Founder",
+      "years_active": "1977–present",
+      "current": true
+    },
+    {
+      "name": "Sultan Raihan Khan",
+      "role": "Guitar",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Ahsan Elahi Fanty",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Talukdar Sabbir",
+      "role": "Band member",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Ayub Bachchu",
+      "role": "Former member (later founded LRB)",
+      "years_active": "1977–1980",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Station Road",
+      "year": 1987,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Jail Theke Bolchhi",
+      "year": 1993,
+      "type": "studio",
+      "notable_tracks": ["Jail Theke Bolchhi"]
+    },
+    {
+      "title": "Dushtu Cheler Dol",
+      "year": 2001,
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Eric Clapton",
+      "evidence": "James is widely cited as being influenced by Clapton's blues-rock guitar style, shaping his own approach to rock guitar and phrasing.",
+      "source": "Wikipedia James (musician); editorialge.com profile",
+      "confidence": "medium"
+    },
+    {
+      "artist_or_genre": "Led Zeppelin",
+      "evidence": "Cited among the Western rock icons whose raw, electrifying energy James sought to blend with Bangladeshi folk lyrical spirituality.",
+      "source": "Wikipedia; secondary profiles",
+      "confidence": "medium"
+    },
+    {
+      "artist_or_genre": "The Doors / Mark Knopfler",
+      "evidence": "Named among core Western influences on James's songwriting and guitar/vocal style.",
+      "source": "Wikipedia James (musician)",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "James (originally performing as Feelings, renamed Nagar Baul in 1999) fused Western blues-rock energy with the lyrical spirituality of Bangladeshi folk and Baul traditions — reflected directly in the band's adopted name 'Nagar Baul' ('Urban Mystic/Wandering Minstrel'). This synthesis, combined with socially conscious Bangla lyrics, became a defining trait distinguishing James from more purely Western-imitative rock acts of the era.",
+  "sound_evolution_summary": "Early period (as Feelings, late 1970s–1980s): blues/rock band culture rooted in Chittagong's underground scene, with Station Road (1987) marking the first major studio release. Breakthrough period (1990s): Jail Theke Bolchhi (1993) shifted the band to Bangla-language mainstream hard rock and folk-rock fusion, cementing James's stature as part of the 'Big Three' of Bangladeshi rock alongside LRB and Ark. Later period (2000s onward): band renamed Nagar Baul (1999), continued blending folk-spiritual themes with rock instrumentation across solo and band releases, while James pursued a prolific parallel solo career.",
+  "concert_culture_notes": "One of the most consistently touring acts in Bangladeshi rock history, with a multi-decade concert career spanning domestic festivals and diaspora shows; James's stage persona and gravelly vocal delivery are central to Bangladeshi rock concert culture.",
+  "listener_community_notes": "Forms one node of the foundational 'Big Three' fan ecosystem (James/Nagar Baul, LRB, Ark) that defined 1990s Bangladeshi rock fandom; audience overlaps strongly with LRB and Miles listeners and spans multiple generations due to the band's five-decade career.",
+  "sources": [
+    {
+      "title": "James (musician) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/James_(musician)",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Nagar Baul — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nagar_Baul",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Nagarbaul James turns 61 — Prothom Alo",
+      "url": "https://en.prothomalo.com/entertainment/music/7qpwcadat1",
+      "type": "news"
+    },
+    {
+      "title": "James: The Journey from Feelings to Nagar Baul – A Rock Icon's Story",
+      "url": "https://editorialge.com/james-journey-from-feelings-to-nagar-baul/",
+      "type": "profile"
+    }
+  ],
+  "tags": ["priority", "mainstream-rock", "big-three", "founding-era"],
+  "last_updated": "2026-08-06"
+}

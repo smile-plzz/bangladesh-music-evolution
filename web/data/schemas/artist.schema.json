@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Bangladeshi Artist / Band Metadata",
+  "type": "object",
+  "required": ["id", "name", "genres", "formed_year"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "URL-friendly slug (e.g., artcell, warfaze)"
+    },
+    "name": {
+      "type": "string",
+      "description": "Primary display name"
+    },
+    "also_known_as": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "type": {
+      "type": "string",
+      "enum": ["band", "solo", "collective", "project"]
+    },
+    "formed_year": { "type": "integer" },
+    "disbanded_year": { "type": ["integer", "null"] },
+    "origin_city": { "type": "string" },
+    "genres": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Primary and secondary genres"
+    },
+    "languages": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": ["bn"]
+    },
+    "members": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "role": { "type": "string" },
+          "years_active": { "type": "string" },
+          "current": { "type": "boolean" }
+        }
+      }
+    },
+    "discography_summary": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": { "type": "string" },
+          "year": { "type": "integer" },
+          "type": { "type": "string", "enum": ["studio", "live", "ep", "single", "compilation", "mixed"] },
+          "label": { "type": "string" },
+          "notable_tracks": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "global_influences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "artist_or_genre": { "type": "string" },
+          "evidence": { "type": "string" },
+          "source": { "type": "string" },
+          "confidence": { "type": "string", "enum": ["high", "medium", "low", "hypothesized"] }
+        }
+      }
+    },
+    "local_adaptation_notes": { "type": "string" },
+    "sound_evolution_summary": { "type": "string" },
+    "concert_culture_notes": { "type": "string" },
+    "listener_community_notes": { "type": "string" },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": { "type": "string" },
+          "url": { "type": "string" },
+          "type": { "type": "string" },
+          "accessed": { "type": "string" }
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "last_updated": { "type": "string", "format": "date" }
+  }
+}

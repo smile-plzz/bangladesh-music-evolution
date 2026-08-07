@@ -1,0 +1,75 @@
+{
+  "id": "chirkutt",
+  "name": "Chirkutt",
+  "type": "band",
+  "formed_year": 2002,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Folk Rock", "Alternative Rock", "Bangla Fusion"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Sharmin Sultana Sumi",
+      "role": "Vocals",
+      "years_active": "2002–present",
+      "current": true
+    },
+    {
+      "name": "Emon Chowdhury",
+      "role": "Guitar",
+      "years_active": "2002–present",
+      "current": true
+    },
+    {
+      "name": "Jahid Nirob",
+      "role": "Keyboards",
+      "years_active": "2002–present",
+      "current": true
+    },
+    {
+      "name": "Pavel Areen",
+      "role": "Drums, Producer (joined c. 2007)",
+      "years_active": "c. 2007–present",
+      "current": true
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Chirkuttnama",
+      "year": 2010,
+      "type": "studio",
+      "notable_tracks": ["Jadur Shohor", "More Jabo", "Ahare Jibon"]
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "International festival/world-music circuit (general)",
+      "evidence": "Chirkutt's sustained international touring (SXSW 2016, South Asian Band Festival Delhi, India Music Week, Jaffna Music Festival) situates the band within a global folk-fusion/world-music festival circuit, indicating cross-pollination with international audiences and programming conventions rather than a single cited Western artist influence.",
+      "source": "Official Chirkutt site bio; WOMEX artist profile",
+      "confidence": "low"
+    }
+  ],
+  "local_adaptation_notes": "As one of the only female-fronted, fusion-driven rock bands in Bangladesh, Chirkutt built its identity on blending folk and rock idioms under vocalist Sharmin Sultana Sumi (distinct from, though occasionally conflated with, Lalon Band's Nigar Sultana Sumi); producer/drummer Pavel Areen's arrival around 2007 shaped the band's sonic identity ahead of its long-gestating 2010 debut album Chirkuttnama, released eight years after formation.",
+  "sound_evolution_summary": "Formative period (2002–2007): formed by Sumi, Emon Chowdhury and Jahid Nirob; Pavel Areen's addition (c. 2007) as drummer/producer proved pivotal to the band's sound. Debut period (2010): Chirkuttnama, released after an eight-year gestation, established the band's folk-rock/Bangla-fusion identity with enduring tracks like 'Jadur Shohor' and 'More Jabo.' Recognition period (2012 onward): won the RTV Best Band Award (2012) and built an active international touring profile (SXSW 2016; South Asian Band Festival, Delhi; India Music Week; Jaffna Music Festival, Sri Lanka; a 2014 President's House concert in India).",
+  "concert_culture_notes": "One of the more internationally active Bangladeshi folk-rock acts, with a touring record spanning major festival stages abroad (SXSW, Jaffna Music Festival) alongside domestic recognition (RTV Best Band Award 2012), indicating a dual domestic/international concert-culture profile.",
+  "listener_community_notes": "Notable within the Alternative/Indie and Folk Fusion listener ecosystems for its female-fronted identity and international festival presence, appealing to both domestic folk-rock audiences and international world-music/festival audiences.",
+  "sources": [
+    {
+      "title": "Chirkutt — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chirkutt",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Chirkutt — FOLK ROCK BAND | BANGLADESH (official site)",
+      "url": "https://www.chirkuttband.com/bio",
+      "type": "official"
+    },
+    {
+      "title": "Chirkutt — WOMEX",
+      "url": "https://www.womex.com/virtual/lee_thorp/chirkutt",
+      "type": "profile"
+    }
+  ],
+  "tags": ["alternative-indie", "folk-fusion", "female-fronted", "international-touring"],
+  "last_updated": "2026-08-06"
+}

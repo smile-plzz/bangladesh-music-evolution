@@ -1,0 +1,83 @@
+{
+  "id": "ashes",
+  "name": "Ashes",
+  "type": "band",
+  "formed_year": 2006,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Alternative Rock", "Folk Rock"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Zunayed Evan",
+      "role": "Vocals, Guitar, Founder",
+      "years_active": "2006–present",
+      "current": true
+    },
+    {
+      "name": "Sultan Rafsan Khan",
+      "role": "Lead Guitar, Founder",
+      "years_active": "2006–present",
+      "current": true
+    },
+    {
+      "name": "Bijoy",
+      "role": "Founding member",
+      "years_active": "2006–unspecified",
+      "current": false
+    },
+    {
+      "name": "Wahid uz zaman Turjo",
+      "role": "Bass Guitar",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Adnan B Zaman",
+      "role": "Keyboards",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Towhid",
+      "role": "Former member (joined shortly after formation)",
+      "years_active": "2006–unspecified",
+      "current": false
+    },
+    {
+      "name": "Tanim",
+      "role": "Former member (joined shortly after formation)",
+      "years_active": "2006–unspecified",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Ashes (first mixed album)",
+      "year": 2010,
+      "type": "mixed",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Western folk rock / alternative rock traditions (general)",
+      "evidence": "Ashes is characterized as a rock band with a folk rock subgenre, distinguished by strong vocals, catchy melodies and emotionally resonant lyrics — a stylistic profile consistent with the broader folk-rock/alternative influence vectors documented for the genre in the BMEM framework, though specific artist-level influence citations were not found in available sources.",
+      "source": "WikiPedia For All: Ashes profile",
+      "confidence": "low"
+    }
+  ],
+  "local_adaptation_notes": "Formed in 2006 by three friends (Evan, Rafsan, Bijoy) who only began seriously composing original material by 2009, Ashes represents the mid-2000s wave of alternative/folk-rock bands emphasizing melodic songwriting and emotionally direct Bangla lyrics over technical complexity, distinguishing the band from the progressive-metal-oriented alternative scene.",
+  "sound_evolution_summary": "Formative period (2006–2009): founded by Evan, Rafsan and Bijoy; expanded lineup with Towhid and Tanim; spent the first three years developing musical direction before committing seriously to original composition in 2009. Debut period (2010): first mixed album released 5 November 2010, establishing the band's folk-rock-inflected alternative sound with the now-current lineup (Evan, Rafsan, Turjo, Adnan).",
+  "concert_culture_notes": "Specific concert/festival data not yet documented in available sources — flagged for further research; band is described as one of the more popular acts in the country, suggesting an active live circuit presence.",
+  "listener_community_notes": "Grouped within the Alternative/Indie genre alongside Meghdol, Shohojia and Conclusion in the BMEM framework, appealing to listeners drawn to melodic, emotionally resonant Bangla songwriting over harder rock/metal aesthetics.",
+  "sources": [
+    {
+      "title": "WikiPedia For All: Ashes (Bangladeshi band)",
+      "url": "http://wikipediaforall.blogspot.com/2019/04/ashesbangladeshi-band.html",
+      "type": "profile"
+    }
+  ],
+  "tags": ["priority", "alternative-indie", "folk-rock"],
+  "last_updated": "2026-08-06"
+}

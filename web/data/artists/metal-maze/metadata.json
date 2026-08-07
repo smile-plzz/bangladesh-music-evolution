@@ -1,0 +1,57 @@
+{
+  "id": "metal-maze",
+  "name": "Metal Maze",
+  "type": "band",
+  "formed_year": 1995,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Hard Rock", "Heavy Metal"],
+  "languages": ["bn"],
+  "members": [],
+  "discography_summary": [
+    {
+      "title": "Charpotro (mixed album; feat. 'Proshno')",
+      "year": 2001,
+      "type": "mixed",
+      "notable_tracks": ["Proshno"]
+    },
+    {
+      "title": "Ojana Oddhay",
+      "year": 2003,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Corporate Robot",
+      "year": 2009,
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Metallica / Megadeth / Pantera",
+      "evidence": "Before releasing original material, Metal Maze was active in the underground metal circuit performing covers of Metallica, Megadeth and Pantera, directly establishing the band's core thrash/heavy metal reference points.",
+      "source": "Band Music of Bangladesh: Metal Maze profile",
+      "confidence": "high"
+    }
+  ],
+  "local_adaptation_notes": "Formed in October 1995 under a succession of earlier names (the earliest documented being Zend Avesta) before settling on Metal Maze, the band spent years building credibility through a cover-band circuit before its 2001 single 'Proshno' (on the mixed album Charpotro) became a breakout hit, illustrating the extended cover-to-original pipeline common among Bangladeshi metal acts of the 1990s.",
+  "sound_evolution_summary": "Founding period (1995): formed under earlier names before adopting Metal Maze; built reputation covering Metallica, Megadeth and Pantera in the underground circuit. Breakthrough period (2001): 'Proshno,' released on the mixed compilation Charpotro, became a major hit. Album period (2003–2009): debut studio album Ojana Oddhay (2003) followed by Corporate Robot (18 September 2009), consolidating the band's hard rock/heavy metal catalogue.",
+  "concert_culture_notes": "Specific concert/festival data not yet documented in available sources — flagged for further research; the band's origins in the underground cover-band circuit situate it within the same pre-original-material scene that shaped Powersurge, Mechanix and other later metal acts.",
+  "listener_community_notes": "Named alongside Rockstrata, Warfaze, Aurthohin, Artcell, Black, Cryptic Fate, Arbovirus, Nemesis, Vibe, Stentorian and Kronic as among the first bands to popularize heavy metal and hard rock in Bangladesh, giving it standing within the genre's founding cohort.",
+  "sources": [
+    {
+      "title": "Metal Maze is a Hard Rock and Heavy Metal Band of Bangladesh — Band Music of Bangladesh",
+      "url": "http://bandmusicbd.blogspot.com/2012/04/metal-maze-is-hard-rock-and-heavy-metal.html",
+      "type": "profile"
+    },
+    {
+      "title": "Stentorian (band) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stentorian_(band)",
+      "type": "encyclopedia"
+    }
+  ],
+  "tags": ["heavy-metal", "founding-era", "needs-verification"],
+  "last_updated": "2026-08-06"
+}

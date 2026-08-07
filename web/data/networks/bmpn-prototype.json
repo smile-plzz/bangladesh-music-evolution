@@ -1,0 +1,643 @@
+{
+  "description": "Prototype Bangladesh Music Preference Network (BMPN) built from publicly documented concert co-billing only. Nodes = artists in data/artists/; edges = artists that shared a concert bill in data/concerts/, weighted by number of shared events. This is an early proxy for audience/genre-community structure, not a validated preference network — streaming/playlist co-occurrence and social-listening data are needed for a fuller model (see docs/roadmap.md).",
+  "node_count": 52,
+  "edge_count": 15,
+  "isolated_node_count": 42,
+  "nodes": [
+    {
+      "id": "arbovirus",
+      "name": "Arbovirus",
+      "genres": [
+        "Nu Metal",
+        "Grunge",
+        "Pop Rock",
+        "Psychedelic Rock"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "ark",
+      "name": "Ark",
+      "genres": [
+        "Mainstream Rock",
+        "Hard Rock"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "arnob",
+      "name": "Shayan Chowdhury Arnob",
+      "genres": [
+        "Folk Fusion",
+        "Indie Folk",
+        "Baul-influenced"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "artcell",
+      "name": "Artcell",
+      "genres": [
+        "Progressive Metal",
+        "Progressive Rock",
+        "Heavy Metal"
+      ],
+      "event_count": 3
+    },
+    {
+      "id": "ashes",
+      "name": "Ashes",
+      "genres": [
+        "Alternative Rock",
+        "Folk Rock"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "aurthohin",
+      "name": "Aurthohin",
+      "genres": [
+        "Alternative Rock",
+        "Progressive Metal",
+        "Groove Metal",
+        "Funk Rock"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "azam-khan-uchcharon",
+      "name": "Azam Khan & Uchcharon",
+      "genres": [
+        "Mainstream Rock",
+        "Bangla Pop"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "black",
+      "name": "Black",
+      "genres": [
+        "Alternative Rock",
+        "Grunge"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "chirkutt",
+      "name": "Chirkutt",
+      "genres": [
+        "Folk Rock",
+        "Alternative Rock",
+        "Bangla Fusion"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "conclusion",
+      "name": "Conclusion",
+      "genres": [
+        "Alternative Rock",
+        "Experimental Rock"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "cryptic-fate",
+      "name": "Cryptic Fate",
+      "genres": [
+        "Heavy Metal",
+        "Progressive Metal"
+      ],
+      "event_count": 2
+    },
+    {
+      "id": "de-illumination",
+      "name": "De-illumination",
+      "genres": [
+        "Symphonic Metal",
+        "Symphonic Rock",
+        "Progressive Metal"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "deshi-mcs",
+      "name": "Deshi MCs",
+      "genres": [
+        "Hip-Hop",
+        "Gangsta Rap"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "feedback",
+      "name": "Feedback",
+      "genres": [
+        "Mainstream Rock",
+        "Pop Rock",
+        "Blues Rock",
+        "Jazz"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "habib-wahid",
+      "name": "Habib Wahid",
+      "genres": [
+        "Pop",
+        "Electronic Pop",
+        "Folk Fusion"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "hannan",
+      "name": "Hannan (Hannan Hossain Shimul)",
+      "genres": [
+        "Hip-Hop",
+        "Rap",
+        "Protest Music"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "imran-mahmudul",
+      "name": "Imran Mahmudul",
+      "genres": [
+        "Pop",
+        "Playback/Film Music"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "indalo",
+      "name": "Indalo",
+      "genres": [
+        "Alternative Rock",
+        "Grunge-influenced"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "jalali-set",
+      "name": "Jalali Set",
+      "genres": [
+        "Hip-Hop",
+        "Trap",
+        "Alternative Hip-Hop",
+        "Folk-Hip-Hop Fusion"
+      ],
+      "event_count": 1
+    },
+    {
+      "id": "james-nagar-baul",
+      "name": "James (Nagar Baul)",
+      "genres": [
+        "Mainstream Rock",
+        "Blues Rock",
+        "Folk Rock"
+      ],
+      "event_count": 1
+    },
+    {
+      "id": "karnival",
+      "name": "Karnival",
+      "genres": [
+        "Progressive Rock",
+        "Experimental Rock",
+        "Grunge-influenced"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "kona",
+      "name": "Kona (Dilshad Nahar Kona)",
+      "genres": [
+        "Pop",
+        "Playback/Film Music"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "lalon-band",
+      "name": "Lalon (Lalon Band)",
+      "genres": [
+        "Folk Fusion",
+        "Baul-influenced",
+        "Rock"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "lrb",
+      "name": "LRB (Love Runs Blind)",
+      "genres": [
+        "Mainstream Rock",
+        "Hard Rock",
+        "Blues Rock"
+      ],
+      "event_count": 1
+    },
+    {
+      "id": "maqsood-o-dhaka",
+      "name": "Maqsood O' Dhaka",
+      "genres": [
+        "Jazz Rock Fusion",
+        "Alternative Rock",
+        "Baul-influenced"
+      ],
+      "event_count": 1
+    },
+    {
+      "id": "mechanix",
+      "name": "Mechanix",
+      "genres": [
+        "Heavy Metal",
+        "Thrash Metal"
+      ],
+      "event_count": 2
+    },
+    {
+      "id": "meghdol",
+      "name": "Meghdol",
+      "genres": [
+        "Alternative Rock",
+        "Indie Rock",
+        "Folk Rock",
+        "Psychedelic Rock"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "metal-maze",
+      "name": "Metal Maze",
+      "genres": [
+        "Hard Rock",
+        "Heavy Metal"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "miles",
+      "name": "Miles",
+      "genres": [
+        "Mainstream Rock",
+        "Pop Rock"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "minar-rahman",
+      "name": "Minar Rahman",
+      "genres": [
+        "Pop",
+        "Indie",
+        "Folk-influenced Pop"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "muza",
+      "name": "Muza (Muzahid Abdullah)",
+      "genres": [
+        "Pop",
+        "Electronic Pop",
+        "Folk Fusion",
+        "Urban/Hip-Hop-adjacent"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "nancy",
+      "name": "Nancy (Nazmun Munira Nancy)",
+      "genres": [
+        "Pop",
+        "Playback/Film Music",
+        "Folk-influenced Pop"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "nemesis",
+      "name": "Nemesis",
+      "genres": [
+        "Mainstream Rock",
+        "Alternative Rock"
+      ],
+      "event_count": 1
+    },
+    {
+      "id": "nova",
+      "name": "Nova",
+      "genres": [
+        "Psychedelic Rock",
+        "Progressive Rock",
+        "Hard Rock",
+        "Soft Rock"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "poizon-green",
+      "name": "Poizon Green",
+      "genres": [
+        "Power Metal",
+        "Speed Metal",
+        "Thrash Metal"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "powersurge",
+      "name": "Powersurge",
+      "genres": [
+        "Thrash Metal",
+        "Groove Metal",
+        "Heavy Metal"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "prometheus",
+      "name": "Prometheus",
+      "genres": [
+        "Mainstream Rock"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "renaissance",
+      "name": "Renaissance",
+      "genres": [
+        "Reggae",
+        "Jazz",
+        "Soft Rock",
+        "Mainstream Rock"
+      ],
+      "event_count": 1
+    },
+    {
+      "id": "rockstrata",
+      "name": "Rockstrata",
+      "genres": [
+        "Heavy Metal"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "severe-dementia",
+      "name": "Severe Dementia",
+      "genres": [
+        "Death Metal",
+        "Brutal Death Metal",
+        "Technical Death Metal"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "shironamhin",
+      "name": "Shironamhin",
+      "genres": [
+        "Alternative Rock",
+        "Progressive Rock",
+        "Psychedelic Rock",
+        "Folk Rock",
+        "Symphonic Rock"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "shonar-bangla-circus",
+      "name": "Shonar Bangla Circus",
+      "genres": [
+        "Psychedelic Rock",
+        "Alternative Rock",
+        "Folk Rock",
+        "Blues Rock",
+        "Progressive Rock"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "shunno",
+      "name": "Shunno",
+      "genres": [
+        "Alternative Rock",
+        "Pop Rock",
+        "Soft Rock"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "souls",
+      "name": "Souls",
+      "genres": [
+        "Mainstream Rock",
+        "Pop Rock",
+        "Blues Rock"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "stentorian",
+      "name": "Stentorian",
+      "genres": [
+        "Heavy Metal",
+        "Soft Rock",
+        "Power Ballad",
+        "Thrash Metal",
+        "Progressive Metal"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "stoic-bliss",
+      "name": "Stoic Bliss",
+      "genres": [
+        "Hip-Hop",
+        "Rap"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "tahsan",
+      "name": "Tahsan Rahman Khan",
+      "genres": [
+        "Pop",
+        "Alternative Rock (via Black)"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "trainwreck",
+      "name": "Trainwreck",
+      "genres": [
+        "Groove Metal",
+        "Thrash Metal"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "vibe",
+      "name": "Vibe",
+      "genres": [
+        "Heavy Metal",
+        "Alternative Rock"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "warfaze",
+      "name": "Warfaze",
+      "genres": [
+        "Heavy Metal",
+        "Hard Rock",
+        "Progressive Metal"
+      ],
+      "event_count": 4
+    },
+    {
+      "id": "winning",
+      "name": "Winning",
+      "genres": [
+        "Mainstream Rock"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "yaatri",
+      "name": "Yaatri",
+      "genres": [
+        "Alternative Rock",
+        "Pop Rock"
+      ],
+      "event_count": 0
+    }
+  ],
+  "edges": [
+    {
+      "source": "artcell",
+      "target": "cryptic-fate",
+      "weight": 2,
+      "shared_events": [
+        "2009-artcell-10-years-insanity-sheraton",
+        "2026-overload-festival-bccc"
+      ]
+    },
+    {
+      "source": "artcell",
+      "target": "mechanix",
+      "weight": 1,
+      "shared_events": [
+        "2009-artcell-10-years-insanity-sheraton"
+      ]
+    },
+    {
+      "source": "artcell",
+      "target": "warfaze",
+      "weight": 2,
+      "shared_events": [
+        "2009-artcell-10-years-insanity-sheraton",
+        "2026-overload-festival-bccc"
+      ]
+    },
+    {
+      "source": "cryptic-fate",
+      "target": "mechanix",
+      "weight": 1,
+      "shared_events": [
+        "2009-artcell-10-years-insanity-sheraton"
+      ]
+    },
+    {
+      "source": "cryptic-fate",
+      "target": "warfaze",
+      "weight": 2,
+      "shared_events": [
+        "2009-artcell-10-years-insanity-sheraton",
+        "2026-overload-festival-bccc"
+      ]
+    },
+    {
+      "source": "maqsood-o-dhaka",
+      "target": "mechanix",
+      "weight": 1,
+      "shared_events": [
+        "bamba-eid-concert-jamuna-future-park"
+      ]
+    },
+    {
+      "source": "maqsood-o-dhaka",
+      "target": "nemesis",
+      "weight": 1,
+      "shared_events": [
+        "bamba-eid-concert-jamuna-future-park"
+      ]
+    },
+    {
+      "source": "maqsood-o-dhaka",
+      "target": "renaissance",
+      "weight": 1,
+      "shared_events": [
+        "bamba-eid-concert-jamuna-future-park"
+      ]
+    },
+    {
+      "source": "maqsood-o-dhaka",
+      "target": "warfaze",
+      "weight": 1,
+      "shared_events": [
+        "bamba-eid-concert-jamuna-future-park"
+      ]
+    },
+    {
+      "source": "mechanix",
+      "target": "nemesis",
+      "weight": 1,
+      "shared_events": [
+        "bamba-eid-concert-jamuna-future-park"
+      ]
+    },
+    {
+      "source": "mechanix",
+      "target": "renaissance",
+      "weight": 1,
+      "shared_events": [
+        "bamba-eid-concert-jamuna-future-park"
+      ]
+    },
+    {
+      "source": "mechanix",
+      "target": "warfaze",
+      "weight": 2,
+      "shared_events": [
+        "2009-artcell-10-years-insanity-sheraton",
+        "bamba-eid-concert-jamuna-future-park"
+      ]
+    },
+    {
+      "source": "nemesis",
+      "target": "renaissance",
+      "weight": 1,
+      "shared_events": [
+        "bamba-eid-concert-jamuna-future-park"
+      ]
+    },
+    {
+      "source": "nemesis",
+      "target": "warfaze",
+      "weight": 1,
+      "shared_events": [
+        "bamba-eid-concert-jamuna-future-park"
+      ]
+    },
+    {
+      "source": "renaissance",
+      "target": "warfaze",
+      "weight": 1,
+      "shared_events": [
+        "bamba-eid-concert-jamuna-future-park"
+      ]
+    }
+  ]
+}

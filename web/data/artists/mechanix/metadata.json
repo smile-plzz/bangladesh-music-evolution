@@ -1,0 +1,94 @@
+{
+  "id": "mechanix",
+  "name": "Mechanix",
+  "type": "band",
+  "formed_year": 2005,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Heavy Metal", "Thrash Metal"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Aftabuzzaman Tridib",
+      "role": "Vocals, Founder",
+      "years_active": "2005–present",
+      "current": true
+    },
+    {
+      "name": "Shafat Ahmed Chowdhury",
+      "role": "Guitar",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Saif Irfan",
+      "role": "Guitar",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Soumik Islam",
+      "role": "Bass",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Sheikh M Reaz",
+      "role": "Drums, Percussion",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Tamzid",
+      "role": "Founding member",
+      "years_active": "2005–unspecified",
+      "current": false
+    },
+    {
+      "name": "Rusho",
+      "role": "Founding member",
+      "years_active": "2005–unspecified",
+      "current": false
+    },
+    {
+      "name": "Zeheen Ahmed",
+      "role": "Former guitarist (deceased, July 22)",
+      "years_active": "unspecified",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Oporajeyo",
+      "year": 2011,
+      "type": "studio",
+      "notable_tracks": ["Dhruboshor", "Itihash '71"]
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Megadeth / Metallica / Judas Priest (via early cover repertoire)",
+      "evidence": "Mechanix began by covering 'Holy Wars' (Megadeth), 'Tornado of Souls' (Megadeth), 'Master of Puppets' (Metallica), and 'Painkiller' (Judas Priest), directly establishing the band's core thrash/heavy metal influence set.",
+      "source": "The Business Standard — Mechanix: 15 years in music; Metal Bangladesh profile",
+      "confidence": "high"
+    }
+  ],
+  "local_adaptation_notes": "Founded by members who departed earlier bands Metrical and Annex, Mechanix built its identity on Western thrash/heavy metal cover repertoire before shifting to originals, including 'Itihash '71' (2010), a track dedicated to the Bangladesh Liberation War — continuing the pattern (also seen in Ark and Cryptic Fate) of applying heavy/thrash metal aesthetics to nationalist historical themes.",
+  "sound_evolution_summary": "Founding period (2005): formed by Tridib, Tamzid, and Rusho after leaving Metrical and Annex; built early reputation covering Megadeth, Metallica, and Judas Priest. Breakthrough period (2007–2010): competed in the D-Rockstar 2 talent competition (8th place, with drummer Reaz winning Best Drummer); released hit singles 'Dhruboshor' (2009) and 'Itihash '71' (2010). Album period (2011): debut studio album Oporajeyo consolidated the band's original songwriting. The band continued despite the loss of guitarist Zeheen Ahmed.",
+  "concert_culture_notes": "Emerged through Dhaka's underground metal talent-show circuit (D-Rockstar 2), a common pathway for mid-2000s metal bands (shared with Powersurge) to gain public visibility before formal album releases.",
+  "listener_community_notes": "Positioned within the Bangladeshi heavy/thrash metal ecosystem alongside Powersurge and Cryptic Fate, with cross-generational fan loyalty reinforced by the band's public perseverance following the death of a core member.",
+  "sources": [
+    {
+      "title": "Mechanix: 15 years in music — The Business Standard",
+      "url": "https://www.tbsnews.net/glitz/mechanix-15-years-music-161611",
+      "type": "news"
+    },
+    {
+      "title": "Mechanix — Metal Bangladesh",
+      "url": "https://metalbd.yolasite.com/mechanix.php",
+      "type": "profile"
+    }
+  ],
+  "tags": ["priority", "heavy-metal", "thrash-metal"],
+  "last_updated": "2026-08-06"
+}

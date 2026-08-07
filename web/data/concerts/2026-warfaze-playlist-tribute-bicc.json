@@ -1,0 +1,29 @@
+{
+  "id": "2026-warfaze-playlist-tribute-bicc",
+  "name": "Warfaze: Playlist Tribute to Originals",
+  "date": "2026-07-02",
+  "date_precision": "day",
+  "type": "concert",
+  "venue": {
+    "name": "Bangabandhu International Conference Centre (BICC)",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "venue_type": "convention-centre"
+  },
+  "organizer": "Unspecified (event promoter)",
+  "artists": [
+    { "artist_id": "warfaze", "billing": "headliner" }
+  ],
+  "genres_represented": ["Heavy Metal", "Mainstream Rock"],
+  "attendance_confidence": "unknown",
+  "notes": "Exclusive solo concert featuring a curated setlist balancing Warfaze's classic heavy metal repertoire with covers of globally recognized tracks (e.g. Michael Jackson), illustrating a veteran act's late-career programming strategy blending original catalogue with cross-genre tribute material.",
+  "sources": [
+    {
+      "title": "Bangladeshi Rock Ensemble Warfaze Schedules Major Concert — GLive24.com",
+      "url": "https://glive24.com/bangladeshi-rock-ensemble-warfaze-schedules-major-concert/",
+      "type": "news"
+    }
+  ],
+  "tags": ["heavy-metal", "veteran-act", "tribute-set"],
+  "last_updated": "2026-08-06"
+}

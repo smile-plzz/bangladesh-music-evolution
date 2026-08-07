@@ -1,0 +1,101 @@
+{
+  "id": "vibe",
+  "name": "Vibe",
+  "type": "band",
+  "formed_year": 2001,
+  "disbanded_year": 2007,
+  "origin_city": "Dhaka",
+  "genres": ["Heavy Metal", "Alternative Rock"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Shuddho Fuad Sadi",
+      "role": "Vocals, Guitar, Founder",
+      "years_active": "2001–2007",
+      "current": false
+    },
+    {
+      "name": "Sabbir Hossain Turjo",
+      "role": "Drums, Founder",
+      "years_active": "2001–2007",
+      "current": false
+    },
+    {
+      "name": "Saber Ahmed Khan",
+      "role": "Bass, Founder",
+      "years_active": "2001–2007",
+      "current": false
+    },
+    {
+      "name": "Saleh Hasan Oni",
+      "role": "Guitar (final lineup)",
+      "years_active": "unspecified–2007",
+      "current": false
+    },
+    {
+      "name": "Wali Muhammad Akbar",
+      "role": "Keyboards, Founder",
+      "years_active": "2001–2007",
+      "current": false
+    },
+    {
+      "name": "Mahjuj Jasim Sourav",
+      "role": "Founding member (departed 2002)",
+      "years_active": "2001–2002",
+      "current": false
+    },
+    {
+      "name": "Isteaque Ahmed",
+      "role": "Founding member",
+      "years_active": "2001–unspecified",
+      "current": false
+    },
+    {
+      "name": "Tanvir",
+      "role": "Member (2003, replaced Sourav; departed 2004)",
+      "years_active": "2003–2004",
+      "current": false
+    },
+    {
+      "name": "Mashfiq",
+      "role": "Member (joined 2004)",
+      "years_active": "2004–unspecified",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Agontuk 1 (mixed album)",
+      "year": 2003,
+      "type": "mixed",
+      "notable_tracks": []
+    },
+    {
+      "title": "Chena Jogot",
+      "year": 2007,
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Contemporaneous Bangladeshi heavy metal/alternative peers (Artcell, Cryptic Fate)",
+      "evidence": "Vibe is documented as one of the leading emerging heavy metal bands of its era alongside Artcell and Cryptic Fate, and appeared on the same 2003 mixed compilation (Agontuk 1) as Aurthohin, Artcell, Black and Cryptic Fate — indicating the band developed within a tightly interconnected local metal/alternative peer scene rather than through isolated Western influence.",
+      "source": "Wikipedia Vibe (Bangladeshi band)",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "Vibe underwent frequent lineup turnover across its six-year existence (2001-2007), a common pattern among early-2000s Dhaka metal/alternative bands, before stabilizing enough to release its lone full-length album Chena Jogot (2007) on G-Series shortly before Eid — timing the release to the same commercial/cultural release window used by many mainstream Bangladeshi acts.",
+  "sound_evolution_summary": "Founding period (2001): formed by Shuddho Fuad Sadi, Sabbir Hossain Turjo, Mahjuj Jasim Sourav, Isteaque Ahmed, Saber Ahmed Khan and Wali Muhammad Akbar. Compilation period (2003): first released track appeared on the mixed album Agontuk 1 alongside Aurthohin, Artcell, Black, Cryptic Fate and Poizon Green, establishing the band within the contemporary metal/alternative scene. Lineup churn (2002–2004): Sourav departed (2002), replaced by Tanvir (2003), who was in turn replaced by Mashfiq (2004). Final period (2007): the stabilized lineup (Sadi, Turjo, Khan, Oni, Akbar) released the band's sole full-length album, Chena Jogot (11 tracks, G-Series), shortly before the band went inactive the same year.",
+  "concert_culture_notes": "Specific concert/festival data not yet documented in available sources — flagged for further research; the band's participation in the Agontuk 1 mixed-album compilation situates it within the same underground/compilation-driven promotional circuit used by Powersurge and other mid-2000s metal acts.",
+  "listener_community_notes": "A now-inactive but historically notable node in the early-2000s Bangladeshi heavy metal/alternative rock ecosystem, positioned alongside Artcell and Cryptic Fate as a leading emerging act of its specific era before ceasing activity in 2007.",
+  "sources": [
+    {
+      "title": "Vibe (Bangladeshi band) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vibe_(Bangladeshi_band)",
+      "type": "encyclopedia"
+    }
+  ],
+  "tags": ["heavy-metal", "alternative-indie", "inactive"],
+  "last_updated": "2026-08-06"
+}

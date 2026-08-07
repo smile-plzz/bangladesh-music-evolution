@@ -1,0 +1,112 @@
+{
+  "id": "winning",
+  "name": "Winning",
+  "type": "band",
+  "formed_year": 1983,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Mainstream Rock"],
+  "languages": ["bn", "en"],
+  "members": [
+    {
+      "name": "Haider Hossain",
+      "role": "Guitar, Vocals, Founder (emigrated to US, 1984-85)",
+      "years_active": "1983–1984/85",
+      "current": false
+    },
+    {
+      "name": "Mitul",
+      "role": "Guitar, Vocals, Founder (emigrated to US, 1984-85)",
+      "years_active": "1983–1984/85",
+      "current": false
+    },
+    {
+      "name": "Ranjan",
+      "role": "Drums, Vocals, Founder (later reunited with Chandan in Canada)",
+      "years_active": "1983–2000; 2000–present (Canada reunion lineup)",
+      "current": true
+    },
+    {
+      "name": "Shelly",
+      "role": "Bass Guitar, Founder",
+      "years_active": "1983–unspecified",
+      "current": false
+    },
+    {
+      "name": "Rana",
+      "role": "Keyboard, Founder (emigrated to US, 1984-85)",
+      "years_active": "1983–1984/85",
+      "current": false
+    },
+    {
+      "name": "Faheem",
+      "role": "English Vocals, Founder (emigrated to US, 1984-85)",
+      "years_active": "1983–1984/85",
+      "current": false
+    },
+    {
+      "name": "Chandan",
+      "role": "Guitar, Vocals (joined 1987; later emigrated to Canada, reunited with Ranjan)",
+      "years_active": "1987–2000; 2000–present (Canada reunion lineup)",
+      "current": true
+    },
+    {
+      "name": "Babu",
+      "role": "Member (departed 1991)",
+      "years_active": "unspecified–1991",
+      "current": false
+    },
+    {
+      "name": "Reza",
+      "role": "Member (departed 1991)",
+      "years_active": "unspecified–1991",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Winning",
+      "year": 1991,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Reunion album (2003, Canada/Dhaka joint release)",
+      "year": 2003,
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Azam Khan's band lineage",
+      "evidence": "Winning was formed by musicians who had previously played in pop pioneer Azam Khan's band, deciding to launch their own project — a direct domestic genealogical influence rather than a Western import, reflecting the same alumni-network pattern seen with Souls (which spun off LRB and Renaissance).",
+      "source": "Wikipedia Winning (band)",
+      "confidence": "medium"
+    },
+    {
+      "artist_or_genre": "Heavy melody-influenced rock (general, 1990s)",
+      "evidence": "Winning's most successful period (1991–1994) is associated with 'heavy melody-influenced rock songs that had that larger than life sound,' resulting in two consecutive hit albums — indicating absorption of a specific melodic hard-rock production aesthetic circulating in the era.",
+      "source": "Band Music of Bangladesh: History of Bangladesh Band Music",
+      "confidence": "low"
+    }
+  ],
+  "local_adaptation_notes": "Formed on 1 January 1983 by former members of Azam Khan's band, Winning's history is defined by transnational disruption and reformation: the mid-1980s emigration of four of six original members to the US fractured the band, while a 2000s Canada-based reunion (Ranjan and Chandan reconnecting as immigrants) led to a joint Dhaka/Canada lineup releasing a 2003 reunion album — an unusually explicit case of diaspora dynamics directly reshaping a band's creative continuity.",
+  "sound_evolution_summary": "Founding period (1983–1985): formed by Azam Khan band alumni; original six-member lineup fractured when four members (Mitul, Haider, Fahim, Rana) emigrated to the US for education/work between 1984–85. Rebuilding period (1987–1994): Chandan joined as guitarist/vocalist (1987); the self-titled Winning album (1991) launched what is considered the band's most successful period (1991–1994), including two consecutive hit albums, though further departures (Babu, Reza, 1991) continued reshaping the lineup. Diaspora reunion (2000–2003): band reformed in 2000 after Chandan emigrated to Canada and reconnected with founding member Ranjan there; the reunited Canada/Dhaka lineup released a joint album of re-tuned older songs in 2003.",
+  "concert_culture_notes": "Specific concert/festival data not yet documented in available sources — flagged for further research; the band's diaspora-driven reformation (Canada) illustrates how emigration patterns among Bangladeshi musicians can directly reroute a band's operational base rather than simply feeding a separate diaspora touring circuit.",
+  "listener_community_notes": "Historically significant as a direct genealogical branch of the Azam Khan founding lineage, with 1990s domestic popularity giving way to a nostalgia-driven diaspora-reunion listener base by the 2000s; illustrates the broader theme of Bangladeshi musician emigration reshaping band continuity across the mainstream rock genre.",
+  "sources": [
+    {
+      "title": "Winning (band) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Winning_(band)",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "History of Bangladesh Band Music — Band Music of Bangladesh",
+      "url": "http://bandmusicbd.blogspot.com/2012/04/history-of-bangladesh-band-music.html",
+      "type": "profile"
+    }
+  ],
+  "tags": ["mainstream-rock", "founding-era", "diaspora"],
+  "last_updated": "2026-08-06"
+}

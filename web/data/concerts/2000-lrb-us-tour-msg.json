@@ -1,0 +1,34 @@
+{
+  "id": "2000-lrb-us-tour-msg",
+  "name": "LRB US Tour — Madison Square Garden Performance",
+  "date": "2000-01-01",
+  "date_precision": "year",
+  "type": "diaspora-tour",
+  "venue": {
+    "name": "Madison Square Garden",
+    "city": "New York",
+    "country": "United States",
+    "venue_type": "stadium"
+  },
+  "organizer": "Bangladeshi-American diaspora community / tour promoter (unspecified)",
+  "artists": [
+    { "artist_id": "lrb", "billing": "headliner" }
+  ],
+  "genres_represented": ["Mainstream Rock", "Hard Rock"],
+  "attendance_confidence": "unknown",
+  "notes": "LRB undertook a second US tour in 2000 (their first was in 1998, covering 7 states) and is cited as the only Bangladeshi rock band to have performed at Madison Square Garden. Exact date within 2000 and the specific tour leg require further primary-source verification; this entry should be treated as approximate pending confirmation from tour archives or contemporaneous press.",
+  "sources": [
+    {
+      "title": "Love Runs Blind — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Love_Runs_Blind",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "LRB — Metal Guardians",
+      "url": "https://metalguardians.com/bands/lrb/",
+      "type": "profile"
+    }
+  ],
+  "tags": ["diaspora", "international", "landmark", "needs-verification"],
+  "last_updated": "2026-08-06"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "trainwreck",
+  "name": "Trainwreck",
+  "type": "band",
+  "formed_year": 2007,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Groove Metal", "Thrash Metal"],
+  "languages": ["en"],
+  "members": [
+    {
+      "name": "Abir Ahmed",
+      "role": "Vocals",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "A.K. Rahul",
+      "role": "Guitar",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Ekram Wasi",
+      "role": "Guitar",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Habibullah Farhan",
+      "role": "Bass",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Minhaj Ahmed",
+      "role": "Drums",
+      "years_active": "unspecified–present",
+      "current": true
+    }
+  ],
+  "discography_summary": [],
+  "global_influences": [
+    {
+      "artist_or_genre": "Lamb of God",
+      "evidence": "Trainwreck's youthful lineup tore through Bangladesh's underground scene with explicitly Lamb of God-inspired riffs, directly citing the American groove/thrash metal band as its core reference point.",
+      "source": "The Daily Star — A Trainwreck in Wacken!",
+      "confidence": "high"
+    }
+  ],
+  "local_adaptation_notes": "Founded in 2007 but not actively performing until 2009, Trainwreck made a deliberate and commercially risky choice to write original tracks entirely in English rather than Bangla — immediately narrowing its domestic market but positioning the band for direct international competition, which paid off with the band's landmark 2019 wins at Bangalore Open Air (against 77 competing bands) and the resulting slot at Wacken Open Air, Germany, one of the world's largest metal festivals.",
+  "sound_evolution_summary": "Founding period (2007–2009): formed in Dhaka; began actively performing from 2009, building an underground reputation on Lamb of God-inspired groove/thrash riffs. International breakthrough (2019): won Bangalore Open Air 2019 against 77 competing bands, earning a slot at Wacken Open Air in Germany, and also won the Global Metal Apocalypse award the same year — among the most significant international competitive achievements documented for any Bangladeshi metal act in this corpus.",
+  "concert_culture_notes": "Represents a rare and well-documented case of a Bangladeshi metal band competing directly on the international metal festival circuit (Bangalore Open Air, Wacken Open Air) rather than solely the domestic concert scene, reflecting the band's English-language, internationally-oriented strategic choice.",
+  "listener_community_notes": "Distinguished within the Bangladeshi heavy/groove metal ecosystem by its English-language original material and direct international competitive success, appealing to a listener base extending beyond domestic Bangla-language metal fandom into the global metal festival circuit.",
+  "sources": [
+    {
+      "title": "Trainwreck (band) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Trainwreck_(band)",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "A Trainwreck in Wacken! — The Daily Star",
+      "url": "https://www.thedailystar.net/arts-entertainment/news/trainwreck-wacken-and-what-it-means-bangladeshi-band-music-1781137",
+      "type": "news"
+    }
+  ],
+  "tags": ["heavy-metal", "groove-metal", "international-touring", "recent-era"],
+  "last_updated": "2026-08-06"
+}

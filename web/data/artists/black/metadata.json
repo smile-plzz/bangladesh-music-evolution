@@ -1,0 +1,77 @@
+{
+  "id": "black",
+  "name": "Black",
+  "type": "band",
+  "formed_year": 1998,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Alternative Rock", "Grunge"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Jon Kabir",
+      "role": "Lead Vocals, Rhythm Guitar, Founder",
+      "years_active": "1998–present",
+      "current": true
+    },
+    {
+      "name": "Khademul Jahan",
+      "role": "Lead Guitar, Founder",
+      "years_active": "1998–present",
+      "current": true
+    },
+    {
+      "name": "Mehmood Tony",
+      "role": "Drums, Founder",
+      "years_active": "1998–present",
+      "current": true
+    },
+    {
+      "name": "Mahmudul Karim Miraz",
+      "role": "Bass Guitar (joined shortly after founding)",
+      "years_active": "1998–present",
+      "current": true
+    },
+    {
+      "name": "Tahsan Rahman Khan",
+      "role": "Keyboards, Vocals (joined 2000)",
+      "years_active": "2000–unspecified; reunited 2024",
+      "current": false
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Amar Prithibi",
+      "year": 2002,
+      "type": "studio",
+      "notable_tracks": ["Amar Prithibi"]
+    },
+    {
+      "title": "Unomanush",
+      "year": 2016,
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Alice in Chains / Nirvana / Soundgarden",
+      "evidence": "Black's playing style is explicitly documented as heavily influenced by grunge and alternative bands Alice in Chains, Nirvana, and Soundgarden, evident in heavy guitar riffs and complex drum beats, particularly on the band's breakthrough album Amar Prithibi.",
+      "source": "Wikipedia Black (Bangladeshi band)",
+      "confidence": "high"
+    }
+  ],
+  "local_adaptation_notes": "Black is credited with directly introducing grunge to Bangladesh, balancing heavy Nirvana/Alice in Chains/Soundgarden-influenced guitar work with melodious keyboard progressions (courtesy of Tahsan) and, on the title track of Amar Prithibi (2002), incorporating sitar — a striking direct fusion of American grunge aesthetics with a classical South Asian instrument within the band's most popular song.",
+  "sound_evolution_summary": "Founding period (1998): formed by Jon Kabir, Khademul Jahan and Mehmood Tony, soon joined by Mahmudul Karim Miraz and (2000) keyboardist/vocalist Tahsan Rahman Khan. Breakthrough period (2002): after signing with G-Series, debut album Amar Prithibi introduced grunge to mainstream Bangladeshi audiences, balancing heavy riffs with melodic keyboard textures and the sitar-infused title track. Later period: five studio albums total, concluding (pre-hiatus) with Unomanush (2016, G-Series). Legacy period (2024): band reunited with all original members for a one-off show on 10 May 2024 following Tahsan's public reunion tease.",
+  "concert_culture_notes": "The 2024 reunion show — reuniting Jon, Tony, Miraz and Tahsan after years apart — generated significant public and media attention, illustrating the durability of fan interest in a band whose most prominent former member (Tahsan) achieved separate mainstream solo pop stardom.",
+  "listener_community_notes": "A key training ground and crossover point between the Alternative/Indie and Pop genre listener communities, given Tahsan's subsequent solo pop career; grunge-oriented fans and mainstream pop listeners both maintain interest in the band's legacy.",
+  "sources": [
+    {
+      "title": "Black (Bangladeshi band) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Black_(Bangladeshi_band)",
+      "type": "encyclopedia"
+    }
+  ],
+  "tags": ["alternative-indie", "grunge"],
+  "last_updated": "2026-08-06"
+}
