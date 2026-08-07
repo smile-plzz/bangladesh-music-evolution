@@ -41,7 +41,7 @@ Bangladesh possesses deep musical roots: Baul, Bhatiali, Bhawaiya, Nazrul Geeti,
 | Heavy Metal            | Warfaze, Powersurge, Mechanix, Cryptic Fate      | Iron Maiden, Metallica, Megadeth, Judas Priest, Black Sabbath |
 | Alternative / Indie    | Meghdol, Ashes, Shohojia, Conclusion             | Radiohead, Arctic Monkeys, Fleet Foxes, Bon Iver, The National|
 | Pop                    | Habib Wahid, Tahsan, Minar, Imran, Nancy, Kona   | Contemporary Pop, R&B, Electronic, K-pop, South Asian Pop     |
-| Hip-Hop / Rap          | Ashraf Babu & Charu (1993 origin point), Stoic Bliss, Muza, Hannan, Jalali Set, Shezan | American Hip-Hop, UK Drill, South Asian Hip-Hop |
+| Hip-Hop / Rap          | Ashraf Babu & Charu (1993 origin point), Deshi MCs, Uptown Lokolz, Theology of Rap (2000s wave), Stoic Bliss, Muza, Hannan, Jalali Set, Shezan | American Hip-Hop, UK Drill, South Asian Hip-Hop |
 | Folk & Folk Fusion     | Arnob, Coke Studio Bangla, Baul artists          | World Music, Acoustic Folk, Contemporary Folk Revival         |
 
 Analytical dimensions applied to each: Musical Evolution (instrumentation, production, structure), Cultural Evolution (lyrics, identity, themes), Listener Evolution, Concert Culture, and Industry Evolution (cassette → streaming → AI).
@@ -117,7 +117,7 @@ Companion constructs: BMEF (process-oriented temporal view), BMPN (empirical net
 
 **Expected deliverables**: Timeline, BMPN graph, listener preference trees, concert map, genre evolution map, sound-evolution reports, future forecast, open datasets/notebooks where licensing permits.
 
-**Current project status** (roadmap): Foundation and initial timeline/artist profiles complete (54 artists, including newly-added hip-hop genre-origin coverage — Ashraf Babu & Charu's 1993 *Tri-Rotner Khepa*, the first Bengali-language rap album); a public browsable frontend of the dataset (artist/genre/concert directories, interactive BMPN graph) is deployed at the project repository. Broader discographies, streaming metrics, concert database (12 of ≥500 target entries), and full network analysis (currently concert co-billing only, 38 edges) still in progress.
+**Current project status** (roadmap): Foundation and initial timeline/artist profiles complete (56 artists), now including a full documented Hip-Hop/Rap lineage from its 1993 genre-origin point (Ashraf Babu & Charu's *Tri-Rotner Khepa*, the first Bengali-language rap album) through the 2000s pioneer wave (Deshi MCs, Uptown Lokolz, Theology of Rap) to a contemporary act (Shezan); a public browsable frontend of the dataset (artist/genre/concert directories, interactive BMPN graph) is deployed at the project repository. Broader discographies, concert database (12 of ≥500 target entries), and full network analysis (currently concert co-billing only, 38 edges) still in progress. Streaming/YouTube metrics collection is blocked pending Spotify and YouTube API credentials, which are not currently available.
 
 ## 6. Historical Timeline and Genre Evolution (Synthesised Draft)
 

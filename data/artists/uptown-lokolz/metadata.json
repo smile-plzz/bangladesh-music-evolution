@@ -1,0 +1,48 @@
+{
+  "id": "uptown-lokolz",
+  "name": "Uptown Lokolz",
+  "type": "collective",
+  "formed_year": 2005,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Hip-Hop", "Rap"],
+  "languages": ["bn"],
+  "members": [
+    { "name": "Asiful Islam Sohan (Black Zang)", "role": "Rap", "years_active": "2005–present", "current": true },
+    { "name": "Asif Ifteza (Bigg Spade)", "role": "Rap", "years_active": "2005–present", "current": true },
+    { "name": "Taurra Safa", "role": "Rap (founding member)", "years_active": "2005–unspecified", "current": false }
+  ],
+  "discography_summary": [
+    {
+      "title": "Kahini Scene Paat",
+      "year": 2008,
+      "type": "studio",
+      "notable_tracks": ["Ai Mama Ai"]
+    },
+    {
+      "title": "VIP-Vol 1",
+      "year": 2013,
+      "type": "studio",
+      "notable_tracks": ["Uptown"]
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "African American rap",
+      "evidence": "Member Black Zang described the group's approach as incorporating \"the essence of original African American rap\" while adapting it to their own colloquial-Bangla style, explicitly framed as adaptation rather than imitation.",
+      "source": "Dhaka Tribune interview",
+      "confidence": "high"
+    }
+  ],
+  "local_adaptation_notes": "Rapped in colloquial urban Bangla rather than a more formal register, which secondary press credits as a key reason for their rapid early success — they built a distinct local identity rather than copying a foreign style wholesale. Explicitly avoided using slang to \"maintain the essence of hip hop,\" per member Black Zang.",
+  "sound_evolution_summary": "Debut album Kahini Scene Paat (2008) established the group with the widely-received single \"Ai Mama Ai.\" A second album, VIP-Vol 1 (2013, title track \"Uptown\"; VIP stands for \"Vari Izzoti Polapan\"), followed roughly five years later. Member Bigg Spade described an artistic shift from earlier aggression toward \"expressing deeper thoughts\" over this period.",
+  "concert_culture_notes": "Not yet documented in available sources.",
+  "listener_community_notes": "Named alongside Deshi MCs and Theology of Rap (`theology-of-rap`) as one of the 2000s-era crews that established Bangladeshi hip-hop as a genre with its own local identity, per the Wikipedia Bangladeshi hip hop history. Attracted collaboration interest from Bangladeshi diaspora communities abroad, per Dhaka Tribune coverage.",
+  "sources": [
+    { "title": "Bangladeshi hip hop — Wikipedia", "url": "https://en.wikipedia.org/wiki/Bangladeshi_hip_hop", "type": "encyclopedia" },
+    { "title": "Uptown Locolz talk about hip hop in Bangladesh — Dhaka Tribune", "url": "https://www.dhakatribune.com/bangladesh/bangladesh-others/77924/uptown-locolz-talk-about-hip-hop-in-bangladesh", "type": "interview" },
+    { "title": "THE HIP-HOP STORY — The Daily Star", "url": "https://www.thedailystar.net/shout/cover-story/news/the-hip-hop-story-1666549", "type": "news" }
+  ],
+  "tags": ["hip-hop", "2000s-pioneer", "needs-verification"],
+  "last_updated": "2026-08-07"
+}

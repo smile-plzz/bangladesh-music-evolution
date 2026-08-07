@@ -4,7 +4,7 @@ This directory will hold structured metadata and notes on Bangladeshi artists in
 
 ## Target
 
-≥ 300 Bangladeshi artists catalogued (as per success criteria). Current progress: **54 artists** catalogued with full `metadata.json` profiles, all validated against `data/schemas/artist.schema.json`.
+≥ 300 Bangladeshi artists catalogued (as per success criteria). Current progress: **56 artists** catalogued with full `metadata.json` profiles, all validated against `data/schemas/artist.schema.json`.
 
 ## Planned Structure (per artist or group)
 
@@ -84,10 +84,12 @@ Status: all originally listed priority artists are catalogued (✅), plus 28 add
 - [x] Deshi MCs (`deshi-mcs`) — pioneers of Bangla gangsta rap; MC Mugz later co-founded Jalali Set
 - [x] Ashraf Babu & Charu (`ashraf-babu-charu`) — released *Tri-Rotner Khepa* (1993), the first Bengali-language rap album, a full decade before the 2000s hip-hop wave; sourcing thin beyond the two 1993 releases, flagged `needs-verification`
 - [x] Shezan (`shezan`) — contemporary rapper/producer (Narayanganj), Killaz Kulture/Wrong Side collectives, collaborates with Hannan
+- [x] Uptown Lokolz (`uptown-lokolz`) — 2005-formed, colloquial-Bangla street rap; debut *Kahini Scene Paat* (2008) and "Ai Mama Ai"
+- [x] Theology of Rap / T.O.R. (`theology-of-rap`) — 2005-formed; *Hip-Hop Jati* (2010); also functioned as scene organisers hosting concerts for upcoming rappers; member Grand T credited as first Bangladeshi rapper to pursue international collaboration (2009)
 
 ### Folk / Fusion
 - [x] Arnob (`arnob`)
 - [x] Lalon Band (`lalon-band`) — explicitly mission-driven Baul/Lalon Shah reinterpretation, UN Headquarters performance
 - Coke Studio Bangla documented as a platform note in `data/genres/genre-overview.md` rather than an artist entry (not a single artist/band)
 
-Additional artists will be added iteratively based on network analysis, streaming visibility, and historical significance. Next candidates surfaced but not yet catalogued (insufficient sourcing so far): Kronic and Reborn — both turn up only as names in list-form band-scene round-ups (e.g. a blogspot history piece grouping them with Black, Artcell, Poizon Green, Scarecrow, Dolchhut, Obscure, Chime, Beduin) with no locatable formation year, members, or discography; do not fabricate profiles until better sources surface. Nigar Sumi was investigated and found to already be documented — she is the founder-vocalist of Lalon Band (`lalon-band`), not a separate artist. Other candidates worth pursuing next: Uptown Lokolz (2008, Dhaka) and Theology of Rap / T.O.R. (2005), both named in the Wikipedia Bangladeshi hip-hop history as 2000s-era pioneers alongside Deshi MCs.
+Additional artists will be added iteratively based on network analysis, streaming visibility, and historical significance. Next candidates surfaced but not yet catalogued (insufficient sourcing so far): Kronic and Reborn — both turn up only as names in list-form band-scene round-ups (e.g. a blogspot history piece grouping them with Black, Artcell, Poizon Green, Scarecrow, Dolchhut, Obscure, Chime, Beduin) with no locatable formation year, members, or discography; do not fabricate profiles until better sources surface. Nigar Sumi was investigated and found to already be documented — she is the founder-vocalist of Lalon Band (`lalon-band`), not a separate artist. Uptown Lokolz and Theology of Rap have since been catalogued (see Hip-Hop section above). No API access is available for Spotify/YouTube streaming-metrics collection (roadmap item 2) — that item is blocked pending the user setting up developer credentials.

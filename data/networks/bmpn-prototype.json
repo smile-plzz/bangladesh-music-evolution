@@ -1,8 +1,8 @@
 {
   "description": "Prototype Bangladesh Music Preference Network (BMPN) built from publicly documented concert co-billing only. Nodes = artists in data/artists/; edges = artists that shared a concert bill in data/concerts/, weighted by number of shared events. This is an early proxy for audience/genre-community structure, not a validated preference network — streaming/playlist co-occurrence and social-listening data are needed for a fuller model (see docs/roadmap.md).",
-  "node_count": 54,
+  "node_count": 56,
   "edge_count": 38,
-  "isolated_node_count": 36,
+  "isolated_node_count": 38,
   "nodes": [
     {
       "id": "arbovirus",
@@ -487,11 +487,29 @@
       "event_count": 0
     },
     {
+      "id": "theology-of-rap",
+      "name": "Theology of Rap",
+      "genres": [
+        "Hip-Hop",
+        "Rap"
+      ],
+      "event_count": 0
+    },
+    {
       "id": "trainwreck",
       "name": "Trainwreck",
       "genres": [
         "Groove Metal",
         "Thrash Metal"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "uptown-lokolz",
+      "name": "Uptown Lokolz",
+      "genres": [
+        "Hip-Hop",
+        "Rap"
       ],
       "event_count": 0
     },

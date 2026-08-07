@@ -1,0 +1,44 @@
+{
+  "id": "theology-of-rap",
+  "name": "Theology of Rap",
+  "also_known_as": ["T.O.R."],
+  "type": "collective",
+  "formed_year": 2005,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Hip-Hop", "Rap"],
+  "languages": ["bn"],
+  "members": [
+    { "name": "SkyLLs", "role": "Rap", "years_active": "2005–present", "current": true },
+    { "name": "Ady", "role": "Rap", "years_active": "2005–unspecified", "current": false },
+    { "name": "ZaX", "role": "Rap", "years_active": "2005–unspecified", "current": false },
+    { "name": "Grand T", "role": "Rap", "years_active": "2005–unspecified", "current": false }
+  ],
+  "discography_summary": [
+    {
+      "title": "Hip-Hop Jati",
+      "year": 2010,
+      "type": "studio",
+      "label": "Deadline Music",
+      "notable_tracks": ["Mudrar E'pith Opith"]
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "American hip-hop (general, commercial)",
+      "evidence": "Secondary sources describe T.O.R. as run on a strictly commercial model, distinguishing them from more scene/community-oriented crews, but do not document specific named artist influences.",
+      "source": "Bangladeshi hip hop scene retrospectives (see sources)",
+      "confidence": "low"
+    }
+  ],
+  "local_adaptation_notes": "Not documented in detail in available sources beyond the group rapping in Bangla; no specific analysis of lyrical localisation located yet.",
+  "sound_evolution_summary": "Best known for the album Hip-Hop Jati (14 April 2010, Deadline Music, produced by GT Production), including the track \"Mudrar E'pith Opith.\" Also active as event organisers, hosting concerts that gave a platform to upcoming rappers — a notable contribution to scene infrastructure beyond their own recordings.",
+  "concert_culture_notes": "Credited in secondary sources with hosting concerts/events for upcoming rappers, making them one of the earlier organisers (not just performers) in the Bangladeshi hip-hop scene.",
+  "listener_community_notes": "Named alongside Deshi MCs and Uptown Lokolz (`uptown-lokolz`) as one of the pioneering 2000s crews establishing Bangladeshi hip-hop. Member Grand T is separately credited (Wikipedia: Bangladeshi hip hop) as the first Bangladeshi rapper to pursue international collaboration (2009), linking this crew to the genre's early internationalisation.",
+  "sources": [
+    { "title": "Bangladeshi hip hop — Wikipedia", "url": "https://en.wikipedia.org/wiki/Bangladeshi_hip_hop", "type": "encyclopedia" },
+    { "title": "THE HIP-HOP STORY — The Daily Star", "url": "https://www.thedailystar.net/shout/cover-story/news/the-hip-hop-story-1666549", "type": "news" }
+  ],
+  "tags": ["hip-hop", "2000s-pioneer", "needs-verification"],
+  "last_updated": "2026-08-07"
+}
