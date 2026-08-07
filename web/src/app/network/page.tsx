@@ -31,8 +31,11 @@ export default function NetworkPage() {
         <NetworkGraph network={network} />
       </div>
       <p className="text-xs text-neutral-600 mt-4">
-        Node size reflects number of documented shared events. Hover a node to
-        highlight its connections; click a name to view the artist profile.
+        Node size reflects number of documented shared events. Scroll or
+        pinch to zoom, drag the background to pan, and drag a node to
+        reposition it. Hover or click a node to highlight its connections;
+        search by name or filter by genre above; click the artist name in
+        the panel below the graph to view their profile.
       </p>
     </div>
   );
