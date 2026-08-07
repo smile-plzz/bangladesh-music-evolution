@@ -1,8 +1,8 @@
 {
   "description": "Prototype Bangladesh Music Preference Network (BMPN) built from publicly documented concert co-billing only. Nodes = artists in data/artists/; edges = artists that shared a concert bill in data/concerts/, weighted by number of shared events. This is an early proxy for audience/genre-community structure, not a validated preference network — streaming/playlist co-occurrence and social-listening data are needed for a fuller model (see docs/roadmap.md).",
   "node_count": 52,
-  "edge_count": 15,
-  "isolated_node_count": 42,
+  "edge_count": 38,
+  "isolated_node_count": 34,
   "nodes": [
     {
       "id": "arbovirus",
@@ -13,7 +13,7 @@
         "Pop Rock",
         "Psychedelic Rock"
       ],
-      "event_count": 0
+      "event_count": 1
     },
     {
       "id": "ark",
@@ -42,7 +42,7 @@
         "Progressive Rock",
         "Heavy Metal"
       ],
-      "event_count": 3
+      "event_count": 4
     },
     {
       "id": "ashes",
@@ -62,7 +62,7 @@
         "Groove Metal",
         "Funk Rock"
       ],
-      "event_count": 0
+      "event_count": 1
     },
     {
       "id": "azam-khan-uchcharon",
@@ -90,7 +90,7 @@
         "Alternative Rock",
         "Bangla Fusion"
       ],
-      "event_count": 0
+      "event_count": 1
     },
     {
       "id": "conclusion",
@@ -108,7 +108,7 @@
         "Heavy Metal",
         "Progressive Metal"
       ],
-      "event_count": 2
+      "event_count": 3
     },
     {
       "id": "de-illumination",
@@ -176,7 +176,7 @@
         "Alternative Rock",
         "Grunge-influenced"
       ],
-      "event_count": 0
+      "event_count": 1
     },
     {
       "id": "jalali-set",
@@ -207,7 +207,7 @@
         "Experimental Rock",
         "Grunge-influenced"
       ],
-      "event_count": 0
+      "event_count": 1
     },
     {
       "id": "kona",
@@ -226,7 +226,7 @@
         "Baul-influenced",
         "Rock"
       ],
-      "event_count": 0
+      "event_count": 1
     },
     {
       "id": "lrb",
@@ -255,7 +255,7 @@
         "Heavy Metal",
         "Thrash Metal"
       ],
-      "event_count": 2
+      "event_count": 3
     },
     {
       "id": "meghdol",
@@ -324,7 +324,7 @@
         "Mainstream Rock",
         "Alternative Rock"
       ],
-      "event_count": 1
+      "event_count": 2
     },
     {
       "id": "nova",
@@ -355,7 +355,7 @@
         "Groove Metal",
         "Heavy Metal"
       ],
-      "event_count": 0
+      "event_count": 1
     },
     {
       "id": "prometheus",
@@ -426,7 +426,7 @@
         "Pop Rock",
         "Soft Rock"
       ],
-      "event_count": 0
+      "event_count": 1
     },
     {
       "id": "souls",
@@ -494,7 +494,7 @@
         "Hard Rock",
         "Progressive Metal"
       ],
-      "event_count": 4
+      "event_count": 5
     },
     {
       "id": "winning",
@@ -515,6 +515,54 @@
     }
   ],
   "edges": [
+    {
+      "source": "arbovirus",
+      "target": "chirkutt",
+      "weight": 1,
+      "shared_events": [
+        "2013-rocknation-i-ruposhi-bangla"
+      ]
+    },
+    {
+      "source": "arbovirus",
+      "target": "cryptic-fate",
+      "weight": 1,
+      "shared_events": [
+        "2013-rocknation-i-ruposhi-bangla"
+      ]
+    },
+    {
+      "source": "arbovirus",
+      "target": "lalon-band",
+      "weight": 1,
+      "shared_events": [
+        "2013-rocknation-i-ruposhi-bangla"
+      ]
+    },
+    {
+      "source": "arbovirus",
+      "target": "nemesis",
+      "weight": 1,
+      "shared_events": [
+        "2013-rocknation-i-ruposhi-bangla"
+      ]
+    },
+    {
+      "source": "arbovirus",
+      "target": "shunno",
+      "weight": 1,
+      "shared_events": [
+        "2013-rocknation-i-ruposhi-bangla"
+      ]
+    },
+    {
+      "source": "arbovirus",
+      "target": "warfaze",
+      "weight": 1,
+      "shared_events": [
+        "2013-rocknation-i-ruposhi-bangla"
+      ]
+    },
     {
       "source": "artcell",
       "target": "cryptic-fate",
@@ -542,6 +590,70 @@
       ]
     },
     {
+      "source": "aurthohin",
+      "target": "karnival",
+      "weight": 1,
+      "shared_events": [
+        "2013-rocknation-iii"
+      ]
+    },
+    {
+      "source": "aurthohin",
+      "target": "mechanix",
+      "weight": 1,
+      "shared_events": [
+        "2013-rocknation-iii"
+      ]
+    },
+    {
+      "source": "chirkutt",
+      "target": "cryptic-fate",
+      "weight": 1,
+      "shared_events": [
+        "2013-rocknation-i-ruposhi-bangla"
+      ]
+    },
+    {
+      "source": "chirkutt",
+      "target": "lalon-band",
+      "weight": 1,
+      "shared_events": [
+        "2013-rocknation-i-ruposhi-bangla"
+      ]
+    },
+    {
+      "source": "chirkutt",
+      "target": "nemesis",
+      "weight": 1,
+      "shared_events": [
+        "2013-rocknation-i-ruposhi-bangla"
+      ]
+    },
+    {
+      "source": "chirkutt",
+      "target": "shunno",
+      "weight": 1,
+      "shared_events": [
+        "2013-rocknation-i-ruposhi-bangla"
+      ]
+    },
+    {
+      "source": "chirkutt",
+      "target": "warfaze",
+      "weight": 1,
+      "shared_events": [
+        "2013-rocknation-i-ruposhi-bangla"
+      ]
+    },
+    {
+      "source": "cryptic-fate",
+      "target": "lalon-band",
+      "weight": 1,
+      "shared_events": [
+        "2013-rocknation-i-ruposhi-bangla"
+      ]
+    },
+    {
       "source": "cryptic-fate",
       "target": "mechanix",
       "weight": 1,
@@ -551,11 +663,68 @@
     },
     {
       "source": "cryptic-fate",
+      "target": "nemesis",
+      "weight": 1,
+      "shared_events": [
+        "2013-rocknation-i-ruposhi-bangla"
+      ]
+    },
+    {
+      "source": "cryptic-fate",
+      "target": "shunno",
+      "weight": 1,
+      "shared_events": [
+        "2013-rocknation-i-ruposhi-bangla"
+      ]
+    },
+    {
+      "source": "cryptic-fate",
       "target": "warfaze",
-      "weight": 2,
+      "weight": 3,
       "shared_events": [
         "2009-artcell-10-years-insanity-sheraton",
+        "2013-rocknation-i-ruposhi-bangla",
         "2026-overload-festival-bccc"
+      ]
+    },
+    {
+      "source": "indalo",
+      "target": "powersurge",
+      "weight": 1,
+      "shared_events": [
+        "2013-rocknation-ii"
+      ]
+    },
+    {
+      "source": "karnival",
+      "target": "mechanix",
+      "weight": 1,
+      "shared_events": [
+        "2013-rocknation-iii"
+      ]
+    },
+    {
+      "source": "lalon-band",
+      "target": "nemesis",
+      "weight": 1,
+      "shared_events": [
+        "2013-rocknation-i-ruposhi-bangla"
+      ]
+    },
+    {
+      "source": "lalon-band",
+      "target": "shunno",
+      "weight": 1,
+      "shared_events": [
+        "2013-rocknation-i-ruposhi-bangla"
+      ]
+    },
+    {
+      "source": "lalon-band",
+      "target": "warfaze",
+      "weight": 1,
+      "shared_events": [
+        "2013-rocknation-i-ruposhi-bangla"
       ]
     },
     {
@@ -625,9 +794,18 @@
     },
     {
       "source": "nemesis",
-      "target": "warfaze",
+      "target": "shunno",
       "weight": 1,
       "shared_events": [
+        "2013-rocknation-i-ruposhi-bangla"
+      ]
+    },
+    {
+      "source": "nemesis",
+      "target": "warfaze",
+      "weight": 2,
+      "shared_events": [
+        "2013-rocknation-i-ruposhi-bangla",
         "bamba-eid-concert-jamuna-future-park"
       ]
     },
@@ -637,6 +815,14 @@
       "weight": 1,
       "shared_events": [
         "bamba-eid-concert-jamuna-future-park"
+      ]
+    },
+    {
+      "source": "shunno",
+      "target": "warfaze",
+      "weight": 1,
+      "shared_events": [
+        "2013-rocknation-i-ruposhi-bangla"
       ]
     }
   ]

@@ -1,0 +1,27 @@
+{
+  "id": "2013-rocknation-iii",
+  "name": "RockNation III",
+  "date": "2013-12-06",
+  "date_precision": "day",
+  "type": "festival",
+  "venue": {
+    "name": "Unknown / not specified in available sources",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "venue_type": "other"
+  },
+  "organizer": "LiveSquare Entertainment",
+  "artists": [
+    { "artist_id": "aurthohin", "billing": "guest" },
+    { "artist_id": "karnival", "billing": "guest" },
+    { "artist_id": "mechanix", "billing": "guest" }
+  ],
+  "genres_represented": ["Alternative Rock", "Progressive Metal", "Heavy Metal"],
+  "attendance_confidence": "unknown",
+  "notes": "Third edition of the RockNation series. Available secondary sources confirm Aurthohin, Karnival, Mechanix, and metal band 'Minerva' (not yet catalogued in this dataset) as additions to the lineup for this edition; full bill not documented. Venue not confirmed — needs verification.",
+  "sources": [
+    { "title": "RockNation — Wikipedia", "url": "https://en.wikipedia.org/wiki/RockNation", "type": "encyclopedia" }
+  ],
+  "tags": ["festival", "multi-band", "rocknation-series", "needs-verification"],
+  "last_updated": "2026-08-07"
+}

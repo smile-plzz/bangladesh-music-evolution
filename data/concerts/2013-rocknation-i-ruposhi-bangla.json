@@ -1,0 +1,31 @@
+{
+  "id": "2013-rocknation-i-ruposhi-bangla",
+  "name": "RockNation I",
+  "date": "2013-04-12",
+  "date_precision": "day",
+  "type": "festival",
+  "venue": {
+    "name": "Winter Garden, Hotel Ruposhi Bangla",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "venue_type": "theatre"
+  },
+  "organizer": "LiveSquare Entertainment",
+  "artists": [
+    { "artist_id": "warfaze", "billing": "headliner" },
+    { "artist_id": "cryptic-fate", "billing": "co-headliner" },
+    { "artist_id": "arbovirus", "billing": "support" },
+    { "artist_id": "nemesis", "billing": "support" },
+    { "artist_id": "shunno", "billing": "support" },
+    { "artist_id": "lalon-band", "billing": "support" },
+    { "artist_id": "chirkutt", "billing": "support" }
+  ],
+  "genres_represented": ["Heavy Metal", "Alternative Rock", "Folk Fusion"],
+  "attendance_confidence": "unknown",
+  "notes": "Inaugural edition of the RockNation festival series, founded by LiveSquare Entertainment. The lineup as reported also included the band 'Jon', which is not yet catalogued as an artist in this dataset. RockNation went on to run multiple editions (2013-2016) before evolving into smaller cultural programs by 2019.",
+  "sources": [
+    { "title": "RockNation — Wikipedia", "url": "https://en.wikipedia.org/wiki/RockNation", "type": "encyclopedia" }
+  ],
+  "tags": ["festival", "multi-band", "rocknation-series"],
+  "last_updated": "2026-08-07"
+}

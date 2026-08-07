@@ -1,0 +1,82 @@
+{
+  "description": "Connected-component clusters over the BMPN prototype (concert co-billing edges only). This is a minimal, honest first pass at listener-ecosystem grouping, not a modularity-based community detection result -- the graph is currently too sparse (38 edges / 52 nodes) for Louvain/Leiden to be meaningful. Revisit once streaming/playlist co-occurrence edges are added.",
+  "method": "connected_components",
+  "cluster_count": 2,
+  "isolated_node_count": 37,
+  "clusters": [
+    {
+      "members": [
+        "arbovirus",
+        "artcell",
+        "aurthohin",
+        "chirkutt",
+        "cryptic-fate",
+        "karnival",
+        "lalon-band",
+        "maqsood-o-dhaka",
+        "mechanix",
+        "nemesis",
+        "renaissance",
+        "shunno",
+        "warfaze"
+      ],
+      "size": 13,
+      "dominant_genres": [
+        "Alternative Rock",
+        "Progressive Metal",
+        "Heavy Metal"
+      ]
+    },
+    {
+      "members": [
+        "indalo",
+        "powersurge"
+      ],
+      "size": 2,
+      "dominant_genres": [
+        "Alternative Rock",
+        "Grunge-influenced",
+        "Thrash Metal"
+      ]
+    }
+  ],
+  "isolated_nodes": [
+    "ark",
+    "arnob",
+    "ashes",
+    "azam-khan-uchcharon",
+    "black",
+    "conclusion",
+    "de-illumination",
+    "deshi-mcs",
+    "feedback",
+    "habib-wahid",
+    "hannan",
+    "imran-mahmudul",
+    "jalali-set",
+    "james-nagar-baul",
+    "kona",
+    "lrb",
+    "meghdol",
+    "metal-maze",
+    "miles",
+    "minar-rahman",
+    "muza",
+    "nancy",
+    "nova",
+    "poizon-green",
+    "prometheus",
+    "rockstrata",
+    "severe-dementia",
+    "shironamhin",
+    "shonar-bangla-circus",
+    "souls",
+    "stentorian",
+    "stoic-bliss",
+    "tahsan",
+    "trainwreck",
+    "vibe",
+    "winning",
+    "yaatri"
+  ]
+}

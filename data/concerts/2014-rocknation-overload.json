@@ -1,0 +1,25 @@
+{
+  "id": "2014-rocknation-overload",
+  "name": "RockNation: Overload",
+  "date": "2014-04-19",
+  "date_precision": "day",
+  "type": "festival",
+  "venue": {
+    "name": "Unknown / not specified in available sources",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "venue_type": "other"
+  },
+  "organizer": "LiveSquare Entertainment",
+  "artists": [
+    { "artist_id": "artcell", "billing": "guest" }
+  ],
+  "genres_represented": ["Progressive Metal"],
+  "attendance_confidence": "unknown",
+  "notes": "Fourth edition of the RockNation series, marking the addition of progressive metal band Artcell to the festival's roster. Full bill not documented in accessible sources — needs verification. This event name later inspired the standalone 'Overload' festival branding referenced elsewhere in this dataset.",
+  "sources": [
+    { "title": "RockNation — Wikipedia", "url": "https://en.wikipedia.org/wiki/RockNation", "type": "encyclopedia" }
+  ],
+  "tags": ["festival", "rocknation-series", "needs-verification"],
+  "last_updated": "2026-08-07"
+}

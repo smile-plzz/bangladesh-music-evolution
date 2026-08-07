@@ -105,7 +105,7 @@ Companion constructs: BMEF (process-oriented temporal view), BMPN (empirical net
 
 **Expected deliverables**: Timeline, BMPN graph, listener preference trees, concert map, genre evolution map, sound-evolution reports, future forecast, open datasets/notebooks where licensing permits.
 
-**Current project status** (roadmap): Foundation and initial timeline/artist profiles complete; broader discographies, streaming metrics, concert database (≥500 target), and full network analysis still in progress.
+**Current project status** (roadmap): Foundation and initial timeline/artist profiles complete (52 artists); a public browsable frontend of the dataset (artist/genre/concert directories, interactive BMPN graph) is deployed at the project repository. Broader discographies, streaming metrics, concert database (12 of ≥500 target entries), and full network analysis (currently concert co-billing only, 38 edges) still in progress.
 
 ## 6. Historical Timeline and Genre Evolution (Synthesised Draft)
 
@@ -139,7 +139,7 @@ These cases illustrate the core BMEM claim: global materials are actively reinte
 
 ## 8. Listener Networks, Concert Culture, and Industry Transformation (Preliminary)
 
-**BMPN design** (ready for implementation once more co-occurrence and event data are collected): artists, genres, concerts, and communities as nodes; shared audiences, playlists, lineups, and social associations as edges. Expected communities include mainstream/nostalgia rock, progressive/metal dedicated, indie/literary, hip-hop/urban youth, and folk-fusion listeners.
+**BMPN prototype** (`data/networks/bmpn-prototype.json`): concert co-billing graph over the 52 catalogued artists, currently **38 weighted edges** drawn from 12 documented events — most substantially the 2013–2014 RockNation festival series, whose four editions connect the metal/alt-rock scene (Warfaze, Cryptic Fate, Arbovirus, Nemesis, Shunno, Lalon Band, Chirkutt, Aurthohin, Karnival, Mechanix, Artcell) alongside pre-existing links (Renaissance, Maqsood O' Dhaka). A connected-components pass (`data/networks/bmpn-clusters.json`) — a deliberately minimal first step, since 38 edges is too sparse for modularity-based detection such as Louvain to be meaningful — yields one 13-artist cluster corresponding to the Dhaka rock/metal live circuit, a small 2-artist cluster (Indalo, Powersurge), and 37 still-isolated artists. This confirms the qualitative expectation of a metal/alt-rock ecosystem anchored in shared live billing, but progressive/literary, hip-hop, pop, and folk-fusion communities remain undetected pending streaming/social co-occurrence data and further concert coverage. Once density improves, modularity-based community detection (Louvain/Leiden) should supersede this connected-components placeholder.
 
 **Concert ecosystem typology** (from methodology):
 - Large open-air headliners → broad, multi-generational, communal/nostalgic.

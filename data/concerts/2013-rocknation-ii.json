@@ -1,0 +1,26 @@
+{
+  "id": "2013-rocknation-ii",
+  "name": "RockNation II",
+  "date": "2013-09-20",
+  "date_precision": "day",
+  "type": "festival",
+  "venue": {
+    "name": "Unknown / not specified in available sources",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "venue_type": "other"
+  },
+  "organizer": "LiveSquare Entertainment",
+  "artists": [
+    { "artist_id": "indalo", "billing": "guest" },
+    { "artist_id": "powersurge", "billing": "guest" }
+  ],
+  "genres_represented": ["Alternative Rock", "Thrash Metal"],
+  "attendance_confidence": "unknown",
+  "notes": "Second edition of the RockNation series. Available secondary sources only confirm Indalo and thrash metal act Powersurge as new additions to the lineup for this edition; the full bill (likely including several RockNation I bands) is not documented in accessible sources. Venue not confirmed — needs verification.",
+  "sources": [
+    { "title": "RockNation — Wikipedia", "url": "https://en.wikipedia.org/wiki/RockNation", "type": "encyclopedia" }
+  ],
+  "tags": ["festival", "multi-band", "rocknation-series", "needs-verification"],
+  "last_updated": "2026-08-07"
+}
