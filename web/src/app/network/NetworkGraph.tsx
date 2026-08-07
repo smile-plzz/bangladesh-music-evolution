@@ -69,7 +69,6 @@ export default function NetworkGraph({ network }: { network: Network }) {
     { source: string; target: string; weight: number; x1: number; y1: number; x2: number; y2: number }[]
   >([]);
   const [hovered, setHovered] = useState<string | null>(null);
-  const simRef = useRef<ReturnType<typeof forceSimulation> | null>(null);
 
   useEffect(() => {
     const sim = forceSimulation<GraphNode>(nodes)
