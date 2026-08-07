@@ -52,25 +52,14 @@ export default function NetworkGraph({ network }: { network: Network }) {
   const width = 900;
   const height = 640;
 
-  const { nodes, links } = useMemo(() => {
+  const { nodes, positions, linkPositions } = useMemo(() => {
     const nodes: GraphNode[] = network.nodes.map((n) => ({ ...n }));
     const links: GraphLink[] = network.edges.map((e) => ({
       source: e.source,
       target: e.target,
       weight: e.weight,
     }));
-    return { nodes, links };
-  }, [network]);
 
-  const [positions, setPositions] = useState<
-    Record<string, { x: number; y: number }>
-  >({});
-  const [linkPositions, setLinkPositions] = useState<
-    { source: string; target: string; weight: number; x1: number; y1: number; x2: number; y2: number }[]
-  >([]);
-  const [hovered, setHovered] = useState<string | null>(null);
-
-  useEffect(() => {
     const sim = forceSimulation<GraphNode>(nodes)
       .force(
         "link",
@@ -86,29 +75,29 @@ export default function NetworkGraph({ network }: { network: Network }) {
 
     sim.tick(300);
 
-    const posMap: Record<string, { x: number; y: number }> = {};
+    const positions: Record<string, { x: number; y: number }> = {};
     for (const n of nodes) {
-      posMap[n.id] = { x: n.x ?? width / 2, y: n.y ?? height / 2 };
+      positions[n.id] = { x: n.x ?? width / 2, y: n.y ?? height / 2 };
     }
-    setPositions(posMap);
 
-    setLinkPositions(
-      links.map((l) => {
-        const s = l.source as unknown as GraphNode;
-        const t = l.target as unknown as GraphNode;
-        return {
-          source: s.id,
-          target: t.id,
-          weight: l.weight,
-          x1: s.x ?? 0,
-          y1: s.y ?? 0,
-          x2: t.x ?? 0,
-          y2: t.y ?? 0,
-        };
-      })
-    );
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [nodes, links]);
+    const linkPositions = links.map((l) => {
+      const s = l.source as unknown as GraphNode;
+      const t = l.target as unknown as GraphNode;
+      return {
+        source: s.id,
+        target: t.id,
+        weight: l.weight,
+        x1: s.x ?? 0,
+        y1: s.y ?? 0,
+        x2: t.x ?? 0,
+        y2: t.y ?? 0,
+      };
+    });
+
+    return { nodes, positions, linkPositions };
+  }, [network]);
+
+  const [hovered, setHovered] = useState<string | null>(null);
 
   const connectedIds = useMemo(() => {
     if (!hovered) return null;
