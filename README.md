@@ -103,6 +103,18 @@ Graph connecting artists, genres, concerts, and listener communities through sha
 - Findings consistent across multiple independent online data sources
 - Open dataset, analytical framework, visualizations, and final thesis
 
+## Frontend
+
+A browsable Next.js frontend for this dataset lives in [`web/`](./web) — artist directory, genre pages, concert listings, and an interactive preference-network graph, statically generated from the JSON in `data/`.
+
+```bash
+cd web
+npm install
+npm run dev
+```
+
+Deploy to Vercel (free tier) by importing this repo and setting the project's **Root Directory** to `web`; no other configuration is required.
+
 ## License
 
 This research project is intended for academic and cultural research purposes. Data collected from public sources will be shared under appropriate open licenses where possible.
