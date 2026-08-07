@@ -48,9 +48,20 @@ Analytical dimensions applied to each: Musical Evolution (instrumentation, produ
 
 ## 3. Literature Review (Working Synthesis)
 
-**Directly relevant scholarly work** includes Quader & Redden (2014) on the Bangladeshi metal underground as alternative cultural space; Hasan (2015) on rock, social change, and democratisation; Mitra (2014) sociological study of Bangla bands; Yoon (2019) on cultural hybridity in fusion (BANGLA band); and Autul et al. (2024) computational Spotify-feature comparison of Bangladesh vs. West Bengal rock.
+**Directly relevant scholarly work**, now verified against primary bibliographic records with open-access copies located (see `docs/literature-review.md` for full citations and links):
+- Quader & Redden (2015, *Cultural Studies* 29(3): 401–424) on the Bangladeshi metal underground as an alternative cultural space built from youth frustration, using "scene" rather than "subculture" as the analytic frame;
+- Quader (2016, *Metal Music Studies* 2(1): 5–24), a solo follow-up applying Bourdieu's forms of capital directly to the Dhaka metal scene — supplying the empirical grounding for the Bourdieusian lens listed below, rather than leaving it an abstract citation;
+- Hasan (2015), an LSE South Asia blog essay (not peer-reviewed) arguing Bangladeshi rock has fostered democratic consciousness and secular/pluralist attitudes among youth — retained as a commentary source, flagged for triangulation rather than treated as equivalent evidence to the peer-reviewed items;
+- Mitra (2014) sociological thesis on Bangla bands (Jadavpur University; a 2008 published article by the same author was located as an interim citable proxy while the thesis repository record is re-verified);
+- Mukherjee (2017, *International Journal of Pedagogy, Innovation and New Technologies* 4(2): 35–47) on Bangla Rock as post-colonial countercultural dissidence (West Bengal-focused, comparative);
+- Yoon (2019, *South Asia Studies* 25(2): 59–116, Hankuk University of Foreign Studies) on cultural hybridity in the fusion band BANGLA's reworking of Baul/Lalon repertoire — citation fully reconciled against the Korean-language publisher record;
+- Pervez (2012) on frame analysis and Hall's identity theory applied to contemporary Bangladeshi music — newly added, bridging Local Adaptation and Listener Preference Networks;
+- Mridha & Begum (2023, *Issues in Social Science* 11(2)) tracing the folk-to-band-music historical continuum — newly added;
+- Autul et al. (2024, *International Journal of Computer and Digital Systems*) computational Spotify-feature comparison of Bangladesh vs. West Bengal rock — methodologically the closest precedent for this project's planned quantitative work; full text located but not yet machine-extracted in this environment.
 
-Broader lenses: Cultural Evolution Theory, Uses and Gratifications, Diffusion of Innovations (platform adoption), Bourdieu’s cultural capital / subcultural capital, Social Identity Theory, and popular-music studies of globalisation/localisation/hybridity.
+**Hip-Hop/Rap literature gap closed**: the working draft previously cited no academic sources for this genre strand. Hasan & Kundu (2021, in *Masks of Authoritarianism*, pp. 173–183) interview four leading Bangladeshi rap artists and identify a generational split between explicitly political younger artists and more conformist, established ones; Hasan & Kundu (2022, in *The Emergence of Bangladesh*, pp. 405–417) frame Bangladeshi rap as the latest chapter of a national protest-music tradition. Two 2025–2026 pieces on hip-hop's role in the 2024 mass uprising were identified but not yet reviewed in depth — flagged as a priority for the next literature pass.
+
+Broader lenses: Cultural Evolution Theory, Uses and Gratifications, Diffusion of Innovations (platform adoption), Bourdieu's cultural capital / subcultural capital (now directly instantiated via Quader 2016), Social Identity Theory, and popular-music studies of globalisation/localisation/hybridity.
 
 **Secondary / historical sources** (Daily Star, Business Standard, Financial Express, ASEF Contemporary Music in Bangladesh 2017, *Banglar Rock Metal* book, Wikipedia discographies, artist interviews) supply timeline and influence claims that are triangulated against primary statements.
 
@@ -59,6 +70,7 @@ Broader lenses: Cultural Evolution Theory, Uses and Gratifications, Diffusion of
 - Scarce linkage of sonic evolution to listener networks and concert culture.
 - Few computational analyses using public digital footprints at scale for Bangladesh.
 - Need for an integrative framework (BMEM) connecting global influence → local adaptation → audiences → industry.
+- Until this pass, no dedicated academic literature had been identified for the Hip-Hop/Rap genre strand specifically (now addressed above).
 
 Emerging patterns from literature and project timeline: early commercial band culture (late 1970s–80s); metal pioneering via covers then original Bangla material (Warfaze 1991); progressive crystallisation (Artcell 2002/2006); parallel indie/pop/hip-hop/folk-fusion streams; digital reconfiguration of discovery and monetisation since the mid-2000s; recent institutional recognition (Warfaze Ekushey Padak 2026).
 

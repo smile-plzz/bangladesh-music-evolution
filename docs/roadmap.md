@@ -43,7 +43,7 @@
 3. Continue cataloguing artists referenced but not yet substantiated: Kronic, Nigar Sumi (Coke Studio Bangla vocalist), Reborn, and additional contemporary pop/hip-hop acts.
 4. Revisit Shohojia and Owned once better sources are found; do not fabricate profiles in the meantime.
 5. Modularity-based community detection (e.g. Louvain) remains blocked on graph density — the connected-components pass (`bmpn-clusters.json`) is a placeholder; re-run `analysis/scripts/build_bmpn_clusters.py` as more edges are added and revisit Louvain once the graph is denser.
-6. Deepen literature review (full texts of Quader & Redden 2014, Mitra thesis, theoretical sources).
+6. ~~Deepen literature review (full texts of Quader & Redden 2014, Mitra thesis, theoretical sources).~~ Done for this pass — see `docs/literature-review.md`: corrected the Quader & Redden citation (2015, *Cultural Studies* 29(3)), added the companion Quader (2016) Bourdieu paper and source PhD thesis, added Pervez (2012) and Mridha & Begum (2023) for theoretical/historical grounding, and closed the previously-empty Hip-Hop/Rap literature gap (Hasan & Kundu 2021, 2022). Still open: Mitra (2014) thesis full text (Shodhganga record didn't resolve), Autul et al. (2024) full-text extraction (PDF located, needs `poppler`/`pdftotext`), Pervez (2012) venue-name reconciliation, and review of two flagged 2025-2026 hip-hop/uprising pieces.
 
 ---
 
