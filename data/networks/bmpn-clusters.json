@@ -2,7 +2,7 @@
   "description": "Connected-component clusters over the BMPN prototype (concert co-billing edges only). This is a minimal, honest first pass at listener-ecosystem grouping, not a modularity-based community detection result -- the graph is currently too sparse (38 edges / 52 nodes) for Louvain/Leiden to be meaningful. Revisit once streaming/playlist co-occurrence edges are added.",
   "method": "connected_components",
   "cluster_count": 2,
-  "isolated_node_count": 37,
+  "isolated_node_count": 39,
   "clusters": [
     {
       "members": [
@@ -44,6 +44,7 @@
     "ark",
     "arnob",
     "ashes",
+    "ashraf-babu-charu",
     "azam-khan-uchcharon",
     "black",
     "conclusion",
@@ -68,6 +69,7 @@
     "prometheus",
     "rockstrata",
     "severe-dementia",
+    "shezan",
     "shironamhin",
     "shonar-bangla-circus",
     "souls",

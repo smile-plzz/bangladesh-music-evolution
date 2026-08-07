@@ -41,7 +41,7 @@ Bangladesh possesses deep musical roots: Baul, Bhatiali, Bhawaiya, Nazrul Geeti,
 | Heavy Metal            | Warfaze, Powersurge, Mechanix, Cryptic Fate      | Iron Maiden, Metallica, Megadeth, Judas Priest, Black Sabbath |
 | Alternative / Indie    | Meghdol, Ashes, Shohojia, Conclusion             | Radiohead, Arctic Monkeys, Fleet Foxes, Bon Iver, The National|
 | Pop                    | Habib Wahid, Tahsan, Minar, Imran, Nancy, Kona   | Contemporary Pop, R&B, Electronic, K-pop, South Asian Pop     |
-| Hip-Hop / Rap          | Stoic Bliss, Muza, Hannan, Jalali Set            | American Hip-Hop, UK Drill, South Asian Hip-Hop               |
+| Hip-Hop / Rap          | Ashraf Babu & Charu (1993 origin point), Stoic Bliss, Muza, Hannan, Jalali Set, Shezan | American Hip-Hop, UK Drill, South Asian Hip-Hop |
 | Folk & Folk Fusion     | Arnob, Coke Studio Bangla, Baul artists          | World Music, Acoustic Folk, Contemporary Folk Revival         |
 
 Analytical dimensions applied to each: Musical Evolution (instrumentation, production, structure), Cultural Evolution (lyrics, identity, themes), Listener Evolution, Concert Culture, and Industry Evolution (cassette → streaming → AI).
@@ -117,7 +117,7 @@ Companion constructs: BMEF (process-oriented temporal view), BMPN (empirical net
 
 **Expected deliverables**: Timeline, BMPN graph, listener preference trees, concert map, genre evolution map, sound-evolution reports, future forecast, open datasets/notebooks where licensing permits.
 
-**Current project status** (roadmap): Foundation and initial timeline/artist profiles complete (52 artists); a public browsable frontend of the dataset (artist/genre/concert directories, interactive BMPN graph) is deployed at the project repository. Broader discographies, streaming metrics, concert database (12 of ≥500 target entries), and full network analysis (currently concert co-billing only, 38 edges) still in progress.
+**Current project status** (roadmap): Foundation and initial timeline/artist profiles complete (54 artists, including newly-added hip-hop genre-origin coverage — Ashraf Babu & Charu's 1993 *Tri-Rotner Khepa*, the first Bengali-language rap album); a public browsable frontend of the dataset (artist/genre/concert directories, interactive BMPN graph) is deployed at the project repository. Broader discographies, streaming metrics, concert database (12 of ≥500 target entries), and full network analysis (currently concert co-billing only, 38 edges) still in progress.
 
 ## 6. Historical Timeline and Genre Evolution (Synthesised Draft)
 
@@ -129,7 +129,7 @@ Companion constructs: BMEF (process-oriented temporal view), BMPN (empirical net
 
 **Mid–late 1980s**: Heavy metal underground (Warfaze, Rockstrata, In Dhaka, Aces) performing Iron Maiden, Metallica, etc.; stigma as “oposhongskriti.”
 
-**1990–95**: Original Bangla metal (Warfaze self-titled 1991 — “Boshe Achhi,” “Ekti Chele”); LRB formed 1991; cassette-era peak; BAMBA/university shows.
+**1990–95**: Original Bangla metal (Warfaze self-titled 1991 — “Boshe Achhi,” “Ekti Chele”); LRB formed 1991; cassette-era peak; BAMBA/university shows. Bengali-language hip-hop's origin point also falls here: Ashraf Babu & Charu's *Tri-Rotner Khepa* (1993), the first Bengali rap album — a full decade ahead of the genre's better-documented 2000s revival, and evidence that localisation was already underway across genres beyond rock/metal by the early 1990s.
 
 **Late 1990s–2000s**: Diversification (Artcell 1999 → *Onno Shomoy* 2002, *Oniket Prantor* 2006); indie/alternative growth; YouTube begins transforming distribution.
 

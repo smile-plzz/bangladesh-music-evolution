@@ -1,0 +1,42 @@
+{
+  "id": "shezan",
+  "name": "Shezan",
+  "also_known_as": ["Shezan Beatz"],
+  "type": "solo",
+  "formed_year": 2018,
+  "disbanded_year": null,
+  "origin_city": "Narayanganj",
+  "genres": ["Hip-Hop", "Rap"],
+  "languages": ["bn"],
+  "members": [
+    { "name": "Shezan", "role": "Rap, Production", "years_active": "2018–present", "current": true }
+  ],
+  "discography_summary": [
+    {
+      "title": "Laal Batti",
+      "year": 2026,
+      "type": "studio",
+      "label": null,
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "American hip-hop",
+      "evidence": "Secondary press (bdhiphop.com) describes his style as combining hip-hop production and rap delivery conventions with traditional Bengali sounds — East/West fusion rather than a single named influence.",
+      "source": "bdhiphop.com coverage",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "Music press describes Shezan's style as blending hip-hop with traditional Bengali sonic elements, positioned as part of the broader Bangla rap wave rather than an imitation of a Western regional style.",
+  "sound_evolution_summary": "Rose to wider recognition via the collaboration \"Marattok Madarchod\" with 1230 Klassick, followed by singles including \"Cartel\", \"Player\", \"Jonggol\", \"Seal Maar\", \"Blacklist\", \"Outlawz\", \"Duno Mono Tino\", and \"DISS-COUNT\", building toward the debut album Laal Batti, which features collaborations with Nizam Rabby, Gunshot Player, and fellow-catalogued artist Hannan (`hannan`).",
+  "concert_culture_notes": "Not yet documented in available sources.",
+  "listener_community_notes": "Active within two hip-hop production/artist collectives, Killaz Kulture and Wrong Side; as a producer under Killaz Kulture he has produced beats for other Bangladeshi hip-hop artists (Shafayat Hossain, Sheikh Sadi, Akib Bro, Muhammad Abdullah), placing him as a connective node between multiple artists in the contemporary hip-hop scene — relevant for future BMPN edges once collaboration/production-credit data is incorporated.",
+  "sources": [
+    { "title": "\"Gangstaz\" to \"A.i Kh*nki\": Shezan Leads the Bangla Rap Revolution — bdhiphop.com", "url": "https://www.bdhiphop.com/gangstaz-to-a-i-khnki-shezan-leads-the-bangla-rap-revolution/", "type": "music-press" },
+    { "title": "Inside the Rise of Shezan: Bangla Rap's New Leader Drops 'HUDDAI HUTASHE' — bdhiphop.com", "url": "https://www.bdhiphop.com/inside-the-rise-of-shezan-bangla-raps-new-leader-drops-huddai-hutashe-and-its-a-smash/", "type": "music-press" },
+    { "title": "Shezan drops \"Doyal,\" the first single from his upcoming album — bdhiphop.com", "url": "https://www.bdhiphop.com/shezan-drops-doyal-the-first-single-from-his-upcoming-album/", "type": "music-press" }
+  ],
+  "tags": ["contemporary", "hip-hop", "needs-verification"],
+  "last_updated": "2026-08-07"
+}

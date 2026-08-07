@@ -1,0 +1,46 @@
+{
+  "id": "ashraf-babu-charu",
+  "name": "Ashraf Babu & Charu",
+  "type": "collective",
+  "formed_year": 1993,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Hip-Hop", "Rap"],
+  "languages": ["bn"],
+  "members": [
+    { "name": "Ashraf Babu", "role": "Rap / Vocals", "years_active": "1993–present", "current": true },
+    { "name": "Charu", "role": "Rap / Vocals", "years_active": "1993–present", "current": true }
+  ],
+  "discography_summary": [
+    {
+      "title": "Tri-Rotner Khepa",
+      "year": 1993,
+      "type": "studio",
+      "notable_tracks": ["Cholche"]
+    },
+    {
+      "title": "Bayuchura",
+      "year": 1993,
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "American rap (general)",
+      "evidence": "Secondary sources describe early-1990s Bangladeshi hip-hop, of which this duo were the foundational act, as emerging under the influence of American rap; no single artist-level influence is documented for this specific duo in available sources.",
+      "source": "Wikipedia: Bangladeshi hip hop",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "Released Tri-Rotner Khepa in early 1993 (around Eid-ul Fitr), credited as the first Bengali-language rap album — predating the 2000s/2010s wave (Stoic Bliss, Deshi MCs, Jalali Set) by roughly a decade. A second album, Bayuchura, followed the same year (around Eid-ul Azha). Secondary sources report the duo released a total of seventeen albums, but that cassette labels' preference for Bangla songs set to Hindi film tunes limited the commercial runway for original Bangla rap at the time, contributing to the genre's slow uptake until its 2000s revival.",
+  "sound_evolution_summary": "Documented only at the level of the pioneering 1993 releases in currently available sources; no detailed sound-evolution account across the duo's reported seventeen-album catalogue has yet been located.",
+  "concert_culture_notes": "Not yet documented in available sources.",
+  "listener_community_notes": "Positioned in secondary sources as the origin point of Bengali-language rap, a full decade before the genre's better-documented 2004–2015 pioneers (Stoic Bliss, Deshi MCs, Jalali Set). Historically important for establishing rap as a viable Bangla-language form, even though the scene did not sustain continuous momentum from this first wave.",
+  "sources": [
+    { "title": "Bangladeshi hip hop — Wikipedia", "url": "https://en.wikipedia.org/wiki/Bangladeshi_hip_hop", "type": "encyclopedia" },
+    { "title": "Why the hip-hop culture could not sustain in Bangladesh — The Financial Express", "url": "https://mail.thefinancialexpress.com.bd/entertainment/why-the-hip-hop-culture-could-not-sustain-in-bangladesh-1656837102", "type": "news" }
+  ],
+  "tags": ["hip-hop-origin", "needs-verification", "pre-2000s"],
+  "last_updated": "2026-08-07"
+}

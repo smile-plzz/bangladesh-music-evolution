@@ -1,8 +1,8 @@
 {
   "description": "Prototype Bangladesh Music Preference Network (BMPN) built from publicly documented concert co-billing only. Nodes = artists in data/artists/; edges = artists that shared a concert bill in data/concerts/, weighted by number of shared events. This is an early proxy for audience/genre-community structure, not a validated preference network — streaming/playlist co-occurrence and social-listening data are needed for a fuller model (see docs/roadmap.md).",
-  "node_count": 52,
+  "node_count": 54,
   "edge_count": 38,
-  "isolated_node_count": 34,
+  "isolated_node_count": 36,
   "nodes": [
     {
       "id": "arbovirus",
@@ -50,6 +50,15 @@
       "genres": [
         "Alternative Rock",
         "Folk Rock"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "ashraf-babu-charu",
+      "name": "Ashraf Babu & Charu",
+      "genres": [
+        "Hip-Hop",
+        "Rap"
       ],
       "event_count": 0
     },
@@ -391,6 +400,15 @@
         "Death Metal",
         "Brutal Death Metal",
         "Technical Death Metal"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "shezan",
+      "name": "Shezan",
+      "genres": [
+        "Hip-Hop",
+        "Rap"
       ],
       "event_count": 0
     },
