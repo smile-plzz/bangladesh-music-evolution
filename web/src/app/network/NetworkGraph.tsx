@@ -84,7 +84,6 @@ export default function NetworkGraph({ network }: { network: Network }) {
       .force("collide", forceCollide(28))
       .stop();
 
-    simRef.current = sim;
     sim.tick(300);
 
     const posMap: Record<string, { x: number; y: number }> = {};
