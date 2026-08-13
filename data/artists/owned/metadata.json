@@ -1,0 +1,74 @@
+{
+  "id": "owned",
+  "name": "Owned",
+  "type": "band",
+  "formed_year": 2007,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Alternative Rock", "Nu Metal"],
+  "languages": ["bn", "en"],
+  "members": [
+    {
+      "name": "A.K. Ratul",
+      "role": "Bass, Vocals, Founder",
+      "years_active": "2007–present",
+      "current": true
+    },
+    {
+      "name": "A.K. Samee",
+      "role": "Drums, Founder",
+      "years_active": "2007–present",
+      "current": true
+    },
+    {
+      "name": "Fasihuddin Ahmed Itmam (Fasih)",
+      "role": "Guitar, Founder",
+      "years_active": "2007–present",
+      "current": true
+    },
+    {
+      "name": "Pritom Arefin",
+      "role": "Guitar",
+      "years_active": "unspecified",
+      "current": true
+    },
+    {
+      "name": "Samiul",
+      "role": "Keyboard",
+      "years_active": "unspecified",
+      "current": true
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Owned 1",
+      "year": 2014,
+      "type": "ep",
+      "notable_tracks": []
+    },
+    {
+      "title": "Owned 2",
+      "year": 2017,
+      "type": "ep",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Deftones, Slipknot, Queens of the Stone Age",
+      "evidence": "Drummer A.K. Samee has stated nu-metal bands including Deftones, Slipknot and Queens of the Stone Age were a large influence on the band's sound.",
+      "source": "TBS News — 'Owned' owning Dhaka's rock scene",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "Part of the mid-to-late-2000s Dhaka rock/nu-metal wave that surfaced on the RockNation festival circuit alongside AvoidRafa and Echoes.",
+  "sound_evolution_summary": "Formed 2007 in Dhaka by A.K. Ratul (bass/vocals), A.K. Samee (drums) and Fasihuddin Ahmed Itmam (guitar); released two self-titled EPs, 'Owned 1' (2014) and 'Owned 2' (2017).",
+  "concert_culture_notes": "Performed at 'RockNation: The Revolution of Rock' (2014) alongside other newer-generation acts AvoidRafa and Echoes.",
+  "listener_community_notes": "",
+  "sources": [
+    { "title": "Owned biography — Last.fm", "url": "https://www.last.fm/music/Owned/+wiki", "type": "database" },
+    { "title": "'Owned' owning Dhaka's rock scene — The Business Standard", "url": "https://www.tbsnews.net/glitz/owned-owning-dhakas-rock-scene-96472", "type": "news" }
+  ],
+  "tags": ["alternative-indie", "nu-metal", "needs-verification"],
+  "last_updated": "2026-08-13"
+}

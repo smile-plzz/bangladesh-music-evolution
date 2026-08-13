@@ -1,0 +1,69 @@
+{
+  "id": "shohojia",
+  "name": "Shohojia",
+  "also_known_as": ["সহজিয়া"],
+  "type": "band",
+  "formed_year": null,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Alternative Rock"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Raju (Rajib Ahmed Raju)",
+      "role": "Vocals, Founder",
+      "years_active": "unspecified–present",
+      "current": true
+    },
+    {
+      "name": "Shajib Hayder",
+      "role": "Guitar",
+      "years_active": "unspecified",
+      "current": true
+    },
+    {
+      "name": "Shajedul Islam Shimul",
+      "role": "Guitar",
+      "years_active": "unspecified",
+      "current": true
+    },
+    {
+      "name": "Sharfuddin Rabbi",
+      "role": "Drums",
+      "years_active": "unspecified",
+      "current": true
+    },
+    {
+      "name": "Zafriye Abedin",
+      "role": "Bass Guitar",
+      "years_active": "unspecified",
+      "current": true
+    }
+  ],
+  "discography_summary": [
+    {
+      "title": "Ghora",
+      "year": 2018,
+      "type": "studio",
+      "notable_tracks": []
+    },
+    {
+      "title": "Rongmistree",
+      "year": null,
+      "type": "studio",
+      "notable_tracks": []
+    }
+  ],
+  "global_influences": [],
+  "local_adaptation_notes": "Released 'Chand E Jawar Gaan' on the eve of Eid and a music video dedicated to refugee children, suggesting socially-themed songwriting; formation year and full genre classification not yet located in accessible sources.",
+  "sound_evolution_summary": "Five-piece Dhaka band; second album 'Ghora' released 2018 following an undated debut; held a solo concert titled 'Dhyan'.",
+  "concert_culture_notes": "",
+  "listener_community_notes": "",
+  "sources": [
+    { "title": "Shohojia to release their second album 'Ghora' — Dhaka Tribune", "url": "https://archive.dhakatribune.com/showtime/2018/01/12/shohojia-release-second-album-ghora", "type": "news" },
+    { "title": "'Dhyan': Harmonious celebrations highlight Shohojia's solo concert — The Daily Star", "url": "https://thedailystar.net/entertainment/music/news/dhyan-night-harmonious-celebrations-3796781", "type": "news" },
+    { "title": "Shohojia to release 'Chand E Jawar Gaan' on eve of Eid — The Business Standard", "url": "https://www.tbsnews.net/splash/shohojia-release-chand-e-jawar-gaan-eve-eid-620070", "type": "news" }
+  ],
+  "tags": ["alternative-indie", "needs-verification"],
+  "last_updated": "2026-08-13"
+}

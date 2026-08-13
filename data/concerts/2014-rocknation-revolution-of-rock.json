@@ -1,0 +1,25 @@
+{
+  "id": "2014-rocknation-revolution-of-rock",
+  "name": "RockNation: The Revolution of Rock",
+  "date": "2014-06-01",
+  "date_precision": "year",
+  "type": "festival",
+  "venue": {
+    "name": "Winter Garden, Hotel Ruposhi Bangla",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "venue_type": "other"
+  },
+  "organizer": "LiveSquare Entertainment",
+  "artists": [
+    { "artist_id": "owned", "billing": "support" }
+  ],
+  "genres_represented": ["Alternative Rock", "Rock"],
+  "attendance_confidence": "unknown",
+  "notes": "Fifth edition of the RockNation series, introducing newer-generation acts AvoidRafa, Echoes and Owned to the festival roster. Exact 2014 date not specified in available sources; AvoidRafa and Echoes are not yet catalogued as artists in this dataset.",
+  "sources": [
+    { "title": "RockNation — Wikipedia", "url": "https://en.wikipedia.org/wiki/RockNation", "type": "encyclopedia" }
+  ],
+  "tags": ["festival", "rocknation-series", "needs-verification"],
+  "last_updated": "2026-08-13"
+}

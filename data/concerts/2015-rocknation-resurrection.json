@@ -1,0 +1,23 @@
+{
+  "id": "2015-rocknation-resurrection",
+  "name": "RockNation: Resurrection",
+  "date": "2015-04-03",
+  "date_precision": "day",
+  "type": "festival",
+  "venue": {
+    "name": "International Convention City Bashundhara",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "venue_type": "convention-centre"
+  },
+  "organizer": "LiveSquare Entertainment",
+  "artists": [],
+  "genres_represented": ["Rock", "Metal"],
+  "attendance_confidence": "unknown",
+  "notes": "Sixth edition of the RockNation series, notable for the band Vikings staging a return after a decade-long hiatus. Vikings is not yet catalogued as an artist in this dataset; full lineup beyond Vikings not documented in accessible sources.",
+  "sources": [
+    { "title": "RockNation — Wikipedia", "url": "https://en.wikipedia.org/wiki/RockNation", "type": "encyclopedia" }
+  ],
+  "tags": ["festival", "rocknation-series", "needs-verification"],
+  "last_updated": "2026-08-13"
+}

@@ -4,7 +4,7 @@ This directory will hold structured metadata and notes on Bangladeshi artists in
 
 ## Target
 
-≥ 300 Bangladeshi artists catalogued (as per success criteria). Current progress: **56 artists** catalogued with full `metadata.json` profiles, all validated against `data/schemas/artist.schema.json`.
+≥ 300 Bangladeshi artists catalogued (as per success criteria). Current progress: **58 artists** catalogued with full `metadata.json` profiles, all validated against `data/schemas/artist.schema.json`.
 
 ## Planned Structure (per artist or group)
 
@@ -19,7 +19,7 @@ artist-slug/
 
 ## Priority Artists for Initial Deep Dives
 
-Status: all originally listed priority artists are catalogued (✅), plus 28 additional artists surfaced during concert/cross-reference research. Two artists — Shohojia and Owned — could not be substantiated from available public sources and remain flagged for further research rather than documented with fabricated data. "Ashestoangels" was investigated and ruled out — it is a UK (Bristol) band, not Bangladeshi, and is not included.
+Status: all originally listed priority artists are catalogued (✅), plus 30 additional artists surfaced during concert/cross-reference research, including Shohojia and Owned — both re-investigated (2026-08-13) and now catalogued from sourced biographical data (Last.fm, TBS News, Dhaka Tribune, The Daily Star). "Ashestoangels" was investigated and ruled out — it is a UK (Bristol) band, not Bangladeshi, and is not included.
 
 ### Mainstream Rock
 - [x] James / Nagar Baul (`james-nagar-baul`)
@@ -51,7 +51,7 @@ Status: all originally listed priority artists are catalogued (✅), plus 28 add
 - [x] Severe Dementia (`severe-dementia`) — first death metal record in Bangladesh
 - [x] De-illumination (`de-illumination`) — first symphonic rock/metal act in Bangladesh
 - [x] Trainwreck (`trainwreck`) — English-language groove metal, Wacken Open Air 2019
-- [ ] Owned — not yet substantiated from available public sources
+- [x] Owned (`owned`) — Dhaka nu-metal/alt-rock act, formed 2007, two self-titled EPs (2014, 2017)
 
 ### Alternative / Indie
 - [x] Meghdol (`meghdol`)
@@ -66,7 +66,7 @@ Status: all originally listed priority artists are catalogued (✅), plus 28 add
 - [x] Indalo (`indalo`) — "supergroup" from Black/Aashor/Nemesis alumni
 - [x] Shonar Bangla Circus (`shonar-bangla-circus`) — newest act (2018), conceptual psychedelic rock
 - [x] Yaatri (`yaatri`) — university-formed, mellow rock
-- [ ] Shohojia — not yet substantiated from available public sources
+- [x] Shohojia (`shohojia`) — Dhaka five-piece, second album 'Ghora' (2018); formation year and genre still thinly sourced, flagged `needs-verification`
 
 ### Pop
 - [x] Habib Wahid (`habib-wahid`)
@@ -92,4 +92,4 @@ Status: all originally listed priority artists are catalogued (✅), plus 28 add
 - [x] Lalon Band (`lalon-band`) — explicitly mission-driven Baul/Lalon Shah reinterpretation, UN Headquarters performance
 - Coke Studio Bangla documented as a platform note in `data/genres/genre-overview.md` rather than an artist entry (not a single artist/band)
 
-Additional artists will be added iteratively based on network analysis, streaming visibility, and historical significance. Next candidates surfaced but not yet catalogued (insufficient sourcing so far): Kronic and Reborn — both turn up only as names in list-form band-scene round-ups (e.g. a blogspot history piece grouping them with Black, Artcell, Poizon Green, Scarecrow, Dolchhut, Obscure, Chime, Beduin) with no locatable formation year, members, or discography; do not fabricate profiles until better sources surface. Nigar Sumi was investigated and found to already be documented — she is the founder-vocalist of Lalon Band (`lalon-band`), not a separate artist. Uptown Lokolz and Theology of Rap have since been catalogued (see Hip-Hop section above). No API access is available for Spotify/YouTube streaming-metrics collection (roadmap item 2) — that item is blocked pending the user setting up developer credentials.
+Additional artists will be added iteratively based on network analysis, streaming visibility, and historical significance. Next candidates surfaced but not yet catalogued (insufficient sourcing so far): Kronic and Reborn — both turn up only as names in list-form band-scene round-ups (e.g. a blogspot history piece grouping them with Black, Artcell, Poizon Green, Scarecrow, Dolchhut, Obscure, Chime, Beduin) with no locatable formation year, members, or discography; do not fabricate profiles until better sources surface. Nigar Sumi was investigated and found to already be documented — she is the founder-vocalist of Lalon Band (`lalon-band`), not a separate artist. Uptown Lokolz and Theology of Rap have since been catalogued (see Hip-Hop section above). Vikings, AvoidRafa, Echoes, Nongar, Psychotron and Rim surfaced via the 2014-2016 RockNation editions (see `data/concerts/`) but are not yet catalogued — next candidates for research. No API access is available for Spotify/YouTube streaming-metrics collection (roadmap item 2) — that item is blocked pending the user setting up developer credentials.

@@ -1,0 +1,27 @@
+{
+  "id": "2016-rocknation-tours-sylhet-i",
+  "name": "RockNation Tours: Sylhet I",
+  "date": "2016-02-05",
+  "date_precision": "day",
+  "type": "university-fest",
+  "venue": {
+    "name": "D Building Ground, Shahjalal University of Science and Technology",
+    "city": "Sylhet",
+    "country": "Bangladesh",
+    "venue_type": "university-campus"
+  },
+  "organizer": "LiveSquare Entertainment",
+  "artists": [
+    { "artist_id": "warfaze", "billing": "headliner" },
+    { "artist_id": "artcell", "billing": "co-headliner" },
+    { "artist_id": "powersurge", "billing": "support" }
+  ],
+  "genres_represented": ["Progressive Metal", "Heavy Metal", "Rock"],
+  "attendance_confidence": "unknown",
+  "notes": "First RockNation show held outside Dhaka, and the series' first Sylhet date. Also featured Vikings, AvoidRafa, Nongar, Psychotron and Rim, none of which are yet catalogued as artists in this dataset.",
+  "sources": [
+    { "title": "RockNation — Wikipedia", "url": "https://en.wikipedia.org/wiki/RockNation", "type": "encyclopedia" }
+  ],
+  "tags": ["festival", "rocknation-series", "university-fest", "needs-verification"],
+  "last_updated": "2026-08-13"
+}

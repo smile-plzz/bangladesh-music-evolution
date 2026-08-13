@@ -1,8 +1,8 @@
 {
   "description": "Connected-component clusters over the BMPN prototype (concert co-billing edges only). This is a minimal, honest first pass at listener-ecosystem grouping, not a modularity-based community detection result -- the graph is currently too sparse (38 edges / 52 nodes) for Louvain/Leiden to be meaningful. Revisit once streaming/playlist co-occurrence edges are added.",
   "method": "connected_components",
-  "cluster_count": 2,
-  "isolated_node_count": 41,
+  "cluster_count": 1,
+  "isolated_node_count": 43,
   "clusters": [
     {
       "members": [
@@ -11,32 +11,22 @@
         "aurthohin",
         "chirkutt",
         "cryptic-fate",
+        "indalo",
         "karnival",
         "lalon-band",
         "maqsood-o-dhaka",
         "mechanix",
         "nemesis",
+        "powersurge",
         "renaissance",
         "shunno",
         "warfaze"
       ],
-      "size": 13,
+      "size": 15,
       "dominant_genres": [
         "Alternative Rock",
-        "Progressive Metal",
-        "Heavy Metal"
-      ]
-    },
-    {
-      "members": [
-        "indalo",
-        "powersurge"
-      ],
-      "size": 2,
-      "dominant_genres": [
-        "Alternative Rock",
-        "Grunge-influenced",
-        "Thrash Metal"
+        "Heavy Metal",
+        "Progressive Metal"
       ]
     }
   ],
@@ -65,12 +55,14 @@
     "muza",
     "nancy",
     "nova",
+    "owned",
     "poizon-green",
     "prometheus",
     "rockstrata",
     "severe-dementia",
     "shezan",
     "shironamhin",
+    "shohojia",
     "shonar-bangla-circus",
     "souls",
     "stentorian",

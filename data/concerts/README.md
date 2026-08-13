@@ -14,7 +14,7 @@ Each entry links to artists via `artist_id`, which must match the `id` field in 
 
 ## Status
 
-12 entries: the original 8 seed entries (Artcell's 20th-anniversary open-air show, LRB's Madison Square Garden performance, a BAMBA multi-band Eid festival, a recent Warfaze concert, and others) plus the 4-edition RockNation festival series (2013–2014), sourced from Wikipedia and cross-linking 12 previously-isolated artists into the BMPN prototype's largest connected cluster. Several entries are flagged `needs-verification` where public sources gave only approximate dates, partial lineups, or unconfirmed venues — these should be firmed up against primary sources (event archives, ticketing platforms, contemporaneous press) before being counted toward the ≥500 target.
+15 entries: the original 8 seed entries (Artcell's 20th-anniversary open-air show, LRB's Madison Square Garden performance, a BAMBA multi-band Eid festival, a recent Warfaze concert, and others) plus the full 7-edition RockNation festival series (2013–2016, including the Sylhet I tour date), sourced from Wikipedia and cross-linking 15 artists into the BMPN prototype's largest connected cluster. Several entries are flagged `needs-verification` where public sources gave only approximate dates, partial lineups, or unconfirmed venues — these should be firmed up against primary sources (event archives, ticketing platforms, contemporaneous press) before being counted toward the ≥500 target.
 
 ## Next Steps
 

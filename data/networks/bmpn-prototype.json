@@ -1,8 +1,8 @@
 {
   "description": "Prototype Bangladesh Music Preference Network (BMPN) built from publicly documented concert co-billing only. Nodes = artists in data/artists/; edges = artists that shared a concert bill in data/concerts/, weighted by number of shared events. This is an early proxy for audience/genre-community structure, not a validated preference network — streaming/playlist co-occurrence and social-listening data are needed for a fuller model (see docs/roadmap.md).",
-  "node_count": 56,
-  "edge_count": 38,
-  "isolated_node_count": 38,
+  "node_count": 58,
+  "edge_count": 40,
+  "isolated_node_count": 39,
   "nodes": [
     {
       "id": "arbovirus",
@@ -42,7 +42,7 @@
         "Progressive Rock",
         "Heavy Metal"
       ],
-      "event_count": 4
+      "event_count": 5
     },
     {
       "id": "ashes",
@@ -347,6 +347,15 @@
       "event_count": 0
     },
     {
+      "id": "owned",
+      "name": "Owned",
+      "genres": [
+        "Alternative Rock",
+        "Nu Metal"
+      ],
+      "event_count": 1
+    },
+    {
       "id": "poizon-green",
       "name": "Poizon Green",
       "genres": [
@@ -364,7 +373,7 @@
         "Groove Metal",
         "Heavy Metal"
       ],
-      "event_count": 1
+      "event_count": 2
     },
     {
       "id": "prometheus",
@@ -421,6 +430,14 @@
         "Psychedelic Rock",
         "Folk Rock",
         "Symphonic Rock"
+      ],
+      "event_count": 0
+    },
+    {
+      "id": "shohojia",
+      "name": "Shohojia",
+      "genres": [
+        "Alternative Rock"
       ],
       "event_count": 0
     },
@@ -530,7 +547,7 @@
         "Hard Rock",
         "Progressive Metal"
       ],
-      "event_count": 5
+      "event_count": 6
     },
     {
       "id": "winning",
@@ -618,10 +635,19 @@
     },
     {
       "source": "artcell",
+      "target": "powersurge",
+      "weight": 1,
+      "shared_events": [
+        "2016-rocknation-tours-sylhet-i"
+      ]
+    },
+    {
+      "source": "artcell",
       "target": "warfaze",
-      "weight": 2,
+      "weight": 3,
       "shared_events": [
         "2009-artcell-10-years-insanity-sheraton",
+        "2016-rocknation-tours-sylhet-i",
         "2026-overload-festival-bccc"
       ]
     },
@@ -843,6 +869,14 @@
       "shared_events": [
         "2013-rocknation-i-ruposhi-bangla",
         "bamba-eid-concert-jamuna-future-park"
+      ]
+    },
+    {
+      "source": "powersurge",
+      "target": "warfaze",
+      "weight": 1,
+      "shared_events": [
+        "2016-rocknation-tours-sylhet-i"
       ]
     },
     {
