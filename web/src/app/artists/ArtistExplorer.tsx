@@ -127,8 +127,8 @@ export default function ArtistExplorer({ artists }: { artists: ArtistRow[] }) {
   };
 
   return (
-    <div className="grid lg:grid-cols-[260px_1fr] gap-8">
-      <aside className="space-y-6 lg:sticky lg:top-20 lg:self-start">
+    <div className="grid lg:grid-cols-[260px_minmax(0,1fr)] gap-8">
+      <aside className="min-w-0 space-y-6 lg:sticky lg:top-20 lg:self-start">
         <SearchInput
           value={query}
           onChange={setQuery}

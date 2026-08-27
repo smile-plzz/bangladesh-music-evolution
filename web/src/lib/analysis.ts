@@ -264,3 +264,88 @@ export function getConcertClassMap(): Record<string, string> {
   }
   return map;
 }
+
+/** What an act is connected to in the network, and on what evidence.
+ *
+ *  Used by the artist pages so a profile can say "connected to X because they
+ *  shared these bills" rather than just showing a number. Reads the same
+ *  multi-layer graph the /network view does.
+ */
+export type Neighbour = {
+  id: string;
+  layers: string[];
+  evidence: string;
+  observed: boolean;
+};
+
+export type NetworkPosition = {
+  strand: string;
+  eventCount: number;
+  degree: number;
+  observedDegree: number;
+  neighbours: Neighbour[];
+  community: Community | null;
+};
+
+const LAYER_EVIDENCE: Record<string, (d: EdgeLayer) => string> = {
+  co_billing: (d) =>
+    `${d.weight} shared bill${d.weight === 1 ? "" : "s"}`,
+  personnel: (d) => `shared member: ${(d.shared_members ?? []).join(", ")}`,
+  domestic_influence: (d) => (d.citations ?? []).join("; "),
+  influence_homophily: (d) =>
+    `both cite ${(d.shared_influences ?? []).join(", ")}`,
+};
+
+const OBSERVED = new Set(["co_billing", "personnel", "domestic_influence"]);
+
+export function getNetworkPosition(artistId: string): NetworkPosition | null {
+  const net = getMultiLayerNetwork();
+  if (!net) return null;
+  const node = net.nodes.find((n) => n.id === artistId);
+  if (!node) return null;
+
+  const neighbours: Neighbour[] = [];
+  for (const e of net.edges) {
+    const other =
+      e.source === artistId ? e.target : e.target === artistId ? e.source : null;
+    if (!other) continue;
+    const layers = Object.keys(e.layers);
+    neighbours.push({
+      id: other,
+      layers,
+      evidence: layers
+        .map((l) => LAYER_EVIDENCE[l]?.(e.layers[l]) ?? l)
+        .join(" · "),
+      observed: layers.some((l) => OBSERVED.has(l)),
+    });
+  }
+  neighbours.sort(
+    (a, b) => Number(b.observed) - Number(a.observed) || a.id.localeCompare(b.id),
+  );
+
+  const communities = getCommunities();
+  const community =
+    communities?.observed.communities.find(
+      (c) => c.size >= 3 && c.members.includes(artistId),
+    ) ?? null;
+
+  return {
+    strand: node.strand,
+    eventCount: node.event_count,
+    degree: neighbours.length,
+    observedDegree: neighbours.filter((n) => n.observed).length,
+    neighbours,
+    community,
+  };
+}
+
+/** Per-strand facts for the genre pages, straight from the pipeline outputs. */
+export function getStrandProfile(strand: string) {
+  const temporal = getTemporalSummary();
+  const influence = getInfluenceAnalysis();
+  return {
+    lifecycle: temporal?.strand_lifecycle?.[strand] ?? null,
+    topInfluences: influence?.named_influences_by_strand?.[strand] ?? {},
+    localisation: influence?.localisation_mechanisms?.by_strand?.[strand] ?? {},
+  };
+}

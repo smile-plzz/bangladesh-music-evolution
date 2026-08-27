@@ -40,19 +40,24 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="min-h-full flex flex-col bg-neutral-950 text-neutral-100">
         <header className="border-b border-neutral-800 sticky top-0 z-20 bg-neutral-950/90 backdrop-blur">
-          <div className="mx-auto max-w-6xl px-4 sm:px-6 flex items-center justify-between h-16">
-            <Link href="/" className="font-semibold tracking-tight text-lg">
+          {/* Stacks on small screens: the brand wraps to three lines and
+              squeezes the nav off-screen if both share a row at 390px. */}
+          <div className="mx-auto max-w-6xl px-4 sm:px-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-0.5 sm:gap-4 py-2 sm:py-0 sm:h-16">
+            <Link
+              href="/"
+              className="font-semibold tracking-tight text-base sm:text-lg whitespace-nowrap"
+            >
               Bangladesh Music Evolution
             </Link>
             <nav
               aria-label="Main"
-              className="flex gap-0.5 overflow-x-auto -mx-2 px-2"
+              className="flex gap-0.5 overflow-x-auto -mx-1 px-1 sm:mx-0 sm:px-0"
             >
               {NAV_LINKS.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="whitespace-nowrap px-2.5 py-2 rounded-md text-sm text-neutral-300 hover:text-white hover:bg-neutral-800 transition-colors"
+                  className="whitespace-nowrap px-2 sm:px-2.5 py-1.5 sm:py-2 rounded-md text-sm text-neutral-300 hover:text-white hover:bg-neutral-800 transition-colors"
                 >
                   {link.label}
                 </Link>

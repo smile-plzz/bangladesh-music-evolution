@@ -36,3 +36,16 @@ export function decadeOf(year: number | null | undefined): string | null {
   if (!year) return null;
   return `${Math.floor(year / 10) * 10}s`;
 }
+
+/** URL-safe slug for a strand. "Progressive Rock/Metal" -> "progressive-rock-metal". */
+export function strandSlug(strand: string): string {
+  return strand
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+export function strandFromSlug(slug: string): string | null {
+  return STRANDS.find((s) => strandSlug(s) === slug) ?? null;
+}
