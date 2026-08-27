@@ -1,0 +1,226 @@
+{
+  "generated": "2026-08-27",
+  "sample_note": "All counts describe the catalogued sample (58 artists, 15 events), not the national population of Bangladeshi acts or events. Decade figures therefore show the shape of the documented record, and recent decades are better covered than early ones.",
+  "artist_count": 58,
+  "concert_count": 15,
+  "artists_without_formation_year": [
+    "shohojia"
+  ],
+  "formations_by_decade": {
+    "1970": {
+      "total": 5,
+      "by_strand": {
+        "Mainstream Rock": 5
+      }
+    },
+    "1980": {
+      "total": 5,
+      "by_strand": {
+        "Mainstream Rock": 4,
+        "Heavy Metal": 1
+      }
+    },
+    "1990": {
+      "total": 14,
+      "by_strand": {
+        "Alternative/Indie": 4,
+        "Heavy Metal": 4,
+        "Mainstream Rock": 2,
+        "Folk & Folk Fusion": 2,
+        "Progressive Rock/Metal": 1,
+        "Hip-Hop/Rap": 1
+      }
+    },
+    "2000": {
+      "total": 26,
+      "by_strand": {
+        "Heavy Metal": 7,
+        "Alternative/Indie": 6,
+        "Pop": 6,
+        "Hip-Hop/Rap": 4,
+        "Folk & Folk Fusion": 2,
+        "Progressive Rock/Metal": 1
+      }
+    },
+    "2010": {
+      "total": 6,
+      "by_strand": {
+        "Alternative/Indie": 3,
+        "Hip-Hop/Rap": 2,
+        "Pop": 1
+      }
+    },
+    "2020": {
+      "total": 1,
+      "by_strand": {
+        "Hip-Hop/Rap": 1
+      }
+    }
+  },
+  "strand_lifecycle": {
+    "Mainstream Rock": {
+      "catalogued_acts": 11,
+      "first_formation": 1972,
+      "median_formation": 1983,
+      "latest_formation": 1991,
+      "formation_span_years": 19,
+      "still_active_share": 0.91
+    },
+    "Progressive Rock/Metal": {
+      "catalogued_acts": 2,
+      "first_formation": 1999,
+      "median_formation": 2002,
+      "latest_formation": 2006,
+      "formation_span_years": 7,
+      "still_active_share": 1.0
+    },
+    "Heavy Metal": {
+      "catalogued_acts": 12,
+      "first_formation": 1984,
+      "median_formation": 2001,
+      "latest_formation": 2007,
+      "formation_span_years": 23,
+      "still_active_share": 0.92
+    },
+    "Alternative/Indie": {
+      "catalogued_acts": 14,
+      "first_formation": 1996,
+      "median_formation": 2004,
+      "latest_formation": 2018,
+      "formation_span_years": 22,
+      "still_active_share": 1.0
+    },
+    "Pop": {
+      "catalogued_acts": 7,
+      "first_formation": 2002,
+      "median_formation": 2006,
+      "latest_formation": 2013,
+      "formation_span_years": 11,
+      "still_active_share": 1.0
+    },
+    "Hip-Hop/Rap": {
+      "catalogued_acts": 8,
+      "first_formation": 1993,
+      "median_formation": 2005,
+      "latest_formation": 2024,
+      "formation_span_years": 31,
+      "still_active_share": 1.0
+    },
+    "Folk & Folk Fusion": {
+      "catalogued_acts": 4,
+      "first_formation": 1997,
+      "median_formation": 1999,
+      "latest_formation": 2002,
+      "formation_span_years": 5,
+      "still_active_share": 1.0
+    }
+  },
+  "releases_by_decade": {
+    "1980": {
+      "total": 10,
+      "by_strand": {
+        "Mainstream Rock": 10
+      },
+      "by_type": {
+        "studio": 10
+      }
+    },
+    "1990": {
+      "total": 19,
+      "by_strand": {
+        "Mainstream Rock": 12,
+        "Heavy Metal": 4,
+        "Hip-Hop/Rap": 2,
+        "Folk & Folk Fusion": 1
+      },
+      "by_type": {
+        "studio": 18,
+        "mixed": 1
+      }
+    },
+    "2000": {
+      "total": 47,
+      "by_strand": {
+        "Heavy Metal": 14,
+        "Alternative/Indie": 9,
+        "Pop": 7,
+        "Folk & Folk Fusion": 6,
+        "Hip-Hop/Rap": 5,
+        "Progressive Rock/Metal": 3,
+        "Mainstream Rock": 3
+      },
+      "by_type": {
+        "studio": 40,
+        "mixed": 5,
+        "live": 1,
+        "ep": 1
+      }
+    },
+    "2010": {
+      "total": 37,
+      "by_strand": {
+        "Alternative/Indie": 12,
+        "Pop": 7,
+        "Folk & Folk Fusion": 6,
+        "Hip-Hop/Rap": 5,
+        "Heavy Metal": 4,
+        "Mainstream Rock": 2,
+        "Progressive Rock/Metal": 1
+      },
+      "by_type": {
+        "studio": 31,
+        "single": 3,
+        "ep": 2,
+        "mixed": 1
+      }
+    },
+    "2020": {
+      "total": 12,
+      "by_strand": {
+        "Hip-Hop/Rap": 4,
+        "Alternative/Indie": 4,
+        "Pop": 2,
+        "Progressive Rock/Metal": 1,
+        "Heavy Metal": 1
+      },
+      "by_type": {
+        "studio": 6,
+        "single": 4,
+        "ep": 1,
+        "live": 1
+      }
+    }
+  },
+  "release_cadence": {
+    "artists_with_dated_releases": 53,
+    "median_gap_between_releases_years": 5,
+    "total_dated_releases": 125
+  },
+  "concerts_by_decade": {
+    "2000": 2,
+    "2010": 9,
+    "2020": 4
+  },
+  "concert_venue_types": {
+    "other": 6,
+    "convention-centre": 3,
+    "theatre": 2,
+    "stadium": 1,
+    "university-campus": 1,
+    "outdoor-park": 1,
+    "open-air": 1
+  },
+  "concert_cities": {
+    "Dhaka": 12,
+    "New York": 1,
+    "Sylhet": 1,
+    "London": 1
+  },
+  "concert_event_types": {
+    "festival": 8,
+    "concert": 3,
+    "diaspora-tour": 2,
+    "university-fest": 1,
+    "corporate-branded": 1
+  }
+}

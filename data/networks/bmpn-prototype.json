@@ -1,5 +1,5 @@
 {
-  "description": "Prototype Bangladesh Music Preference Network (BMPN) built from publicly documented concert co-billing only. Nodes = artists in data/artists/; edges = artists that shared a concert bill in data/concerts/, weighted by number of shared events. This is an early proxy for audience/genre-community structure, not a validated preference network — streaming/playlist co-occurrence and social-listening data are needed for a fuller model (see docs/roadmap.md).",
+  "description": "Concert co-billing layer of the BMPN. Nodes = artists in data/artists/; edges = artists that shared a documented concert bill in data/concerts/, weighted by number of shared events. This is the strongest observational layer; see bmpn-multilayer.json for the personnel, domestic-influence and influence-homophily layers and analysis/outputs/ for the network metrics.",
   "node_count": 58,
   "edge_count": 40,
   "isolated_node_count": 39,

@@ -1,0 +1,2241 @@
+{
+  "generated": "2026-08-27",
+  "description": "Bangladesh Music Preference Network (BMPN), multi-layer build. Nodes are catalogued artists; edges carry one or more layers. co_billing, personnel and domestic_influence are observational (documented shared bills, shared members, and one act naming another as an influence). influence_homophily is INFERRED -- two acts citing the same global influence are aesthetically adjacent, which proxies for but does not demonstrate shared audience. Combined weight = sum over layers of layer_weight x layer_weight_count.",
+  "layer_weights": {
+    "co_billing": 1.0,
+    "personnel": 1.0,
+    "domestic_influence": 1.0,
+    "influence_homophily": 0.5
+  },
+  "observed_layers": [
+    "co_billing",
+    "personnel",
+    "domestic_influence"
+  ],
+  "node_count": 58,
+  "edge_count": 83,
+  "edges_per_layer": {
+    "co_billing": 40,
+    "personnel": 12,
+    "domestic_influence": 4,
+    "influence_homophily": 33
+  },
+  "observed_edge_count": 56,
+  "isolated_node_count": 20,
+  "isolated_under_observed_layers_only": 25,
+  "nodes": [
+    {
+      "id": "arbovirus",
+      "name": "Arbovirus",
+      "genres": [
+        "Nu Metal",
+        "Grunge",
+        "Pop Rock",
+        "Psychedelic Rock"
+      ],
+      "strand": "Alternative/Indie",
+      "formed_year": 2001,
+      "origin_city": "Dhaka",
+      "event_count": 1,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "ark",
+      "name": "Ark",
+      "genres": [
+        "Mainstream Rock",
+        "Hard Rock"
+      ],
+      "strand": "Mainstream Rock",
+      "formed_year": 1991,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "arnob",
+      "name": "Shayan Chowdhury Arnob",
+      "genres": [
+        "Folk Fusion",
+        "Indie Folk",
+        "Baul-influenced"
+      ],
+      "strand": "Folk & Folk Fusion",
+      "formed_year": 1998,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": [
+        "Blues",
+        "Jazz",
+        "Western Rock"
+      ]
+    },
+    {
+      "id": "artcell",
+      "name": "Artcell",
+      "genres": [
+        "Progressive Metal",
+        "Progressive Rock",
+        "Heavy Metal"
+      ],
+      "strand": "Progressive Rock/Metal",
+      "formed_year": 1999,
+      "origin_city": "Dhaka",
+      "event_count": 5,
+      "global_influence_tokens": [
+        "Dream Theater",
+        "Metallica",
+        "Opeth",
+        "Pantera",
+        "Pink Floyd",
+        "Sepultura"
+      ]
+    },
+    {
+      "id": "ashes",
+      "name": "Ashes",
+      "genres": [
+        "Alternative Rock",
+        "Folk Rock"
+      ],
+      "strand": "Alternative/Indie",
+      "formed_year": 2006,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "ashraf-babu-charu",
+      "name": "Ashraf Babu & Charu",
+      "genres": [
+        "Hip-Hop",
+        "Rap"
+      ],
+      "strand": "Hip-Hop/Rap",
+      "formed_year": 1993,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "aurthohin",
+      "name": "Aurthohin",
+      "genres": [
+        "Alternative Rock",
+        "Progressive Metal",
+        "Groove Metal",
+        "Funk Rock"
+      ],
+      "strand": "Alternative/Indie",
+      "formed_year": 1998,
+      "origin_city": "Dhaka",
+      "event_count": 1,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "azam-khan-uchcharon",
+      "name": "Azam Khan & Uchcharon",
+      "genres": [
+        "Mainstream Rock",
+        "Bangla Pop"
+      ],
+      "strand": "Mainstream Rock",
+      "formed_year": 1972,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "black",
+      "name": "Black",
+      "genres": [
+        "Alternative Rock",
+        "Grunge"
+      ],
+      "strand": "Alternative/Indie",
+      "formed_year": 1998,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": [
+        "Alice In Chains",
+        "Nirvana",
+        "Soundgarden"
+      ]
+    },
+    {
+      "id": "chirkutt",
+      "name": "Chirkutt",
+      "genres": [
+        "Folk Rock",
+        "Alternative Rock",
+        "Bangla Fusion"
+      ],
+      "strand": "Folk & Folk Fusion",
+      "formed_year": 2002,
+      "origin_city": "Dhaka",
+      "event_count": 1,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "conclusion",
+      "name": "Conclusion",
+      "genres": [
+        "Alternative Rock",
+        "Experimental Rock"
+      ],
+      "strand": "Alternative/Indie",
+      "formed_year": 2011,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "cryptic-fate",
+      "name": "Cryptic Fate",
+      "genres": [
+        "Heavy Metal",
+        "Progressive Metal"
+      ],
+      "strand": "Heavy Metal",
+      "formed_year": 1993,
+      "origin_city": "Dhaka",
+      "event_count": 3,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "de-illumination",
+      "name": "De-illumination",
+      "genres": [
+        "Symphonic Metal",
+        "Symphonic Rock",
+        "Progressive Metal"
+      ],
+      "strand": "Heavy Metal",
+      "formed_year": 2006,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "deshi-mcs",
+      "name": "Deshi MCs",
+      "genres": [
+        "Hip-Hop",
+        "Gangsta Rap"
+      ],
+      "strand": "Hip-Hop/Rap",
+      "formed_year": 2005,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": [
+        "Big L",
+        "Biggie",
+        "Eminem",
+        "Tupac"
+      ]
+    },
+    {
+      "id": "feedback",
+      "name": "Feedback",
+      "genres": [
+        "Mainstream Rock",
+        "Pop Rock",
+        "Blues Rock",
+        "Jazz"
+      ],
+      "strand": "Mainstream Rock",
+      "formed_year": 1976,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "habib-wahid",
+      "name": "Habib Wahid",
+      "genres": [
+        "Pop",
+        "Electronic Pop",
+        "Folk Fusion"
+      ],
+      "strand": "Pop",
+      "formed_year": 2003,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "hannan",
+      "name": "Hannan (Hannan Hossain Shimul)",
+      "genres": [
+        "Hip-Hop",
+        "Rap",
+        "Protest Music"
+      ],
+      "strand": "Hip-Hop/Rap",
+      "formed_year": 2024,
+      "origin_city": "Narayanganj",
+      "event_count": 0,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "imran-mahmudul",
+      "name": "Imran Mahmudul",
+      "genres": [
+        "Pop",
+        "Playback/Film Music"
+      ],
+      "strand": "Pop",
+      "formed_year": 2008,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": [
+        "Contemporary Asian Pop"
+      ]
+    },
+    {
+      "id": "indalo",
+      "name": "Indalo",
+      "genres": [
+        "Alternative Rock",
+        "Grunge-influenced"
+      ],
+      "strand": "Alternative/Indie",
+      "formed_year": 2012,
+      "origin_city": "Dhaka",
+      "event_count": 1,
+      "global_influence_tokens": [
+        "Alice In Chains",
+        "Pearl Jam",
+        "Soundgarden",
+        "Stone Temple Pilots"
+      ]
+    },
+    {
+      "id": "jalali-set",
+      "name": "Jalali Set",
+      "genres": [
+        "Hip-Hop",
+        "Trap",
+        "Alternative Hip-Hop",
+        "Folk-Hip-Hop Fusion"
+      ],
+      "strand": "Hip-Hop/Rap",
+      "formed_year": 2014,
+      "origin_city": "Dhaka",
+      "event_count": 1,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "james-nagar-baul",
+      "name": "James (Nagar Baul)",
+      "genres": [
+        "Mainstream Rock",
+        "Blues Rock",
+        "Folk Rock"
+      ],
+      "strand": "Mainstream Rock",
+      "formed_year": 1977,
+      "origin_city": "Chittagong",
+      "event_count": 1,
+      "global_influence_tokens": [
+        "Eric Clapton",
+        "Led Zeppelin",
+        "Mark Knopfler",
+        "The Doors"
+      ]
+    },
+    {
+      "id": "karnival",
+      "name": "Karnival",
+      "genres": [
+        "Progressive Rock",
+        "Experimental Rock",
+        "Grunge-influenced"
+      ],
+      "strand": "Progressive Rock/Metal",
+      "formed_year": 2006,
+      "origin_city": "Dhaka",
+      "event_count": 1,
+      "global_influence_tokens": [
+        "Alice In Chains",
+        "Megadeth",
+        "Motörhead",
+        "Nirvana",
+        "Oasis",
+        "Pink Floyd",
+        "Porcupine Tree",
+        "Radiohead",
+        "The Beatles"
+      ]
+    },
+    {
+      "id": "kona",
+      "name": "Kona (Dilshad Nahar Kona)",
+      "genres": [
+        "Pop",
+        "Playback/Film Music"
+      ],
+      "strand": "Pop",
+      "formed_year": 2006,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "lalon-band",
+      "name": "Lalon (Lalon Band)",
+      "genres": [
+        "Folk Fusion",
+        "Baul-influenced",
+        "Rock"
+      ],
+      "strand": "Folk & Folk Fusion",
+      "formed_year": 2001,
+      "origin_city": "Khulna",
+      "event_count": 1,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "lrb",
+      "name": "LRB (Love Runs Blind)",
+      "genres": [
+        "Mainstream Rock",
+        "Hard Rock",
+        "Blues Rock"
+      ],
+      "strand": "Mainstream Rock",
+      "formed_year": 1991,
+      "origin_city": "Chittagong",
+      "event_count": 1,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "maqsood-o-dhaka",
+      "name": "Maqsood O' Dhaka",
+      "genres": [
+        "Jazz Rock Fusion",
+        "Alternative Rock",
+        "Baul-influenced"
+      ],
+      "strand": "Folk & Folk Fusion",
+      "formed_year": 1997,
+      "origin_city": "Dhaka",
+      "event_count": 1,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "mechanix",
+      "name": "Mechanix",
+      "genres": [
+        "Heavy Metal",
+        "Thrash Metal"
+      ],
+      "strand": "Heavy Metal",
+      "formed_year": 2005,
+      "origin_city": "Dhaka",
+      "event_count": 3,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "meghdol",
+      "name": "Meghdol",
+      "genres": [
+        "Alternative Rock",
+        "Indie Rock",
+        "Folk Rock",
+        "Psychedelic Rock"
+      ],
+      "strand": "Alternative/Indie",
+      "formed_year": 2003,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "metal-maze",
+      "name": "Metal Maze",
+      "genres": [
+        "Hard Rock",
+        "Heavy Metal"
+      ],
+      "strand": "Heavy Metal",
+      "formed_year": 1995,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": [
+        "Megadeth",
+        "Metallica",
+        "Pantera"
+      ]
+    },
+    {
+      "id": "miles",
+      "name": "Miles",
+      "genres": [
+        "Mainstream Rock",
+        "Pop Rock"
+      ],
+      "strand": "Mainstream Rock",
+      "formed_year": 1979,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "minar-rahman",
+      "name": "Minar Rahman",
+      "genres": [
+        "Pop",
+        "Indie",
+        "Folk-influenced Pop"
+      ],
+      "strand": "Pop",
+      "formed_year": 2008,
+      "origin_city": "Chittagong",
+      "event_count": 0,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "muza",
+      "name": "Muza (Muzahid Abdullah)",
+      "genres": [
+        "Pop",
+        "Electronic Pop",
+        "Folk Fusion",
+        "Urban/Hip-Hop-adjacent"
+      ],
+      "strand": "Pop",
+      "formed_year": 2013,
+      "origin_city": "New York City (diaspora; born Balaganj, Osmani Nagar, Sylhet)",
+      "event_count": 0,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "nancy",
+      "name": "Nancy (Nazmun Munira Nancy)",
+      "genres": [
+        "Pop",
+        "Playback/Film Music",
+        "Folk-influenced Pop"
+      ],
+      "strand": "Pop",
+      "formed_year": 2002,
+      "origin_city": "Netrakona",
+      "event_count": 0,
+      "global_influence_tokens": [
+        "Contemporary Indian",
+        "South Asian Pop"
+      ]
+    },
+    {
+      "id": "nemesis",
+      "name": "Nemesis",
+      "genres": [
+        "Mainstream Rock",
+        "Alternative Rock"
+      ],
+      "strand": "Alternative/Indie",
+      "formed_year": 1999,
+      "origin_city": "Dhaka",
+      "event_count": 2,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "nova",
+      "name": "Nova",
+      "genres": [
+        "Psychedelic Rock",
+        "Progressive Rock",
+        "Hard Rock",
+        "Soft Rock"
+      ],
+      "strand": "Mainstream Rock",
+      "formed_year": 1986,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": [
+        "Deep Purple",
+        "Pink Floyd",
+        "Queen",
+        "The Doors"
+      ]
+    },
+    {
+      "id": "owned",
+      "name": "Owned",
+      "genres": [
+        "Alternative Rock",
+        "Nu Metal"
+      ],
+      "strand": "Alternative/Indie",
+      "formed_year": 2007,
+      "origin_city": "Dhaka",
+      "event_count": 1,
+      "global_influence_tokens": [
+        "Deftones",
+        "Queens of the Stone Age",
+        "Slipknot"
+      ]
+    },
+    {
+      "id": "poizon-green",
+      "name": "Poizon Green",
+      "genres": [
+        "Power Metal",
+        "Speed Metal",
+        "Thrash Metal"
+      ],
+      "strand": "Heavy Metal",
+      "formed_year": 1998,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": [
+        "Black Sabbath",
+        "Cannibal Corpse",
+        "Iron Maiden",
+        "Machine Head",
+        "Morbid Angel",
+        "Motörhead",
+        "Pantera",
+        "Sepultura"
+      ]
+    },
+    {
+      "id": "powersurge",
+      "name": "Powersurge",
+      "genres": [
+        "Thrash Metal",
+        "Groove Metal",
+        "Heavy Metal"
+      ],
+      "strand": "Heavy Metal",
+      "formed_year": 2006,
+      "origin_city": "Dhaka",
+      "event_count": 2,
+      "global_influence_tokens": [
+        "Dream Theater",
+        "Exodus",
+        "Kreator",
+        "Lamb Of God",
+        "Megadeth",
+        "Metallica",
+        "Pink Floyd",
+        "Sepultura",
+        "Slayer",
+        "Sodom"
+      ]
+    },
+    {
+      "id": "prometheus",
+      "name": "Prometheus",
+      "genres": [
+        "Mainstream Rock"
+      ],
+      "strand": "Mainstream Rock",
+      "formed_year": 1986,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "renaissance",
+      "name": "Renaissance",
+      "genres": [
+        "Reggae",
+        "Jazz",
+        "Soft Rock",
+        "Mainstream Rock"
+      ],
+      "strand": "Mainstream Rock",
+      "formed_year": 1985,
+      "origin_city": "Dhaka",
+      "event_count": 1,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "rockstrata",
+      "name": "Rockstrata",
+      "genres": [
+        "Heavy Metal"
+      ],
+      "strand": "Heavy Metal",
+      "formed_year": 1991,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": [
+        "Black Sabbath",
+        "Deep Purple",
+        "Iron Maiden",
+        "Megadeth",
+        "Metallica",
+        "Motörhead"
+      ]
+    },
+    {
+      "id": "severe-dementia",
+      "name": "Severe Dementia",
+      "genres": [
+        "Death Metal",
+        "Brutal Death Metal",
+        "Technical Death Metal"
+      ],
+      "strand": "Heavy Metal",
+      "formed_year": 2004,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "shezan",
+      "name": "Shezan",
+      "genres": [
+        "Hip-Hop",
+        "Rap"
+      ],
+      "strand": "Hip-Hop/Rap",
+      "formed_year": 2018,
+      "origin_city": "Narayanganj",
+      "event_count": 0,
+      "global_influence_tokens": [
+        "American Hip-Hop"
+      ]
+    },
+    {
+      "id": "shironamhin",
+      "name": "Shironamhin",
+      "genres": [
+        "Alternative Rock",
+        "Progressive Rock",
+        "Psychedelic Rock",
+        "Folk Rock",
+        "Symphonic Rock"
+      ],
+      "strand": "Alternative/Indie",
+      "formed_year": 1996,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "shohojia",
+      "name": "Shohojia",
+      "genres": [
+        "Alternative Rock"
+      ],
+      "strand": "Alternative/Indie",
+      "formed_year": null,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "shonar-bangla-circus",
+      "name": "Shonar Bangla Circus",
+      "genres": [
+        "Psychedelic Rock",
+        "Alternative Rock",
+        "Folk Rock",
+        "Blues Rock",
+        "Progressive Rock"
+      ],
+      "strand": "Alternative/Indie",
+      "formed_year": 2018,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "shunno",
+      "name": "Shunno",
+      "genres": [
+        "Alternative Rock",
+        "Pop Rock",
+        "Soft Rock"
+      ],
+      "strand": "Alternative/Indie",
+      "formed_year": 2007,
+      "origin_city": "Dhaka",
+      "event_count": 1,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "souls",
+      "name": "Souls",
+      "genres": [
+        "Mainstream Rock",
+        "Pop Rock",
+        "Blues Rock"
+      ],
+      "strand": "Mainstream Rock",
+      "formed_year": 1972,
+      "origin_city": "Chittagong",
+      "event_count": 0,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "stentorian",
+      "name": "Stentorian",
+      "genres": [
+        "Heavy Metal",
+        "Soft Rock",
+        "Power Ballad",
+        "Thrash Metal",
+        "Progressive Metal"
+      ],
+      "strand": "Heavy Metal",
+      "formed_year": 2001,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "stoic-bliss",
+      "name": "Stoic Bliss",
+      "genres": [
+        "Hip-Hop",
+        "Rap"
+      ],
+      "strand": "Hip-Hop/Rap",
+      "formed_year": 2004,
+      "origin_city": "Queens, New York (diaspora origin; Bangladesh-focused output)",
+      "event_count": 0,
+      "global_influence_tokens": [
+        "American Hip-Hop"
+      ]
+    },
+    {
+      "id": "tahsan",
+      "name": "Tahsan Rahman Khan",
+      "genres": [
+        "Pop",
+        "Alternative Rock (via Black)"
+      ],
+      "strand": "Pop",
+      "formed_year": 2004,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": [
+        "Alternative Rock",
+        "Grunge"
+      ]
+    },
+    {
+      "id": "theology-of-rap",
+      "name": "Theology of Rap",
+      "genres": [
+        "Hip-Hop",
+        "Rap"
+      ],
+      "strand": "Hip-Hop/Rap",
+      "formed_year": 2005,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "trainwreck",
+      "name": "Trainwreck",
+      "genres": [
+        "Groove Metal",
+        "Thrash Metal"
+      ],
+      "strand": "Heavy Metal",
+      "formed_year": 2007,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": [
+        "Lamb Of God"
+      ]
+    },
+    {
+      "id": "uptown-lokolz",
+      "name": "Uptown Lokolz",
+      "genres": [
+        "Hip-Hop",
+        "Rap"
+      ],
+      "strand": "Hip-Hop/Rap",
+      "formed_year": 2005,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": [
+        "American Hip-Hop"
+      ]
+    },
+    {
+      "id": "vibe",
+      "name": "Vibe",
+      "genres": [
+        "Heavy Metal",
+        "Alternative Rock"
+      ],
+      "strand": "Heavy Metal",
+      "formed_year": 2001,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": []
+    },
+    {
+      "id": "warfaze",
+      "name": "Warfaze",
+      "genres": [
+        "Heavy Metal",
+        "Hard Rock",
+        "Progressive Metal"
+      ],
+      "strand": "Heavy Metal",
+      "formed_year": 1984,
+      "origin_city": "Dhaka",
+      "event_count": 6,
+      "global_influence_tokens": [
+        "Broader Thrash & Classic Metal",
+        "Deep Purple",
+        "Dokken",
+        "Guns N' Roses",
+        "Iron Maiden",
+        "Metallica",
+        "Scorpions",
+        "Whitesnake"
+      ]
+    },
+    {
+      "id": "winning",
+      "name": "Winning",
+      "genres": [
+        "Mainstream Rock"
+      ],
+      "strand": "Mainstream Rock",
+      "formed_year": 1983,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": [
+        "Azam Khan's Band Lineage"
+      ]
+    },
+    {
+      "id": "yaatri",
+      "name": "Yaatri",
+      "genres": [
+        "Alternative Rock",
+        "Pop Rock"
+      ],
+      "strand": "Alternative/Indie",
+      "formed_year": 2004,
+      "origin_city": "Dhaka",
+      "event_count": 0,
+      "global_influence_tokens": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "arbovirus",
+      "target": "chirkutt",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2013-rocknation-i-ruposhi-bangla"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "arbovirus",
+      "target": "cryptic-fate",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2013-rocknation-i-ruposhi-bangla"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "arbovirus",
+      "target": "lalon-band",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2013-rocknation-i-ruposhi-bangla"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "arbovirus",
+      "target": "nemesis",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2013-rocknation-i-ruposhi-bangla"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "arbovirus",
+      "target": "shunno",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2013-rocknation-i-ruposhi-bangla"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "arbovirus",
+      "target": "warfaze",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2013-rocknation-i-ruposhi-bangla"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "artcell",
+      "target": "cryptic-fate",
+      "combined_weight": 2.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 2,
+          "shared_events": [
+            "2009-artcell-10-years-insanity-sheraton",
+            "2026-overload-festival-bccc"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "artcell",
+      "target": "karnival",
+      "combined_weight": 0.5,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 1,
+          "shared_influences": [
+            "Pink Floyd"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "artcell",
+      "target": "mechanix",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2009-artcell-10-years-insanity-sheraton"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "artcell",
+      "target": "metal-maze",
+      "combined_weight": 1.0,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 2,
+          "shared_influences": [
+            "Metallica",
+            "Pantera"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "artcell",
+      "target": "nova",
+      "combined_weight": 0.5,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 1,
+          "shared_influences": [
+            "Pink Floyd"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "artcell",
+      "target": "poizon-green",
+      "combined_weight": 1.0,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 2,
+          "shared_influences": [
+            "Pantera",
+            "Sepultura"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "artcell",
+      "target": "powersurge",
+      "combined_weight": 3.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2016-rocknation-tours-sylhet-i"
+          ],
+          "observed": true
+        },
+        "influence_homophily": {
+          "weight": 4,
+          "shared_influences": [
+            "Dream Theater",
+            "Metallica",
+            "Pink Floyd",
+            "Sepultura"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "artcell",
+      "target": "rockstrata",
+      "combined_weight": 0.5,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 1,
+          "shared_influences": [
+            "Metallica"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "artcell",
+      "target": "warfaze",
+      "combined_weight": 3.5,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 3,
+          "shared_events": [
+            "2009-artcell-10-years-insanity-sheraton",
+            "2016-rocknation-tours-sylhet-i",
+            "2026-overload-festival-bccc"
+          ],
+          "observed": true
+        },
+        "influence_homophily": {
+          "weight": 1,
+          "shared_influences": [
+            "Metallica"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "ashes",
+      "target": "nemesis",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "personnel": {
+          "weight": 1,
+          "shared_members": [
+            "Sultan Rafsan Khan"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "aurthohin",
+      "target": "karnival",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2013-rocknation-iii"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "aurthohin",
+      "target": "mechanix",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2013-rocknation-iii"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "black",
+      "target": "indalo",
+      "combined_weight": 2.0,
+      "observed": true,
+      "layers": {
+        "personnel": {
+          "weight": 1,
+          "shared_members": [
+            "Jon Kabir"
+          ],
+          "observed": true
+        },
+        "influence_homophily": {
+          "weight": 2,
+          "shared_influences": [
+            "Alice In Chains",
+            "Soundgarden"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "black",
+      "target": "karnival",
+      "combined_weight": 1.0,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 2,
+          "shared_influences": [
+            "Alice In Chains",
+            "Nirvana"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "black",
+      "target": "tahsan",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "personnel": {
+          "weight": 1,
+          "shared_members": [
+            "Tahsan Rahman Khan"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "chirkutt",
+      "target": "cryptic-fate",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2013-rocknation-i-ruposhi-bangla"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "chirkutt",
+      "target": "lalon-band",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2013-rocknation-i-ruposhi-bangla"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "chirkutt",
+      "target": "nemesis",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2013-rocknation-i-ruposhi-bangla"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "chirkutt",
+      "target": "shunno",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2013-rocknation-i-ruposhi-bangla"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "chirkutt",
+      "target": "warfaze",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2013-rocknation-i-ruposhi-bangla"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "conclusion",
+      "target": "owned",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "domestic_influence": {
+          "weight": 1,
+          "citations": [
+            "Conclusion cites Owned"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "cryptic-fate",
+      "target": "lalon-band",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2013-rocknation-i-ruposhi-bangla"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "cryptic-fate",
+      "target": "mechanix",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2009-artcell-10-years-insanity-sheraton"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "cryptic-fate",
+      "target": "nemesis",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2013-rocknation-i-ruposhi-bangla"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "cryptic-fate",
+      "target": "shunno",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2013-rocknation-i-ruposhi-bangla"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "cryptic-fate",
+      "target": "warfaze",
+      "combined_weight": 3.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 3,
+          "shared_events": [
+            "2009-artcell-10-years-insanity-sheraton",
+            "2013-rocknation-i-ruposhi-bangla",
+            "2026-overload-festival-bccc"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "de-illumination",
+      "target": "karnival",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "personnel": {
+          "weight": 1,
+          "shared_members": [
+            "Sabbir"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "de-illumination",
+      "target": "powersurge",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "personnel": {
+          "weight": 1,
+          "shared_members": [
+            "Samiul Islam"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "feedback",
+      "target": "nova",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "domestic_influence": {
+          "weight": 1,
+          "citations": [
+            "Nova cites Feedback"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "habib-wahid",
+      "target": "muza",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "domestic_influence": {
+          "weight": 1,
+          "citations": [
+            "Muza (Muzahid Abdullah) cites Habib Wahid"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "indalo",
+      "target": "karnival",
+      "combined_weight": 0.5,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 1,
+          "shared_influences": [
+            "Alice In Chains"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "indalo",
+      "target": "powersurge",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2013-rocknation-ii"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "james-nagar-baul",
+      "target": "lrb",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "personnel": {
+          "weight": 1,
+          "shared_members": [
+            "Ayub Bachchu"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "james-nagar-baul",
+      "target": "nova",
+      "combined_weight": 0.5,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 1,
+          "shared_influences": [
+            "The Doors"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "james-nagar-baul",
+      "target": "souls",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "personnel": {
+          "weight": 1,
+          "shared_members": [
+            "Ayub Bachchu"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "karnival",
+      "target": "mechanix",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2013-rocknation-iii"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "karnival",
+      "target": "metal-maze",
+      "combined_weight": 0.5,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 1,
+          "shared_influences": [
+            "Megadeth"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "karnival",
+      "target": "nova",
+      "combined_weight": 0.5,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 1,
+          "shared_influences": [
+            "Pink Floyd"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "karnival",
+      "target": "poizon-green",
+      "combined_weight": 1.5,
+      "observed": true,
+      "layers": {
+        "personnel": {
+          "weight": 1,
+          "shared_members": [
+            "Sunny"
+          ],
+          "observed": true
+        },
+        "influence_homophily": {
+          "weight": 1,
+          "shared_influences": [
+            "Motörhead"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "karnival",
+      "target": "powersurge",
+      "combined_weight": 1.0,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 2,
+          "shared_influences": [
+            "Megadeth",
+            "Pink Floyd"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "karnival",
+      "target": "rockstrata",
+      "combined_weight": 1.0,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 2,
+          "shared_influences": [
+            "Megadeth",
+            "Motörhead"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "lalon-band",
+      "target": "nemesis",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2013-rocknation-i-ruposhi-bangla"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "lalon-band",
+      "target": "shunno",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2013-rocknation-i-ruposhi-bangla"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "lalon-band",
+      "target": "warfaze",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2013-rocknation-i-ruposhi-bangla"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "lrb",
+      "target": "souls",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "personnel": {
+          "weight": 1,
+          "shared_members": [
+            "Ayub Bachchu"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "maqsood-o-dhaka",
+      "target": "mechanix",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "bamba-eid-concert-jamuna-future-park"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "maqsood-o-dhaka",
+      "target": "nemesis",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "bamba-eid-concert-jamuna-future-park"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "maqsood-o-dhaka",
+      "target": "renaissance",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "bamba-eid-concert-jamuna-future-park"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "maqsood-o-dhaka",
+      "target": "warfaze",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "bamba-eid-concert-jamuna-future-park"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "mechanix",
+      "target": "nemesis",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "bamba-eid-concert-jamuna-future-park"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "mechanix",
+      "target": "renaissance",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "bamba-eid-concert-jamuna-future-park"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "mechanix",
+      "target": "warfaze",
+      "combined_weight": 2.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 2,
+          "shared_events": [
+            "2009-artcell-10-years-insanity-sheraton",
+            "bamba-eid-concert-jamuna-future-park"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "metal-maze",
+      "target": "poizon-green",
+      "combined_weight": 0.5,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 1,
+          "shared_influences": [
+            "Pantera"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "metal-maze",
+      "target": "powersurge",
+      "combined_weight": 1.0,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 2,
+          "shared_influences": [
+            "Megadeth",
+            "Metallica"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "metal-maze",
+      "target": "rockstrata",
+      "combined_weight": 1.0,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 2,
+          "shared_influences": [
+            "Megadeth",
+            "Metallica"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "metal-maze",
+      "target": "warfaze",
+      "combined_weight": 0.5,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 1,
+          "shared_influences": [
+            "Metallica"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "nemesis",
+      "target": "renaissance",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "bamba-eid-concert-jamuna-future-park"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "nemesis",
+      "target": "shunno",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2013-rocknation-i-ruposhi-bangla"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "nemesis",
+      "target": "warfaze",
+      "combined_weight": 2.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 2,
+          "shared_events": [
+            "2013-rocknation-i-ruposhi-bangla",
+            "bamba-eid-concert-jamuna-future-park"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "nova",
+      "target": "powersurge",
+      "combined_weight": 0.5,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 1,
+          "shared_influences": [
+            "Pink Floyd"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "nova",
+      "target": "rockstrata",
+      "combined_weight": 0.5,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 1,
+          "shared_influences": [
+            "Deep Purple"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "nova",
+      "target": "warfaze",
+      "combined_weight": 0.5,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 1,
+          "shared_influences": [
+            "Deep Purple"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "poizon-green",
+      "target": "powersurge",
+      "combined_weight": 0.5,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 1,
+          "shared_influences": [
+            "Sepultura"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "poizon-green",
+      "target": "rockstrata",
+      "combined_weight": 2.5,
+      "observed": true,
+      "layers": {
+        "domestic_influence": {
+          "weight": 1,
+          "citations": [
+            "Poizon Green cites Rockstrata"
+          ],
+          "observed": true
+        },
+        "influence_homophily": {
+          "weight": 3,
+          "shared_influences": [
+            "Black Sabbath",
+            "Iron Maiden",
+            "Motörhead"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "poizon-green",
+      "target": "warfaze",
+      "combined_weight": 0.5,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 1,
+          "shared_influences": [
+            "Iron Maiden"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "powersurge",
+      "target": "rockstrata",
+      "combined_weight": 1.0,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 2,
+          "shared_influences": [
+            "Megadeth",
+            "Metallica"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "powersurge",
+      "target": "severe-dementia",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "personnel": {
+          "weight": 1,
+          "shared_members": [
+            "Saimum Hasan Nahian"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "powersurge",
+      "target": "trainwreck",
+      "combined_weight": 0.5,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 1,
+          "shared_influences": [
+            "Lamb Of God"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "powersurge",
+      "target": "warfaze",
+      "combined_weight": 1.5,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2016-rocknation-tours-sylhet-i"
+          ],
+          "observed": true
+        },
+        "influence_homophily": {
+          "weight": 1,
+          "shared_influences": [
+            "Metallica"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "renaissance",
+      "target": "souls",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "personnel": {
+          "weight": 1,
+          "shared_members": [
+            "Pilu Khan"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "renaissance",
+      "target": "warfaze",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "bamba-eid-concert-jamuna-future-park"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "rockstrata",
+      "target": "warfaze",
+      "combined_weight": 1.5,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 3,
+          "shared_influences": [
+            "Deep Purple",
+            "Iron Maiden",
+            "Metallica"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "shezan",
+      "target": "stoic-bliss",
+      "combined_weight": 0.5,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 1,
+          "shared_influences": [
+            "American Hip-Hop"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "shezan",
+      "target": "uptown-lokolz",
+      "combined_weight": 0.5,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 1,
+          "shared_influences": [
+            "American Hip-Hop"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "shunno",
+      "target": "warfaze",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "co_billing": {
+          "weight": 1,
+          "shared_events": [
+            "2013-rocknation-i-ruposhi-bangla"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "stentorian",
+      "target": "yaatri",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "personnel": {
+          "weight": 1,
+          "shared_members": [
+            "Shams Alim Biswas"
+          ],
+          "observed": true
+        }
+      }
+    },
+    {
+      "source": "stoic-bliss",
+      "target": "uptown-lokolz",
+      "combined_weight": 0.5,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 1,
+          "shared_influences": [
+            "American Hip-Hop"
+          ],
+          "observed": false
+        }
+      }
+    }
+  ]
+}

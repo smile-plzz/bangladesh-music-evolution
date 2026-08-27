@@ -1,0 +1,16 @@
+concert_id,name,date,declared_type,venue_type,city,typology_class,bill_size,strand_count,strands,rule
+2000-lrb-us-tour-msg,LRB US Tour — Madison Square Garden Performance,2000-01-01,diaspora-tour,stadium,New York,diaspora-tour,1,1,Mainstream Rock,event type or venue country is outside Bangladesh
+2009-artcell-10-years-insanity-sheraton,10 Years of Artcell In-sanity,2009-10-01,concert,theatre,Dhaka,independent-indoor-gig,4,2,Heavy Metal|Progressive Rock/Metal,"default: indoor/other venue, single or small bill"
+2013-rocknation-i-ruposhi-bangla,RockNation I,2013-04-12,festival,theatre,Dhaka,metal-rock-festival,7,3,Alternative/Indie|Folk & Folk Fusion|Heavy Metal,multi-act festival with a rock/metal bill
+2013-rocknation-ii,RockNation II,2013-09-20,festival,other,Dhaka,metal-rock-festival,2,2,Alternative/Indie|Heavy Metal,multi-act festival with a rock/metal bill
+2013-rocknation-iii,RockNation III,2013-12-06,festival,other,Dhaka,metal-rock-festival,3,3,Alternative/Indie|Heavy Metal|Progressive Rock/Metal,multi-act festival with a rock/metal bill
+2014-rocknation-overload,RockNation: Overload,2014-04-19,festival,other,Dhaka,metal-rock-festival,1,1,Progressive Rock/Metal,multi-act festival with a rock/metal bill
+2014-rocknation-revolution-of-rock,RockNation: The Revolution of Rock,2014-06-01,festival,other,Dhaka,metal-rock-festival,1,1,Alternative/Indie,multi-act festival with a rock/metal bill
+2015-rocknation-resurrection,RockNation: Resurrection,2015-04-03,festival,convention-centre,Dhaka,independent-indoor-gig,0,0,,"default: indoor/other venue, single or small bill"
+2016-rocknation-tours-sylhet-i,RockNation Tours: Sylhet I,2016-02-05,university-fest,university-campus,Sylhet,university-festival,3,2,Heavy Metal|Progressive Rock/Metal,university-organised or campus venue
+bamba-eid-concert-jamuna-future-park,BAMBA Eid Celebration Concert,2019-08-02,festival,outdoor-park,Dhaka,metal-rock-festival,5,4,Alternative/Indie|Folk & Folk Fusion|Heavy Metal|Mainstream Rock,multi-act festival with a rock/metal bill
+2019-artcell-20th-anniversary-iccb,Artcellism: Artcell 20th Anniversary Open-Air Concert,2019-12-01,concert,open-air,Dhaka,large-open-air-headliner,1,1,Progressive Rock/Metal,"open-air/stadium venue or reported attendance >= 5,000"
+2022-coke-studio-bangla-bhober-pagol,"Coke Studio Bangla Season 1 — ""Bhober Pagol""",2022-05-03,corporate-branded,other,Dhaka,corporate-branded-platform,1,1,Hip-Hop/Rap,branded studio/showcase format rather than a ticketed concert
+2025-james-european-tour-london-opener,James European Tour — London Opener,2025-07-25,diaspora-tour,other,London,diaspora-tour,1,1,Mainstream Rock,event type or venue country is outside Bangladesh
+2026-warfaze-playlist-tribute-bicc,Warfaze: Playlist Tribute to Originals,2026-07-02,concert,convention-centre,Dhaka,independent-indoor-gig,1,1,Heavy Metal,"default: indoor/other venue, single or small bill"
+2026-overload-festival-bccc,Overload Festival Dhaka (X Force Presents),2026-07-10,festival,convention-centre,Dhaka,metal-rock-festival,3,2,Heavy Metal|Progressive Rock/Metal,multi-act festival with a rock/metal bill

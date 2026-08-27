@@ -1,0 +1,2078 @@
+{
+  "generated": "2026-08-27",
+  "description": "Bipartite influence network: catalogued Bangladeshi acts on one side, the global acts and traditions they cite on the other, plus domestic act-to-act transmission edges. Built from the 'global_influences' field of the artist records; each edge keeps the citation's stated confidence and whether a source was named.",
+  "node_count": 170,
+  "edge_count": 165,
+  "nodes": [
+    {
+      "id": "artist:arbovirus",
+      "label": "Arbovirus",
+      "kind": "artist",
+      "strand": "Alternative/Indie",
+      "formed_year": 2001
+    },
+    {
+      "id": "artist:ark",
+      "label": "Ark",
+      "kind": "artist",
+      "strand": "Mainstream Rock",
+      "formed_year": 1991
+    },
+    {
+      "id": "artist:arnob",
+      "label": "Shayan Chowdhury Arnob",
+      "kind": "artist",
+      "strand": "Folk & Folk Fusion",
+      "formed_year": 1998
+    },
+    {
+      "id": "artist:artcell",
+      "label": "Artcell",
+      "kind": "artist",
+      "strand": "Progressive Rock/Metal",
+      "formed_year": 1999
+    },
+    {
+      "id": "artist:ashes",
+      "label": "Ashes",
+      "kind": "artist",
+      "strand": "Alternative/Indie",
+      "formed_year": 2006
+    },
+    {
+      "id": "artist:ashraf-babu-charu",
+      "label": "Ashraf Babu & Charu",
+      "kind": "artist",
+      "strand": "Hip-Hop/Rap",
+      "formed_year": 1993
+    },
+    {
+      "id": "artist:aurthohin",
+      "label": "Aurthohin",
+      "kind": "artist",
+      "strand": "Alternative/Indie",
+      "formed_year": 1998
+    },
+    {
+      "id": "artist:azam-khan-uchcharon",
+      "label": "Azam Khan & Uchcharon",
+      "kind": "artist",
+      "strand": "Mainstream Rock",
+      "formed_year": 1972
+    },
+    {
+      "id": "artist:black",
+      "label": "Black",
+      "kind": "artist",
+      "strand": "Alternative/Indie",
+      "formed_year": 1998
+    },
+    {
+      "id": "artist:chirkutt",
+      "label": "Chirkutt",
+      "kind": "artist",
+      "strand": "Folk & Folk Fusion",
+      "formed_year": 2002
+    },
+    {
+      "id": "artist:conclusion",
+      "label": "Conclusion",
+      "kind": "artist",
+      "strand": "Alternative/Indie",
+      "formed_year": 2011
+    },
+    {
+      "id": "artist:cryptic-fate",
+      "label": "Cryptic Fate",
+      "kind": "artist",
+      "strand": "Heavy Metal",
+      "formed_year": 1993
+    },
+    {
+      "id": "artist:de-illumination",
+      "label": "De-illumination",
+      "kind": "artist",
+      "strand": "Heavy Metal",
+      "formed_year": 2006
+    },
+    {
+      "id": "artist:deshi-mcs",
+      "label": "Deshi MCs",
+      "kind": "artist",
+      "strand": "Hip-Hop/Rap",
+      "formed_year": 2005
+    },
+    {
+      "id": "artist:feedback",
+      "label": "Feedback",
+      "kind": "artist",
+      "strand": "Mainstream Rock",
+      "formed_year": 1976
+    },
+    {
+      "id": "artist:habib-wahid",
+      "label": "Habib Wahid",
+      "kind": "artist",
+      "strand": "Pop",
+      "formed_year": 2003
+    },
+    {
+      "id": "artist:hannan",
+      "label": "Hannan (Hannan Hossain Shimul)",
+      "kind": "artist",
+      "strand": "Hip-Hop/Rap",
+      "formed_year": 2024
+    },
+    {
+      "id": "artist:imran-mahmudul",
+      "label": "Imran Mahmudul",
+      "kind": "artist",
+      "strand": "Pop",
+      "formed_year": 2008
+    },
+    {
+      "id": "artist:indalo",
+      "label": "Indalo",
+      "kind": "artist",
+      "strand": "Alternative/Indie",
+      "formed_year": 2012
+    },
+    {
+      "id": "artist:jalali-set",
+      "label": "Jalali Set",
+      "kind": "artist",
+      "strand": "Hip-Hop/Rap",
+      "formed_year": 2014
+    },
+    {
+      "id": "artist:james-nagar-baul",
+      "label": "James (Nagar Baul)",
+      "kind": "artist",
+      "strand": "Mainstream Rock",
+      "formed_year": 1977
+    },
+    {
+      "id": "artist:karnival",
+      "label": "Karnival",
+      "kind": "artist",
+      "strand": "Progressive Rock/Metal",
+      "formed_year": 2006
+    },
+    {
+      "id": "artist:kona",
+      "label": "Kona (Dilshad Nahar Kona)",
+      "kind": "artist",
+      "strand": "Pop",
+      "formed_year": 2006
+    },
+    {
+      "id": "artist:lalon-band",
+      "label": "Lalon (Lalon Band)",
+      "kind": "artist",
+      "strand": "Folk & Folk Fusion",
+      "formed_year": 2001
+    },
+    {
+      "id": "artist:lrb",
+      "label": "LRB (Love Runs Blind)",
+      "kind": "artist",
+      "strand": "Mainstream Rock",
+      "formed_year": 1991
+    },
+    {
+      "id": "artist:maqsood-o-dhaka",
+      "label": "Maqsood O' Dhaka",
+      "kind": "artist",
+      "strand": "Folk & Folk Fusion",
+      "formed_year": 1997
+    },
+    {
+      "id": "artist:mechanix",
+      "label": "Mechanix",
+      "kind": "artist",
+      "strand": "Heavy Metal",
+      "formed_year": 2005
+    },
+    {
+      "id": "artist:meghdol",
+      "label": "Meghdol",
+      "kind": "artist",
+      "strand": "Alternative/Indie",
+      "formed_year": 2003
+    },
+    {
+      "id": "artist:metal-maze",
+      "label": "Metal Maze",
+      "kind": "artist",
+      "strand": "Heavy Metal",
+      "formed_year": 1995
+    },
+    {
+      "id": "artist:miles",
+      "label": "Miles",
+      "kind": "artist",
+      "strand": "Mainstream Rock",
+      "formed_year": 1979
+    },
+    {
+      "id": "artist:minar-rahman",
+      "label": "Minar Rahman",
+      "kind": "artist",
+      "strand": "Pop",
+      "formed_year": 2008
+    },
+    {
+      "id": "artist:muza",
+      "label": "Muza (Muzahid Abdullah)",
+      "kind": "artist",
+      "strand": "Pop",
+      "formed_year": 2013
+    },
+    {
+      "id": "artist:nancy",
+      "label": "Nancy (Nazmun Munira Nancy)",
+      "kind": "artist",
+      "strand": "Pop",
+      "formed_year": 2002
+    },
+    {
+      "id": "artist:nemesis",
+      "label": "Nemesis",
+      "kind": "artist",
+      "strand": "Alternative/Indie",
+      "formed_year": 1999
+    },
+    {
+      "id": "artist:nova",
+      "label": "Nova",
+      "kind": "artist",
+      "strand": "Mainstream Rock",
+      "formed_year": 1986
+    },
+    {
+      "id": "artist:owned",
+      "label": "Owned",
+      "kind": "artist",
+      "strand": "Alternative/Indie",
+      "formed_year": 2007
+    },
+    {
+      "id": "artist:poizon-green",
+      "label": "Poizon Green",
+      "kind": "artist",
+      "strand": "Heavy Metal",
+      "formed_year": 1998
+    },
+    {
+      "id": "artist:powersurge",
+      "label": "Powersurge",
+      "kind": "artist",
+      "strand": "Heavy Metal",
+      "formed_year": 2006
+    },
+    {
+      "id": "artist:prometheus",
+      "label": "Prometheus",
+      "kind": "artist",
+      "strand": "Mainstream Rock",
+      "formed_year": 1986
+    },
+    {
+      "id": "artist:renaissance",
+      "label": "Renaissance",
+      "kind": "artist",
+      "strand": "Mainstream Rock",
+      "formed_year": 1985
+    },
+    {
+      "id": "artist:rockstrata",
+      "label": "Rockstrata",
+      "kind": "artist",
+      "strand": "Heavy Metal",
+      "formed_year": 1991
+    },
+    {
+      "id": "artist:severe-dementia",
+      "label": "Severe Dementia",
+      "kind": "artist",
+      "strand": "Heavy Metal",
+      "formed_year": 2004
+    },
+    {
+      "id": "artist:shezan",
+      "label": "Shezan",
+      "kind": "artist",
+      "strand": "Hip-Hop/Rap",
+      "formed_year": 2018
+    },
+    {
+      "id": "artist:shironamhin",
+      "label": "Shironamhin",
+      "kind": "artist",
+      "strand": "Alternative/Indie",
+      "formed_year": 1996
+    },
+    {
+      "id": "artist:shohojia",
+      "label": "Shohojia",
+      "kind": "artist",
+      "strand": "Alternative/Indie",
+      "formed_year": null
+    },
+    {
+      "id": "artist:shonar-bangla-circus",
+      "label": "Shonar Bangla Circus",
+      "kind": "artist",
+      "strand": "Alternative/Indie",
+      "formed_year": 2018
+    },
+    {
+      "id": "artist:shunno",
+      "label": "Shunno",
+      "kind": "artist",
+      "strand": "Alternative/Indie",
+      "formed_year": 2007
+    },
+    {
+      "id": "artist:souls",
+      "label": "Souls",
+      "kind": "artist",
+      "strand": "Mainstream Rock",
+      "formed_year": 1972
+    },
+    {
+      "id": "artist:stentorian",
+      "label": "Stentorian",
+      "kind": "artist",
+      "strand": "Heavy Metal",
+      "formed_year": 2001
+    },
+    {
+      "id": "artist:stoic-bliss",
+      "label": "Stoic Bliss",
+      "kind": "artist",
+      "strand": "Hip-Hop/Rap",
+      "formed_year": 2004
+    },
+    {
+      "id": "artist:tahsan",
+      "label": "Tahsan Rahman Khan",
+      "kind": "artist",
+      "strand": "Pop",
+      "formed_year": 2004
+    },
+    {
+      "id": "artist:theology-of-rap",
+      "label": "Theology of Rap",
+      "kind": "artist",
+      "strand": "Hip-Hop/Rap",
+      "formed_year": 2005
+    },
+    {
+      "id": "artist:trainwreck",
+      "label": "Trainwreck",
+      "kind": "artist",
+      "strand": "Heavy Metal",
+      "formed_year": 2007
+    },
+    {
+      "id": "artist:uptown-lokolz",
+      "label": "Uptown Lokolz",
+      "kind": "artist",
+      "strand": "Hip-Hop/Rap",
+      "formed_year": 2005
+    },
+    {
+      "id": "artist:vibe",
+      "label": "Vibe",
+      "kind": "artist",
+      "strand": "Heavy Metal",
+      "formed_year": 2001
+    },
+    {
+      "id": "artist:warfaze",
+      "label": "Warfaze",
+      "kind": "artist",
+      "strand": "Heavy Metal",
+      "formed_year": 1984
+    },
+    {
+      "id": "artist:winning",
+      "label": "Winning",
+      "kind": "artist",
+      "strand": "Mainstream Rock",
+      "formed_year": 1983
+    },
+    {
+      "id": "artist:yaatri",
+      "label": "Yaatri",
+      "kind": "artist",
+      "strand": "Alternative/Indie",
+      "formed_year": 2004
+    },
+    {
+      "id": "influence:Alice In Chains",
+      "label": "Alice In Chains",
+      "kind": "global_artist",
+      "citing_acts": 3
+    },
+    {
+      "id": "influence:Alternative Peers",
+      "label": "Alternative Peers",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Alternative Pop Traditions",
+      "label": "Alternative Pop Traditions",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Alternative Rock",
+      "label": "Alternative Rock",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Alternative Rock Traditions",
+      "label": "Alternative Rock Traditions",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:American Hip-Hop",
+      "label": "American Hip-Hop",
+      "kind": "tradition",
+      "citing_acts": 6
+    },
+    {
+      "id": "influence:Azam Khan",
+      "label": "Azam Khan",
+      "kind": "domestic_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Azam Khan's Band Lineage",
+      "label": "Azam Khan's Band Lineage",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Big L",
+      "label": "Big L",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Biggie",
+      "label": "Biggie",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Black Sabbath",
+      "label": "Black Sabbath",
+      "kind": "global_artist",
+      "citing_acts": 2
+    },
+    {
+      "id": "influence:Blade II",
+      "label": "Blade II",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Blues",
+      "label": "Blues",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Blues Rock",
+      "label": "Blues Rock",
+      "kind": "tradition",
+      "citing_acts": 2
+    },
+    {
+      "id": "influence:Blues Traditions",
+      "label": "Blues Traditions",
+      "kind": "tradition",
+      "citing_acts": 2
+    },
+    {
+      "id": "influence:British-asian Electronic Music Scene",
+      "label": "British-asian Electronic Music Scene",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Broader Thrash & Classic Metal",
+      "label": "Broader Thrash & Classic Metal",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Cannibal Corpse",
+      "label": "Cannibal Corpse",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Charles Baudelaire",
+      "label": "Charles Baudelaire",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Contemporaneous Bangladeshi Heavy Metal",
+      "label": "Contemporaneous Bangladeshi Heavy Metal",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Contemporary Asian Pop",
+      "label": "Contemporary Asian Pop",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Contemporary Indian",
+      "label": "Contemporary Indian",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Contemporary Pop",
+      "label": "Contemporary Pop",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Deep Purple",
+      "label": "Deep Purple",
+      "kind": "global_artist",
+      "citing_acts": 3
+    },
+    {
+      "id": "influence:Deftones",
+      "label": "Deftones",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Dokken",
+      "label": "Dokken",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Dream Theater",
+      "label": "Dream Theater",
+      "kind": "global_artist",
+      "citing_acts": 2
+    },
+    {
+      "id": "influence:EDM",
+      "label": "EDM",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:EDM Production Traditions",
+      "label": "EDM Production Traditions",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Electric Rock Instrumentation Applied To Baul Repertoire",
+      "label": "Electric Rock Instrumentation Applied To Baul Repertoire",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Electronic-fusion Production",
+      "label": "Electronic-fusion Production",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Eminem",
+      "label": "Eminem",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Eric Clapton",
+      "label": "Eric Clapton",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Exodus",
+      "label": "Exodus",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Folk",
+      "label": "Folk",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Funk",
+      "label": "Funk",
+      "kind": "tradition",
+      "citing_acts": 2
+    },
+    {
+      "id": "influence:Global Protest",
+      "label": "Global Protest",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Grunge",
+      "label": "Grunge",
+      "kind": "tradition",
+      "citing_acts": 2
+    },
+    {
+      "id": "influence:Guns N' Roses",
+      "label": "Guns N' Roses",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Heavy Melody-influenced Rock",
+      "label": "Heavy Melody-influenced Rock",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Hip-hop Tradition",
+      "label": "Hip-hop Tradition",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Indie",
+      "label": "Indie",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:International Brutal",
+      "label": "International Brutal",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:International Festival",
+      "label": "International Festival",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:International Symphonic Rock",
+      "label": "International Symphonic Rock",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Iron Maiden",
+      "label": "Iron Maiden",
+      "kind": "global_artist",
+      "citing_acts": 3
+    },
+    {
+      "id": "influence:Jazz",
+      "label": "Jazz",
+      "kind": "global_artist",
+      "citing_acts": 3
+    },
+    {
+      "id": "influence:Jazz Fusion",
+      "label": "Jazz Fusion",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Jazz Traditions",
+      "label": "Jazz Traditions",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Judas Priest",
+      "label": "Judas Priest",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Karsh Kale",
+      "label": "Karsh Kale",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Kreator",
+      "label": "Kreator",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Lamb Of God",
+      "label": "Lamb Of God",
+      "kind": "global_artist",
+      "citing_acts": 2
+    },
+    {
+      "id": "influence:Led Zeppelin",
+      "label": "Led Zeppelin",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Machine Head",
+      "label": "Machine Head",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Mark Knopfler",
+      "label": "Mark Knopfler",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Megadeth",
+      "label": "Megadeth",
+      "kind": "global_artist",
+      "citing_acts": 5
+    },
+    {
+      "id": "influence:Mellow",
+      "label": "Mellow",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Metal Traditions",
+      "label": "Metal Traditions",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Metallica",
+      "label": "Metallica",
+      "kind": "global_artist",
+      "citing_acts": 6
+    },
+    {
+      "id": "influence:Morbid Angel",
+      "label": "Morbid Angel",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Motörhead",
+      "label": "Motörhead",
+      "kind": "global_artist",
+      "citing_acts": 3
+    },
+    {
+      "id": "influence:Multi-subgenre Metal Traditions",
+      "label": "Multi-subgenre Metal Traditions",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Nirvana",
+      "label": "Nirvana",
+      "kind": "global_artist",
+      "citing_acts": 2
+    },
+    {
+      "id": "influence:Nu Metal",
+      "label": "Nu Metal",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Oasis",
+      "label": "Oasis",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Opeth",
+      "label": "Opeth",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Pantera",
+      "label": "Pantera",
+      "kind": "global_artist",
+      "citing_acts": 3
+    },
+    {
+      "id": "influence:Pearl Jam",
+      "label": "Pearl Jam",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Pink Floyd",
+      "label": "Pink Floyd",
+      "kind": "global_artist",
+      "citing_acts": 4
+    },
+    {
+      "id": "influence:Pop Cover Circuit",
+      "label": "Pop Cover Circuit",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Porcupine Tree",
+      "label": "Porcupine Tree",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Progressive Metal Traditions",
+      "label": "Progressive Metal Traditions",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Progressive Rock Traditions",
+      "label": "Progressive Rock Traditions",
+      "kind": "tradition",
+      "citing_acts": 2
+    },
+    {
+      "id": "influence:Psychedelic",
+      "label": "Psychedelic",
+      "kind": "tradition",
+      "citing_acts": 2
+    },
+    {
+      "id": "influence:Psychedelic Rock Traditions",
+      "label": "Psychedelic Rock Traditions",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Queen",
+      "label": "Queen",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Queens of the Stone Age",
+      "label": "Queens of the Stone Age",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Radiohead",
+      "label": "Radiohead",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Reggae",
+      "label": "Reggae",
+      "kind": "tradition",
+      "citing_acts": 2
+    },
+    {
+      "id": "influence:Rock",
+      "label": "Rock",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Rock Traditions",
+      "label": "Rock Traditions",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Santiniketan",
+      "label": "Santiniketan",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Scorpions",
+      "label": "Scorpions",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Sepultura",
+      "label": "Sepultura",
+      "kind": "global_artist",
+      "citing_acts": 3
+    },
+    {
+      "id": "influence:Slayer",
+      "label": "Slayer",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Slipknot",
+      "label": "Slipknot",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Sodom",
+      "label": "Sodom",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Soft Rock Traditions",
+      "label": "Soft Rock Traditions",
+      "kind": "tradition",
+      "citing_acts": 2
+    },
+    {
+      "id": "influence:Soundgarden",
+      "label": "Soundgarden",
+      "kind": "global_artist",
+      "citing_acts": 2
+    },
+    {
+      "id": "influence:South Asian Pop",
+      "label": "South Asian Pop",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Stone Temple Pilots",
+      "label": "Stone Temple Pilots",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Surreal Literature",
+      "label": "Surreal Literature",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Technical Death Metal",
+      "label": "Technical Death Metal",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Techno Production Traditions",
+      "label": "Techno Production Traditions",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:The Beatles",
+      "label": "The Beatles",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:The Doors",
+      "label": "The Doors",
+      "kind": "global_artist",
+      "citing_acts": 2
+    },
+    {
+      "id": "influence:Trap Production",
+      "label": "Trap Production",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Tupac",
+      "label": "Tupac",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Unspecified In Available Sources",
+      "label": "Unspecified In Available Sources",
+      "kind": "tradition",
+      "citing_acts": 2
+    },
+    {
+      "id": "influence:Urban",
+      "label": "Urban",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Visva-bharati Arts Education",
+      "label": "Visva-bharati Arts Education",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Western Alternative",
+      "label": "Western Alternative",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Western Folk Rock",
+      "label": "Western Folk Rock",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Western Hard Rock",
+      "label": "Western Hard Rock",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Western Hard Rock Traditions",
+      "label": "Western Hard Rock Traditions",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Western Heavy Metal Traditions",
+      "label": "Western Heavy Metal Traditions",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Western Pop",
+      "label": "Western Pop",
+      "kind": "tradition",
+      "citing_acts": 2
+    },
+    {
+      "id": "influence:Western Pop Rock",
+      "label": "Western Pop Rock",
+      "kind": "tradition",
+      "citing_acts": 2
+    },
+    {
+      "id": "influence:Western Rock",
+      "label": "Western Rock",
+      "kind": "global_artist",
+      "citing_acts": 2
+    },
+    {
+      "id": "influence:Whitesnake",
+      "label": "Whitesnake",
+      "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:World-music Circuit",
+      "label": "World-music Circuit",
+      "kind": "tradition",
+      "citing_acts": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": "artist:arbovirus",
+      "target": "influence:Nu Metal",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:arbovirus",
+      "target": "influence:Grunge",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:arbovirus",
+      "target": "influence:Blade II",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:ark",
+      "target": "influence:Western Hard Rock Traditions",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:arnob",
+      "target": "influence:Jazz",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:arnob",
+      "target": "influence:Blues",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:arnob",
+      "target": "influence:Western Rock",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:arnob",
+      "target": "influence:Santiniketan",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:arnob",
+      "target": "influence:Visva-bharati Arts Education",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:artcell",
+      "target": "influence:Dream Theater",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:artcell",
+      "target": "influence:Metallica",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:artcell",
+      "target": "influence:Pink Floyd",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:artcell",
+      "target": "influence:Sepultura",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:artcell",
+      "target": "influence:Pantera",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:artcell",
+      "target": "influence:Opeth",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:ashes",
+      "target": "influence:Western Folk Rock",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:ashes",
+      "target": "influence:Alternative Rock Traditions",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:ashraf-babu-charu",
+      "target": "influence:American Hip-Hop",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:aurthohin",
+      "target": "influence:Funk",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:aurthohin",
+      "target": "influence:Jazz Fusion",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:aurthohin",
+      "target": "influence:Progressive Metal Traditions",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:azam-khan-uchcharon",
+      "target": "influence:Western Pop",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:azam-khan-uchcharon",
+      "target": "influence:Rock Traditions",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:black",
+      "target": "influence:Alice In Chains",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:black",
+      "target": "influence:Nirvana",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:black",
+      "target": "influence:Soundgarden",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:chirkutt",
+      "target": "influence:International Festival",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:chirkutt",
+      "target": "influence:World-music Circuit",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:cryptic-fate",
+      "target": "influence:Western Heavy Metal Traditions",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:de-illumination",
+      "target": "influence:International Symphonic Rock",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:de-illumination",
+      "target": "influence:Metal Traditions",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:deshi-mcs",
+      "target": "influence:Tupac",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:deshi-mcs",
+      "target": "influence:Biggie",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:deshi-mcs",
+      "target": "influence:Eminem",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:deshi-mcs",
+      "target": "influence:Big L",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:feedback",
+      "target": "influence:Western Pop Rock",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:feedback",
+      "target": "influence:Blues Rock",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:feedback",
+      "target": "influence:Jazz Traditions",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:habib-wahid",
+      "target": "influence:Karsh Kale",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:habib-wahid",
+      "target": "influence:British-asian Electronic Music Scene",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:habib-wahid",
+      "target": "influence:EDM",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:habib-wahid",
+      "target": "influence:Techno Production Traditions",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:hannan",
+      "target": "influence:Global Protest",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:hannan",
+      "target": "influence:Hip-hop Tradition",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:imran-mahmudul",
+      "target": "influence:Contemporary Asian Pop",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:indalo",
+      "target": "influence:Pearl Jam",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:indalo",
+      "target": "influence:Alice In Chains",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:indalo",
+      "target": "influence:Soundgarden",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:indalo",
+      "target": "influence:Stone Temple Pilots",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:jalali-set",
+      "target": "influence:American Hip-Hop",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:jalali-set",
+      "target": "influence:Trap Production",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:james-nagar-baul",
+      "target": "influence:Eric Clapton",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:james-nagar-baul",
+      "target": "influence:Led Zeppelin",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:james-nagar-baul",
+      "target": "influence:The Doors",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:james-nagar-baul",
+      "target": "influence:Mark Knopfler",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:karnival",
+      "target": "influence:The Beatles",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:karnival",
+      "target": "influence:Pink Floyd",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:karnival",
+      "target": "influence:Radiohead",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:karnival",
+      "target": "influence:Motörhead",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:karnival",
+      "target": "influence:Alice In Chains",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:karnival",
+      "target": "influence:Nirvana",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:karnival",
+      "target": "influence:Oasis",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:karnival",
+      "target": "influence:Porcupine Tree",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:karnival",
+      "target": "influence:Megadeth",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:kona",
+      "target": "influence:Contemporary Pop",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:kona",
+      "target": "influence:Electronic-fusion Production",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:lalon-band",
+      "target": "influence:Electric Rock Instrumentation Applied To Baul Repertoire",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:lrb",
+      "target": "influence:Western Hard Rock",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:lrb",
+      "target": "influence:Blues Rock",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:maqsood-o-dhaka",
+      "target": "influence:Jazz",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:maqsood-o-dhaka",
+      "target": "influence:Funk",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:maqsood-o-dhaka",
+      "target": "influence:Reggae",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:maqsood-o-dhaka",
+      "target": "influence:Blues Traditions",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:mechanix",
+      "target": "influence:Megadeth",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:mechanix",
+      "target": "influence:Metallica",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:mechanix",
+      "target": "influence:Judas Priest",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:meghdol",
+      "target": "influence:Charles Baudelaire",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:meghdol",
+      "target": "influence:Western Alternative",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:meghdol",
+      "target": "influence:Psychedelic Rock Traditions",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:metal-maze",
+      "target": "influence:Metallica",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:metal-maze",
+      "target": "influence:Megadeth",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:metal-maze",
+      "target": "influence:Pantera",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:miles",
+      "target": "influence:Western Pop",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:miles",
+      "target": "influence:Rock",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:minar-rahman",
+      "target": "influence:Indie",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:minar-rahman",
+      "target": "influence:Folk",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:minar-rahman",
+      "target": "influence:Alternative Pop Traditions",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:muza",
+      "target": "influence:Urban",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:muza",
+      "target": "influence:EDM Production Traditions",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:nancy",
+      "target": "influence:Contemporary Indian",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:nancy",
+      "target": "influence:South Asian Pop",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:nemesis",
+      "target": "influence:Unspecified In Available Sources",
+      "confidence": "hypothesized",
+      "sourced": true
+    },
+    {
+      "source": "artist:nova",
+      "target": "influence:Pink Floyd",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:nova",
+      "target": "influence:Queen",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:nova",
+      "target": "influence:Deep Purple",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:nova",
+      "target": "influence:The Doors",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:nova",
+      "target": "influence:Azam Khan",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:owned",
+      "target": "influence:Deftones",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:owned",
+      "target": "influence:Slipknot",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:owned",
+      "target": "influence:Queens of the Stone Age",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:poizon-green",
+      "target": "influence:Black Sabbath",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:poizon-green",
+      "target": "influence:Sepultura",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:poizon-green",
+      "target": "influence:Pantera",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:poizon-green",
+      "target": "influence:Motörhead",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:poizon-green",
+      "target": "influence:Machine Head",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:poizon-green",
+      "target": "influence:Iron Maiden",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:poizon-green",
+      "target": "influence:Cannibal Corpse",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:poizon-green",
+      "target": "influence:Morbid Angel",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:powersurge",
+      "target": "influence:Metallica",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:powersurge",
+      "target": "influence:Slayer",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:powersurge",
+      "target": "influence:Megadeth",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:powersurge",
+      "target": "influence:Exodus",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:powersurge",
+      "target": "influence:Sepultura",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:powersurge",
+      "target": "influence:Kreator",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:powersurge",
+      "target": "influence:Sodom",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:powersurge",
+      "target": "influence:Lamb Of God",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:powersurge",
+      "target": "influence:Dream Theater",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:powersurge",
+      "target": "influence:Pink Floyd",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:prometheus",
+      "target": "influence:Unspecified In Available Sources",
+      "confidence": "hypothesized",
+      "sourced": true
+    },
+    {
+      "source": "artist:renaissance",
+      "target": "influence:Reggae",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:renaissance",
+      "target": "influence:Jazz",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:renaissance",
+      "target": "influence:Blues Traditions",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:rockstrata",
+      "target": "influence:Iron Maiden",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:rockstrata",
+      "target": "influence:Metallica",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:rockstrata",
+      "target": "influence:Megadeth",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:rockstrata",
+      "target": "influence:Deep Purple",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:rockstrata",
+      "target": "influence:Black Sabbath",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:rockstrata",
+      "target": "influence:Motörhead",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:severe-dementia",
+      "target": "influence:International Brutal",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:severe-dementia",
+      "target": "influence:Technical Death Metal",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:shezan",
+      "target": "influence:American Hip-Hop",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:shironamhin",
+      "target": "influence:Psychedelic",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:shironamhin",
+      "target": "influence:Progressive Rock Traditions",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:shonar-bangla-circus",
+      "target": "influence:Surreal Literature",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:shonar-bangla-circus",
+      "target": "influence:Psychedelic",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:shonar-bangla-circus",
+      "target": "influence:Progressive Rock Traditions",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:shunno",
+      "target": "influence:Western Pop Rock",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:shunno",
+      "target": "influence:Soft Rock Traditions",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:souls",
+      "target": "influence:Western Rock",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:souls",
+      "target": "influence:Pop Cover Circuit",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:stentorian",
+      "target": "influence:Multi-subgenre Metal Traditions",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:stoic-bliss",
+      "target": "influence:American Hip-Hop",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:tahsan",
+      "target": "influence:Grunge",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:tahsan",
+      "target": "influence:Alternative Rock",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:theology-of-rap",
+      "target": "influence:American Hip-Hop",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:trainwreck",
+      "target": "influence:Lamb Of God",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:uptown-lokolz",
+      "target": "influence:American Hip-Hop",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:vibe",
+      "target": "influence:Contemporaneous Bangladeshi Heavy Metal",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:vibe",
+      "target": "influence:Alternative Peers",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:warfaze",
+      "target": "influence:Iron Maiden",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:warfaze",
+      "target": "influence:Deep Purple",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:warfaze",
+      "target": "influence:Whitesnake",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:warfaze",
+      "target": "influence:Dokken",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:warfaze",
+      "target": "influence:Guns N' Roses",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:warfaze",
+      "target": "influence:Scorpions",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:warfaze",
+      "target": "influence:Metallica",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:warfaze",
+      "target": "influence:Broader Thrash & Classic Metal",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:winning",
+      "target": "influence:Azam Khan's Band Lineage",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:winning",
+      "target": "influence:Heavy Melody-influenced Rock",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:yaatri",
+      "target": "influence:Mellow",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:yaatri",
+      "target": "influence:Soft Rock Traditions",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:conclusion",
+      "target": "artist:owned",
+      "confidence": "high",
+      "kind": "domestic_transmission"
+    },
+    {
+      "source": "artist:muza",
+      "target": "artist:habib-wahid",
+      "confidence": "medium",
+      "kind": "domestic_transmission"
+    },
+    {
+      "source": "artist:nova",
+      "target": "artist:feedback",
+      "confidence": "high",
+      "kind": "domestic_transmission"
+    },
+    {
+      "source": "artist:poizon-green",
+      "target": "artist:rockstrata",
+      "confidence": "high",
+      "kind": "domestic_transmission"
+    }
+  ]
+}

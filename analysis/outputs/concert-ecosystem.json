@@ -1,0 +1,474 @@
+{
+  "generated": "2026-08-27",
+  "description": "Typology classification of every catalogued event against the concert ecosystem framework in frameworks/bmem.md. Each event records the rule that classified it. 'cross_strand_rate' is the share of multi-act bills in a class that mix BMEM genre strands, and is the operational measure of whether a concert type acts as a discovery space (high) or a subcultural gathering (low).",
+  "classification_rules_in_order": [
+    "diaspora-tour: event type is diaspora-tour, or the venue is outside Bangladesh",
+    "corporate-branded-platform: name contains 'Coke Studio' or type is corporate-branded",
+    "university-festival: type is university-fest or venue type is university-campus",
+    "metal-rock-festival: type is festival and the bill includes a rock/metal strand",
+    "urban-hiphop-event: every billed act is hip-hop/rap",
+    "large-open-air-headliner: stadium/open-air/park venue, or reported attendance >= 5,000",
+    "album-launch: type is album-launch",
+    "independent-indoor-gig: default"
+  ],
+  "event_count": 15,
+  "class_count": 6,
+  "classes": {
+    "metal-rock-festival": {
+      "event_count": 7,
+      "share_of_catalogue": 0.467,
+      "mean_bill_size": 3.14,
+      "max_bill_size": 7,
+      "multi_act_events": 5,
+      "cross_strand_events": 5,
+      "cross_strand_rate": 1.0,
+      "strand_mix": {
+        "Alternative/Indie": 5,
+        "Heavy Metal": 5,
+        "Progressive Rock/Metal": 3,
+        "Folk & Folk Fusion": 2,
+        "Mainstream Rock": 1
+      },
+      "description": "Multi-band rock/metal festival; high-commitment subcultural audience, repeat attendance.",
+      "events": [
+        {
+          "id": "2013-rocknation-i-ruposhi-bangla",
+          "name": "RockNation I",
+          "date": "2013-04-12",
+          "bill_size": 7,
+          "strands": [
+            "Alternative/Indie",
+            "Folk & Folk Fusion",
+            "Heavy Metal"
+          ],
+          "rule": "multi-act festival with a rock/metal bill"
+        },
+        {
+          "id": "2013-rocknation-ii",
+          "name": "RockNation II",
+          "date": "2013-09-20",
+          "bill_size": 2,
+          "strands": [
+            "Alternative/Indie",
+            "Heavy Metal"
+          ],
+          "rule": "multi-act festival with a rock/metal bill"
+        },
+        {
+          "id": "2013-rocknation-iii",
+          "name": "RockNation III",
+          "date": "2013-12-06",
+          "bill_size": 3,
+          "strands": [
+            "Alternative/Indie",
+            "Heavy Metal",
+            "Progressive Rock/Metal"
+          ],
+          "rule": "multi-act festival with a rock/metal bill"
+        },
+        {
+          "id": "2014-rocknation-overload",
+          "name": "RockNation: Overload",
+          "date": "2014-04-19",
+          "bill_size": 1,
+          "strands": [
+            "Progressive Rock/Metal"
+          ],
+          "rule": "multi-act festival with a rock/metal bill"
+        },
+        {
+          "id": "2014-rocknation-revolution-of-rock",
+          "name": "RockNation: The Revolution of Rock",
+          "date": "2014-06-01",
+          "bill_size": 1,
+          "strands": [
+            "Alternative/Indie"
+          ],
+          "rule": "multi-act festival with a rock/metal bill"
+        },
+        {
+          "id": "bamba-eid-concert-jamuna-future-park",
+          "name": "BAMBA Eid Celebration Concert",
+          "date": "2019-08-02",
+          "bill_size": 5,
+          "strands": [
+            "Alternative/Indie",
+            "Folk & Folk Fusion",
+            "Heavy Metal",
+            "Mainstream Rock"
+          ],
+          "rule": "multi-act festival with a rock/metal bill"
+        },
+        {
+          "id": "2026-overload-festival-bccc",
+          "name": "Overload Festival Dhaka (X Force Presents)",
+          "date": "2026-07-10",
+          "bill_size": 3,
+          "strands": [
+            "Heavy Metal",
+            "Progressive Rock/Metal"
+          ],
+          "rule": "multi-act festival with a rock/metal bill"
+        }
+      ]
+    },
+    "independent-indoor-gig": {
+      "event_count": 3,
+      "share_of_catalogue": 0.2,
+      "mean_bill_size": 1.67,
+      "max_bill_size": 4,
+      "multi_act_events": 1,
+      "cross_strand_events": 1,
+      "cross_strand_rate": 1.0,
+      "strand_mix": {
+        "Heavy Metal": 2,
+        "Progressive Rock/Metal": 1
+      },
+      "description": "Smaller indoor show; dedicated attentive audience, alternative/artistic identity.",
+      "events": [
+        {
+          "id": "2009-artcell-10-years-insanity-sheraton",
+          "name": "10 Years of Artcell In-sanity",
+          "date": "2009-10-01",
+          "bill_size": 4,
+          "strands": [
+            "Heavy Metal",
+            "Progressive Rock/Metal"
+          ],
+          "rule": "default: indoor/other venue, single or small bill"
+        },
+        {
+          "id": "2015-rocknation-resurrection",
+          "name": "RockNation: Resurrection",
+          "date": "2015-04-03",
+          "bill_size": 0,
+          "strands": [],
+          "rule": "default: indoor/other venue, single or small bill"
+        },
+        {
+          "id": "2026-warfaze-playlist-tribute-bicc",
+          "name": "Warfaze: Playlist Tribute to Originals",
+          "date": "2026-07-02",
+          "bill_size": 1,
+          "strands": [
+            "Heavy Metal"
+          ],
+          "rule": "default: indoor/other venue, single or small bill"
+        }
+      ]
+    },
+    "diaspora-tour": {
+      "event_count": 2,
+      "share_of_catalogue": 0.133,
+      "mean_bill_size": 1.0,
+      "max_bill_size": 1,
+      "multi_act_events": 0,
+      "cross_strand_events": 0,
+      "cross_strand_rate": null,
+      "strand_mix": {
+        "Mainstream Rock": 2
+      },
+      "description": "Overseas show for the Bangladeshi diaspora; audience is expatriate and multi-generational.",
+      "events": [
+        {
+          "id": "2000-lrb-us-tour-msg",
+          "name": "LRB US Tour — Madison Square Garden Performance",
+          "date": "2000-01-01",
+          "bill_size": 1,
+          "strands": [
+            "Mainstream Rock"
+          ],
+          "rule": "event type or venue country is outside Bangladesh"
+        },
+        {
+          "id": "2025-james-european-tour-london-opener",
+          "name": "James European Tour — London Opener",
+          "date": "2025-07-25",
+          "bill_size": 1,
+          "strands": [
+            "Mainstream Rock"
+          ],
+          "rule": "event type or venue country is outside Bangladesh"
+        }
+      ]
+    },
+    "university-festival": {
+      "event_count": 1,
+      "share_of_catalogue": 0.067,
+      "mean_bill_size": 3.0,
+      "max_bill_size": 3,
+      "multi_act_events": 1,
+      "cross_strand_events": 1,
+      "cross_strand_rate": 1.0,
+      "strand_mix": {
+        "Heavy Metal": 1,
+        "Progressive Rock/Metal": 1
+      },
+      "description": "Campus-organised event; student audience, eclectic bill, functions as a discovery space.",
+      "events": [
+        {
+          "id": "2016-rocknation-tours-sylhet-i",
+          "name": "RockNation Tours: Sylhet I",
+          "date": "2016-02-05",
+          "bill_size": 3,
+          "strands": [
+            "Heavy Metal",
+            "Progressive Rock/Metal"
+          ],
+          "rule": "university-organised or campus venue"
+        }
+      ]
+    },
+    "large-open-air-headliner": {
+      "event_count": 1,
+      "share_of_catalogue": 0.067,
+      "mean_bill_size": 1.0,
+      "max_bill_size": 1,
+      "multi_act_events": 0,
+      "cross_strand_events": 0,
+      "cross_strand_rate": null,
+      "strand_mix": {
+        "Progressive Rock/Metal": 1
+      },
+      "description": "Open-air or stadium-scale headline show; broad multi-generational audience, communal/nostalgic.",
+      "events": [
+        {
+          "id": "2019-artcell-20th-anniversary-iccb",
+          "name": "Artcellism: Artcell 20th Anniversary Open-Air Concert",
+          "date": "2019-12-01",
+          "bill_size": 1,
+          "strands": [
+            "Progressive Rock/Metal"
+          ],
+          "rule": "open-air/stadium venue or reported attendance >= 5,000"
+        }
+      ]
+    },
+    "corporate-branded-platform": {
+      "event_count": 1,
+      "share_of_catalogue": 0.067,
+      "mean_bill_size": 1.0,
+      "max_bill_size": 1,
+      "multi_act_events": 0,
+      "cross_strand_events": 0,
+      "cross_strand_rate": null,
+      "strand_mix": {
+        "Hip-Hop/Rap": 1
+      },
+      "description": "Brand-funded studio or showcase format; high production values, cross-genre pairing by design.",
+      "events": [
+        {
+          "id": "2022-coke-studio-bangla-bhober-pagol",
+          "name": "Coke Studio Bangla Season 1 — \"Bhober Pagol\"",
+          "date": "2022-05-03",
+          "bill_size": 1,
+          "strands": [
+            "Hip-Hop/Rap"
+          ],
+          "rule": "branded studio/showcase format rather than a ticketed concert"
+        }
+      ]
+    }
+  },
+  "artist_live_profiles": {
+    "arbovirus": {
+      "name": "Arbovirus",
+      "strand": "Alternative/Indie",
+      "documented_events": 1,
+      "primary_space": "metal-rock-festival",
+      "concentration": 1.0,
+      "by_class": {
+        "metal-rock-festival": 1
+      }
+    },
+    "artcell": {
+      "name": "Artcell",
+      "strand": "Progressive Rock/Metal",
+      "documented_events": 5,
+      "primary_space": "metal-rock-festival",
+      "concentration": 0.4,
+      "by_class": {
+        "metal-rock-festival": 2,
+        "independent-indoor-gig": 1,
+        "university-festival": 1,
+        "large-open-air-headliner": 1
+      }
+    },
+    "aurthohin": {
+      "name": "Aurthohin",
+      "strand": "Alternative/Indie",
+      "documented_events": 1,
+      "primary_space": "metal-rock-festival",
+      "concentration": 1.0,
+      "by_class": {
+        "metal-rock-festival": 1
+      }
+    },
+    "chirkutt": {
+      "name": "Chirkutt",
+      "strand": "Folk & Folk Fusion",
+      "documented_events": 1,
+      "primary_space": "metal-rock-festival",
+      "concentration": 1.0,
+      "by_class": {
+        "metal-rock-festival": 1
+      }
+    },
+    "cryptic-fate": {
+      "name": "Cryptic Fate",
+      "strand": "Heavy Metal",
+      "documented_events": 3,
+      "primary_space": "metal-rock-festival",
+      "concentration": 0.67,
+      "by_class": {
+        "metal-rock-festival": 2,
+        "independent-indoor-gig": 1
+      }
+    },
+    "indalo": {
+      "name": "Indalo",
+      "strand": "Alternative/Indie",
+      "documented_events": 1,
+      "primary_space": "metal-rock-festival",
+      "concentration": 1.0,
+      "by_class": {
+        "metal-rock-festival": 1
+      }
+    },
+    "jalali-set": {
+      "name": "Jalali Set",
+      "strand": "Hip-Hop/Rap",
+      "documented_events": 1,
+      "primary_space": "corporate-branded-platform",
+      "concentration": 1.0,
+      "by_class": {
+        "corporate-branded-platform": 1
+      }
+    },
+    "james-nagar-baul": {
+      "name": "James (Nagar Baul)",
+      "strand": "Mainstream Rock",
+      "documented_events": 1,
+      "primary_space": "diaspora-tour",
+      "concentration": 1.0,
+      "by_class": {
+        "diaspora-tour": 1
+      }
+    },
+    "karnival": {
+      "name": "Karnival",
+      "strand": "Progressive Rock/Metal",
+      "documented_events": 1,
+      "primary_space": "metal-rock-festival",
+      "concentration": 1.0,
+      "by_class": {
+        "metal-rock-festival": 1
+      }
+    },
+    "lalon-band": {
+      "name": "Lalon (Lalon Band)",
+      "strand": "Folk & Folk Fusion",
+      "documented_events": 1,
+      "primary_space": "metal-rock-festival",
+      "concentration": 1.0,
+      "by_class": {
+        "metal-rock-festival": 1
+      }
+    },
+    "lrb": {
+      "name": "LRB (Love Runs Blind)",
+      "strand": "Mainstream Rock",
+      "documented_events": 1,
+      "primary_space": "diaspora-tour",
+      "concentration": 1.0,
+      "by_class": {
+        "diaspora-tour": 1
+      }
+    },
+    "maqsood-o-dhaka": {
+      "name": "Maqsood O' Dhaka",
+      "strand": "Folk & Folk Fusion",
+      "documented_events": 1,
+      "primary_space": "metal-rock-festival",
+      "concentration": 1.0,
+      "by_class": {
+        "metal-rock-festival": 1
+      }
+    },
+    "mechanix": {
+      "name": "Mechanix",
+      "strand": "Heavy Metal",
+      "documented_events": 3,
+      "primary_space": "metal-rock-festival",
+      "concentration": 0.67,
+      "by_class": {
+        "metal-rock-festival": 2,
+        "independent-indoor-gig": 1
+      }
+    },
+    "nemesis": {
+      "name": "Nemesis",
+      "strand": "Alternative/Indie",
+      "documented_events": 2,
+      "primary_space": "metal-rock-festival",
+      "concentration": 1.0,
+      "by_class": {
+        "metal-rock-festival": 2
+      }
+    },
+    "owned": {
+      "name": "Owned",
+      "strand": "Alternative/Indie",
+      "documented_events": 1,
+      "primary_space": "metal-rock-festival",
+      "concentration": 1.0,
+      "by_class": {
+        "metal-rock-festival": 1
+      }
+    },
+    "powersurge": {
+      "name": "Powersurge",
+      "strand": "Heavy Metal",
+      "documented_events": 2,
+      "primary_space": "metal-rock-festival",
+      "concentration": 0.5,
+      "by_class": {
+        "metal-rock-festival": 1,
+        "university-festival": 1
+      }
+    },
+    "renaissance": {
+      "name": "Renaissance",
+      "strand": "Mainstream Rock",
+      "documented_events": 1,
+      "primary_space": "metal-rock-festival",
+      "concentration": 1.0,
+      "by_class": {
+        "metal-rock-festival": 1
+      }
+    },
+    "shunno": {
+      "name": "Shunno",
+      "strand": "Alternative/Indie",
+      "documented_events": 1,
+      "primary_space": "metal-rock-festival",
+      "concentration": 1.0,
+      "by_class": {
+        "metal-rock-festival": 1
+      }
+    },
+    "warfaze": {
+      "name": "Warfaze",
+      "strand": "Heavy Metal",
+      "documented_events": 6,
+      "primary_space": "metal-rock-festival",
+      "concentration": 0.5,
+      "by_class": {
+        "metal-rock-festival": 3,
+        "independent-indoor-gig": 2,
+        "university-festival": 1
+      }
+    }
+  },
+  "coverage_note": "19 of 58 catalogued artists have at least one documented event. Typology shares are therefore shares of the documented sample, which over-represents festivals and landmark shows because those are the events that get written about."
+}

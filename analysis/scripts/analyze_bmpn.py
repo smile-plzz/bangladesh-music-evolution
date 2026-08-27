@@ -1,0 +1,226 @@
+#!/usr/bin/env python3
+"""Network analysis and community detection over the BMPN.
+
+Runs three passes so that the inferred layer never silently drives a result:
+
+  observed   co_billing + personnel + domestic_influence only
+  full       all four layers, influence_homophily included at half weight
+  co_billing the original single-layer prototype, for comparison
+
+For each pass: density, component structure, degree/betweenness/eigenvector
+centrality, Louvain communities (fixed seed) with modularity, and genre
+assortativity. Communities are labelled by their dominant BMEM strand, and
+"bridge" artists -- high betweenness relative to degree -- are reported, since
+those are the acts that hold otherwise separate listener ecosystems together.
+
+Outputs:
+  data/networks/bmpn-communities.json
+  analysis/outputs/bmpn-metrics.json
+  analysis/outputs/bmpn-centrality.csv
+"""
+import sys
+from collections import Counter, defaultdict
+from datetime import date
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
+import common  # noqa: E402
+
+import json  # noqa: E402
+import networkx as nx  # noqa: E402
+
+SEED = 20260827
+PASSES = {
+    "observed": ("co_billing", "personnel", "domestic_influence"),
+    "full": ("co_billing", "personnel", "domestic_influence",
+             "influence_homophily"),
+    "co_billing": ("co_billing",),
+}
+
+
+def build_graph(net, layers):
+    weights = net["layer_weights"]
+    g = nx.Graph()
+    for n in net["nodes"]:
+        g.add_node(n["id"], **{k: v for k, v in n.items() if k != "id"})
+    for e in net["edges"]:
+        w = sum(weights[l] * data["weight"]
+                for l, data in e["layers"].items() if l in layers)
+        if w > 0:
+            active = sorted(l for l in e["layers"] if l in layers)
+            g.add_edge(e["source"], e["target"], weight=round(w, 3),
+                       layers=active)
+    return g
+
+
+def centralities(g):
+    deg = dict(g.degree(weight="weight"))
+    raw_deg = dict(g.degree())
+    btw = nx.betweenness_centrality(g, weight=None, normalized=True)
+    try:
+        eig = nx.eigenvector_centrality_numpy(g, weight="weight")
+    except Exception:
+        eig = {n: 0.0 for n in g}
+    return raw_deg, deg, btw, eig
+
+
+def detect_communities(g, node_strand):
+    if g.number_of_edges() == 0:
+        return [], 0.0
+    parts = nx.community.louvain_communities(g, weight="weight", seed=SEED)
+    parts = sorted((sorted(p) for p in parts), key=len, reverse=True)
+    modularity = nx.community.modularity(g, [set(p) for p in parts],
+                                         weight="weight")
+    communities = []
+    for i, members in enumerate(parts):
+        strands = Counter(node_strand[m] for m in members)
+        internal = g.subgraph(members)
+        communities.append({
+            "community_id": i,
+            "size": len(members),
+            "members": members,
+            "dominant_strand": strands.most_common(1)[0][0],
+            "strand_mix": dict(strands.most_common()),
+            "internal_edges": internal.number_of_edges(),
+            "internal_density": round(nx.density(internal), 4)
+            if len(members) > 1 else 0.0,
+        })
+    return communities, modularity
+
+
+def analyse(net, name, layers):
+    g = build_graph(net, layers)
+    node_strand = {n["id"]: n["strand"] for n in net["nodes"]}
+    raw_deg, wdeg, btw, eig = centralities(g)
+    components = sorted((sorted(c) for c in nx.connected_components(g)),
+                        key=len, reverse=True)
+    communities, modularity = detect_communities(g, node_strand)
+
+    isolated = [n for n in g if raw_deg[n] == 0]
+    # Bridge score: betweenness carried per unit of degree. High values mean an
+    # act connects parts of the scene that are otherwise poorly connected.
+    bridges = sorted(
+        ({"id": n, "name": g.nodes[n]["name"], "degree": raw_deg[n],
+          "betweenness": round(btw[n], 4),
+          "bridge_score": round(btw[n] / raw_deg[n], 4)}
+         for n in g if raw_deg[n] > 0 and btw[n] > 0),
+        key=lambda r: r["bridge_score"], reverse=True)[:10]
+
+    try:
+        assortativity = nx.attribute_assortativity_coefficient(g, "strand")
+    except Exception:
+        assortativity = None
+
+    metrics = {
+        "pass": name,
+        "layers": list(layers),
+        "node_count": g.number_of_nodes(),
+        "edge_count": g.number_of_edges(),
+        "density": round(nx.density(g), 4),
+        "isolated_nodes": len(isolated),
+        "component_count": len(components),
+        "largest_component_size": len(components[0]) if components else 0,
+        "largest_component_share": round(
+            len(components[0]) / g.number_of_nodes(), 3) if components else 0,
+        "average_degree": round(
+            sum(raw_deg.values()) / g.number_of_nodes(), 2)
+        if g.number_of_nodes() else 0,
+        "louvain_modularity": round(modularity, 4),
+        "community_count": len(communities),
+        "nontrivial_community_count": sum(1 for c in communities if c["size"] >= 3),
+        "singleton_community_count": sum(1 for c in communities if c["size"] == 1),
+        "strand_assortativity": (round(assortativity, 4)
+                                 if assortativity == assortativity  # not NaN
+                                 and assortativity is not None else None),
+        "communities": communities,
+        "bridge_artists": bridges,
+        "top_degree": sorted(
+            ({"id": n, "name": g.nodes[n]["name"], "degree": raw_deg[n],
+              "weighted_degree": round(wdeg[n], 2)} for n in g),
+            key=lambda r: (-r["degree"], r["id"]))[:10],
+        "top_eigenvector": sorted(
+            ({"id": n, "name": g.nodes[n]["name"],
+              "eigenvector": round(eig[n], 4)} for n in g),
+            key=lambda r: -r["eigenvector"])[:10],
+    }
+    return g, metrics, raw_deg, wdeg, btw, eig
+
+
+def main():
+    net = json.loads(
+        (common.NETWORKS_DIR / "bmpn-multilayer.json").read_text())
+
+    results = {}
+    csv_rows = []
+    for name, layers in PASSES.items():
+        g, metrics, raw_deg, wdeg, btw, eig = analyse(net, name, layers)
+        results[name] = metrics
+        if name == "full":
+            comm_of = {m: c["community_id"]
+                       for c in metrics["communities"] for m in c["members"]}
+            for n in sorted(g):
+                csv_rows.append([
+                    n, g.nodes[n]["name"], g.nodes[n]["strand"],
+                    g.nodes[n].get("formed_year") or "",
+                    raw_deg[n], round(wdeg[n], 3), round(btw[n], 5),
+                    round(eig[n], 5), comm_of.get(n, ""),
+                ])
+
+    summary = {
+        "generated": date.today().isoformat(),
+        "seed": SEED,
+        "note": (
+            "Three passes over the same node set. 'observed' uses only the "
+            "documented layers (shared bills, shared members, one act naming "
+            "another as an influence). 'full' adds the inferred "
+            "influence-homophily layer at half weight. 'co_billing' reproduces "
+            "the original single-layer prototype for comparison. Read the "
+            "'observed' pass as the evidential result and 'full' as the "
+            "exploratory one."
+        ),
+        "passes": results,
+    }
+    common.write_json(common.ANALYSIS_OUT / "bmpn-metrics.json", summary)
+
+    common.write_csv(
+        common.ANALYSIS_OUT / "bmpn-centrality.csv",
+        ["artist_id", "name", "strand", "formed_year", "degree",
+         "weighted_degree", "betweenness", "eigenvector", "community_full"],
+        csv_rows)
+
+    communities_out = {
+        "generated": date.today().isoformat(),
+        "method": "louvain",
+        "seed": SEED,
+        "description": (
+            "Louvain communities over the BMPN. Reported for both the "
+            "observed-layer graph and the full graph (which adds inferred "
+            "influence-homophily edges at half weight). These supersede the "
+            "earlier connected-components placeholder in bmpn-clusters.json, "
+            "which remains for continuity."
+        ),
+        "observed": {
+            "modularity": results["observed"]["louvain_modularity"],
+            "communities": results["observed"]["communities"],
+        },
+        "full": {
+            "modularity": results["full"]["louvain_modularity"],
+            "communities": results["full"]["communities"],
+        },
+    }
+    common.write_json(common.NETWORKS_DIR / "bmpn-communities.json",
+                      communities_out)
+
+    for name in PASSES:
+        m = results[name]
+        print(f"[{name}] {m['edge_count']} edges  density={m['density']}  "
+              f"components={m['component_count']}  "
+              f"largest={m['largest_component_size']}  "
+              f"Q={m['louvain_modularity']}  "
+              f"communities={m['community_count']} "
+              f"(>=3: {m['nontrivial_community_count']})  "
+              f"assortativity={m['strand_assortativity']}")
+
+
+if __name__ == "__main__":
+    main()
