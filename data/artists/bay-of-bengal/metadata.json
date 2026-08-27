@@ -1,0 +1,44 @@
+{
+  "id": "bay-of-bengal",
+  "name": "Bay of Bengal",
+  "type": "band",
+  "formed_year": 2010,
+  "disbanded_year": null,
+  "origin_city": "Chattogram",
+  "genres": ["Experimental Rock", "Progressive Rock", "Heavy Metal"],
+  "languages": ["bn"],
+  "members": [
+    { "name": "Bakhtiar Hossain", "role": "Member", "years_active": "2010–present", "current": true },
+    { "name": "Rakibul Nipu", "role": "Member", "years_active": "2010–present", "current": true },
+    { "name": "Ahtesham Abid", "role": "Member", "years_active": "2010–present", "current": true },
+    { "name": "Abid Pasha", "role": "Member", "years_active": "2010–present", "current": true },
+    { "name": "Jamilur Rahman Jamee", "role": "Member", "years_active": "2010–present", "current": true }
+  ],
+  "discography_summary": [
+    {
+      "title": "Nirob Durvikkho",
+      "year": 2016,
+      "type": "studio",
+      "notable_tracks": ["Je Sohore Ami Nei"]
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Progressive and experimental rock traditions (general)",
+      "evidence": "The band is described as experimental rock/metal built on flute melodies and keyboard-driven arrangements — an instrumentation choice that sits outside the guitar-first template of the Dhaka metal scene.",
+      "source": "Encyclopedic band entry; band's own channel and page descriptions",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "Bangla-language, and notable for foregrounding flute — a folk-associated instrument — inside a rock/metal arrangement rather than treating folk material as a separate repertoire.",
+  "sound_evolution_summary": "Debut album 'Nirob Durvikkho' (2016) with the video for 'Je Sohore Ami Nei'; the flute/keyboard texture is the band's identifying feature across the catalogue.",
+  "concert_culture_notes": "One of the few Chattogram-formed acts to reach the national festival stage, opening the fifth Joy Bangla Concert (2019) at the Bangladesh Army Stadium.",
+  "listener_community_notes": "Represents the non-Dhaka side of the rock scene; a useful test case for whether the preference network is a Dhaka network or a national one.",
+  "sources": [
+    { "title": "Bay of Bengal (band) — encyclopedia entry", "url": "https://en.wikipedia.org/wiki/Bay_of_Bengal_(band)", "type": "encyclopedia", "accessed": "2026-08-27" },
+    { "title": "Bay of Bengal — official channel", "url": "https://www.youtube.com/@BayofBengalBD", "type": "official", "accessed": "2026-08-27" },
+    { "title": "Joy Bangla concert 2019 resonates across Dhaka", "url": "https://www.thedailystar.net/arts-entertainment/music/news/joy-bangla-2019-resonates-across-dhaka-1711948", "type": "news", "accessed": "2026-08-27" }
+  ],
+  "tags": ["chattogram", "regional-scene", "snippet-sourced"],
+  "last_updated": "2026-08-27"
+}

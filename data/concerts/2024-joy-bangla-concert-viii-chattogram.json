@@ -1,0 +1,35 @@
+{
+  "id": "2024-joy-bangla-concert-viii-chattogram",
+  "name": "Joy Bangla Concert 2024 (8th edition, Chattogram)",
+  "date": "2024-03-07",
+  "date_precision": "day",
+  "type": "festival",
+  "venue": {
+    "name": "MA Aziz Stadium",
+    "city": "Chattogram",
+    "country": "Bangladesh",
+    "venue_type": "stadium"
+  },
+  "organizer": "Young Bangla / Centre for Research and Information (CRI)",
+  "artists": [
+    { "artist_id": "artcell", "billing": "headliner" },
+    { "artist_id": "cryptic-fate", "billing": "co-headliner" },
+    { "artist_id": "avoidrafa", "billing": "support" },
+    { "artist_id": "nemesis", "billing": "co-headliner" },
+    { "artist_id": "chirkutt", "billing": "co-headliner" },
+    { "artist_id": "meghdol", "billing": "co-headliner" },
+    { "artist_id": "lalon-band", "billing": "co-headliner" },
+    { "artist_id": "karnival", "billing": "co-headliner" }
+  ],
+  "genres_represented": ["Progressive Metal", "Heavy Metal", "Alternative Rock", "Indie Rock", "Folk Fusion", "Progressive Rock"],
+  "attendance_confidence": "unknown",
+  "notes": "Eighth edition and the first held outside Dhaka, at Chattogram's MA Aziz Stadium, with nine bands. Reported running order: Lalon 6:15pm, Cryptic Fate 7:40pm, Nemesis 8:35pm, Chirkutt 9:35pm, Artcell 10:35pm, roughly 45 minutes per act. The ninth act, Chattogram's own Tirondaz, is named in coverage but too thinly documented elsewhere to catalogue as an artist record, so it is noted here rather than linked. The move out of Dhaka is the single clearest documented event in this dataset of the national festival circuit decentralising.",
+  "sources": [
+    { "title": "Joy Bangla Concert 2024 kickstarts in Chattogram", "url": "https://www.tbsnews.net/bangladesh/joy-bangla-concert-2024-kickstarts-chattogram-805214", "type": "news", "accessed": "2026-08-27" },
+    { "title": "Joy Bangla Concert rocks Chattogram", "url": "https://www.tbsnews.net/splash/joy-bangla-concert-rocks-chattogram-806002", "type": "news", "accessed": "2026-08-27" },
+    { "title": "Joy Bangla Concert 2024 kickstarts in Chattogram with Tirondaz taking the stage", "url": "https://unb.com.bd/category/Entertainment/joy-bangla-concert-2024-kickstarts-in-chattogram-with-tirondaz-taking-the-stage/132157", "type": "news", "accessed": "2026-08-27" },
+    { "title": "Joy Bangla Concert to be held outside Dhaka for the first time", "url": "https://www.thedailystar.net/entertainment/music/news/joy-bangla-concert-be-held-outside-dhaka-the-first-time-3549996", "type": "news", "accessed": "2026-08-27" }
+  ],
+  "tags": ["festival", "joy-bangla-series", "state-commemorative", "cross-strand-bill", "regional-decentralisation", "snippet-sourced"],
+  "last_updated": "2026-08-27"
+}

@@ -1,8 +1,8 @@
 {
   "generated": "2026-08-27",
-  "sample_note": "All counts describe the catalogued sample (58 artists, 15 events), not the national population of Bangladeshi acts or events. Decade figures therefore show the shape of the documented record, and recent decades are better covered than early ones.",
-  "artist_count": 58,
-  "concert_count": 15,
+  "sample_note": "All counts describe the catalogued sample (63 artists, 23 events), not the national population of Bangladeshi acts or events. Decade figures therefore show the shape of the documented record, and recent decades are better covered than early ones.",
+  "artist_count": 63,
+  "concert_count": 23,
   "artists_without_formation_year": [
     "shohojia"
   ],
@@ -21,11 +21,11 @@
       }
     },
     "1990": {
-      "total": 14,
+      "total": 15,
       "by_strand": {
         "Alternative/Indie": 4,
         "Heavy Metal": 4,
-        "Mainstream Rock": 2,
+        "Mainstream Rock": 3,
         "Folk & Folk Fusion": 2,
         "Progressive Rock/Metal": 1,
         "Hip-Hop/Rap": 1
@@ -43,10 +43,12 @@
       }
     },
     "2010": {
-      "total": 6,
+      "total": 10,
       "by_strand": {
-        "Alternative/Indie": 3,
+        "Alternative/Indie": 5,
         "Hip-Hop/Rap": 2,
+        "Mainstream Rock": 1,
+        "Folk & Folk Fusion": 1,
         "Pop": 1
       }
     },
@@ -59,12 +61,12 @@
   },
   "strand_lifecycle": {
     "Mainstream Rock": {
-      "catalogued_acts": 11,
+      "catalogued_acts": 13,
       "first_formation": 1972,
-      "median_formation": 1983,
-      "latest_formation": 1991,
-      "formation_span_years": 19,
-      "still_active_share": 0.91
+      "median_formation": 1985,
+      "latest_formation": 2014,
+      "formation_span_years": 42,
+      "still_active_share": 0.92
     },
     "Progressive Rock/Metal": {
       "catalogued_acts": 2,
@@ -83,9 +85,9 @@
       "still_active_share": 0.92
     },
     "Alternative/Indie": {
-      "catalogued_acts": 14,
+      "catalogued_acts": 16,
       "first_formation": 1996,
-      "median_formation": 2004,
+      "median_formation": 2006,
       "latest_formation": 2018,
       "formation_span_years": 22,
       "still_active_share": 1.0
@@ -107,11 +109,11 @@
       "still_active_share": 1.0
     },
     "Folk & Folk Fusion": {
-      "catalogued_acts": 4,
+      "catalogued_acts": 5,
       "first_formation": 1997,
-      "median_formation": 1999,
-      "latest_formation": 2002,
-      "formation_span_years": 5,
+      "median_formation": 2001,
+      "latest_formation": 2016,
+      "formation_span_years": 19,
       "still_active_share": 1.0
     }
   },
@@ -157,18 +159,18 @@
       }
     },
     "2010": {
-      "total": 37,
+      "total": 39,
       "by_strand": {
-        "Alternative/Indie": 12,
+        "Alternative/Indie": 13,
         "Pop": 7,
         "Folk & Folk Fusion": 6,
         "Hip-Hop/Rap": 5,
         "Heavy Metal": 4,
-        "Mainstream Rock": 2,
+        "Mainstream Rock": 3,
         "Progressive Rock/Metal": 1
       },
       "by_type": {
-        "studio": 31,
+        "studio": 33,
         "single": 3,
         "ep": 2,
         "mixed": 1
@@ -192,32 +194,33 @@
     }
   },
   "release_cadence": {
-    "artists_with_dated_releases": 53,
+    "artists_with_dated_releases": 55,
     "median_gap_between_releases_years": 5,
-    "total_dated_releases": 125
+    "total_dated_releases": 127
   },
   "concerts_by_decade": {
     "2000": 2,
-    "2010": 9,
-    "2020": 4
+    "2010": 14,
+    "2020": 7
   },
   "concert_venue_types": {
+    "stadium": 9,
     "other": 6,
     "convention-centre": 3,
     "theatre": 2,
-    "stadium": 1,
     "university-campus": 1,
     "outdoor-park": 1,
     "open-air": 1
   },
   "concert_cities": {
-    "Dhaka": 12,
+    "Dhaka": 19,
     "New York": 1,
     "Sylhet": 1,
+    "Chattogram": 1,
     "London": 1
   },
   "concert_event_types": {
-    "festival": 8,
+    "festival": 16,
     "concert": 3,
     "diaspora-tour": 2,
     "university-fest": 1,

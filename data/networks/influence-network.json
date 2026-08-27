@@ -1,8 +1,8 @@
 {
   "generated": "2026-08-27",
   "description": "Bipartite influence network: catalogued Bangladeshi acts on one side, the global acts and traditions they cite on the other, plus domestic act-to-act transmission edges. Built from the 'global_influences' field of the artist records; each edge keeps the citation's stated confidence and whether a source was named.",
-  "node_count": 170,
-  "edge_count": 165,
+  "node_count": 183,
+  "edge_count": 175,
   "nodes": [
     {
       "id": "artist:arbovirus",
@@ -10,6 +10,13 @@
       "kind": "artist",
       "strand": "Alternative/Indie",
       "formed_year": 2001
+    },
+    {
+      "id": "artist:arekta-rock-band",
+      "label": "Arekta Rock Band",
+      "kind": "artist",
+      "strand": "Alternative/Indie",
+      "formed_year": 2018
     },
     {
       "id": "artist:ark",
@@ -54,11 +61,25 @@
       "formed_year": 1998
     },
     {
+      "id": "artist:avoidrafa",
+      "label": "AvoidRafa",
+      "kind": "artist",
+      "strand": "Mainstream Rock",
+      "formed_year": 2014
+    },
+    {
       "id": "artist:azam-khan-uchcharon",
       "label": "Azam Khan & Uchcharon",
       "kind": "artist",
       "strand": "Mainstream Rock",
       "formed_year": 1972
+    },
+    {
+      "id": "artist:bay-of-bengal",
+      "label": "Bay of Bengal",
+      "kind": "artist",
+      "strand": "Alternative/Indie",
+      "formed_year": 2010
     },
     {
       "id": "artist:black",
@@ -101,6 +122,13 @@
       "kind": "artist",
       "strand": "Hip-Hop/Rap",
       "formed_year": 2005
+    },
+    {
+      "id": "artist:f-minor",
+      "label": "F Minor",
+      "kind": "artist",
+      "strand": "Folk & Folk Fusion",
+      "formed_year": 2016
     },
     {
       "id": "artist:feedback",
@@ -390,6 +418,13 @@
       "formed_year": 2001
     },
     {
+      "id": "artist:vikings",
+      "label": "Vikings",
+      "kind": "artist",
+      "strand": "Mainstream Rock",
+      "formed_year": 1997
+    },
+    {
       "id": "artist:warfaze",
       "label": "Warfaze",
       "kind": "artist",
@@ -615,6 +650,12 @@
       "citing_acts": 1
     },
     {
+      "id": "influence:Experimental Rock Traditions",
+      "label": "Experimental Rock Traditions",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
       "id": "influence:Folk",
       "label": "Folk",
       "kind": "tradition",
@@ -645,8 +686,20 @@
       "citing_acts": 1
     },
     {
+      "id": "influence:Hard Rock Traditions",
+      "label": "Hard Rock Traditions",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
       "id": "influence:Heavy Melody-influenced Rock",
       "label": "Heavy Melody-influenced Rock",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Heavy Metal",
+      "label": "Heavy Metal",
       "kind": "tradition",
       "citing_acts": 1
     },
@@ -659,6 +712,12 @@
     {
       "id": "influence:Indie",
       "label": "Indie",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Indigenous Folk Traditions Of Bangladesh",
+      "label": "Indigenous Folk Traditions Of Bangladesh",
       "kind": "tradition",
       "citing_acts": 1
     },
@@ -843,6 +902,18 @@
       "citing_acts": 1
     },
     {
+      "id": "influence:Progressive",
+      "label": "Progressive",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Progressive Metal",
+      "label": "Progressive Metal",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
       "id": "influence:Progressive Metal Traditions",
       "label": "Progressive Metal Traditions",
       "kind": "tradition",
@@ -912,6 +983,12 @@
       "id": "influence:Scorpions",
       "label": "Scorpions",
       "kind": "global_artist",
+      "citing_acts": 1
+    },
+    {
+      "id": "influence:Screen Culture",
+      "label": "Screen Culture",
+      "kind": "tradition",
       "citing_acts": 1
     },
     {
@@ -1017,6 +1094,12 @@
       "citing_acts": 1
     },
     {
+      "id": "influence:Video-game",
+      "label": "Video-game",
+      "kind": "tradition",
+      "citing_acts": 1
+    },
+    {
       "id": "influence:Visva-bharati Arts Education",
       "label": "Visva-bharati Arts Education",
       "kind": "tradition",
@@ -1044,7 +1127,7 @@
       "id": "influence:Western Hard Rock Traditions",
       "label": "Western Hard Rock Traditions",
       "kind": "tradition",
-      "citing_acts": 1
+      "citing_acts": 2
     },
     {
       "id": "influence:Western Heavy Metal Traditions",
@@ -1100,6 +1183,18 @@
       "source": "artist:arbovirus",
       "target": "influence:Blade II",
       "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:arekta-rock-band",
+      "target": "influence:Video-game",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:arekta-rock-band",
+      "target": "influence:Screen Culture",
+      "confidence": "medium",
       "sourced": true
     },
     {
@@ -1211,6 +1306,24 @@
       "sourced": true
     },
     {
+      "source": "artist:avoidrafa",
+      "target": "influence:Heavy Metal",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:avoidrafa",
+      "target": "influence:Progressive Metal",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:avoidrafa",
+      "target": "influence:Hard Rock Traditions",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
       "source": "artist:azam-khan-uchcharon",
       "target": "influence:Western Pop",
       "confidence": "low",
@@ -1220,6 +1333,18 @@
       "source": "artist:azam-khan-uchcharon",
       "target": "influence:Rock Traditions",
       "confidence": "low",
+      "sourced": true
+    },
+    {
+      "source": "artist:bay-of-bengal",
+      "target": "influence:Progressive",
+      "confidence": "medium",
+      "sourced": true
+    },
+    {
+      "source": "artist:bay-of-bengal",
+      "target": "influence:Experimental Rock Traditions",
+      "confidence": "medium",
       "sourced": true
     },
     {
@@ -1291,6 +1416,12 @@
     {
       "source": "artist:deshi-mcs",
       "target": "influence:Big L",
+      "confidence": "high",
+      "sourced": true
+    },
+    {
+      "source": "artist:f-minor",
+      "target": "influence:Indigenous Folk Traditions Of Bangladesh",
       "confidence": "high",
       "sourced": true
     },
@@ -1979,6 +2110,12 @@
       "sourced": true
     },
     {
+      "source": "artist:vikings",
+      "target": "influence:Western Hard Rock Traditions",
+      "confidence": "low",
+      "sourced": true
+    },
+    {
       "source": "artist:warfaze",
       "target": "influence:Iron Maiden",
       "confidence": "high",
@@ -2049,6 +2186,12 @@
       "target": "influence:Soft Rock Traditions",
       "confidence": "low",
       "sourced": true
+    },
+    {
+      "source": "artist:avoidrafa",
+      "target": "artist:aurthohin",
+      "confidence": "high",
+      "kind": "domestic_transmission"
     },
     {
       "source": "artist:conclusion",

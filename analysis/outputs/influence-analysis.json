@@ -1,18 +1,18 @@
 {
   "generated": "2026-08-27",
   "method_note": "Free-text influence citations were split on '/' and ',', stripped of parentheticals, and classified as a named global act, a generic tradition label, or a domestic (catalogued) act. Counts are of citations in the catalogue, so an influence's rank reflects how often acts in this sample name it -- not its measured effect on the music.",
-  "artists_analysed": 58,
-  "raw_citation_entries": 77,
-  "normalised_citations": 161,
+  "artists_analysed": 63,
+  "raw_citation_entries": 83,
+  "normalised_citations": 170,
   "distinct_named_global_influences": 55,
-  "distinct_tradition_labels": 62,
+  "distinct_tradition_labels": 70,
   "evidence_quality": {
-    "citations_with_named_source": 77,
+    "citations_with_named_source": 83,
     "source_rate": 1.0,
     "confidence_distribution": {
-      "medium": 31,
-      "high": 29,
-      "low": 15,
+      "medium": 34,
+      "high": 31,
+      "low": 16,
       "hypothesized": 2
     }
   },
@@ -45,6 +45,7 @@
   },
   "top_tradition_labels": {
     "American Hip-Hop": 3,
+    "Western Hard Rock Traditions": 2,
     "Funk": 2,
     "Western Pop": 2,
     "Western Pop Rock": 2,
@@ -57,8 +58,7 @@
     "Progressive Rock Traditions": 2,
     "Soft Rock Traditions": 2,
     "Nu Metal": 1,
-    "Grunge": 1,
-    "Blade II": 1
+    "Grunge": 1
   },
   "named_influences_by_strand": {
     "Alternative/Indie": {
@@ -191,8 +191,8 @@
       "citing_acts": 4,
       "strands": {
         "Progressive Rock/Metal": 2,
-        "Heavy Metal": 1,
-        "Mainstream Rock": 1
+        "Mainstream Rock": 1,
+        "Heavy Metal": 1
       }
     },
     "Jazz": {
@@ -254,14 +254,20 @@
     "Nirvana": {
       "citing_acts": 2,
       "strands": {
-        "Alternative/Indie": 1,
-        "Progressive Rock/Metal": 1
+        "Progressive Rock/Metal": 1,
+        "Alternative/Indie": 1
       }
     }
   },
   "domestic_transmission": {
-    "edge_count": 4,
+    "edge_count": 5,
     "links": [
+      {
+        "from": "avoidrafa",
+        "to": "aurthohin",
+        "confidence": "high",
+        "evidence": "Founder Raef Al Hasan Rafa spent roughly fifteen years as Aurthohin's drummer and vocalist before AvoidRafa became his own vehicle; his playing vocabulary and the band's progressive/hard-rock orientation carry directly from that tenure. This is a domestic transmission link rather than a global one."
+      },
       {
         "from": "conclusion",
         "to": "owned",
@@ -290,9 +296,9 @@
   },
   "localisation_mechanisms": {
     "totals": {
-      "bangla_language_choice": 32,
+      "bangla_language_choice": 36,
+      "folk_or_baul_motif": 20,
       "political_or_social": 20,
-      "folk_or_baul_motif": 18,
       "literary_or_poetic": 8,
       "religious_or_spiritual": 4,
       "urban_vernacular": 4
@@ -300,15 +306,15 @@
     "by_strand": {
       "Alternative/Indie": {
         "political_or_social": 6,
-        "bangla_language_choice": 4,
-        "folk_or_baul_motif": 3,
+        "bangla_language_choice": 5,
+        "folk_or_baul_motif": 4,
         "literary_or_poetic": 3,
         "religious_or_spiritual": 1,
         "urban_vernacular": 1
       },
       "Folk & Folk Fusion": {
-        "folk_or_baul_motif": 4,
-        "bangla_language_choice": 3,
+        "folk_or_baul_motif": 5,
+        "bangla_language_choice": 4,
         "religious_or_spiritual": 2,
         "literary_or_poetic": 1
       },
@@ -324,7 +330,7 @@
         "political_or_social": 1
       },
       "Mainstream Rock": {
-        "bangla_language_choice": 6,
+        "bangla_language_choice": 8,
         "political_or_social": 5,
         "folk_or_baul_motif": 3,
         "religious_or_spiritual": 1
@@ -343,6 +349,7 @@
       }
     },
     "artists_with_no_documented_mechanism": [
+      "arekta-rock-band",
       "conclusion",
       "feedback",
       "imran-mahmudul",

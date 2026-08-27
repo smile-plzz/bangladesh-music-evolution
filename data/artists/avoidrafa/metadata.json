@@ -1,0 +1,46 @@
+{
+  "id": "avoidrafa",
+  "name": "AvoidRafa",
+  "type": "band",
+  "formed_year": 2014,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Hard Rock", "Progressive Metal", "Alternative Rock"],
+  "languages": ["bn"],
+  "members": [
+    {
+      "name": "Raef Al Hasan Rafa",
+      "role": "Vocals, Drums, Multi-instrumentalist (founder)",
+      "years_active": "2014–present",
+      "current": true
+    }
+  ],
+  "discography_summary": [
+    { "title": "Bhaar", "year": 2016, "type": "studio", "notable_tracks": [] }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Aurthohin",
+      "evidence": "Founder Raef Al Hasan Rafa spent roughly fifteen years as Aurthohin's drummer and vocalist before AvoidRafa became his own vehicle; his playing vocabulary and the band's progressive/hard-rock orientation carry directly from that tenure. This is a domestic transmission link rather than a global one.",
+      "source": "The Daily Star profile of Raef Al Hasan Rafa; Dhaka Tribune, 'A musical session with AvoidRafa' (2019)",
+      "confidence": "high"
+    },
+    {
+      "artist_or_genre": "Heavy metal, progressive metal and hard rock traditions (general)",
+      "evidence": "Rafa's documented stylistic range across projects spans heavy metal, progressive metal, death metal, hard rock and art rock; AvoidRafa sits at the hard-rock/progressive end of that range.",
+      "source": "Encyclopedic profile of Raef Al Hasan Rafa; MN2S artist roster listing",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "Performs in Bangla. The project began as a solo outlet for a musician already established inside the band system, which is itself characteristic of the 2010s scene: established players spinning off named projects rather than joining existing bands.",
+  "sound_evolution_summary": "Debut album 'Bhaar' (2016) established the project; the act has since moved from a solo studio vehicle to a live band appearing on major festival bills (Joy Bangla Concert 2020, 2023, 2024).",
+  "concert_culture_notes": "Formed in the context of the RockNation: The Revolution of Rock bill (2014), when Aurthohin could not perform and Rafa filled the slot for an audience that had already bought tickets — an unusually well-documented instance of a band being created by the demands of the live circuit rather than the studio. Subsequently a recurring Joy Bangla Concert act (2020, 2023, 2024, the last in Chattogram).",
+  "listener_community_notes": "Audience overlaps heavily with Aurthohin's, and with the festival-going rock audience that the Joy Bangla Concert series assembled between 2015 and 2024.",
+  "sources": [
+    { "title": "A musical session with AvoidRafa", "url": "https://www.dhakatribune.com/showtime/188421/a-musical-session-with-avoidrafa", "type": "interview", "accessed": "2026-08-27" },
+    { "title": "Raef Al Hasan Rafa of AvoidRafa ties the knot", "url": "https://www.thedailystar.net/entertainment/music/news/raef-al-hasan-rafa-avoidrafa-ties-the-knot-2159796", "type": "news", "accessed": "2026-08-27" },
+    { "title": "Raef Al Hasan Rafa — booking roster profile", "url": "https://mn2s.com/booking-agency/live-roster/raef-al-hasan-rafa/", "type": "industry", "accessed": "2026-08-27" }
+  ],
+  "tags": ["rocknation-lineage", "aurthohin-lineage", "snippet-sourced", "needs-verification"],
+  "last_updated": "2026-08-27"
+}

@@ -1,27 +1,27 @@
 {
   "generated": "2026-08-27",
-  "artist_count": 58,
-  "concert_count": 15,
+  "artist_count": 63,
+  "concert_count": 23,
   "artist_target": 300,
   "concert_target": 500,
-  "artists_with_concert_data": 19,
-  "artists_without_concert_data": 39,
+  "artists_with_concert_data": 28,
+  "artists_without_concert_data": 35,
   "error_count": 0,
-  "warning_count": 28,
+  "warning_count": 35,
   "billing_distribution": {
-    "co-headliner": 10,
-    "guest": 9,
-    "support": 8,
-    "headliner": 7
+    "co-headliner": 42,
+    "support": 25,
+    "headliner": 13,
+    "guest": 9
   },
   "strand_coverage": {
     "Alternative/Indie": {
-      "artists": 14,
-      "with_concert_data": 6
+      "artists": 16,
+      "with_concert_data": 11
     },
     "Folk & Folk Fusion": {
-      "artists": 4,
-      "with_concert_data": 3
+      "artists": 5,
+      "with_concert_data": 4
     },
     "Heavy Metal": {
       "artists": 12,
@@ -32,12 +32,12 @@
       "with_concert_data": 1
     },
     "Mainstream Rock": {
-      "artists": 11,
-      "with_concert_data": 3
+      "artists": 13,
+      "with_concert_data": 5
     },
     "Pop": {
       "artists": 7,
-      "with_concert_data": 0
+      "with_concert_data": 1
     },
     "Progressive Rock/Metal": {
       "artists": 2,
@@ -83,11 +83,23 @@
       "issue": "flagged needs-verification"
     },
     {
+      "record": "2015-joy-bangla-concert-i",
+      "issue": "flagged needs-verification"
+    },
+    {
       "record": "2015-rocknation-resurrection",
       "issue": "flagged needs-verification"
     },
     {
       "record": "2015-rocknation-resurrection",
+      "issue": "no artists linked"
+    },
+    {
+      "record": "2016-joy-bangla-concert-ii",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "2016-joy-bangla-concert-ii",
       "issue": "no artists linked"
     },
     {
@@ -107,6 +119,10 @@
       "issue": "flagged needs-verification"
     },
     {
+      "record": "avoidrafa",
+      "issue": "flagged needs-verification"
+    },
+    {
       "record": "bamba-eid-concert-jamuna-future-park",
       "issue": "date precision 'approximate'"
     },
@@ -117,6 +133,10 @@
     {
       "record": "conclusion",
       "issue": "flagged needs-verification"
+    },
+    {
+      "record": "f-minor",
+      "issue": "no discography entries"
     },
     {
       "record": "hannan",
@@ -157,6 +177,14 @@
     {
       "record": "uptown-lokolz",
       "issue": "flagged needs-verification"
+    },
+    {
+      "record": "vikings",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "vikings",
+      "issue": "no discography entries"
     }
   ]
 }

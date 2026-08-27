@@ -1,0 +1,34 @@
+{
+  "id": "2018-joy-bangla-concert-iv",
+  "name": "Joy Bangla Concert 2018 (4th edition)",
+  "date": "2018-03-07",
+  "date_precision": "day",
+  "type": "festival",
+  "venue": {
+    "name": "Bangladesh Army Stadium",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "venue_type": "stadium"
+  },
+  "organizer": "Young Bangla / Centre for Research and Information (CRI)",
+  "artists": [
+    { "artist_id": "powersurge", "billing": "support" },
+    { "artist_id": "shunno", "billing": "support" },
+    { "artist_id": "arbovirus", "billing": "support" },
+    { "artist_id": "chirkutt", "billing": "co-headliner" },
+    { "artist_id": "cryptic-fate", "billing": "co-headliner" },
+    { "artist_id": "nemesis", "billing": "co-headliner" },
+    { "artist_id": "lalon-band", "billing": "co-headliner" },
+    { "artist_id": "artcell", "billing": "headliner" }
+  ],
+  "genres_represented": ["Thrash Metal", "Heavy Metal", "Progressive Metal", "Alternative Rock", "Folk Fusion"],
+  "attendance_confidence": "reported",
+  "notes": "Fourth edition, eight bands, free entry. More than 32,000 people registered online for the event — the largest documented registration figure in this dataset and a useful measure of the scale a free, state-adjacent rock festival could reach at the end of the 2010s. Registration is not attendance; the figure is recorded here as reported demand, not as a headcount. Billing labels beyond Artcell's closing slot are approximate.",
+  "sources": [
+    { "title": "Joy Bangla Concert 2018: Eight high octane bands all set to rock the stage", "url": "https://archive.dhakatribune.com/showtime/2018/03/05/joy-bangla-concert-2018-eight-high-octane-bands-set-rock-stage", "type": "news", "accessed": "2026-08-27" },
+    { "title": "Joy Bangla Concert 2018 to feature a dynamic lineup", "url": "https://www.dhakatribune.com/showtime/2018/02/25/joy-bangla-concert-2018-feature-dynamic-lineup", "type": "news", "accessed": "2026-08-27" },
+    { "title": "Joy Bangla Concert 2018: March 7 celebrated in style", "url": "https://archive.dhakatribune.com/bangladesh/dhaka/2018/03/08/joy-bangla-concert-2018-march-7-celebrated-style", "type": "news", "accessed": "2026-08-27" }
+  ],
+  "tags": ["festival", "joy-bangla-series", "state-commemorative", "cross-strand-bill", "free-entry", "snippet-sourced"],
+  "last_updated": "2026-08-27"
+}

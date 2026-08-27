@@ -7,7 +7,13 @@ community detection. This builder keeps that layer and adds three more, each
 derived from evidence already present in the artist records:
 
   co_billing          two acts appear on the same documented concert bill
-                      (observed; strongest evidence of shared live audience)
+                      (observed; strongest evidence of shared live audience).
+                      Weighted by 1/(n-1) per event, where n is the number of
+                      catalogued acts on that bill: sharing a two-act gig is
+                      strong evidence of a shared audience, sharing a
+                      twelve-act national festival is weak, and without the
+                      correction a single large bill contributes 66 edges and
+                      swamps every other signal.
   personnel           two acts share a named member (observed; the scene's
                       documented genealogy, e.g. Ayub Bachchu across Souls,
                       LRB and Nagar Baul)
@@ -50,7 +56,15 @@ def key(a, b):
 
 
 def co_billing_edges(artists, concerts):
+    """Project the concert hypergraph onto artist pairs.
+
+    ``weight`` counts shared bills. ``normalised_weight`` divides each event's
+    contribution by (n-1) so that every act on a bill contributes a total of 1
+    to its neighbours regardless of how large the bill was; this is what the
+    combined analytic weight uses.
+    """
     weights = defaultdict(int)
+    norm_weights = defaultdict(float)
     evidence = defaultdict(list)
     events_per_artist = defaultdict(int)
     for concert in concerts:
@@ -58,10 +72,12 @@ def co_billing_edges(artists, concerts):
                       if e.get("artist_id") in artists})
         for aid in ids:
             events_per_artist[aid] += 1
+        share = 1.0 / (len(ids) - 1) if len(ids) > 1 else 0.0
         for a, b in combinations(ids, 2):
             weights[key(a, b)] += 1
+            norm_weights[key(a, b)] += share
             evidence[key(a, b)].append(concert["id"])
-    return weights, evidence, events_per_artist
+    return weights, norm_weights, evidence, events_per_artist
 
 
 def personnel_edges(artists):
@@ -129,7 +145,7 @@ def build():
     artists = common.load_artists()
     concerts = common.load_concerts()
 
-    cb_w, cb_e, events_per_artist = co_billing_edges(artists, concerts)
+    cb_w, cb_norm, cb_e, events_per_artist = co_billing_edges(artists, concerts)
     pe_w, pe_e = personnel_edges(artists)
     dom_w, dom_e, hom_w, hom_e, global_tokens, per_artist_tokens = \
         influence_edges(artists)
@@ -145,12 +161,15 @@ def build():
     for layer, (weights, evidence, ev_field) in layers.items():
         for pair, w in weights.items():
             entry = merged[pair]
+            effective = cb_norm[pair] if layer == "co_billing" else float(w)
             entry["layers"][layer] = {
                 "weight": w,
                 ev_field: sorted(set(evidence[pair])),
                 "observed": layer in OBSERVED_LAYERS,
             }
-            entry["combined_weight"] += LAYER_WEIGHTS[layer] * w
+            if layer == "co_billing":
+                entry["layers"][layer]["normalised_weight"] = round(effective, 4)
+            entry["combined_weight"] += LAYER_WEIGHTS[layer] * effective
 
     edges = []
     for (a, b), entry in sorted(merged.items()):
@@ -199,6 +218,12 @@ def build():
             "Combined weight = sum over layers of layer_weight x layer_weight_count."
         ),
         "layer_weights": LAYER_WEIGHTS,
+        "co_billing_normalisation": (
+            "Each event contributes 1/(n-1) to every pair on its bill, so a "
+            "twelve-act festival appearance is worth about a ninth of a "
+            "two-act gig per neighbour. 'weight' keeps the raw shared-bill "
+            "count; 'normalised_weight' is what feeds combined_weight."
+        ),
         "observed_layers": list(OBSERVED_LAYERS),
         "node_count": len(nodes),
         "edge_count": len(edges),
@@ -216,6 +241,7 @@ def build():
     proto_edges = [
         {
             "source": a, "target": b, "weight": w,
+            "normalised_weight": round(cb_norm[(a, b)], 4),
             "shared_events": sorted(set(cb_e[(a, b)])),
         }
         for (a, b), w in sorted(cb_w.items())

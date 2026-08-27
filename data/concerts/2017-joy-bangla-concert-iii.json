@@ -1,0 +1,34 @@
+{
+  "id": "2017-joy-bangla-concert-iii",
+  "name": "Joy Bangla Concert 2017 (3rd edition)",
+  "date": "2017-03-07",
+  "date_precision": "day",
+  "type": "festival",
+  "venue": {
+    "name": "Bangladesh Army Stadium",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "venue_type": "stadium"
+  },
+  "organizer": "Young Bangla / Centre for Research and Information (CRI)",
+  "artists": [
+    { "artist_id": "warfaze", "billing": "headliner" },
+    { "artist_id": "cryptic-fate", "billing": "co-headliner" },
+    { "artist_id": "arbovirus", "billing": "support" },
+    { "artist_id": "nemesis", "billing": "co-headliner" },
+    { "artist_id": "shironamhin", "billing": "co-headliner" },
+    { "artist_id": "shunno", "billing": "support" },
+    { "artist_id": "lalon-band", "billing": "co-headliner" },
+    { "artist_id": "chirkutt", "billing": "co-headliner" }
+  ],
+  "genres_represented": ["Heavy Metal", "Progressive Metal", "Alternative Rock", "Folk Fusion", "Nu Metal"],
+  "attendance_confidence": "unknown",
+  "notes": "Third edition. Eight-band bill spanning heavy metal (Warfaze, Cryptic Fate), alternative and nu-metal (Nemesis, Arbovirus, Shunno), progressive/psychedelic rock (Shironamhin) and folk fusion (Lalon, Chirkutt) on one stage — the cross-strand billing pattern that makes this series the densest single source of preference-network edges in the catalogue. Billing roles beyond the reported running order are inferred from each act's standing at the time and should be treated as approximate.",
+  "sources": [
+    { "title": "Watch: Joy Bangla Concert 2017", "url": "https://www.dhakatribune.com/showtime/15978/watch-joy-bangla-concert-2017", "type": "news", "accessed": "2026-08-27" },
+    { "title": "Performers on the Joy Bangla Concert", "url": "https://www.dhakatribune.com/showtime/15936/performers-on-the-joy-bangla-concert", "type": "news", "accessed": "2026-08-27" },
+    { "title": "Joy Bangla Concert begins at Army Stadium", "url": "https://www.thedailystar.net/city/joy-bangla-concert-begins-army-stadium-1372285", "type": "news", "accessed": "2026-08-27" }
+  ],
+  "tags": ["festival", "joy-bangla-series", "state-commemorative", "cross-strand-bill", "snippet-sourced"],
+  "last_updated": "2026-08-27"
+}

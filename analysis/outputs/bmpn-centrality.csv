@@ -1,59 +1,64 @@
 artist_id,name,strand,formed_year,degree,weighted_degree,betweenness,eigenvector,community_full
-arbovirus,Arbovirus,Alternative/Indie,2001,6,6.0,0.0,0.0,1
+arbovirus,Arbovirus,Alternative/Indie,2001,16,5.0,0.00744,0.0,0
+arekta-rock-band,Arekta Rock Band,Alternative/Indie,2018,15,4.001,0.01356,0.0,0
 ark,Ark,Mainstream Rock,1991,0,0,0.0,0.0,8
 arnob,Shayan Chowdhury Arnob,Folk & Folk Fusion,1998,0,0,0.0,0.0,9
-artcell,Artcell,Progressive Rock/Metal,1999,9,13.0,0.00896,0.0,0
-ashes,Ashes,Alternative/Indie,2006,1,1.0,0.0,0.0,1
+artcell,Artcell,Progressive Rock/Metal,1999,18,14.002,0.02671,0.0,1
+ashes,Ashes,Alternative/Indie,2006,1,1.0,0.0,0.0,0
 ashraf-babu-charu,Ashraf Babu & Charu,Hip-Hop/Rap,1993,0,0,0.0,0.0,10
-aurthohin,Aurthohin,Alternative/Indie,1998,2,2.0,0.0,0.0,0
+aurthohin,Aurthohin,Alternative/Indie,1998,3,2.0,0.00011,0.0,2
+avoidrafa,AvoidRafa,Mainstream Rock,2014,15,4.002,0.01167,0.0,0
 azam-khan-uchcharon,Azam Khan & Uchcharon,Mainstream Rock,1972,0,0,0.0,0.0,11
-black,Black,Alternative/Indie,1998,3,4.0,0.01692,0.0,2
-chirkutt,Chirkutt,Folk & Folk Fusion,2002,6,6.0,0.0,0.0,1
-conclusion,Conclusion,Alternative/Indie,2011,1,1.0,0.0,0.0,5
-cryptic-fate,Cryptic Fate,Heavy Metal,1993,8,11.0,0.00475,0.0,1
-de-illumination,De-illumination,Heavy Metal,2006,2,2.0,0.0,0.0,0
+bay-of-bengal,Bay of Bengal,Alternative/Indie,2010,7,1.001,0.0,0.0,0
+black,Black,Alternative/Indie,1998,3,4.0,0.0201,0.0,4
+chirkutt,Chirkutt,Folk & Folk Fusion,2002,18,7.001,0.01296,0.0,0
+conclusion,Conclusion,Alternative/Indie,2011,12,2.001,0.0201,0.0,3
+cryptic-fate,Cryptic Fate,Heavy Metal,1993,19,9.001,0.01615,0.0,0
+de-illumination,De-illumination,Heavy Metal,2006,2,2.0,0.0,0.0,1
 deshi-mcs,Deshi MCs,Hip-Hop/Rap,2005,0,0,0.0,0.0,12
-feedback,Feedback,Mainstream Rock,1976,1,1.0,0.0,0.0,0
+f-minor,F Minor,Folk & Folk Fusion,2016,11,1.001,0.0,0.0,0
+feedback,Feedback,Mainstream Rock,1976,1,1.0,0.0,0.0,1
 habib-wahid,Habib Wahid,Pop,2003,1,1.0,0.0,0.0,6
 hannan,Hannan (Hannan Hossain Shimul),Hip-Hop/Rap,2024,0,0,0.0,0.0,13
 imran-mahmudul,Imran Mahmudul,Pop,2008,0,0,0.0,0.0,14
-indalo,Indalo,Alternative/Indie,2012,3,3.5,0.00249,0.0,2
+indalo,Indalo,Alternative/Indie,2012,3,3.5,0.00173,0.0,4
 jalali-set,Jalali Set,Hip-Hop/Rap,2014,0,0,0.0,0.0,15
-james-nagar-baul,James (Nagar Baul),Mainstream Rock,1977,3,2.5,0.01456,0.0,3
-karnival,Karnival,Progressive Rock/Metal,2006,11,9.5,0.04948,0.0,0
+james-nagar-baul,James (Nagar Baul),Mainstream Rock,1977,3,2.5,0.01372,0.0,2
+karnival,Karnival,Progressive Rock/Metal,2006,18,10.501,0.07828,0.0,1
 kona,Kona (Dilshad Nahar Kona),Pop,2006,0,0,0.0,0.0,16
-lalon-band,Lalon (Lalon Band),Folk & Folk Fusion,2001,6,6.0,0.0,0.0,1
-lrb,LRB (Love Runs Blind),Mainstream Rock,1991,2,2.0,0.0,0.0,3
-maqsood-o-dhaka,Maqsood O' Dhaka,Folk & Folk Fusion,1997,4,4.0,0.0,0.0,1
-mechanix,Mechanix,Heavy Metal,2005,8,9.0,0.02442,0.0,1
-meghdol,Meghdol,Alternative/Indie,2003,0,0,0.0,0.0,17
-metal-maze,Metal Maze,Heavy Metal,1995,6,4.5,0.00095,0.0,0
-miles,Miles,Mainstream Rock,1979,0,0,0.0,0.0,18
-minar-rahman,Minar Rahman,Pop,2008,0,0,0.0,0.0,19
+lalon-band,Lalon (Lalon Band),Folk & Folk Fusion,2001,18,7.001,0.01296,0.0,0
+lrb,LRB (Love Runs Blind),Mainstream Rock,1991,2,2.0,0.0,0.0,2
+maqsood-o-dhaka,Maqsood O' Dhaka,Folk & Folk Fusion,1997,4,1.0,0.0,0.0,2
+mechanix,Mechanix,Heavy Metal,2005,8,2.999,0.00736,0.0,2
+meghdol,Meghdol,Alternative/Indie,2003,8,2.001,0.0,0.0,0
+metal-maze,Metal Maze,Heavy Metal,1995,6,4.5,0.00014,0.0,1
+miles,Miles,Mainstream Rock,1979,0,0,0.0,0.0,17
+minar-rahman,Minar Rahman,Pop,2008,11,1.001,0.0,0.0,0
 muza,Muza (Muzahid Abdullah),Pop,2013,1,1.0,0.0,0.0,6
-nancy,Nancy (Nazmun Munira Nancy),Pop,2002,0,0,0.0,0.0,20
-nemesis,Nemesis,Alternative/Indie,1999,10,11.0,0.02464,0.0,1
-nova,Nova,Mainstream Rock,1986,7,4.0,0.04324,0.0,0
-owned,Owned,Alternative/Indie,2007,1,1.0,0.0,0.0,5
-poizon-green,Poizon Green,Heavy Metal,1998,6,6.5,0.00095,0.0,0
-powersurge,Powersurge,Heavy Metal,2006,11,12.0,0.05108,0.0,0
-prometheus,Prometheus,Mainstream Rock,1986,0,0,0.0,0.0,21
-renaissance,Renaissance,Mainstream Rock,1985,5,5.0,0.01787,0.0,1
-rockstrata,Rockstrata,Heavy Metal,1991,7,8.0,0.00191,0.0,0
-severe-dementia,Severe Dementia,Heavy Metal,2004,1,1.0,0.0,0.0,0
-shezan,Shezan,Hip-Hop/Rap,2018,2,1.0,0.0,0.0,4
-shironamhin,Shironamhin,Alternative/Indie,1996,0,0,0.0,0.0,22
-shohojia,Shohojia,Alternative/Indie,,0,0,0.0,0.0,23
-shonar-bangla-circus,Shonar Bangla Circus,Alternative/Indie,2018,0,0,0.0,0.0,24
-shunno,Shunno,Alternative/Indie,2007,6,6.0,0.0,0.0,1
-souls,Souls,Mainstream Rock,1972,3,3.0,0.00774,0.0,3
+nancy,Nancy (Nazmun Munira Nancy),Pop,2002,0,0,0.0,0.0,18
+nemesis,Nemesis,Alternative/Indie,1999,22,10.001,0.06772,0.0,0
+nova,Nova,Mainstream Rock,1986,7,4.0,0.04909,0.0,1
+owned,Owned,Alternative/Indie,2007,1,1.0,0.0,0.0,3
+poizon-green,Poizon Green,Heavy Metal,1998,6,6.5,0.00014,0.0,1
+powersurge,Powersurge,Heavy Metal,2006,17,12.001,0.05945,0.0,1
+prometheus,Prometheus,Mainstream Rock,1986,0,0,0.0,0.0,19
+renaissance,Renaissance,Mainstream Rock,1985,5,2.0,0.02508,0.0,2
+rockstrata,Rockstrata,Heavy Metal,1991,7,8.0,0.00095,0.0,1
+severe-dementia,Severe Dementia,Heavy Metal,2004,2,2.0,0.00012,0.0,1
+shezan,Shezan,Hip-Hop/Rap,2018,2,1.0,0.0,0.0,5
+shironamhin,Shironamhin,Alternative/Indie,1996,7,1.001,0.0,0.0,0
+shohojia,Shohojia,Alternative/Indie,,0,0,0.0,0.0,20
+shonar-bangla-circus,Shonar Bangla Circus,Alternative/Indie,2018,0,0,0.0,0.0,21
+shunno,Shunno,Alternative/Indie,2007,16,5.0,0.00744,0.0,0
+souls,Souls,Mainstream Rock,1972,3,3.0,0.00992,0.0,2
 stentorian,Stentorian,Heavy Metal,2001,1,1.0,0.0,0.0,7
-stoic-bliss,Stoic Bliss,Hip-Hop/Rap,2004,2,1.0,0.0,0.0,4
-tahsan,Tahsan Rahman Khan,Pop,2004,1,1.0,0.0,0.0,2
-theology-of-rap,Theology of Rap,Hip-Hop/Rap,2005,0,0,0.0,0.0,25
-trainwreck,Trainwreck,Heavy Metal,2007,1,0.5,0.0,0.0,0
-uptown-lokolz,Uptown Lokolz,Hip-Hop/Rap,2005,2,1.0,0.0,0.0,4
-vibe,Vibe,Heavy Metal,2001,0,0,0.0,0.0,26
-warfaze,Warfaze,Heavy Metal,1984,15,21.0,0.0759,0.0,1
-winning,Winning,Mainstream Rock,1983,0,0,0.0,0.0,27
+stoic-bliss,Stoic Bliss,Hip-Hop/Rap,2004,2,1.0,0.0,0.0,5
+tahsan,Tahsan Rahman Khan,Pop,2004,1,1.0,0.0,0.0,4
+theology-of-rap,Theology of Rap,Hip-Hop/Rap,2005,0,0,0.0,0.0,22
+trainwreck,Trainwreck,Heavy Metal,2007,1,0.5,0.0,0.0,1
+uptown-lokolz,Uptown Lokolz,Hip-Hop/Rap,2005,2,1.0,0.0,0.0,5
+vibe,Vibe,Heavy Metal,2001,0,0,0.0,0.0,23
+vikings,Vikings,Mainstream Rock,1997,12,2.001,0.0201,0.0,3
+warfaze,Warfaze,Heavy Metal,1984,16,10.997,0.03263,0.0,1
+winning,Winning,Mainstream Rock,1983,1,1.0,0.0,0.0,3
 yaatri,Yaatri,Alternative/Indie,2004,1,1.0,0.0,0.0,7

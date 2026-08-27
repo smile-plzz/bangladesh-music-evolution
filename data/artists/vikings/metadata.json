@@ -1,0 +1,36 @@
+{
+  "id": "vikings",
+  "name": "Vikings",
+  "type": "band",
+  "formed_year": 1997,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Mainstream Rock", "Hard Rock"],
+  "languages": ["bn"],
+  "members": [
+    { "name": "Tonmoy Tansen", "role": "Vocals (founder)", "years_active": "1997–2020", "current": false },
+    { "name": "Shetu", "role": "Lead Guitar", "years_active": "unspecified", "current": true },
+    { "name": "Jony", "role": "Bass", "years_active": "unspecified", "current": true },
+    { "name": "Babu", "role": "Keyboards (founding member)", "years_active": "1997–present", "current": true },
+    { "name": "Rippy", "role": "Guitar (founding member)", "years_active": "1997–unspecified", "current": false }
+  ],
+  "discography_summary": [],
+  "global_influences": [
+    {
+      "artist_or_genre": "Western hard rock traditions (general)",
+      "evidence": "Positioned in coverage as a Dhaka rock band of the late-1990s cohort; no specific influence statements by members were locatable in available sources.",
+      "source": "Band pages and press coverage; no interview-level influence statement located",
+      "confidence": "low"
+    }
+  ],
+  "local_adaptation_notes": "Bangla-language rock from the late-1990s cohort — the generation that formed after original Bangla metal was established but before the 2000s progressive wave.",
+  "sound_evolution_summary": "Sparsely documented. The band's most reported event is the 2020 departure of founding vocalist Tonmoy Tansen after 23 years, citing a breakdown in mutual understanding among members — an instance of the lineup-churn pattern that recurs across the catalogue's long-lived bands.",
+  "concert_culture_notes": "Performed at the sixth Joy Bangla Concert (2020).",
+  "listener_community_notes": "Insufficiently documented in accessible sources; the band's audience profile is not established.",
+  "sources": [
+    { "title": "Tonmoy tears up 23-year tie with Vikings", "url": "https://theindependentbd.com/post/246253", "type": "news", "accessed": "2026-08-27" },
+    { "title": "Vikings — Spotify artist page", "url": "https://open.spotify.com/artist/7dFuvAESogEqVv0vz1kTJl", "type": "streaming", "accessed": "2026-08-27" }
+  ],
+  "tags": ["snippet-sourced", "needs-verification", "thinly-documented"],
+  "last_updated": "2026-08-27"
+}

@@ -2,6 +2,8 @@ artist_id,artist,strand,formed_year,era,influence,kind,confidence,sourced
 arbovirus,Arbovirus,Alternative/Indie,2001,Digital transition (2000-2009),Nu Metal,tradition,high,1
 arbovirus,Arbovirus,Alternative/Indie,2001,Digital transition (2000-2009),Grunge,tradition,high,1
 arbovirus,Arbovirus,Alternative/Indie,2001,Digital transition (2000-2009),Blade II,tradition,high,1
+arekta-rock-band,Arekta Rock Band,Alternative/Indie,2018,Streaming era (2010-),Video-game,tradition,medium,1
+arekta-rock-band,Arekta Rock Band,Alternative/Indie,2018,Streaming era (2010-),Screen Culture,tradition,medium,1
 ark,Ark,Mainstream Rock,1991,Metal & cassette era (1985-1999),Western Hard Rock Traditions,tradition,low,1
 arnob,Shayan Chowdhury Arnob,Folk & Folk Fusion,1998,Metal & cassette era (1985-1999),Jazz,global_artist,high,1
 arnob,Shayan Chowdhury Arnob,Folk & Folk Fusion,1998,Metal & cassette era (1985-1999),Blues,global_artist,high,1
@@ -20,8 +22,13 @@ ashraf-babu-charu,Ashraf Babu & Charu,Hip-Hop/Rap,1993,Metal & cassette era (198
 aurthohin,Aurthohin,Alternative/Indie,1998,Metal & cassette era (1985-1999),Funk,tradition,medium,1
 aurthohin,Aurthohin,Alternative/Indie,1998,Metal & cassette era (1985-1999),Jazz Fusion,tradition,medium,1
 aurthohin,Aurthohin,Alternative/Indie,1998,Metal & cassette era (1985-1999),Progressive Metal Traditions,tradition,medium,1
+avoidrafa,AvoidRafa,Mainstream Rock,2014,Streaming era (2010-),Heavy Metal,tradition,medium,1
+avoidrafa,AvoidRafa,Mainstream Rock,2014,Streaming era (2010-),Progressive Metal,tradition,medium,1
+avoidrafa,AvoidRafa,Mainstream Rock,2014,Streaming era (2010-),Hard Rock Traditions,tradition,medium,1
 azam-khan-uchcharon,Azam Khan & Uchcharon,Mainstream Rock,1972,Founding era (pre-1985),Western Pop,tradition,low,1
 azam-khan-uchcharon,Azam Khan & Uchcharon,Mainstream Rock,1972,Founding era (pre-1985),Rock Traditions,tradition,low,1
+bay-of-bengal,Bay of Bengal,Alternative/Indie,2010,Streaming era (2010-),Progressive,tradition,medium,1
+bay-of-bengal,Bay of Bengal,Alternative/Indie,2010,Streaming era (2010-),Experimental Rock Traditions,tradition,medium,1
 black,Black,Alternative/Indie,1998,Metal & cassette era (1985-1999),Alice In Chains,global_artist,high,1
 black,Black,Alternative/Indie,1998,Metal & cassette era (1985-1999),Nirvana,global_artist,high,1
 black,Black,Alternative/Indie,1998,Metal & cassette era (1985-1999),Soundgarden,global_artist,high,1
@@ -34,6 +41,7 @@ deshi-mcs,Deshi MCs,Hip-Hop/Rap,2005,Digital transition (2000-2009),Tupac,global
 deshi-mcs,Deshi MCs,Hip-Hop/Rap,2005,Digital transition (2000-2009),Biggie,global_artist,high,1
 deshi-mcs,Deshi MCs,Hip-Hop/Rap,2005,Digital transition (2000-2009),Eminem,global_artist,high,1
 deshi-mcs,Deshi MCs,Hip-Hop/Rap,2005,Digital transition (2000-2009),Big L,global_artist,high,1
+f-minor,F Minor,Folk & Folk Fusion,2016,Streaming era (2010-),Indigenous Folk Traditions Of Bangladesh,tradition,high,1
 feedback,Feedback,Mainstream Rock,1976,Founding era (pre-1985),Western Pop Rock,tradition,medium,1
 feedback,Feedback,Mainstream Rock,1976,Founding era (pre-1985),Blues Rock,tradition,medium,1
 feedback,Feedback,Mainstream Rock,1976,Founding era (pre-1985),Jazz Traditions,tradition,medium,1
@@ -148,6 +156,7 @@ trainwreck,Trainwreck,Heavy Metal,2007,Digital transition (2000-2009),Lamb Of Go
 uptown-lokolz,Uptown Lokolz,Hip-Hop/Rap,2005,Digital transition (2000-2009),American Hip-Hop,global_artist,high,1
 vibe,Vibe,Heavy Metal,2001,Digital transition (2000-2009),Contemporaneous Bangladeshi Heavy Metal,tradition,medium,1
 vibe,Vibe,Heavy Metal,2001,Digital transition (2000-2009),Alternative Peers,tradition,medium,1
+vikings,Vikings,Mainstream Rock,1997,Metal & cassette era (1985-1999),Western Hard Rock Traditions,tradition,low,1
 warfaze,Warfaze,Heavy Metal,1984,Founding era (pre-1985),Iron Maiden,global_artist,high,1
 warfaze,Warfaze,Heavy Metal,1984,Founding era (pre-1985),Deep Purple,global_artist,high,1
 warfaze,Warfaze,Heavy Metal,1984,Founding era (pre-1985),Whitesnake,global_artist,high,1

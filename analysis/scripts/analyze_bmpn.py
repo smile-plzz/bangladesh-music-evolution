@@ -44,7 +44,9 @@ def build_graph(net, layers):
     for n in net["nodes"]:
         g.add_node(n["id"], **{k: v for k, v in n.items() if k != "id"})
     for e in net["edges"]:
-        w = sum(weights[l] * data["weight"]
+        # co_billing carries a bill-size-normalised weight; the other layers
+        # have no equivalent correction, so their raw weight is the weight.
+        w = sum(weights[l] * data.get("normalised_weight", data["weight"])
                 for l, data in e["layers"].items() if l in layers)
         if w > 0:
             active = sorted(l for l in e["layers"] if l in layers)
