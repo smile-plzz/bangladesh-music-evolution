@@ -123,8 +123,8 @@ export default function InfluenceExplorer({
         ))}
       </div>
 
-      <div className="grid lg:grid-cols-[300px_1fr] gap-8">
-        <aside className="space-y-4 lg:sticky lg:top-20 lg:self-start">
+      <div className="grid lg:grid-cols-[300px_minmax(0,1fr)] gap-8">
+        <aside className="min-w-0 space-y-4 lg:sticky lg:top-20 lg:self-start">
           <SearchInput
             value={query}
             onChange={setQuery}
@@ -200,7 +200,7 @@ export default function InfluenceExplorer({
           </div>
         </aside>
 
-        <section aria-live="polite">
+        <section aria-live="polite" className="min-w-0">
           {mode === "influence" && current ? (
             <div>
               <div className="flex flex-wrap items-baseline gap-3">

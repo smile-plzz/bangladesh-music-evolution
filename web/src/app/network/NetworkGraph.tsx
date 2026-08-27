@@ -265,7 +265,7 @@ export default function NetworkGraph({
     );
 
   return (
-    <div className="grid xl:grid-cols-[1fr_300px] gap-6">
+    <div className="grid xl:grid-cols-[minmax(0,1fr)_300px] gap-6">
       <div>
         <div className="flex flex-wrap items-center gap-x-6 gap-y-3 mb-4">
           <fieldset>

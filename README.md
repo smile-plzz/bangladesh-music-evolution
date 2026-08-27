@@ -186,9 +186,20 @@ error and can gate CI.
 
 ## Frontend
 
-A browsable Next.js frontend over the dataset lives in [`web/`](./web) — artist
-directory, genre pages, concert listings, findings, and an interactive network
-graph, statically generated from the JSON in `data/`.
+An interactive site over the dataset lives in [`web/`](./web), statically
+generated from the JSON in `data/` and the pipeline's computed outputs — so a
+page can never report a number the pipeline disagrees with.
+
+| Section | What you can do |
+|---|---|
+| Artists, Concerts | Faceted search over the catalogue — strand, decade, city, coverage, ecosystem class |
+| Network | The multi-layer graph with each evidence layer switchable, community colouring, and a per-act inspector |
+| Influences | Explore citations from either end, with the evidence and stated confidence behind each claim |
+| Timeline | Fifty years by decade, with drill-down to the acts and shows behind each bar |
+| Genres | The seven strands: formation span, cited influences, documented localisation |
+| Findings | The computed results, each with the qualification it needs |
+| Research | The paper, frameworks and case studies as readable pages |
+| Data | Coverage per strand, dataset downloads, and what the project cannot do |
 
 ```bash
 cd web

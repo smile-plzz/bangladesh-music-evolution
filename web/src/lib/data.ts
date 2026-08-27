@@ -12,31 +12,40 @@ export type ArtistInfluence = {
 
 export type ArtistMember = {
   name: string;
-  role: string;
-  years_active: string;
-  current: boolean;
+  role?: string;
+  years_active?: string;
+  current?: boolean;
 };
 
 export type DiscographyEntry = {
   title: string;
-  year: number;
-  type: string;
-  notable_tracks: string[];
+  // Null where a release is documented but undated in available sources.
+  year: number | null;
+  type?: string;
+  label?: string | null;
+  notable_tracks?: string[];
 };
 
 export type Source = {
   title: string;
-  url: string;
-  type: string;
+  url?: string;
+  type?: string;
+  accessed?: string;
 };
 
 export type Artist = {
   id: string;
   name: string;
+  also_known_as?: string[];
   type: string;
+  // Null only where no public source states it; such records are tagged
+  // "needs-verification" rather than given a guessed value.
   formed_year: number | null;
   disbanded_year: number | null;
   origin_city: string;
+  // Qualifier on origin_city (diaspora status, birthplace) kept out of the
+  // city field itself so the city stays usable as a filter facet.
+  origin_note?: string;
   genres: string[];
   languages: string[];
   members: ArtistMember[];
@@ -53,7 +62,7 @@ export type Artist = {
 
 export type ConcertArtist = {
   artist_id: string;
-  billing: string;
+  billing?: string;
 };
 
 export type Concert = {
@@ -71,7 +80,9 @@ export type Concert = {
   organizer: string;
   artists: ConcertArtist[];
   genres_represented: string[];
-  attendance_confidence: string;
+  // Omitted entirely rather than guessed when no public figure exists.
+  estimated_attendance?: number;
+  attendance_confidence?: "reported" | "estimated" | "unknown";
   notes: string;
   sources: Source[];
   tags: string[];
