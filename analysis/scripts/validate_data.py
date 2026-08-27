@@ -40,6 +40,17 @@ def validate_against_schema(records, schema_path, label):
     return errors
 
 
+# City names that should be normalised to one spelling. The catalogue held both
+# "Chittagong" and "Chattogram", which split a single city into two facets in
+# the web explorer before anyone noticed.
+CITY_ALIASES = {
+    "chittagong": "Chattogram",
+    "chittagang": "Chattogram",
+    "dacca": "Dhaka",
+    "sylhet city": "Sylhet",
+}
+
+
 def main():
     artists = common.load_artists()
     concerts = {c["id"]: c for c in common.load_concerts()}
@@ -77,6 +88,17 @@ def main():
             warnings.append({"record": aid, "issue": "no discography entries"})
         if "needs-verification" in (a.get("tags") or []):
             warnings.append({"record": aid, "issue": "flagged needs-verification"})
+        city = (a.get("origin_city") or "").strip()
+        if city.lower() in CITY_ALIASES:
+            warnings.append({
+                "record": aid,
+                "issue": (f"origin_city '{city}' should be normalised to "
+                          f"'{CITY_ALIASES[city.lower()]}'")})
+        if any(ch in city for ch in "();"):
+            warnings.append({
+                "record": aid,
+                "issue": ("origin_city carries a qualifier; put the city in "
+                          "origin_city and the detail in origin_note")})
 
     for cid, c in concerts.items():
         if not c.get("sources"):
@@ -102,6 +124,8 @@ def main():
     # --- coverage ---------------------------------------------------------
     linked = {e["artist_id"] for c in concerts.values()
               for e in (c.get("artists") or [])}
+    cities = Counter((a.get("origin_city") or "").strip()
+                     for a in artists.values() if a.get("origin_city"))
     strand_counts = Counter(
         common.genre_strand(a.get("genres"), aid) for aid, a in artists.items())
     strand_linked = Counter(
@@ -119,6 +143,7 @@ def main():
         "error_count": len(errors),
         "warning_count": len(warnings),
         "billing_distribution": dict(billing_counts.most_common()),
+        "origin_cities": dict(cities.most_common()),
         "strand_coverage": {
             s: {"artists": strand_counts[s],
                 "with_concert_data": strand_linked.get(s, 0)}

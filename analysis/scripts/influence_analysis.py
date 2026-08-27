@@ -112,6 +112,12 @@ def main():
                     "formed_year": a.get("formed_year"),
                     "era": era, "influence": canon, "kind": kind,
                     "confidence": conf, "sourced": has_source,
+                    # Carried so downstream consumers (the site's influence
+                    # explorer) can show why a claim is made, not just that it
+                    # was made. The CSV keeps the flat columns only.
+                    "evidence": (infl.get("evidence") or "").strip(),
+                    "source": (infl.get("source") or "").strip(),
+                    "raw_citation": (infl.get("artist_or_genre") or "").strip(),
                 })
 
     common.write_csv(
@@ -195,10 +201,14 @@ def main():
               for tok, ids in sorted(by_token.items())]
     edges = [{"source": f"artist:{c['artist_id']}",
               "target": f"influence:{c['influence']}",
-              "confidence": c["confidence"], "sourced": c["sourced"]}
+              "confidence": c["confidence"], "sourced": c["sourced"],
+              "kind": c["kind"],
+              "evidence": c["evidence"], "citation_source": c["source"],
+              "raw_citation": c["raw_citation"]}
              for c in citations]
     edges += [{"source": f"artist:{d['from']}", "target": f"artist:{d['to']}",
-               "confidence": d["confidence"], "kind": "domestic_transmission"}
+               "confidence": d["confidence"], "kind": "domestic_transmission",
+               "evidence": d["evidence"]}
               for d in domestic_links]
     common.write_json(common.NETWORKS_DIR / "influence-network.json", {
         "generated": date.today().isoformat(),

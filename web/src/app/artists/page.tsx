@@ -1,44 +1,50 @@
-import Link from "next/link";
-import { getAllArtists } from "@/lib/data";
+import { getAllArtists, getConcertsForArtist } from "@/lib/data";
+import { getStrandMap } from "@/lib/analysis";
+import { PageHeader, Caveat, CrossLink } from "@/components/ui";
+import ArtistExplorer, { type ArtistRow } from "./ArtistExplorer";
 
-export const metadata = { title: "Artists · Bangladesh Music Evolution" };
+export const metadata = {
+  title: "Artists · Bangladesh Music Evolution",
+  description:
+    "Search and filter the catalogued Bangladeshi artists by genre strand, decade, city and coverage.",
+};
 
 export default function ArtistsPage() {
   const artists = getAllArtists();
+  const strandMap = getStrandMap();
+
+  const rows: ArtistRow[] = artists.map((a) => ({
+    id: a.id,
+    name: a.name,
+    strand: strandMap[a.id] ?? "Unclassified",
+    genres: a.genres ?? [],
+    formed_year: a.formed_year ?? null,
+    disbanded_year: a.disbanded_year ?? null,
+    origin_city: a.origin_city ?? "",
+    event_count: getConcertsForArtist(a.id).length,
+    influence_count: (a.global_influences ?? []).length,
+    tags: a.tags ?? [],
+  }));
+
+  const noEvents = rows.filter((r) => r.event_count === 0).length;
 
   return (
-    <div className="mx-auto max-w-6xl px-4 sm:px-6 py-12">
-      <h1 className="text-3xl font-bold tracking-tight">Artists</h1>
-      <p className="text-neutral-400 mt-2">
-        {artists.length} artists catalogued across the Bangladeshi music
-        ecosystem.
-      </p>
-
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
-        {artists.map((a) => (
-          <Link
-            key={a.id}
-            href={`/artists/${a.id}`}
-            className="rounded-lg border border-neutral-800 p-5 bg-neutral-900/50 hover:border-emerald-500/60 transition-colors"
-          >
-            <div className="font-medium">{a.name}</div>
-            <div className="text-sm text-neutral-500 mt-1">
-              {a.origin_city}
-              {a.formed_year ? ` · formed ${a.formed_year}` : ""}
-              {a.disbanded_year ? `–${a.disbanded_year}` : ""}
-            </div>
-            <div className="flex flex-wrap gap-1.5 mt-3">
-              {a.genres.slice(0, 3).map((g) => (
-                <span
-                  key={g}
-                  className="text-xs px-2 py-0.5 rounded-full bg-neutral-800 text-neutral-300"
-                >
-                  {g}
-                </span>
-              ))}
-            </div>
-          </Link>
-        ))}
+    <div className="pb-20">
+      <PageHeader
+        eyebrow="Explore"
+        title="Artists"
+        lede={`${rows.length} catalogued acts, from the founding band era to acts formed in the last few years. Filter by genre strand, decade of formation, origin city, or by how well documented a record is.`}
+      />
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+        <ArtistExplorer artists={rows} />
+        <Caveat>
+          The catalogue is a curated sample, not a census — {rows.length} acts
+          against a target of 300, assembled outward from a well-documented
+          metal core. {noEvents} acts have no documented event yet, which is a
+          gap in the concert record rather than a fact about those acts. See{" "}
+          <CrossLink href="/data">data and methods</CrossLink> for what that
+          bias affects.
+        </Caveat>
       </div>
     </div>
   );

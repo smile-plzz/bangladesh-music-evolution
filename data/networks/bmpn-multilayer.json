@@ -14,16 +14,16 @@
     "domestic_influence"
   ],
   "node_count": 63,
-  "edge_count": 178,
+  "edge_count": 179,
   "edges_per_layer": {
     "co_billing": 133,
     "personnel": 15,
-    "domestic_influence": 5,
+    "domestic_influence": 6,
     "influence_homophily": 36
   },
-  "observed_edge_count": 152,
-  "isolated_node_count": 19,
-  "isolated_under_observed_layers_only": 21,
+  "observed_edge_count": 153,
+  "isolated_node_count": 18,
+  "isolated_under_observed_layers_only": 20,
   "nodes": [
     {
       "id": "arbovirus",
@@ -387,7 +387,7 @@
       ],
       "strand": "Mainstream Rock",
       "formed_year": 1977,
-      "origin_city": "Chittagong",
+      "origin_city": "Chattogram",
       "event_count": 1,
       "global_influence_tokens": [
         "Eric Clapton",
@@ -457,7 +457,7 @@
       ],
       "strand": "Mainstream Rock",
       "formed_year": 1991,
-      "origin_city": "Chittagong",
+      "origin_city": "Chattogram",
       "event_count": 1,
       "global_influence_tokens": []
     },
@@ -547,7 +547,7 @@
       ],
       "strand": "Pop",
       "formed_year": 2008,
-      "origin_city": "Chittagong",
+      "origin_city": "Chattogram",
       "event_count": 1,
       "global_influence_tokens": []
     },
@@ -562,7 +562,7 @@
       ],
       "strand": "Pop",
       "formed_year": 2013,
-      "origin_city": "New York City (diaspora; born Balaganj, Osmani Nagar, Sylhet)",
+      "origin_city": "New York City",
       "event_count": 0,
       "global_influence_tokens": []
     },
@@ -819,7 +819,7 @@
       ],
       "strand": "Mainstream Rock",
       "formed_year": 1972,
-      "origin_city": "Chittagong",
+      "origin_city": "Chattogram",
       "event_count": 0,
       "global_influence_tokens": []
     },
@@ -848,7 +848,7 @@
       ],
       "strand": "Hip-Hop/Rap",
       "formed_year": 2004,
-      "origin_city": "Queens, New York (diaspora origin; Bangladesh-focused output)",
+      "origin_city": "Queens, New York",
       "event_count": 0,
       "global_influence_tokens": []
     },
@@ -2046,6 +2046,21 @@
           ],
           "observed": true,
           "normalised_weight": 0.0909
+        }
+      }
+    },
+    {
+      "source": "azam-khan-uchcharon",
+      "target": "nova",
+      "combined_weight": 1.0,
+      "observed": true,
+      "layers": {
+        "domestic_influence": {
+          "weight": 1,
+          "citations": [
+            "Nova cites Azam Khan"
+          ],
+          "observed": true
         }
       }
     },

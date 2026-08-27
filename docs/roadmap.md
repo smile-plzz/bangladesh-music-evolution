@@ -49,16 +49,16 @@
 - [x] **Analysis pipeline built** — seven re-runnable scripts, shared library,
       all figures rendered from computed outputs (`analysis/`)
 - [x] **Multi-layer BMPN** — co-billing (bill-size normalised), personnel,
-      domestic influence, and inferred influence homophily; 178 edges over 63
+      domestic influence, and inferred influence homophily; 179 edges over 63
       nodes with per-edge provenance
-- [x] **Louvain community detection** — modularity 0.414 on observational
-      layers, five communities of 3+; supersedes the connected-components
+- [x] **Louvain community detection** — modularity 0.428 on observational
+      layers, six communities of 3+; supersedes the connected-components
       placeholder
 - [x] **Temporal and genre evolution analysis** — formations and releases by
       decade, strand lifecycles, release-format shift
 - [x] **Concert ecosystem typology** — rule-based classification with the rule
       recorded per event
-- [x] **Influence-flow analysis** — 170 normalised citations, cross-tabs by
+- [x] **Influence-flow analysis** — 169 normalised citations, cross-tabs by
       strand and era, localisation-mechanism markers
 - [x] **Sound evolution case studies** — five, in `analysis/case-studies/`
 - [x] **Visualisations** — seven figures in `analysis/visualizations/`
@@ -92,7 +92,7 @@
 | Artists catalogued | ≥300 | **63** |
 | Concerts analysed | ≥500 | **23** |
 | Preference network connecting artists | ✅ built | but it is a *co-appearance* network — see below |
-| Statistically meaningful listener ecosystems | — | communities detected at Q = 0.414, but they are co-appearance communities, not listener ones |
+| Statistically meaningful listener ecosystems | — | communities detected at Q = 0.428, but they are co-appearance communities, not listener ones |
 | Visual genre evolution map | ✅ | `docs/genre-evolution-map.md` + 7 figures |
 | Findings consistent across independent sources | partly | cross-checking network results against the typology and influence analysis is what caught two errors |
 | Open dataset, framework, visualisations, thesis | ✅ / draft | thesis at second draft |
@@ -115,9 +115,12 @@ construct requires does not exist in this project at all.
 4. **Re-research the hip-hop artist records against lyric and interview
    sources.** The single political-content marker across eight rappers
    contradicts the literature and is a documentation artefact (paper §7.3).
-5. **Add `domestic_influences` as a first-class schema field.** Only five
-   domestic transmission links exist across 63 acts, which reflects how records
-   were written rather than how much the scene borrows internally.
+5. **Add `domestic_influences` as a first-class schema field.** Only six
+   domestic transmission links exist across 63 acts, and one of those six was
+   found only because a missing `also_known_as` alias was noticed — the lookup
+   matches on name, so an act filed under a different name than the one
+   citations use silently drops out. A structured field would remove the
+   failure mode as well as the thinness.
 6. **Verify the `snippet-sourced` records against full text.** The eight Joy
    Bangla Concert records and five artist records added in the 2026-08-27 pass
    were sourced from search summaries because the environment blocked page

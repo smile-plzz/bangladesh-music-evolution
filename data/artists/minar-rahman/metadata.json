@@ -4,9 +4,15 @@
   "type": "solo",
   "formed_year": 2008,
   "disbanded_year": null,
-  "origin_city": "Chittagong",
-  "genres": ["Pop", "Indie", "Folk-influenced Pop"],
-  "languages": ["bn"],
+  "origin_city": "Chattogram",
+  "genres": [
+    "Pop",
+    "Indie",
+    "Folk-influenced Pop"
+  ],
+  "languages": [
+    "bn"
+  ],
   "members": [
     {
       "name": "Minar Rahman (Mohammad Mizanur Rahman Minar)",
@@ -32,7 +38,11 @@
       "title": "Aha Re",
       "year": 2015,
       "type": "studio",
-      "notable_tracks": ["Shada", "Jhoom", "Keu Kotha Rakheni"]
+      "notable_tracks": [
+        "Shada",
+        "Jhoom",
+        "Keu Kotha Rakheni"
+      ]
     }
   ],
   "global_influences": [
@@ -59,6 +69,10 @@
       "type": "profile"
     }
   ],
-  "tags": ["priority", "pop", "singer-songwriter"],
-  "last_updated": "2026-08-06"
+  "tags": [
+    "priority",
+    "pop",
+    "singer-songwriter"
+  ],
+  "last_updated": "2026-08-27"
 }

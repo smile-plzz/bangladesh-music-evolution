@@ -40,6 +40,8 @@ yarn-error.log*
 /data
 /analysis-outputs
 /public/figures
+/public/downloads
+/research-content
 
 # typescript
 *.tsbuildinfo

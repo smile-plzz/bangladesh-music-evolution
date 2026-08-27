@@ -19,12 +19,17 @@ export const metadata: Metadata = {
     "A computational analysis of genre development, global influences, listener communities, and musical ecosystems in Bangladeshi music.",
 };
 
+// Ordered as a visitor moves through the site: explore the data, see what it
+// showed, then read the study and take the dataset.
 const NAV_LINKS = [
   { href: "/artists", label: "Artists" },
-  { href: "/genres", label: "Genres" },
   { href: "/concerts", label: "Concerts" },
   { href: "/network", label: "Network" },
+  { href: "/influences", label: "Influences" },
+  { href: "/timeline", label: "Timeline" },
   { href: "/findings", label: "Findings" },
+  { href: "/research", label: "Research" },
+  { href: "/data", label: "Data" },
 ];
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -39,12 +44,15 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <Link href="/" className="font-semibold tracking-tight text-lg">
               Bangladesh Music Evolution
             </Link>
-            <nav className="flex gap-1 sm:gap-2">
+            <nav
+              aria-label="Main"
+              className="flex gap-0.5 overflow-x-auto -mx-2 px-2"
+            >
               {NAV_LINKS.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="px-3 py-2 rounded-md text-sm text-neutral-300 hover:text-white hover:bg-neutral-800 transition-colors"
+                  className="whitespace-nowrap px-2.5 py-2 rounded-md text-sm text-neutral-300 hover:text-white hover:bg-neutral-800 transition-colors"
                 >
                   {link.label}
                 </Link>
@@ -67,7 +75,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               </a>{" "}
               repository.
             </span>
-            <span>Built with Next.js · Deployed on Vercel</span>
+            <span>
+              Open dataset ·{" "}
+              <Link className="underline hover:text-neutral-300" href="/data">
+                download and methods
+              </Link>
+            </span>
           </div>
         </footer>
       </body>

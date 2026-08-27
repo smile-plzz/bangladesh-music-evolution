@@ -14,7 +14,7 @@
 Bangladesh's popular music has been transformed since the early 1970s, from folk
 traditions and Adhunik Bangla through a band and metal explosion to a pluralistic
 digital-era ecosystem. This study builds an open, structured dataset of that
-ecosystem — 63 artists, 23 documented events, 170 normalised influence citations
+ecosystem — 63 artists, 23 documented events, 169 normalised influence citations
 — and analyses it computationally through the **Bangladesh Musical Ecosystem
 Model (BMEM)** and its process companion, the **Bangladesh Music Evolution
 Framework (BMEF)**.
@@ -29,10 +29,11 @@ unevenly evidenced — metal and progressive acts name specific bands (Metallica
 strands), while pop and folk acts name traditions, an asymmetry that reflects
 who gets interviewed as much as how music transmits. Third, a multi-layer
 co-appearance network over the catalogue is genuinely structured (Louvain
-modularity 0.414 on observational layers; five communities of three or more
+modularity 0.428 on observational layers; six communities of three or more
 acts) and its communities are interpretable — a mixed-strand national festival
-circuit, a metal genealogy joined by stated influence, and a classic
-mainstream-rock cluster joined by shared personnel. Fourth, the concert typology
+circuit, a metal genealogy joined by stated influence, a classic
+mainstream-rock cluster joined by shared personnel, and a founding-era cohort
+held together by acts citing each other. Fourth, the concert typology
 inherited from the project's own methodology is **falsified by its data**: every
 multi-act bill in the catalogue mixes genre strands, so large commemorative
 festivals function as discovery spaces rather than as the subcultural gatherings
@@ -41,7 +42,7 @@ the framework predicted.
 A methodological result is reported alongside these: projecting a concert
 hypergraph onto artist pairs without correcting for bill size lets a single
 twelve-act festival contribute 66 edges and depresses observed modularity from
-0.414 to 0.154. Any scene network built from festival lineups needs this
+0.428 to 0.159. Any scene network built from festival lineups needs this
 correction.
 
 The study also states its boundary plainly. No streaming, audio-feature or
@@ -230,7 +231,7 @@ predating this pass.
 | Artists with ≥1 documented event | 28 | — |
 | Artists with no documented event | 35 | — |
 | Raw influence citations | 83 | — |
-| Normalised citations | 170 | — |
+| Normalised citations | 169 | — |
 | Citations with a named source | 83 (100%) | — |
 
 Strand distribution: Alternative/Indie 16, Mainstream Rock 13, Heavy Metal 12,
@@ -289,7 +290,7 @@ than as a finding.
 
 *(Figures 5–6; `analysis/outputs/influence-analysis.json`)*
 
-83 raw citations across 63 acts normalise to 170 citation tokens, resolving to
+83 raw citations across 63 acts normalise to 169 citation tokens, resolving to
 46 distinct named global acts and 73 tradition labels. Every raw citation
 carries a named source; stated confidence is medium 34, high 31, low 16,
 hypothesised 2.
@@ -368,14 +369,15 @@ adjusting the marker list.
 
 | Pass | Edges | Density | Components | Largest | Isolated | Modularity | Communities ≥3 | Strand assortativity |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| `observed` | 152 | 0.078 | 25 | 36 | 21 | **0.414** | 5 | +0.050 |
-| `full` | 178 | 0.091 | 22 | 40 | 19 | 0.417 | 5 | +0.106 |
+| `observed` | 153 | 0.078 | 24 | 36 | 20 | **0.428** | 6 | +0.058 |
+| `full` | 179 | 0.092 | 21 | 41 | 18 | 0.425 | 5 | +0.112 |
 | `co_billing` | 133 | 0.068 | 40 | 24 | 39 | 0.182 | 3 | −0.040 |
+| `observed_uncorrected` | 153 | 0.078 | 24 | 36 | 20 | 0.159 | 6 | +0.058 |
 
 **Result 6 — the network is genuinely structured, and its communities are
-interpretable.** Louvain modularity of 0.414 on observational layers alone is
+interpretable.** Louvain modularity of 0.428 on observational layers alone is
 comfortably above the level at which community structure is considered
-meaningful. The five communities of three or more acts:
+meaningful. The six communities of three or more acts:
 
 | Community | Size | What holds it together |
 |---|---:|---|
@@ -384,11 +386,12 @@ meaningful. The five communities of three or more acts:
 | Metal genealogy | 5 | Rockstrata, Poizon Green, Karnival, Aurthohin, AvoidRafa — personnel and stated influence |
 | Classic mainstream rock | 4 | Souls, LRB, Nagar Baul, Renaissance — Ayub Bachchu and Pilu Khan |
 | Detached alternative | 4 | Conclusion, Owned, Vikings, Winning |
+| Founding-era cohort | 3 | Azam Khan &amp; Uchcharon, Feedback, Nova — held together by acts citing each other, not by shared bills |
 
 Highest eigenvector centrality on the observed largest component: Cryptic Fate
 (0.409), Artcell (0.388), Nemesis (0.364), Warfaze (0.349), Chirkutt (0.314).
-Highest betweenness: Karnival (0.078), Nemesis (0.068), Powersurge (0.059),
-Nova (0.049), Warfaze (0.033).
+Highest betweenness: Karnival (0.080), Nova (0.069), Nemesis (0.068),
+Powersurge (0.065), Warfaze (0.033).
 
 **Result 7 — this is a co-appearance network, and calling it a preference
 network would be false.** Its edges record shared bills, shared members and
@@ -402,8 +405,10 @@ consistent with §7.5 and inconsistent with reading these communities as taste
 communities.
 
 **Result 8 — a methodological finding.** Uncorrected hypergraph projection
-depresses observed modularity from 0.414 to 0.154, because a single twelve-act
-bill contributes 66 undifferentiated edges. Any study building a scene network
+depresses observed modularity from 0.428 to 0.159, because a single twelve-act
+bill contributes 66 undifferentiated edges. Both figures come from the same
+pipeline run (the `observed` and `observed_uncorrected` passes), so the
+comparison is reproducible rather than asserted. Any study building a scene network
 from festival lineups needs a bill-size correction or it will primarily measure
 festival size.
 
@@ -565,7 +570,7 @@ recommendation, and the commercial viability of any strand.
 This study set out to model Bangladeshi music as an ecosystem rather than a
 chronology, and it now does so on measured rather than asserted foundations. The
 ecosystem it describes is structured — communities are detectable at modularity
-0.414, influence vectors differ systematically by strand and era, and folk
+0.428, influence vectors differ systematically by strand and era, and folk
 functions as a resource drawn on across every strand rather than as a genre
 among genres. It is also more institutionally arranged than the framework
 anticipated: the acts that hold the network together do so through shared bills

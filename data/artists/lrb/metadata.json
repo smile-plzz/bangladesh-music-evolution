@@ -4,9 +4,15 @@
   "type": "band",
   "formed_year": 1991,
   "disbanded_year": 2018,
-  "origin_city": "Chittagong",
-  "genres": ["Mainstream Rock", "Hard Rock", "Blues Rock"],
-  "languages": ["bn"],
+  "origin_city": "Chattogram",
+  "genres": [
+    "Mainstream Rock",
+    "Hard Rock",
+    "Blues Rock"
+  ],
+  "languages": [
+    "bn"
+  ],
   "members": [
     {
       "name": "Ayub Bachchu",
@@ -44,7 +50,9 @@
       "title": "Shukh",
       "year": 1993,
       "type": "studio",
-      "notable_tracks": ["Cholo Bodle Jai"]
+      "notable_tracks": [
+        "Cholo Bodle Jai"
+      ]
     }
   ],
   "global_influences": [
@@ -81,6 +89,12 @@
       "type": "profile"
     }
   ],
-  "tags": ["priority", "mainstream-rock", "hard-rock", "big-three", "founding-era"],
-  "last_updated": "2026-08-06"
+  "tags": [
+    "priority",
+    "mainstream-rock",
+    "hard-rock",
+    "big-three",
+    "founding-era"
+  ],
+  "last_updated": "2026-08-27"
 }

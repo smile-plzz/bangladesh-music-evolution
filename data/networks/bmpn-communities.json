@@ -4,7 +4,7 @@
   "seed": 20260827,
   "description": "Louvain communities over the BMPN. Reported for both the observed-layer graph and the full graph (which adds inferred influence-homophily edges at half weight). These supersede the earlier connected-components placeholder in bmpn-clusters.json, which remains for continuity.",
   "observed": {
-    "modularity": 0.4139,
+    "modularity": 0.4283,
     "communities": [
       {
         "community_id": 0,
@@ -114,6 +114,21 @@
       },
       {
         "community_id": 5,
+        "size": 3,
+        "members": [
+          "azam-khan-uchcharon",
+          "feedback",
+          "nova"
+        ],
+        "dominant_strand": "Mainstream Rock",
+        "strand_mix": {
+          "Mainstream Rock": 3
+        },
+        "internal_edges": 2,
+        "internal_density": 0.6667
+      },
+      {
+        "community_id": 6,
         "size": 2,
         "members": [
           "habib-wahid",
@@ -122,20 +137,6 @@
         "dominant_strand": "Pop",
         "strand_mix": {
           "Pop": 2
-        },
-        "internal_edges": 1,
-        "internal_density": 1.0
-      },
-      {
-        "community_id": 6,
-        "size": 2,
-        "members": [
-          "feedback",
-          "nova"
-        ],
-        "dominant_strand": "Mainstream Rock",
-        "strand_mix": {
-          "Mainstream Rock": 2
         },
         "internal_edges": 1,
         "internal_density": 1.0
@@ -198,19 +199,6 @@
         "community_id": 11,
         "size": 1,
         "members": [
-          "azam-khan-uchcharon"
-        ],
-        "dominant_strand": "Mainstream Rock",
-        "strand_mix": {
-          "Mainstream Rock": 1
-        },
-        "internal_edges": 0,
-        "internal_density": 0.0
-      },
-      {
-        "community_id": 12,
-        "size": 1,
-        "members": [
           "deshi-mcs"
         ],
         "dominant_strand": "Hip-Hop/Rap",
@@ -221,7 +209,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 13,
+        "community_id": 12,
         "size": 1,
         "members": [
           "hannan"
@@ -234,7 +222,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 14,
+        "community_id": 13,
         "size": 1,
         "members": [
           "imran-mahmudul"
@@ -247,7 +235,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 15,
+        "community_id": 14,
         "size": 1,
         "members": [
           "jalali-set"
@@ -260,7 +248,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 16,
+        "community_id": 15,
         "size": 1,
         "members": [
           "kona"
@@ -273,7 +261,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 17,
+        "community_id": 16,
         "size": 1,
         "members": [
           "metal-maze"
@@ -286,7 +274,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 18,
+        "community_id": 17,
         "size": 1,
         "members": [
           "miles"
@@ -299,7 +287,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 19,
+        "community_id": 18,
         "size": 1,
         "members": [
           "nancy"
@@ -312,7 +300,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 20,
+        "community_id": 19,
         "size": 1,
         "members": [
           "prometheus"
@@ -325,7 +313,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 21,
+        "community_id": 20,
         "size": 1,
         "members": [
           "shezan"
@@ -338,7 +326,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 22,
+        "community_id": 21,
         "size": 1,
         "members": [
           "shohojia"
@@ -351,7 +339,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 23,
+        "community_id": 22,
         "size": 1,
         "members": [
           "shonar-bangla-circus"
@@ -364,7 +352,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 24,
+        "community_id": 23,
         "size": 1,
         "members": [
           "stoic-bliss"
@@ -377,7 +365,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 25,
+        "community_id": 24,
         "size": 1,
         "members": [
           "theology-of-rap"
@@ -390,7 +378,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 26,
+        "community_id": 25,
         "size": 1,
         "members": [
           "trainwreck"
@@ -403,7 +391,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 27,
+        "community_id": 26,
         "size": 1,
         "members": [
           "uptown-lokolz"
@@ -416,7 +404,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 28,
+        "community_id": 27,
         "size": 1,
         "members": [
           "vibe"
@@ -431,7 +419,7 @@
     ]
   },
   "full": {
-    "modularity": 0.4166,
+    "modularity": 0.4248,
     "communities": [
       {
         "community_id": 0,
@@ -490,8 +478,9 @@
       },
       {
         "community_id": 2,
-        "size": 7,
+        "size": 8,
         "members": [
+          "azam-khan-uchcharon",
           "feedback",
           "james-nagar-baul",
           "lrb",
@@ -502,11 +491,11 @@
         ],
         "dominant_strand": "Mainstream Rock",
         "strand_mix": {
-          "Mainstream Rock": 6,
+          "Mainstream Rock": 7,
           "Folk & Folk Fusion": 1
         },
-        "internal_edges": 7,
-        "internal_density": 0.3333
+        "internal_edges": 8,
+        "internal_density": 0.2857
       },
       {
         "community_id": 3,
@@ -613,19 +602,6 @@
         "community_id": 10,
         "size": 1,
         "members": [
-          "azam-khan-uchcharon"
-        ],
-        "dominant_strand": "Mainstream Rock",
-        "strand_mix": {
-          "Mainstream Rock": 1
-        },
-        "internal_edges": 0,
-        "internal_density": 0.0
-      },
-      {
-        "community_id": 11,
-        "size": 1,
-        "members": [
           "deshi-mcs"
         ],
         "dominant_strand": "Hip-Hop/Rap",
@@ -636,7 +612,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 12,
+        "community_id": 11,
         "size": 1,
         "members": [
           "hannan"
@@ -649,7 +625,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 13,
+        "community_id": 12,
         "size": 1,
         "members": [
           "imran-mahmudul"
@@ -662,7 +638,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 14,
+        "community_id": 13,
         "size": 1,
         "members": [
           "jalali-set"
@@ -675,7 +651,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 15,
+        "community_id": 14,
         "size": 1,
         "members": [
           "kona"
@@ -688,7 +664,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 16,
+        "community_id": 15,
         "size": 1,
         "members": [
           "miles"
@@ -701,7 +677,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 17,
+        "community_id": 16,
         "size": 1,
         "members": [
           "nancy"
@@ -714,7 +690,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 18,
+        "community_id": 17,
         "size": 1,
         "members": [
           "prometheus"
@@ -727,7 +703,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 19,
+        "community_id": 18,
         "size": 1,
         "members": [
           "shezan"
@@ -740,7 +716,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 20,
+        "community_id": 19,
         "size": 1,
         "members": [
           "shohojia"
@@ -753,7 +729,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 21,
+        "community_id": 20,
         "size": 1,
         "members": [
           "shonar-bangla-circus"
@@ -766,7 +742,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 22,
+        "community_id": 21,
         "size": 1,
         "members": [
           "stoic-bliss"
@@ -779,7 +755,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 23,
+        "community_id": 22,
         "size": 1,
         "members": [
           "theology-of-rap"
@@ -792,7 +768,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 24,
+        "community_id": 23,
         "size": 1,
         "members": [
           "uptown-lokolz"
@@ -805,7 +781,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 25,
+        "community_id": 24,
         "size": 1,
         "members": [
           "vibe"

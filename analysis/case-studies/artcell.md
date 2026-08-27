@@ -1,7 +1,7 @@
 # Artcell: technical form, literary content
 
 **Formed** 1999, Dhaka · **Strand** Progressive Rock/Metal · **Network**
-degree 18, weighted degree 14.0 (highest in the graph), betweenness 0.027,
+degree 18, weighted degree 14.5 (highest in the graph), betweenness 0.029,
 10 documented events — the most of any act in the catalogue
 
 ## The arc in one line

@@ -3,7 +3,7 @@
   "method_note": "Free-text influence citations were split on '/' and ',', stripped of parentheticals, and classified as a named global act, a generic tradition label, or a domestic (catalogued) act. Each canonical token's kind is resolved once over the whole corpus (see common.resolve_token_kinds), so an influence cannot count as a named act in one cross-tab and a tradition in another. Ranks count DISTINCT CITING ACTS, not citation rows, so an influence's rank reflects how many acts in this sample name it -- not its measured effect on the music.",
   "artists_analysed": 63,
   "raw_citation_entries": 83,
-  "normalised_citations": 170,
+  "normalised_citations": 169,
   "distinct_named_global_influences": 46,
   "distinct_tradition_labels": 73,
   "evidence_quality": {
@@ -234,7 +234,7 @@
     }
   },
   "domestic_transmission": {
-    "edge_count": 5,
+    "edge_count": 6,
     "links": [
       {
         "from": "avoidrafa",
@@ -253,6 +253,12 @@
         "to": "habib-wahid",
         "confidence": "medium",
         "evidence": "Muza has cited Habib Wahid's songs as his direct musical inspiration, indicating a primarily domestic (rather than purely Western) lineage of folk-electronic fusion influence carried into the Bangladeshi-American diaspora."
+      },
+      {
+        "from": "nova",
+        "to": "azam-khan-uchcharon",
+        "confidence": "high",
+        "evidence": "Nova cites Azam Khan and Feedback directly alongside its Western influences, indicating the band's psychedelic/progressive sound was built on both foreign and domestic founding-generation reference points simultaneously."
       },
       {
         "from": "nova",

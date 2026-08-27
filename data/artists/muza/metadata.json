@@ -4,9 +4,17 @@
   "type": "solo",
   "formed_year": 2013,
   "disbanded_year": null,
-  "origin_city": "New York City (diaspora; born Balaganj, Osmani Nagar, Sylhet)",
-  "genres": ["Pop", "Electronic Pop", "Folk Fusion", "Urban/Hip-Hop-adjacent"],
-  "languages": ["bn", "en"],
+  "origin_city": "New York City",
+  "genres": [
+    "Pop",
+    "Electronic Pop",
+    "Folk Fusion",
+    "Urban/Hip-Hop-adjacent"
+  ],
+  "languages": [
+    "bn",
+    "en"
+  ],
   "members": [
     {
       "name": "Muza (Muzahid Abdullah)",
@@ -26,17 +34,23 @@
       "title": "Noya Daman",
       "year": 2021,
       "type": "single",
-      "notable_tracks": ["Noya Daman"]
+      "notable_tracks": [
+        "Noya Daman"
+      ]
     },
     {
       "title": "Beni Khuley",
       "type": "single",
-      "notable_tracks": ["Beni Khuley"]
+      "notable_tracks": [
+        "Beni Khuley"
+      ]
     },
     {
       "title": "Jhumka",
       "type": "single",
-      "notable_tracks": ["Jhumka"]
+      "notable_tracks": [
+        "Jhumka"
+      ]
     }
   ],
   "global_influences": [
@@ -69,6 +83,12 @@
       "type": "official"
     }
   ],
-  "tags": ["priority", "pop", "diaspora", "folk-fusion"],
-  "last_updated": "2026-08-06"
+  "tags": [
+    "priority",
+    "pop",
+    "diaspora",
+    "folk-fusion"
+  ],
+  "last_updated": "2026-08-27",
+  "origin_note": "Diaspora artist; born in Balaganj, Osmani Nagar, Sylhet."
 }
