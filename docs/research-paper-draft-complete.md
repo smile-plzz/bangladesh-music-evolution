@@ -194,7 +194,10 @@ inferred:
 Co-billing edges carry a bill-size correction. Each event contributes 1/(n−1) to
 every pair on its bill, so an act's total contribution per event is 1 regardless
 of bill size. Without it, the 2020 Joy Bangla Concert's twelve-act bill alone
-contributes 66 edges and swamps every other signal.
+contributes 66 edges and swamps every other signal. The weighting follows
+Newman's (2001) treatment of multi-author scientific papers in collaboration
+networks — the same dilution logic applied to concert bills instead of
+co-authorship.
 
 **Three analytical passes** are reported for every network result: `observed`
 (the three documentary layers — the evidential result), `full` (all four — the
@@ -617,7 +620,11 @@ typology. All in `analysis/visualizations/`.
 
 ## References
 
-Full APA entries with annotations: `docs/annotated-bibliography.md`.
+Full APA entries with annotations: `docs/annotated-bibliography.md`. A wider
+landscape scan — new scholarship (including on hip-hop and the July 2024
+uprising), network-methodology literature, and industry sources not yet
+integrated into this draft — is in
+`docs/research-landscape-extended.md`.
 
 Autul, M. R., et al. (2024). Rocking across borders. *International Journal of Computer and Digital Systems*.
 Hasan, M. (2015, December 4). Rock 'n' roll, social change and democratisation in Bangladesh. *South Asia @ LSE*.
@@ -627,6 +634,7 @@ Mitra, U. (2008). Image of urban youth in the lyrics of Bangla bands. *West Beng
 Mitra, U. (2014). *Exploring youth* [Doctoral dissertation, Jadavpur University].
 Mridha, M. A. H., & Begum, M. (2023). Continuum of folk to pop music in Bangladesh. *Issues in Social Science, 11*(2).
 Mukherjee, K. (2017). Bangla rock. *International Journal of Pedagogy, Innovation and New Technologies, 4*(2), 35–47.
+Newman, M. E. J. (2001). The structure of scientific collaboration networks. *Proceedings of the National Academy of Sciences, 98*(2), 404–409.
 Pervez, A. (2012). Music and identity. *Journal of Bangladesh Studies, 137*, 42–55.
 Quader, S. B. (2016). Forms of capital in the Dhaka metal scene. *Metal Music Studies, 2*(1), 5–24.
 Quader, S. B., & Redden, G. (2015). Approaching the underground. *Cultural Studies, 29*(3), 401–424.

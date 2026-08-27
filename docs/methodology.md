@@ -94,6 +94,16 @@ Track longitudinal changes in:
 
 **Methods**: graph construction, community detection algorithms (e.g., Louvain, Leiden), centrality measures, temporal network snapshots.
 
+Concert co-billing edges are weighted 1/(n−1) per event (n = bill size),
+following Newman's (2001) treatment of multi-author papers in collaboration
+networks, so that no single large festival dominates the graph. A wider
+review of network-methodology literature relevant to this construction —
+statistically validated bipartite-projection backbones (Tumminello et al.,
+2011), the Leiden algorithm's fix for Louvain's connectivity defect (Traag et
+al., 2019), and Peixoto's (2023) critique of modularity maximisation as an
+inferential tool — is in `docs/research-landscape-extended.md` §3, with
+concrete next steps for this pipeline.
+
 ### Community Detection
 Identify statistically meaningful listener ecosystems such as:
 - Mainstream rock / nostalgia audiences

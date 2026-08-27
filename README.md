@@ -32,6 +32,7 @@ exist here at all — see *What this project cannot do* below.
 | If you want | Read |
 |---|---|
 | The findings | [`docs/research-paper-draft-complete.md`](docs/research-paper-draft-complete.md) |
+| The wider research landscape, and what it changes here | [`docs/research-landscape-extended.md`](docs/research-landscape-extended.md) |
 | How genres emerged and transmitted | [`docs/genre-evolution-map.md`](docs/genre-evolution-map.md) |
 | How live music is organised | [`docs/concert-ecosystem-map.md`](docs/concert-ecosystem-map.md) |
 | Where it is heading, and how confidently | [`docs/future-trends-forecast.md`](docs/future-trends-forecast.md) |
