@@ -43,6 +43,11 @@ STRAND_COLOURS = {
     "Unclassified": "#999999",
 }
 
+# A fixed hash salt makes matplotlib's generated SVG element ids stable, and
+# savefig below writes no Date metadata. Without both, every run produces a
+# textually different SVG and the committed figures churn on each rebuild.
+matplotlib.rcParams["svg.hashsalt"] = "bmpn"
+
 plt.rcParams.update({
     "figure.dpi": 110,
     "savefig.bbox": "tight",
@@ -62,7 +67,8 @@ def load(name):
 def save(fig, name):
     OUT.mkdir(parents=True, exist_ok=True)
     path = OUT / name
-    fig.savefig(path, format="svg", transparent=False, facecolor="white")
+    fig.savefig(path, format="svg", transparent=False, facecolor="white",
+                metadata={"Date": None})
     plt.close(fig)
     print(f"  {path.relative_to(common.REPO_ROOT)}")
 
@@ -117,6 +123,20 @@ def strand_timeline(temporal):
     save(fig, "fig3-strand-timeline.svg")
 
 
+def _stable_edges(graph):
+    """Edges with both endpoint order and list order normalised.
+
+    networkx yields an edge as (u, v) or (v, u) depending on iteration order,
+    which is not stable across processes. Sorting the list alone does not fix
+    that -- the pair itself has to be ordered too, or the same edge writes a
+    different SVG path string from one run to the next.
+    """
+    normalised = [
+        (min(u, v), max(u, v), d) for u, v, d in graph.edges(data=True)
+    ]
+    return sorted(normalised, key=lambda e: (e[0], e[1]))
+
+
 def network_figure():
     """Draw the BMPN.
 
@@ -139,8 +159,11 @@ def network_figure():
         g.add_edge(e["source"], e["target"], weight=e["combined_weight"],
                    observed=e["observed"])
 
+    # Sort by size then by first member: size alone leaves equal-sized
+    # components in whatever order the graph iteration produced, which moves
+    # them around the figure between runs.
     comps = sorted((sorted(c) for c in nx.connected_components(g)),
-                   key=len, reverse=True)
+                   key=lambda c: (-len(c), c[0]))
     giant, smalls = comps[0], [c for c in comps[1:] if len(c) > 1]
     isolates = sorted(c[0] for c in comps if len(c) == 1)
     degrees = dict(g.degree())
@@ -170,7 +193,7 @@ def network_figure():
     sub = g.subgraph(giant)
     pos = nx.spring_layout(sub, seed=11, k=0.95, iterations=1200,
                            weight="weight", scale=1.0)
-    for u, v, d in sub.edges(data=True):
+    for u, v, d in _stable_edges(sub):
         ax.plot([pos[u][0], pos[v][0]], [pos[u][1], pos[v][1]], **edge_style(d))
     for node, (x, y) in pos.items():
         norm = max((x ** 2 + y ** 2) ** 0.5, 1e-6)
@@ -203,16 +226,21 @@ def network_figure():
     x_cursor = 0.0
     for comp in smalls:
         csub = g.subgraph(comp)
-        cpos = nx.spring_layout(csub, seed=3, scale=0.34)
-        xs = [p[0] for p in cpos.values()]
-        shift = x_cursor - min(xs)
-        cpos = {n: (p[0] + shift, p[1]) for n, p in cpos.items()}
-        for u, v, d in csub.edges(data=True):
+        # These components have two or three nodes, so a force layout buys
+        # nothing and its node ordering is not stable across processes, which
+        # made the committed figure churn on every rebuild. Place them on a
+        # fixed alternating line instead: deterministic, and easier to read.
+        cpos = {
+            node: (x_cursor + 0.42 * idx, 0.22 if idx % 2 == 0 else -0.22)
+            for idx, node in enumerate(comp)
+        }
+        for u, v, d in _stable_edges(csub):
             ax_small.plot([cpos[u][0], cpos[v][0]], [cpos[u][1], cpos[v][1]],
                           **edge_style(d))
         for node, (x, y) in cpos.items():
-            draw_node(ax_small, node, x, y, 58, 6.2, dy=9)
-        x_cursor = max(p[0] for p in cpos.values()) + 0.62
+            draw_node(ax_small, node, x, y, 58, 6.2,
+                      dy=9 if y > 0 else -15)
+        x_cursor = max(p[0] for p in cpos.values()) + 0.75
     ax_small.set_xlim(-0.35, x_cursor)
     ax_small.set_ylim(-0.62, 0.72)
     ax_small.set_axis_off()

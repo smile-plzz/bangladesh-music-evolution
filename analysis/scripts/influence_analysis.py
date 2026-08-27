@@ -137,14 +137,17 @@ def main():
     top_named = count_acts(named)
     top_traditions = count_acts(traditions)
 
+    # sorted(), not set iteration: string hashing is randomised per process, so
+    # iterating a set writes the output keys in a different order on every run
+    # and the committed JSON churns without any input changing.
     by_strand = defaultdict(Counter)
-    for strand in {c["strand"] for c in named}:
+    for strand in sorted({c["strand"] for c in named}):
         by_strand[strand] = count_acts([c for c in named
                                         if c["strand"] == strand])
 
     by_era = defaultdict(Counter)
     era_totals = Counter()
-    for era in {c["era"] for c in named}:
+    for era in sorted({c["era"] for c in named}):
         rows = [c for c in named if c["era"] == era]
         by_era[era] = count_acts(rows)
         era_totals[era] = len({c["artist_id"] for c in rows})
@@ -155,7 +158,10 @@ def main():
     for tok, ids in by_token.items():
         if token_kind.get(tok) != "global_artist":
             continue
-        strands = Counter(strand_of[i] for i in ids)
+        # sorted(ids): the Counter's insertion order decides how ties are
+        # written out, and iterating the set directly makes that order vary
+        # between runs.
+        strands = Counter(strand_of[i] for i in sorted(ids))
         if len(strands) > 1:
             cross_strand[tok] = {
                 "citing_acts": len(ids),
