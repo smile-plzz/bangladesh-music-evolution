@@ -73,9 +73,12 @@ def main():
         for alias in (a.get("also_known_as") or []):
             name_to_id[alias.strip().lower()] = aid
 
+    # Kinds are resolved once over the whole corpus so that a token cannot be a
+    # named act in one cross-tab and a tradition in another.
+    token_kind = common.resolve_token_kinds(artists)
+
     citations = []          # one row per (artist, normalised token)
     by_token = defaultdict(set)
-    token_kind = {}
     confidence_counts = Counter()
     sourced = 0
     raw_citation_count = 0
@@ -90,8 +93,10 @@ def main():
             has_source = bool((infl.get("source") or "").strip())
             if has_source:
                 sourced += 1
-            for tok, kind in common.split_influence(infl.get("artist_or_genre")):
+            for tok, _raw_kind in common.split_influence(
+                    infl.get("artist_or_genre")):
                 canon = common.canonical_influence(tok)
+                kind = token_kind[canon]
                 target = name_to_id.get(canon.lower())
                 if target and target != aid:
                     domestic_links.append({
@@ -100,7 +105,6 @@ def main():
                         "evidence": (infl.get("evidence") or "")[:400],
                     })
                     continue
-                token_kind.setdefault(canon, kind)
                 by_token[canon].add(aid)
                 citations.append({
                     "artist_id": aid, "artist": a["name"],
@@ -122,18 +126,28 @@ def main():
     named = [c for c in citations if c["kind"] == "global_artist"]
     traditions = [c for c in citations if c["kind"] == "tradition"]
 
-    top_named = Counter(c["influence"] for c in named)
-    top_traditions = Counter(c["influence"] for c in traditions)
+    # Count distinct citing acts, not citation rows: an act that names the same
+    # influence in two separate entries should not count twice.
+    def count_acts(rows):
+        seen = defaultdict(set)
+        for c in rows:
+            seen[c["influence"]].add(c["artist_id"])
+        return Counter({k: len(v) for k, v in seen.items()})
+
+    top_named = count_acts(named)
+    top_traditions = count_acts(traditions)
 
     by_strand = defaultdict(Counter)
-    for c in named:
-        by_strand[c["strand"]][c["influence"]] += 1
+    for strand in {c["strand"] for c in named}:
+        by_strand[strand] = count_acts([c for c in named
+                                        if c["strand"] == strand])
 
     by_era = defaultdict(Counter)
     era_totals = Counter()
-    for c in named:
-        by_era[c["era"]][c["influence"]] += 1
-        era_totals[c["era"]] += 1
+    for era in {c["era"] for c in named}:
+        rows = [c for c in named if c["era"] == era]
+        by_era[era] = count_acts(rows)
+        era_totals[era] = len({c["artist_id"] for c in rows})
 
     # Which influences reach across more than one strand? Those are the
     # vectors that shaped the scene as a whole rather than one genre.
@@ -201,9 +215,12 @@ def main():
             "Free-text influence citations were split on '/' and ',', "
             "stripped of parentheticals, and classified as a named global act, "
             "a generic tradition label, or a domestic (catalogued) act. "
-            "Counts are of citations in the catalogue, so an influence's rank "
-            "reflects how often acts in this sample name it -- not its "
-            "measured effect on the music."
+            "Each canonical token's kind is resolved once over the whole "
+            "corpus (see common.resolve_token_kinds), so an influence cannot "
+            "count as a named act in one cross-tab and a tradition in another. "
+            "Ranks count DISTINCT CITING ACTS, not citation rows, so an "
+            "influence's rank reflects how many acts in this sample name it -- "
+            "not its measured effect on the music."
         ),
         "artists_analysed": len(artists),
         "raw_citation_entries": raw_citation_count,
@@ -221,7 +238,7 @@ def main():
         "named_influences_by_strand": {
             s: dict(c.most_common(8)) for s, c in sorted(by_strand.items())},
         "named_influences_by_formation_era": {
-            era: {"citations": era_totals[era],
+            era: {"citing_acts": era_totals[era],
                   "top": dict(by_era[era].most_common(8))}
             for era in [e[0] for e in ERAS] + ["Undated"] if era in by_era},
         "cross_strand_influences": dict(sorted(

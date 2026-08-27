@@ -36,8 +36,10 @@ yarn-error.log*
 # vercel
 .vercel
 
-# synced from ../data at build time (see scripts/sync-data.mjs)
+# synced from the repo root at build time (see scripts/sync-data.mjs)
 /data
+/analysis-outputs
+/public/figures
 
 # typescript
 *.tsbuildinfo

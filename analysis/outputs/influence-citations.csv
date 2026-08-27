@@ -5,9 +5,9 @@ arbovirus,Arbovirus,Alternative/Indie,2001,Digital transition (2000-2009),Blade 
 arekta-rock-band,Arekta Rock Band,Alternative/Indie,2018,Streaming era (2010-),Video-game,tradition,medium,1
 arekta-rock-band,Arekta Rock Band,Alternative/Indie,2018,Streaming era (2010-),Screen Culture,tradition,medium,1
 ark,Ark,Mainstream Rock,1991,Metal & cassette era (1985-1999),Western Hard Rock Traditions,tradition,low,1
-arnob,Shayan Chowdhury Arnob,Folk & Folk Fusion,1998,Metal & cassette era (1985-1999),Jazz,global_artist,high,1
-arnob,Shayan Chowdhury Arnob,Folk & Folk Fusion,1998,Metal & cassette era (1985-1999),Blues,global_artist,high,1
-arnob,Shayan Chowdhury Arnob,Folk & Folk Fusion,1998,Metal & cassette era (1985-1999),Western Rock,global_artist,high,1
+arnob,Shayan Chowdhury Arnob,Folk & Folk Fusion,1998,Metal & cassette era (1985-1999),Jazz,tradition,high,1
+arnob,Shayan Chowdhury Arnob,Folk & Folk Fusion,1998,Metal & cassette era (1985-1999),Blues,tradition,high,1
+arnob,Shayan Chowdhury Arnob,Folk & Folk Fusion,1998,Metal & cassette era (1985-1999),Western Rock,tradition,high,1
 arnob,Shayan Chowdhury Arnob,Folk & Folk Fusion,1998,Metal & cassette era (1985-1999),Santiniketan,tradition,medium,1
 arnob,Shayan Chowdhury Arnob,Folk & Folk Fusion,1998,Metal & cassette era (1985-1999),Visva-bharati Arts Education,tradition,medium,1
 artcell,Artcell,Progressive Rock/Metal,1999,Metal & cassette era (1985-1999),Dream Theater,global_artist,high,1
@@ -45,13 +45,13 @@ f-minor,F Minor,Folk & Folk Fusion,2016,Streaming era (2010-),Indigenous Folk Tr
 feedback,Feedback,Mainstream Rock,1976,Founding era (pre-1985),Western Pop Rock,tradition,medium,1
 feedback,Feedback,Mainstream Rock,1976,Founding era (pre-1985),Blues Rock,tradition,medium,1
 feedback,Feedback,Mainstream Rock,1976,Founding era (pre-1985),Jazz Traditions,tradition,medium,1
-habib-wahid,Habib Wahid,Pop,2003,Digital transition (2000-2009),Karsh Kale,tradition,medium,1
+habib-wahid,Habib Wahid,Pop,2003,Digital transition (2000-2009),Karsh Kale,global_artist,medium,1
 habib-wahid,Habib Wahid,Pop,2003,Digital transition (2000-2009),British-asian Electronic Music Scene,tradition,medium,1
 habib-wahid,Habib Wahid,Pop,2003,Digital transition (2000-2009),EDM,tradition,high,1
 habib-wahid,Habib Wahid,Pop,2003,Digital transition (2000-2009),Techno Production Traditions,tradition,high,1
 hannan,Hannan (Hannan Hossain Shimul),Hip-Hop/Rap,2024,Streaming era (2010-),Global Protest,tradition,low,1
 hannan,Hannan (Hannan Hossain Shimul),Hip-Hop/Rap,2024,Streaming era (2010-),Hip-hop Tradition,tradition,low,1
-imran-mahmudul,Imran Mahmudul,Pop,2008,Digital transition (2000-2009),Contemporary Asian Pop,global_artist,low,1
+imran-mahmudul,Imran Mahmudul,Pop,2008,Digital transition (2000-2009),Contemporary Asian Pop,tradition,low,1
 indalo,Indalo,Alternative/Indie,2012,Streaming era (2010-),Pearl Jam,global_artist,high,1
 indalo,Indalo,Alternative/Indie,2012,Streaming era (2010-),Alice In Chains,global_artist,high,1
 indalo,Indalo,Alternative/Indie,2012,Streaming era (2010-),Soundgarden,global_artist,high,1
@@ -80,9 +80,9 @@ maqsood-o-dhaka,Maqsood O' Dhaka,Folk & Folk Fusion,1997,Metal & cassette era (1
 maqsood-o-dhaka,Maqsood O' Dhaka,Folk & Folk Fusion,1997,Metal & cassette era (1985-1999),Funk,tradition,high,1
 maqsood-o-dhaka,Maqsood O' Dhaka,Folk & Folk Fusion,1997,Metal & cassette era (1985-1999),Reggae,tradition,high,1
 maqsood-o-dhaka,Maqsood O' Dhaka,Folk & Folk Fusion,1997,Metal & cassette era (1985-1999),Blues Traditions,tradition,high,1
-mechanix,Mechanix,Heavy Metal,2005,Digital transition (2000-2009),Megadeth,tradition,high,1
-mechanix,Mechanix,Heavy Metal,2005,Digital transition (2000-2009),Metallica,tradition,high,1
-mechanix,Mechanix,Heavy Metal,2005,Digital transition (2000-2009),Judas Priest,tradition,high,1
+mechanix,Mechanix,Heavy Metal,2005,Digital transition (2000-2009),Megadeth,global_artist,high,1
+mechanix,Mechanix,Heavy Metal,2005,Digital transition (2000-2009),Metallica,global_artist,high,1
+mechanix,Mechanix,Heavy Metal,2005,Digital transition (2000-2009),Judas Priest,global_artist,high,1
 meghdol,Meghdol,Alternative/Indie,2003,Digital transition (2000-2009),Charles Baudelaire,tradition,medium,1
 meghdol,Meghdol,Alternative/Indie,2003,Digital transition (2000-2009),Western Alternative,tradition,low,1
 meghdol,Meghdol,Alternative/Indie,2003,Digital transition (2000-2009),Psychedelic Rock Traditions,tradition,low,1
@@ -96,8 +96,8 @@ minar-rahman,Minar Rahman,Pop,2008,Digital transition (2000-2009),Folk,tradition
 minar-rahman,Minar Rahman,Pop,2008,Digital transition (2000-2009),Alternative Pop Traditions,tradition,medium,1
 muza,Muza (Muzahid Abdullah),Pop,2013,Streaming era (2010-),Urban,tradition,medium,1
 muza,Muza (Muzahid Abdullah),Pop,2013,Streaming era (2010-),EDM Production Traditions,tradition,medium,1
-nancy,Nancy (Nazmun Munira Nancy),Pop,2002,Digital transition (2000-2009),Contemporary Indian,global_artist,low,1
-nancy,Nancy (Nazmun Munira Nancy),Pop,2002,Digital transition (2000-2009),South Asian Pop,global_artist,low,1
+nancy,Nancy (Nazmun Munira Nancy),Pop,2002,Digital transition (2000-2009),Contemporary Indian,tradition,low,1
+nancy,Nancy (Nazmun Munira Nancy),Pop,2002,Digital transition (2000-2009),South Asian Pop,tradition,low,1
 nemesis,Nemesis,Alternative/Indie,1999,Metal & cassette era (1985-1999),Unspecified In Available Sources,tradition,hypothesized,1
 nova,Nova,Mainstream Rock,1986,Metal & cassette era (1985-1999),Pink Floyd,global_artist,high,1
 nova,Nova,Mainstream Rock,1986,Metal & cassette era (1985-1999),Queen,global_artist,high,1
@@ -137,7 +137,7 @@ rockstrata,Rockstrata,Heavy Metal,1991,Metal & cassette era (1985-1999),Black Sa
 rockstrata,Rockstrata,Heavy Metal,1991,Metal & cassette era (1985-1999),Motörhead,global_artist,low,1
 severe-dementia,Severe Dementia,Heavy Metal,2004,Digital transition (2000-2009),International Brutal,tradition,medium,1
 severe-dementia,Severe Dementia,Heavy Metal,2004,Digital transition (2000-2009),Technical Death Metal,tradition,medium,1
-shezan,Shezan,Hip-Hop/Rap,2018,Streaming era (2010-),American Hip-Hop,global_artist,medium,1
+shezan,Shezan,Hip-Hop/Rap,2018,Streaming era (2010-),American Hip-Hop,tradition,medium,1
 shironamhin,Shironamhin,Alternative/Indie,1996,Metal & cassette era (1985-1999),Psychedelic,tradition,medium,1
 shironamhin,Shironamhin,Alternative/Indie,1996,Metal & cassette era (1985-1999),Progressive Rock Traditions,tradition,medium,1
 shonar-bangla-circus,Shonar Bangla Circus,Alternative/Indie,2018,Streaming era (2010-),Surreal Literature,tradition,low,1
@@ -148,12 +148,12 @@ shunno,Shunno,Alternative/Indie,2007,Digital transition (2000-2009),Soft Rock Tr
 souls,Souls,Mainstream Rock,1972,Founding era (pre-1985),Western Rock,tradition,medium,1
 souls,Souls,Mainstream Rock,1972,Founding era (pre-1985),Pop Cover Circuit,tradition,medium,1
 stentorian,Stentorian,Heavy Metal,2001,Digital transition (2000-2009),Multi-subgenre Metal Traditions,tradition,low,1
-stoic-bliss,Stoic Bliss,Hip-Hop/Rap,2004,Digital transition (2000-2009),American Hip-Hop,global_artist,high,1
-tahsan,Tahsan Rahman Khan,Pop,2004,Digital transition (2000-2009),Grunge,global_artist,medium,1
-tahsan,Tahsan Rahman Khan,Pop,2004,Digital transition (2000-2009),Alternative Rock,global_artist,medium,1
+stoic-bliss,Stoic Bliss,Hip-Hop/Rap,2004,Digital transition (2000-2009),American Hip-Hop,tradition,high,1
+tahsan,Tahsan Rahman Khan,Pop,2004,Digital transition (2000-2009),Grunge,tradition,medium,1
+tahsan,Tahsan Rahman Khan,Pop,2004,Digital transition (2000-2009),Alternative Rock,tradition,medium,1
 theology-of-rap,Theology of Rap,Hip-Hop/Rap,2005,Digital transition (2000-2009),American Hip-Hop,tradition,low,1
 trainwreck,Trainwreck,Heavy Metal,2007,Digital transition (2000-2009),Lamb Of God,global_artist,high,1
-uptown-lokolz,Uptown Lokolz,Hip-Hop/Rap,2005,Digital transition (2000-2009),American Hip-Hop,global_artist,high,1
+uptown-lokolz,Uptown Lokolz,Hip-Hop/Rap,2005,Digital transition (2000-2009),American Hip-Hop,tradition,high,1
 vibe,Vibe,Heavy Metal,2001,Digital transition (2000-2009),Contemporaneous Bangladeshi Heavy Metal,tradition,medium,1
 vibe,Vibe,Heavy Metal,2001,Digital transition (2000-2009),Alternative Peers,tradition,medium,1
 vikings,Vikings,Mainstream Rock,1997,Metal & cassette era (1985-1999),Western Hard Rock Traditions,tradition,low,1
@@ -164,8 +164,8 @@ warfaze,Warfaze,Heavy Metal,1984,Founding era (pre-1985),Dokken,global_artist,hi
 warfaze,Warfaze,Heavy Metal,1984,Founding era (pre-1985),Guns N' Roses,global_artist,high,1
 warfaze,Warfaze,Heavy Metal,1984,Founding era (pre-1985),Scorpions,global_artist,high,1
 warfaze,Warfaze,Heavy Metal,1984,Founding era (pre-1985),Metallica,global_artist,medium,1
-warfaze,Warfaze,Heavy Metal,1984,Founding era (pre-1985),Broader Thrash & Classic Metal,global_artist,medium,1
-winning,Winning,Mainstream Rock,1983,Founding era (pre-1985),Azam Khan's Band Lineage,global_artist,medium,1
+warfaze,Warfaze,Heavy Metal,1984,Founding era (pre-1985),Broader Thrash & Classic Metal,tradition,medium,1
+winning,Winning,Mainstream Rock,1983,Founding era (pre-1985),Azam Khan's Band Lineage,tradition,medium,1
 winning,Winning,Mainstream Rock,1983,Founding era (pre-1985),Heavy Melody-influenced Rock,tradition,low,1
 yaatri,Yaatri,Alternative/Indie,2004,Digital transition (2000-2009),Mellow,tradition,low,1
 yaatri,Yaatri,Alternative/Indie,2004,Digital transition (2000-2009),Soft Rock Traditions,tradition,low,1

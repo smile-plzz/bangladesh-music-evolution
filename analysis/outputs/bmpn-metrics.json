@@ -581,56 +581,57 @@
           "weighted_degree": 2.0
         }
       ],
+      "eigenvector_status": "computed on the largest component (36 of 63 nodes); None elsewhere",
       "top_eigenvector": [
         {
-          "id": "arbovirus",
-          "name": "Arbovirus",
-          "eigenvector": 0.0
-        },
-        {
-          "id": "arekta-rock-band",
-          "name": "Arekta Rock Band",
-          "eigenvector": 0.0
-        },
-        {
-          "id": "ark",
-          "name": "Ark",
-          "eigenvector": 0.0
-        },
-        {
-          "id": "arnob",
-          "name": "Shayan Chowdhury Arnob",
-          "eigenvector": 0.0
+          "id": "cryptic-fate",
+          "name": "Cryptic Fate",
+          "eigenvector": 0.4088
         },
         {
           "id": "artcell",
           "name": "Artcell",
-          "eigenvector": 0.0
+          "eigenvector": 0.3883
         },
         {
-          "id": "ashes",
-          "name": "Ashes",
-          "eigenvector": 0.0
+          "id": "nemesis",
+          "name": "Nemesis",
+          "eigenvector": 0.3639
         },
         {
-          "id": "ashraf-babu-charu",
-          "name": "Ashraf Babu & Charu",
-          "eigenvector": 0.0
+          "id": "warfaze",
+          "name": "Warfaze",
+          "eigenvector": 0.3489
         },
         {
-          "id": "aurthohin",
-          "name": "Aurthohin",
-          "eigenvector": 0.0
+          "id": "chirkutt",
+          "name": "Chirkutt",
+          "eigenvector": 0.3144
         },
         {
-          "id": "avoidrafa",
-          "name": "AvoidRafa",
-          "eigenvector": 0.0
+          "id": "lalon-band",
+          "name": "Lalon (Lalon Band)",
+          "eigenvector": 0.3144
         },
         {
-          "id": "azam-khan-uchcharon",
-          "name": "Azam Khan & Uchcharon",
-          "eigenvector": 0.0
+          "id": "arbovirus",
+          "name": "Arbovirus",
+          "eigenvector": 0.2381
+        },
+        {
+          "id": "shunno",
+          "name": "Shunno",
+          "eigenvector": 0.2381
+        },
+        {
+          "id": "arekta-rock-band",
+          "name": "Arekta Rock Band",
+          "eigenvector": 0.1469
+        },
+        {
+          "id": "powersurge",
+          "name": "Powersurge",
+          "eigenvector": 0.1355
         }
       ]
     },
@@ -645,24 +646,25 @@
       "node_count": 63,
       "edge_count": 178,
       "density": 0.0911,
-      "isolated_nodes": 16,
-      "component_count": 20,
+      "isolated_nodes": 19,
+      "component_count": 22,
       "largest_component_size": 40,
       "largest_component_share": 0.635,
       "average_degree": 5.65,
-      "louvain_modularity": 0.4362,
-      "community_count": 24,
-      "nontrivial_community_count": 6,
-      "singleton_community_count": 16,
-      "strand_assortativity": 0.115,
+      "louvain_modularity": 0.4166,
+      "community_count": 26,
+      "nontrivial_community_count": 5,
+      "singleton_community_count": 19,
+      "strand_assortativity": 0.1058,
       "communities": [
         {
           "community_id": 0,
-          "size": 14,
+          "size": 15,
           "members": [
             "arbovirus",
             "arekta-rock-band",
             "ashes",
+            "aurthohin",
             "avoidrafa",
             "bay-of-bengal",
             "chirkutt",
@@ -677,25 +679,24 @@
           ],
           "dominant_strand": "Alternative/Indie",
           "strand_mix": {
-            "Alternative/Indie": 8,
+            "Alternative/Indie": 9,
             "Folk & Folk Fusion": 3,
             "Mainstream Rock": 1,
             "Heavy Metal": 1,
             "Pop": 1
           },
-          "internal_edges": 64,
-          "internal_density": 0.7033
+          "internal_edges": 65,
+          "internal_density": 0.619
         },
         {
           "community_id": 1,
-          "size": 12,
+          "size": 11,
           "members": [
             "artcell",
             "de-illumination",
-            "feedback",
             "karnival",
+            "mechanix",
             "metal-maze",
-            "nova",
             "poizon-green",
             "powersurge",
             "rockstrata",
@@ -705,34 +706,31 @@
           ],
           "dominant_strand": "Heavy Metal",
           "strand_mix": {
-            "Heavy Metal": 8,
-            "Progressive Rock/Metal": 2,
-            "Mainstream Rock": 2
+            "Heavy Metal": 9,
+            "Progressive Rock/Metal": 2
           },
           "internal_edges": 30,
-          "internal_density": 0.4545
+          "internal_density": 0.5455
         },
         {
           "community_id": 2,
           "size": 7,
           "members": [
-            "aurthohin",
+            "feedback",
             "james-nagar-baul",
             "lrb",
             "maqsood-o-dhaka",
-            "mechanix",
+            "nova",
             "renaissance",
             "souls"
           ],
           "dominant_strand": "Mainstream Rock",
           "strand_mix": {
-            "Mainstream Rock": 4,
-            "Alternative/Indie": 1,
-            "Folk & Folk Fusion": 1,
-            "Heavy Metal": 1
+            "Mainstream Rock": 6,
+            "Folk & Folk Fusion": 1
           },
-          "internal_edges": 8,
-          "internal_density": 0.381
+          "internal_edges": 7,
+          "internal_density": 0.3333
         },
         {
           "community_id": 3,
@@ -769,21 +767,6 @@
         },
         {
           "community_id": 5,
-          "size": 3,
-          "members": [
-            "shezan",
-            "stoic-bliss",
-            "uptown-lokolz"
-          ],
-          "dominant_strand": "Hip-Hop/Rap",
-          "strand_mix": {
-            "Hip-Hop/Rap": 3
-          },
-          "internal_edges": 3,
-          "internal_density": 1.0
-        },
-        {
-          "community_id": 6,
           "size": 2,
           "members": [
             "habib-wahid",
@@ -797,7 +780,7 @@
           "internal_density": 1.0
         },
         {
-          "community_id": 7,
+          "community_id": 6,
           "size": 2,
           "members": [
             "stentorian",
@@ -812,7 +795,7 @@
           "internal_density": 1.0
         },
         {
-          "community_id": 8,
+          "community_id": 7,
           "size": 1,
           "members": [
             "ark"
@@ -825,7 +808,7 @@
           "internal_density": 0.0
         },
         {
-          "community_id": 9,
+          "community_id": 8,
           "size": 1,
           "members": [
             "arnob"
@@ -838,7 +821,7 @@
           "internal_density": 0.0
         },
         {
-          "community_id": 10,
+          "community_id": 9,
           "size": 1,
           "members": [
             "ashraf-babu-charu"
@@ -851,7 +834,7 @@
           "internal_density": 0.0
         },
         {
-          "community_id": 11,
+          "community_id": 10,
           "size": 1,
           "members": [
             "azam-khan-uchcharon"
@@ -864,7 +847,7 @@
           "internal_density": 0.0
         },
         {
-          "community_id": 12,
+          "community_id": 11,
           "size": 1,
           "members": [
             "deshi-mcs"
@@ -877,7 +860,7 @@
           "internal_density": 0.0
         },
         {
-          "community_id": 13,
+          "community_id": 12,
           "size": 1,
           "members": [
             "hannan"
@@ -890,7 +873,7 @@
           "internal_density": 0.0
         },
         {
-          "community_id": 14,
+          "community_id": 13,
           "size": 1,
           "members": [
             "imran-mahmudul"
@@ -903,7 +886,7 @@
           "internal_density": 0.0
         },
         {
-          "community_id": 15,
+          "community_id": 14,
           "size": 1,
           "members": [
             "jalali-set"
@@ -916,7 +899,7 @@
           "internal_density": 0.0
         },
         {
-          "community_id": 16,
+          "community_id": 15,
           "size": 1,
           "members": [
             "kona"
@@ -929,7 +912,7 @@
           "internal_density": 0.0
         },
         {
-          "community_id": 17,
+          "community_id": 16,
           "size": 1,
           "members": [
             "miles"
@@ -942,7 +925,7 @@
           "internal_density": 0.0
         },
         {
-          "community_id": 18,
+          "community_id": 17,
           "size": 1,
           "members": [
             "nancy"
@@ -955,7 +938,7 @@
           "internal_density": 0.0
         },
         {
-          "community_id": 19,
+          "community_id": 18,
           "size": 1,
           "members": [
             "prometheus"
@@ -963,6 +946,19 @@
           "dominant_strand": "Mainstream Rock",
           "strand_mix": {
             "Mainstream Rock": 1
+          },
+          "internal_edges": 0,
+          "internal_density": 0.0
+        },
+        {
+          "community_id": 19,
+          "size": 1,
+          "members": [
+            "shezan"
+          ],
+          "dominant_strand": "Hip-Hop/Rap",
+          "strand_mix": {
+            "Hip-Hop/Rap": 1
           },
           "internal_edges": 0,
           "internal_density": 0.0
@@ -997,7 +993,7 @@
           "community_id": 22,
           "size": 1,
           "members": [
-            "theology-of-rap"
+            "stoic-bliss"
           ],
           "dominant_strand": "Hip-Hop/Rap",
           "strand_mix": {
@@ -1008,6 +1004,32 @@
         },
         {
           "community_id": 23,
+          "size": 1,
+          "members": [
+            "theology-of-rap"
+          ],
+          "dominant_strand": "Hip-Hop/Rap",
+          "strand_mix": {
+            "Hip-Hop/Rap": 1
+          },
+          "internal_edges": 0,
+          "internal_density": 0.0
+        },
+        {
+          "community_id": 24,
+          "size": 1,
+          "members": [
+            "uptown-lokolz"
+          ],
+          "dominant_strand": "Hip-Hop/Rap",
+          "strand_mix": {
+            "Hip-Hop/Rap": 1
+          },
+          "internal_edges": 0,
+          "internal_density": 0.0
+        },
+        {
+          "community_id": 25,
           "size": 1,
           "members": [
             "vibe"
@@ -1025,7 +1047,7 @@
           "id": "nova",
           "name": "Nova",
           "degree": 7,
-          "betweenness": 0.0491,
+          "betweenness": 0.0488,
           "bridge_score": 0.007
         },
         {
@@ -1039,29 +1061,29 @@
           "id": "renaissance",
           "name": "Renaissance",
           "degree": 5,
-          "betweenness": 0.0251,
-          "bridge_score": 0.005
+          "betweenness": 0.0254,
+          "bridge_score": 0.0051
         },
         {
           "id": "james-nagar-baul",
           "name": "James (Nagar Baul)",
           "degree": 3,
-          "betweenness": 0.0137,
-          "bridge_score": 0.0046
+          "betweenness": 0.0134,
+          "bridge_score": 0.0045
         },
         {
           "id": "karnival",
           "name": "Karnival",
           "degree": 18,
-          "betweenness": 0.0783,
-          "bridge_score": 0.0043
+          "betweenness": 0.0751,
+          "bridge_score": 0.0042
         },
         {
           "id": "powersurge",
           "name": "Powersurge",
-          "degree": 17,
-          "betweenness": 0.0594,
-          "bridge_score": 0.0035
+          "degree": 18,
+          "betweenness": 0.0612,
+          "bridge_score": 0.0034
         },
         {
           "id": "souls",
@@ -1074,15 +1096,15 @@
           "id": "nemesis",
           "name": "Nemesis",
           "degree": 22,
-          "betweenness": 0.0677,
-          "bridge_score": 0.0031
+          "betweenness": 0.0665,
+          "bridge_score": 0.003
         },
         {
           "id": "warfaze",
           "name": "Warfaze",
           "degree": 16,
-          "betweenness": 0.0326,
-          "bridge_score": 0.002
+          "betweenness": 0.0293,
+          "bridge_score": 0.0018
         },
         {
           "id": "conclusion",
@@ -1109,7 +1131,7 @@
           "id": "artcell",
           "name": "Artcell",
           "degree": 18,
-          "weighted_degree": 14.0
+          "weighted_degree": 14.5
         },
         {
           "id": "chirkutt",
@@ -1121,7 +1143,7 @@
           "id": "karnival",
           "name": "Karnival",
           "degree": 18,
-          "weighted_degree": 10.5
+          "weighted_degree": 11.0
         },
         {
           "id": "lalon-band",
@@ -1132,8 +1154,8 @@
         {
           "id": "powersurge",
           "name": "Powersurge",
-          "degree": 17,
-          "weighted_degree": 12.0
+          "degree": 18,
+          "weighted_degree": 13.0
         },
         {
           "id": "arbovirus",
@@ -1151,59 +1173,60 @@
           "id": "warfaze",
           "name": "Warfaze",
           "degree": 16,
-          "weighted_degree": 11.0
+          "weighted_degree": 11.5
         }
       ],
+      "eigenvector_status": "computed on the largest component (40 of 63 nodes); None elsewhere",
       "top_eigenvector": [
-        {
-          "id": "arbovirus",
-          "name": "Arbovirus",
-          "eigenvector": 0.0
-        },
-        {
-          "id": "arekta-rock-band",
-          "name": "Arekta Rock Band",
-          "eigenvector": 0.0
-        },
-        {
-          "id": "ark",
-          "name": "Ark",
-          "eigenvector": 0.0
-        },
-        {
-          "id": "arnob",
-          "name": "Shayan Chowdhury Arnob",
-          "eigenvector": 0.0
-        },
         {
           "id": "artcell",
           "name": "Artcell",
-          "eigenvector": 0.0
+          "eigenvector": 0.4514
         },
         {
-          "id": "ashes",
-          "name": "Ashes",
-          "eigenvector": 0.0
+          "id": "warfaze",
+          "name": "Warfaze",
+          "eigenvector": 0.3784
         },
         {
-          "id": "ashraf-babu-charu",
-          "name": "Ashraf Babu & Charu",
-          "eigenvector": 0.0
+          "id": "powersurge",
+          "name": "Powersurge",
+          "eigenvector": 0.3707
         },
         {
-          "id": "aurthohin",
-          "name": "Aurthohin",
-          "eigenvector": 0.0
+          "id": "rockstrata",
+          "name": "Rockstrata",
+          "eigenvector": 0.3052
         },
         {
-          "id": "avoidrafa",
-          "name": "AvoidRafa",
-          "eigenvector": 0.0
+          "id": "karnival",
+          "name": "Karnival",
+          "eigenvector": 0.2621
         },
         {
-          "id": "azam-khan-uchcharon",
-          "name": "Azam Khan & Uchcharon",
-          "eigenvector": 0.0
+          "id": "poizon-green",
+          "name": "Poizon Green",
+          "eigenvector": 0.2486
+        },
+        {
+          "id": "mechanix",
+          "name": "Mechanix",
+          "eigenvector": 0.2485
+        },
+        {
+          "id": "cryptic-fate",
+          "name": "Cryptic Fate",
+          "eigenvector": 0.2256
+        },
+        {
+          "id": "metal-maze",
+          "name": "Metal Maze",
+          "eigenvector": 0.2165
+        },
+        {
+          "id": "nemesis",
+          "name": "Nemesis",
+          "eigenvector": 0.1695
         }
       ]
     },
@@ -1937,56 +1960,57 @@
           "weighted_degree": 7.0
         }
       ],
+      "eigenvector_status": "computed on the largest component (24 of 63 nodes); None elsewhere",
       "top_eigenvector": [
         {
-          "id": "arbovirus",
-          "name": "Arbovirus",
-          "eigenvector": 0.0
-        },
-        {
-          "id": "arekta-rock-band",
-          "name": "Arekta Rock Band",
-          "eigenvector": 0.0
-        },
-        {
-          "id": "ark",
-          "name": "Ark",
-          "eigenvector": 0.0
-        },
-        {
-          "id": "arnob",
-          "name": "Shayan Chowdhury Arnob",
-          "eigenvector": 0.0
+          "id": "cryptic-fate",
+          "name": "Cryptic Fate",
+          "eigenvector": 0.4209
         },
         {
           "id": "artcell",
           "name": "Artcell",
-          "eigenvector": 0.0
+          "eigenvector": 0.4025
         },
         {
-          "id": "ashes",
-          "name": "Ashes",
-          "eigenvector": 0.0
+          "id": "warfaze",
+          "name": "Warfaze",
+          "eigenvector": 0.3636
         },
         {
-          "id": "ashraf-babu-charu",
-          "name": "Ashraf Babu & Charu",
-          "eigenvector": 0.0
+          "id": "nemesis",
+          "name": "Nemesis",
+          "eigenvector": 0.3414
         },
         {
-          "id": "aurthohin",
-          "name": "Aurthohin",
-          "eigenvector": 0.0
+          "id": "chirkutt",
+          "name": "Chirkutt",
+          "eigenvector": 0.3211
+        },
+        {
+          "id": "lalon-band",
+          "name": "Lalon (Lalon Band)",
+          "eigenvector": 0.3211
+        },
+        {
+          "id": "arbovirus",
+          "name": "Arbovirus",
+          "eigenvector": 0.2448
+        },
+        {
+          "id": "shunno",
+          "name": "Shunno",
+          "eigenvector": 0.2448
         },
         {
           "id": "avoidrafa",
           "name": "AvoidRafa",
-          "eigenvector": 0.0
+          "eigenvector": 0.1273
         },
         {
-          "id": "azam-khan-uchcharon",
-          "name": "Azam Khan & Uchcharon",
-          "eigenvector": 0.0
+          "id": "powersurge",
+          "name": "Powersurge",
+          "eigenvector": 0.126
         }
       ]
     }

@@ -109,6 +109,11 @@ def influence_edges(artists):
         for alias in (a.get("also_known_as") or []):
             name_to_id[alias.strip().lower()] = aid
 
+    # Same corpus-wide kind resolution the influence analysis uses, so the
+    # homophily layer and the influence cross-tabs agree on what counts as a
+    # named global act.
+    token_kind = common.resolve_token_kinds(artists)
+
     global_tokens = defaultdict(set)   # canonical global act -> {artist ids}
     dom_weights = defaultdict(int)
     dom_evidence = defaultdict(list)
@@ -116,8 +121,10 @@ def influence_edges(artists):
 
     for aid, a in artists.items():
         for infl in (a.get("global_influences") or []):
-            for tok, kind in common.split_influence(infl.get("artist_or_genre")):
+            for tok, _raw_kind in common.split_influence(
+                    infl.get("artist_or_genre")):
                 canon = common.canonical_influence(tok)
+                kind = token_kind[canon]
                 low = canon.lower()
                 target = name_to_id.get(low)
                 if target and target != aid:

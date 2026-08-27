@@ -1,11 +1,11 @@
 {
   "generated": "2026-08-27",
-  "method_note": "Free-text influence citations were split on '/' and ',', stripped of parentheticals, and classified as a named global act, a generic tradition label, or a domestic (catalogued) act. Counts are of citations in the catalogue, so an influence's rank reflects how often acts in this sample name it -- not its measured effect on the music.",
+  "method_note": "Free-text influence citations were split on '/' and ',', stripped of parentheticals, and classified as a named global act, a generic tradition label, or a domestic (catalogued) act. Each canonical token's kind is resolved once over the whole corpus (see common.resolve_token_kinds), so an influence cannot count as a named act in one cross-tab and a tradition in another. Ranks count DISTINCT CITING ACTS, not citation rows, so an influence's rank reflects how many acts in this sample name it -- not its measured effect on the music.",
   "artists_analysed": 63,
   "raw_citation_entries": 83,
   "normalised_citations": 170,
-  "distinct_named_global_influences": 55,
-  "distinct_tradition_labels": 70,
+  "distinct_named_global_influences": 46,
+  "distinct_tradition_labels": 73,
   "evidence_quality": {
     "citations_with_named_source": 83,
     "source_rate": 1.0,
@@ -17,48 +17,48 @@
     }
   },
   "top_named_global_influences": {
-    "Metallica": 5,
+    "Metallica": 6,
+    "Megadeth": 5,
     "Pink Floyd": 4,
-    "Megadeth": 4,
     "Sepultura": 3,
     "Pantera": 3,
     "Alice In Chains": 3,
     "Motörhead": 3,
     "Deep Purple": 3,
     "Iron Maiden": 3,
-    "American Hip-Hop": 3,
     "Dream Theater": 2,
     "Nirvana": 2,
     "Soundgarden": 2,
     "The Doors": 2,
     "Black Sabbath": 2,
     "Lamb Of God": 2,
-    "Jazz": 1,
-    "Blues": 1,
-    "Western Rock": 1,
     "Opeth": 1,
     "Tupac": 1,
     "Biggie": 1,
     "Eminem": 1,
     "Big L": 1,
-    "Contemporary Asian Pop": 1
+    "Karsh Kale": 1,
+    "Pearl Jam": 1,
+    "Stone Temple Pilots": 1,
+    "Eric Clapton": 1,
+    "Led Zeppelin": 1
   },
   "top_tradition_labels": {
-    "American Hip-Hop": 3,
+    "American Hip-Hop": 6,
+    "Jazz": 3,
+    "Grunge": 2,
     "Western Hard Rock Traditions": 2,
+    "Western Rock": 2,
     "Funk": 2,
     "Western Pop": 2,
     "Western Pop Rock": 2,
     "Blues Rock": 2,
-    "Jazz": 2,
     "Reggae": 2,
     "Blues Traditions": 2,
     "Unspecified In Available Sources": 2,
     "Psychedelic": 2,
     "Progressive Rock Traditions": 2,
-    "Soft Rock Traditions": 2,
-    "Nu Metal": 1,
-    "Grunge": 1
+    "Soft Rock Traditions": 2
   },
   "named_influences_by_strand": {
     "Alternative/Indie": {
@@ -71,14 +71,9 @@
       "Slipknot": 1,
       "Queens of the Stone Age": 1
     },
-    "Folk & Folk Fusion": {
-      "Jazz": 1,
-      "Blues": 1,
-      "Western Rock": 1
-    },
     "Heavy Metal": {
-      "Metallica": 4,
-      "Megadeth": 3,
+      "Metallica": 5,
+      "Megadeth": 4,
       "Iron Maiden": 3,
       "Pantera": 2,
       "Black Sabbath": 2,
@@ -87,7 +82,6 @@
       "Lamb Of God": 2
     },
     "Hip-Hop/Rap": {
-      "American Hip-Hop": 3,
       "Tupac": 1,
       "Biggie": 1,
       "Eminem": 1,
@@ -100,15 +94,10 @@
       "Mark Knopfler": 1,
       "Pink Floyd": 1,
       "Queen": 1,
-      "Deep Purple": 1,
-      "Azam Khan's Band Lineage": 1
+      "Deep Purple": 1
     },
     "Pop": {
-      "Contemporary Asian Pop": 1,
-      "Contemporary Indian": 1,
-      "South Asian Pop": 1,
-      "Grunge": 1,
-      "Alternative Rock": 1
+      "Karsh Kale": 1
     },
     "Progressive Rock/Metal": {
       "Pink Floyd": 2,
@@ -123,7 +112,7 @@
   },
   "named_influences_by_formation_era": {
     "Founding era (pre-1985)": {
-      "citations": 13,
+      "citing_acts": 2,
       "top": {
         "Eric Clapton": 1,
         "Led Zeppelin": 1,
@@ -136,7 +125,7 @@
       }
     },
     "Metal & cassette era (1985-1999)": {
-      "citations": 33,
+      "citing_acts": 6,
       "top": {
         "Metallica": 3,
         "Pantera": 3,
@@ -149,12 +138,12 @@
       }
     },
     "Digital transition (2000-2009)": {
-      "citations": 34,
+      "citing_acts": 7,
       "top": {
+        "Megadeth": 3,
         "Pink Floyd": 2,
-        "Megadeth": 2,
+        "Metallica": 2,
         "Lamb Of God": 2,
-        "American Hip-Hop": 2,
         "Tupac": 1,
         "Biggie": 1,
         "Eminem": 1,
@@ -162,13 +151,12 @@
       }
     },
     "Streaming era (2010-)": {
-      "citations": 5,
+      "citing_acts": 1,
       "top": {
         "Pearl Jam": 1,
         "Alice In Chains": 1,
         "Soundgarden": 1,
-        "Stone Temple Pilots": 1,
-        "American Hip-Hop": 1
+        "Stone Temple Pilots": 1
       }
     }
   },
@@ -193,13 +181,6 @@
         "Progressive Rock/Metal": 2,
         "Mainstream Rock": 1,
         "Heavy Metal": 1
-      }
-    },
-    "Jazz": {
-      "citing_acts": 3,
-      "strands": {
-        "Folk & Folk Fusion": 2,
-        "Mainstream Rock": 1
       }
     },
     "Sepultura": {
@@ -237,13 +218,6 @@
         "Mainstream Rock": 1
       }
     },
-    "Western Rock": {
-      "citing_acts": 2,
-      "strands": {
-        "Mainstream Rock": 1,
-        "Folk & Folk Fusion": 1
-      }
-    },
     "Dream Theater": {
       "citing_acts": 2,
       "strands": {
@@ -254,8 +228,8 @@
     "Nirvana": {
       "citing_acts": 2,
       "strands": {
-        "Progressive Rock/Metal": 1,
-        "Alternative/Indie": 1
+        "Alternative/Indie": 1,
+        "Progressive Rock/Metal": 1
       }
     }
   },

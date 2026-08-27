@@ -125,16 +125,21 @@ influence per strand:
 
 | Strand | Top citations |
 |---|---|
-| Heavy Metal | Metallica (4), Megadeth (3), Iron Maiden (3) |
+| Heavy Metal | Metallica (5), Megadeth (4), Iron Maiden (3) |
 | Progressive Rock/Metal | Pink Floyd (2), Dream Theater, Opeth, Radiohead, The Beatles |
 | Alternative/Indie | Alice in Chains (2), Soundgarden (2), Nirvana, Pearl Jam |
 | Mainstream Rock | The Doors (2), Led Zeppelin, Deep Purple, Queen, Clapton, Knopfler |
-| Hip-Hop/Rap | American hip-hop as a tradition (3), Tupac, Biggie, Eminem, Big L |
-| Pop | Contemporary Asian pop, Indian/South Asian pop (traditions, not acts) |
-| Folk & Folk Fusion | Jazz, blues, Western rock (traditions, not acts) |
+| Hip-Hop/Rap | Tupac, Biggie, Eminem, Big L (1 each); American hip-hop as a tradition (3) |
+| Pop | Karsh Kale (1) and otherwise traditions — contemporary Asian, Indian, South Asian pop |
+| Folk & Folk Fusion | **no named acts at all** — jazz, blues, Western rock, world music, as traditions |
+
+Counts are of distinct citing acts. Token kinds are resolved once across the
+whole corpus, so an influence cannot rank as a named act in one table and a
+tradition in another.
 
 **The naming pattern is itself the finding.** Metal and progressive acts name
-specific bands; pop and folk acts name traditions. Two explanations, and this
+specific bands. Pop names exactly one act across seven bands, and folk names
+none at all. Two explanations, and this
 catalogue cannot separate them: either technical genres transmit through
 identifiable models while pop and folk transmit through diffuse convention, or
 metal and progressive musicians are simply interviewed about their influences
@@ -142,7 +147,7 @@ more often. The second is likely to be at least partly true, since the metal
 scene has an academic literature (Quader & Redden 2015; Quader 2016) and the
 pop strand does not.
 
-Only eight influences are cited across more than one strand. Metallica (6 acts),
+Ten influences are cited across more than one strand. Metallica (6 acts),
 Megadeth (5) and Pink Floyd (4) are the scene-wide vectors; Pink Floyd is the
 only one reaching three different strands.
 

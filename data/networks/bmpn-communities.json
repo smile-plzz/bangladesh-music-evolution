@@ -431,15 +431,16 @@
     ]
   },
   "full": {
-    "modularity": 0.4362,
+    "modularity": 0.4166,
     "communities": [
       {
         "community_id": 0,
-        "size": 14,
+        "size": 15,
         "members": [
           "arbovirus",
           "arekta-rock-band",
           "ashes",
+          "aurthohin",
           "avoidrafa",
           "bay-of-bengal",
           "chirkutt",
@@ -454,25 +455,24 @@
         ],
         "dominant_strand": "Alternative/Indie",
         "strand_mix": {
-          "Alternative/Indie": 8,
+          "Alternative/Indie": 9,
           "Folk & Folk Fusion": 3,
           "Mainstream Rock": 1,
           "Heavy Metal": 1,
           "Pop": 1
         },
-        "internal_edges": 64,
-        "internal_density": 0.7033
+        "internal_edges": 65,
+        "internal_density": 0.619
       },
       {
         "community_id": 1,
-        "size": 12,
+        "size": 11,
         "members": [
           "artcell",
           "de-illumination",
-          "feedback",
           "karnival",
+          "mechanix",
           "metal-maze",
-          "nova",
           "poizon-green",
           "powersurge",
           "rockstrata",
@@ -482,34 +482,31 @@
         ],
         "dominant_strand": "Heavy Metal",
         "strand_mix": {
-          "Heavy Metal": 8,
-          "Progressive Rock/Metal": 2,
-          "Mainstream Rock": 2
+          "Heavy Metal": 9,
+          "Progressive Rock/Metal": 2
         },
         "internal_edges": 30,
-        "internal_density": 0.4545
+        "internal_density": 0.5455
       },
       {
         "community_id": 2,
         "size": 7,
         "members": [
-          "aurthohin",
+          "feedback",
           "james-nagar-baul",
           "lrb",
           "maqsood-o-dhaka",
-          "mechanix",
+          "nova",
           "renaissance",
           "souls"
         ],
         "dominant_strand": "Mainstream Rock",
         "strand_mix": {
-          "Mainstream Rock": 4,
-          "Alternative/Indie": 1,
-          "Folk & Folk Fusion": 1,
-          "Heavy Metal": 1
+          "Mainstream Rock": 6,
+          "Folk & Folk Fusion": 1
         },
-        "internal_edges": 8,
-        "internal_density": 0.381
+        "internal_edges": 7,
+        "internal_density": 0.3333
       },
       {
         "community_id": 3,
@@ -546,21 +543,6 @@
       },
       {
         "community_id": 5,
-        "size": 3,
-        "members": [
-          "shezan",
-          "stoic-bliss",
-          "uptown-lokolz"
-        ],
-        "dominant_strand": "Hip-Hop/Rap",
-        "strand_mix": {
-          "Hip-Hop/Rap": 3
-        },
-        "internal_edges": 3,
-        "internal_density": 1.0
-      },
-      {
-        "community_id": 6,
         "size": 2,
         "members": [
           "habib-wahid",
@@ -574,7 +556,7 @@
         "internal_density": 1.0
       },
       {
-        "community_id": 7,
+        "community_id": 6,
         "size": 2,
         "members": [
           "stentorian",
@@ -589,7 +571,7 @@
         "internal_density": 1.0
       },
       {
-        "community_id": 8,
+        "community_id": 7,
         "size": 1,
         "members": [
           "ark"
@@ -602,7 +584,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 9,
+        "community_id": 8,
         "size": 1,
         "members": [
           "arnob"
@@ -615,7 +597,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 10,
+        "community_id": 9,
         "size": 1,
         "members": [
           "ashraf-babu-charu"
@@ -628,7 +610,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 11,
+        "community_id": 10,
         "size": 1,
         "members": [
           "azam-khan-uchcharon"
@@ -641,7 +623,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 12,
+        "community_id": 11,
         "size": 1,
         "members": [
           "deshi-mcs"
@@ -654,7 +636,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 13,
+        "community_id": 12,
         "size": 1,
         "members": [
           "hannan"
@@ -667,7 +649,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 14,
+        "community_id": 13,
         "size": 1,
         "members": [
           "imran-mahmudul"
@@ -680,7 +662,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 15,
+        "community_id": 14,
         "size": 1,
         "members": [
           "jalali-set"
@@ -693,7 +675,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 16,
+        "community_id": 15,
         "size": 1,
         "members": [
           "kona"
@@ -706,7 +688,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 17,
+        "community_id": 16,
         "size": 1,
         "members": [
           "miles"
@@ -719,7 +701,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 18,
+        "community_id": 17,
         "size": 1,
         "members": [
           "nancy"
@@ -732,7 +714,7 @@
         "internal_density": 0.0
       },
       {
-        "community_id": 19,
+        "community_id": 18,
         "size": 1,
         "members": [
           "prometheus"
@@ -740,6 +722,19 @@
         "dominant_strand": "Mainstream Rock",
         "strand_mix": {
           "Mainstream Rock": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 19,
+        "size": 1,
+        "members": [
+          "shezan"
+        ],
+        "dominant_strand": "Hip-Hop/Rap",
+        "strand_mix": {
+          "Hip-Hop/Rap": 1
         },
         "internal_edges": 0,
         "internal_density": 0.0
@@ -774,7 +769,7 @@
         "community_id": 22,
         "size": 1,
         "members": [
-          "theology-of-rap"
+          "stoic-bliss"
         ],
         "dominant_strand": "Hip-Hop/Rap",
         "strand_mix": {
@@ -785,6 +780,32 @@
       },
       {
         "community_id": 23,
+        "size": 1,
+        "members": [
+          "theology-of-rap"
+        ],
+        "dominant_strand": "Hip-Hop/Rap",
+        "strand_mix": {
+          "Hip-Hop/Rap": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 24,
+        "size": 1,
+        "members": [
+          "uptown-lokolz"
+        ],
+        "dominant_strand": "Hip-Hop/Rap",
+        "strand_mix": {
+          "Hip-Hop/Rap": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 25,
         "size": 1,
         "members": [
           "vibe"

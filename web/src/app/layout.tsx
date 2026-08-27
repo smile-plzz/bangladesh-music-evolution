@@ -24,6 +24,7 @@ const NAV_LINKS = [
   { href: "/genres", label: "Genres" },
   { href: "/concerts", label: "Concerts" },
   { href: "/network", label: "Network" },
+  { href: "/findings", label: "Findings" },
 ];
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

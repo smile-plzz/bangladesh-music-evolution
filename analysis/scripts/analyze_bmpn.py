@@ -56,14 +56,32 @@ def build_graph(net, layers):
 
 
 def centralities(g):
+    """Degree, weighted degree, betweenness and eigenvector centrality.
+
+    Eigenvector centrality is only meaningful on a connected graph -- on a
+    disconnected one the power iteration converges to whichever component
+    happens to dominate and every other node reads as zero. It is therefore
+    computed on the largest connected component and reported as None elsewhere,
+    rather than filling the rest of the graph with a spurious 0.0.
+    """
     deg = dict(g.degree(weight="weight"))
     raw_deg = dict(g.degree())
     btw = nx.betweenness_centrality(g, weight=None, normalized=True)
-    try:
-        eig = nx.eigenvector_centrality_numpy(g, weight="weight")
-    except Exception:
-        eig = {n: 0.0 for n in g}
-    return raw_deg, deg, btw, eig
+
+    eig = {n: None for n in g}
+    eig_status = "not computed (no edges)"
+    if g.number_of_edges():
+        giant = max(nx.connected_components(g), key=len)
+        sub = g.subgraph(giant)
+        try:
+            vals = nx.eigenvector_centrality_numpy(sub, weight="weight")
+            eig.update({n: abs(v) for n, v in vals.items()})
+            eig_status = (f"computed on the largest component "
+                          f"({len(giant)} of {g.number_of_nodes()} nodes); "
+                          f"None elsewhere")
+        except Exception as exc:  # scipy missing, or convergence failure
+            eig_status = f"unavailable: {type(exc).__name__}: {exc}"
+    return raw_deg, deg, btw, eig, eig_status
 
 
 def detect_communities(g, node_strand):
@@ -93,7 +111,7 @@ def detect_communities(g, node_strand):
 def analyse(net, name, layers):
     g = build_graph(net, layers)
     node_strand = {n["id"]: n["strand"] for n in net["nodes"]}
-    raw_deg, wdeg, btw, eig = centralities(g)
+    raw_deg, wdeg, btw, eig, eig_status = centralities(g)
     components = sorted((sorted(c) for c in nx.connected_components(g)),
                         key=len, reverse=True)
     communities, modularity = detect_communities(g, node_strand)
@@ -140,9 +158,11 @@ def analyse(net, name, layers):
             ({"id": n, "name": g.nodes[n]["name"], "degree": raw_deg[n],
               "weighted_degree": round(wdeg[n], 2)} for n in g),
             key=lambda r: (-r["degree"], r["id"]))[:10],
+        "eigenvector_status": eig_status,
         "top_eigenvector": sorted(
             ({"id": n, "name": g.nodes[n]["name"],
-              "eigenvector": round(eig[n], 4)} for n in g),
+              "eigenvector": round(eig[n], 4)}
+             for n in g if eig[n] is not None),
             key=lambda r: -r["eigenvector"])[:10],
     }
     return g, metrics, raw_deg, wdeg, btw, eig
@@ -165,7 +185,8 @@ def main():
                     n, g.nodes[n]["name"], g.nodes[n]["strand"],
                     g.nodes[n].get("formed_year") or "",
                     raw_deg[n], round(wdeg[n], 3), round(btw[n], 5),
-                    round(eig[n], 5), comm_of.get(n, ""),
+                    "" if eig[n] is None else round(eig[n], 5),
+                    comm_of.get(n, ""),
                 ])
 
     summary = {

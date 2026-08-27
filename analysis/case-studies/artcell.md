@@ -45,7 +45,7 @@ semantic content is not imported at all.** Progressive metal supplies the
 grammar; Bangla poetic tradition supplies what is said.
 
 The influence analysis shows why this act matters structurally. Pink Floyd is
-one of only a handful of influences cited across three different BMEM strands
+the *only* influence in the catalogue cited across three different BMEM strands
 (`cross_strand_influences` in `analysis/outputs/influence-analysis.json`) —
 progressive, mainstream rock and heavy metal all claim it. Artcell sits at that
 intersection, which is consistent with its network position between the metal

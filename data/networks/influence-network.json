@@ -466,7 +466,7 @@
     {
       "id": "influence:Alternative Rock",
       "label": "Alternative Rock",
-      "kind": "global_artist",
+      "kind": "tradition",
       "citing_acts": 1
     },
     {
@@ -490,7 +490,7 @@
     {
       "id": "influence:Azam Khan's Band Lineage",
       "label": "Azam Khan's Band Lineage",
-      "kind": "global_artist",
+      "kind": "tradition",
       "citing_acts": 1
     },
     {
@@ -520,7 +520,7 @@
     {
       "id": "influence:Blues",
       "label": "Blues",
-      "kind": "global_artist",
+      "kind": "tradition",
       "citing_acts": 1
     },
     {
@@ -544,7 +544,7 @@
     {
       "id": "influence:Broader Thrash & Classic Metal",
       "label": "Broader Thrash & Classic Metal",
-      "kind": "global_artist",
+      "kind": "tradition",
       "citing_acts": 1
     },
     {
@@ -568,13 +568,13 @@
     {
       "id": "influence:Contemporary Asian Pop",
       "label": "Contemporary Asian Pop",
-      "kind": "global_artist",
+      "kind": "tradition",
       "citing_acts": 1
     },
     {
       "id": "influence:Contemporary Indian",
       "label": "Contemporary Indian",
-      "kind": "global_artist",
+      "kind": "tradition",
       "citing_acts": 1
     },
     {
@@ -748,7 +748,7 @@
     {
       "id": "influence:Jazz",
       "label": "Jazz",
-      "kind": "global_artist",
+      "kind": "tradition",
       "citing_acts": 3
     },
     {
@@ -766,13 +766,13 @@
     {
       "id": "influence:Judas Priest",
       "label": "Judas Priest",
-      "kind": "tradition",
+      "kind": "global_artist",
       "citing_acts": 1
     },
     {
       "id": "influence:Karsh Kale",
       "label": "Karsh Kale",
-      "kind": "tradition",
+      "kind": "global_artist",
       "citing_acts": 1
     },
     {
@@ -1030,7 +1030,7 @@
     {
       "id": "influence:South Asian Pop",
       "label": "South Asian Pop",
-      "kind": "global_artist",
+      "kind": "tradition",
       "citing_acts": 1
     },
     {
@@ -1150,7 +1150,7 @@
     {
       "id": "influence:Western Rock",
       "label": "Western Rock",
-      "kind": "global_artist",
+      "kind": "tradition",
       "citing_acts": 2
     },
     {

@@ -19,10 +19,10 @@
     "co_billing": 133,
     "personnel": 15,
     "domestic_influence": 5,
-    "influence_homophily": 33
+    "influence_homophily": 36
   },
   "observed_edge_count": 152,
-  "isolated_node_count": 16,
+  "isolated_node_count": 19,
   "isolated_under_observed_layers_only": 21,
   "nodes": [
     {
@@ -78,11 +78,7 @@
       "formed_year": 1998,
       "origin_city": "Dhaka",
       "event_count": 0,
-      "global_influence_tokens": [
-        "Blues",
-        "Jazz",
-        "Western Rock"
-      ]
+      "global_influence_tokens": []
     },
     {
       "id": "artcell",
@@ -317,7 +313,9 @@
       "formed_year": 2003,
       "origin_city": "Dhaka",
       "event_count": 0,
-      "global_influence_tokens": []
+      "global_influence_tokens": [
+        "Karsh Kale"
+      ]
     },
     {
       "id": "hannan",
@@ -344,9 +342,7 @@
       "formed_year": 2008,
       "origin_city": "Dhaka",
       "event_count": 0,
-      "global_influence_tokens": [
-        "Contemporary Asian Pop"
-      ]
+      "global_influence_tokens": []
     },
     {
       "id": "indalo",
@@ -490,7 +486,11 @@
       "formed_year": 2005,
       "origin_city": "Dhaka",
       "event_count": 3,
-      "global_influence_tokens": []
+      "global_influence_tokens": [
+        "Judas Priest",
+        "Megadeth",
+        "Metallica"
+      ]
     },
     {
       "id": "meghdol",
@@ -578,10 +578,7 @@
       "formed_year": 2002,
       "origin_city": "Netrakona",
       "event_count": 0,
-      "global_influence_tokens": [
-        "Contemporary Indian",
-        "South Asian Pop"
-      ]
+      "global_influence_tokens": []
     },
     {
       "id": "nemesis",
@@ -752,9 +749,7 @@
       "formed_year": 2018,
       "origin_city": "Narayanganj",
       "event_count": 0,
-      "global_influence_tokens": [
-        "American Hip-Hop"
-      ]
+      "global_influence_tokens": []
     },
     {
       "id": "shironamhin",
@@ -855,9 +850,7 @@
       "formed_year": 2004,
       "origin_city": "Queens, New York (diaspora origin; Bangladesh-focused output)",
       "event_count": 0,
-      "global_influence_tokens": [
-        "American Hip-Hop"
-      ]
+      "global_influence_tokens": []
     },
     {
       "id": "tahsan",
@@ -870,10 +863,7 @@
       "formed_year": 2004,
       "origin_city": "Dhaka",
       "event_count": 0,
-      "global_influence_tokens": [
-        "Alternative Rock",
-        "Grunge"
-      ]
+      "global_influence_tokens": []
     },
     {
       "id": "theology-of-rap",
@@ -914,9 +904,7 @@
       "formed_year": 2005,
       "origin_city": "Dhaka",
       "event_count": 0,
-      "global_influence_tokens": [
-        "American Hip-Hop"
-      ]
+      "global_influence_tokens": []
     },
     {
       "id": "vibe",
@@ -957,7 +945,6 @@
       "origin_city": "Dhaka",
       "event_count": 8,
       "global_influence_tokens": [
-        "Broader Thrash & Classic Metal",
         "Deep Purple",
         "Dokken",
         "Guns N' Roses",
@@ -977,9 +964,7 @@
       "formed_year": 1983,
       "origin_city": "Dhaka",
       "event_count": 0,
-      "global_influence_tokens": [
-        "Azam Khan's Band Lineage"
-      ]
+      "global_influence_tokens": []
     },
     {
       "id": "yaatri",
@@ -1628,7 +1613,7 @@
     {
       "source": "artcell",
       "target": "mechanix",
-      "combined_weight": 0.333,
+      "combined_weight": 0.833,
       "observed": true,
       "layers": {
         "co_billing": {
@@ -1638,6 +1623,13 @@
           ],
           "observed": true,
           "normalised_weight": 0.3333
+        },
+        "influence_homophily": {
+          "weight": 1,
+          "shared_influences": [
+            "Metallica"
+          ],
+          "observed": false
         }
       }
     },
@@ -3000,7 +2992,7 @@
     {
       "source": "karnival",
       "target": "mechanix",
-      "combined_weight": 0.5,
+      "combined_weight": 1.0,
       "observed": true,
       "layers": {
         "co_billing": {
@@ -3010,6 +3002,13 @@
           ],
           "observed": true,
           "normalised_weight": 0.5
+        },
+        "influence_homophily": {
+          "weight": 1,
+          "shared_influences": [
+            "Megadeth"
+          ],
+          "observed": false
         }
       }
     },
@@ -3352,6 +3351,22 @@
     },
     {
       "source": "mechanix",
+      "target": "metal-maze",
+      "combined_weight": 1.0,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 2,
+          "shared_influences": [
+            "Megadeth",
+            "Metallica"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "mechanix",
       "target": "nemesis",
       "combined_weight": 0.25,
       "observed": true,
@@ -3363,6 +3378,22 @@
           ],
           "observed": true,
           "normalised_weight": 0.25
+        }
+      }
+    },
+    {
+      "source": "mechanix",
+      "target": "powersurge",
+      "combined_weight": 1.0,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 2,
+          "shared_influences": [
+            "Megadeth",
+            "Metallica"
+          ],
+          "observed": false
         }
       }
     },
@@ -3384,8 +3415,24 @@
     },
     {
       "source": "mechanix",
+      "target": "rockstrata",
+      "combined_weight": 1.0,
+      "observed": false,
+      "layers": {
+        "influence_homophily": {
+          "weight": 2,
+          "shared_influences": [
+            "Megadeth",
+            "Metallica"
+          ],
+          "observed": false
+        }
+      }
+    },
+    {
+      "source": "mechanix",
       "target": "warfaze",
-      "combined_weight": 0.583,
+      "combined_weight": 1.083,
       "observed": true,
       "layers": {
         "co_billing": {
@@ -3396,6 +3443,13 @@
           ],
           "observed": true,
           "normalised_weight": 0.5833
+        },
+        "influence_homophily": {
+          "weight": 1,
+          "shared_influences": [
+            "Metallica"
+          ],
+          "observed": false
         }
       }
     },
@@ -3861,36 +3915,6 @@
       }
     },
     {
-      "source": "shezan",
-      "target": "stoic-bliss",
-      "combined_weight": 0.5,
-      "observed": false,
-      "layers": {
-        "influence_homophily": {
-          "weight": 1,
-          "shared_influences": [
-            "American Hip-Hop"
-          ],
-          "observed": false
-        }
-      }
-    },
-    {
-      "source": "shezan",
-      "target": "uptown-lokolz",
-      "combined_weight": 0.5,
-      "observed": false,
-      "layers": {
-        "influence_homophily": {
-          "weight": 1,
-          "shared_influences": [
-            "American Hip-Hop"
-          ],
-          "observed": false
-        }
-      }
-    },
-    {
       "source": "shironamhin",
       "target": "shunno",
       "combined_weight": 0.143,
@@ -3967,21 +3991,6 @@
             "Shams Alim Biswas"
           ],
           "observed": true
-        }
-      }
-    },
-    {
-      "source": "stoic-bliss",
-      "target": "uptown-lokolz",
-      "combined_weight": 0.5,
-      "observed": false,
-      "layers": {
-        "influence_homophily": {
-          "weight": 1,
-          "shared_influences": [
-            "American Hip-Hop"
-          ],
-          "observed": false
         }
       }
     },

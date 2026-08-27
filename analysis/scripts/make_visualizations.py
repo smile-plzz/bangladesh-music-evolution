@@ -263,7 +263,7 @@ def influence_figures():
         items = list(eras[era]["top"].items())[:6][::-1]
         ax.barh([i[0] for i in items], [i[1] for i in items],
                 color="#009E73", alpha=0.85, height=0.65)
-        ax.set_title(f"{era}\n({eras[era]['citations']} citations)",
+        ax.set_title(f"{era}\n({eras[era]['citing_acts']} acts citing)",
                      fontsize=8.5)
         ax.tick_params(labelsize=7)
         ax.grid(axis="y", visible=False)

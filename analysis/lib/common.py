@@ -142,10 +142,25 @@ def all_strands(genres):
 # and separate foreign acts from domestic (Bangladeshi) ones — a domestic
 # citation is evidence of internal scene transmission, not global influence.
 
-_GENERIC_MARKERS = (
+# Markers tested against the individual split part: they say that part names a
+# convention rather than an act.
+_PART_GENERIC_MARKERS = (
     "general", "tradition", "unspecified", "circuit", "scene", "production",
-    "instrumentation", "repertoire", "education", "comic book", "literary",
-    "contemporaneous", "multi-subgenre",
+    "instrumentation", "repertoire", "contemporaneous", "multi-subgenre",
+    "peers", "lineage",
+)
+
+# Markers tested against the whole raw citation: they say the citation names a
+# convention rather than an act, even where the split parts do not say so
+# themselves. "(general)" is the common case -- it annotates the citation, and
+# _clean_token strips parentheticals before the per-part test runs.
+_RAW_GENERIC_MARKERS = ("general", "unspecified")
+
+# Markers tested against the whole raw citation: they say the source being
+# named is not a musical act at all, so no part of it should count as one.
+_RAW_NONACT_MARKERS = (
+    "comic book", "literary", "literature", "education", "band name origin",
+    "video game", "screen",
 )
 
 DOMESTIC_ENTITIES = {
@@ -171,8 +186,15 @@ def split_influence(raw):
     """
     if not raw:
         return []
+    # Genericness is judged per split part, not across the whole string: in
+    # "Karsh Kale / British-Asian electronic music scene" the first part names
+    # an artist and the second names a convention, and judging the whole string
+    # made both tradition. Parentheticals are provenance annotations, not genre
+    # labels, so "(via early cover repertoire)" no longer turns the bands it
+    # annotates into traditions.
     lowered = raw.lower()
-    generic = any(m in lowered for m in _GENERIC_MARKERS)
+    nonact = (any(m in lowered for m in _RAW_NONACT_MARKERS)
+              or any(m in lowered for m in _RAW_GENERIC_MARKERS))
     body = _clean_token(raw)
     if not body:
         return []
@@ -185,11 +207,75 @@ def split_influence(raw):
         plow = part.lower()
         if plow in DOMESTIC_ENTITIES:
             out.append((part, "domestic_artist"))
-        elif generic or any(m in plow for m in _GENERIC_MARKERS):
+        elif nonact or any(m in plow for m in _PART_GENERIC_MARKERS):
             out.append((part.title() if part.islower() else part, "tradition"))
         else:
             out.append((part, "global_artist"))
     return out
+
+
+# Words that make a token a genre label rather than the name of an act. A token
+# built only from these (plus qualifiers and stopwords) is a tradition however
+# it was written -- "American Hip-Hop" and "Western Rock" are genres, not bands.
+_GENRE_WORDS = {
+    "rock", "metal", "pop", "jazz", "blues", "folk", "hip-hop", "hip", "hop",
+    "rap", "funk", "reggae", "soul", "electronic", "edm", "techno", "grunge",
+    "punk", "r&b", "indie", "alternative", "psychedelic", "progressive",
+    "thrash", "death", "symphonic", "classical", "world", "drill", "trap",
+    "fusion", "ballad", "country", "baul", "sufi", "qawwali",
+}
+_GENRE_QUALIFIERS = {
+    "american", "western", "contemporary", "south", "asian", "indian",
+    "british", "uk", "us", "modern", "global", "international", "european",
+    "african", "bangla", "bengali", "nu", "hard", "soft", "heavy",
+    "mainstream", "acoustic", "urban", "underground", "power", "speed",
+    "brutal", "technical", "groove", "melodic", "experimental", "post",
+    "traditions", "tradition", "music", "general", "scene", "production",
+    "broader", "classic", "mellow", "melody", "influenced", "protest",
+    "festival", "circuit", "band", "lineage", "and", "of", "the", "&", "/",
+    "-",
+}
+
+
+def _is_genre_label(token):
+    words = [w for w in re.split(r"[\s/&-]+", token.lower()) if w]
+    if not words:
+        return False
+    return all(w in _GENRE_WORDS or w in _GENRE_QUALIFIERS for w in words)
+
+
+def resolve_token_kinds(artists):
+    """Decide each canonical influence token's kind once, over the whole corpus.
+
+    ``split_influence`` classifies from the surrounding string, so the same act
+    can come out as a named artist in one citation and as a tradition in
+    another: "Metallica / Megadeth / Pantera" yields global_artist, while
+    "Megadeth / Metallica / Judas Priest (via early cover repertoire)" is marked
+    generic by the word "repertoire" and yields tradition for all three. That
+    produced two different counts for the same influence depending on which
+    cross-tab you read.
+
+    Resolution order: a token that reads as a pure genre label is a tradition
+    however it was written; otherwise a token is a named global artist if *any*
+    occurrence classifies it as one; otherwise it keeps the kind it was most
+    often given. Both consumers of the influence data use this map so the counts
+    agree.
+    """
+    from collections import Counter, defaultdict
+    seen = defaultdict(Counter)
+    for a in artists.values():
+        for infl in (a.get("global_influences") or []):
+            for tok, kind in split_influence(infl.get("artist_or_genre")):
+                seen[canonical_influence(tok)][kind] += 1
+    resolved = {}
+    for canon, kinds in seen.items():
+        if _is_genre_label(canon):
+            resolved[canon] = "tradition"
+        elif kinds.get("global_artist"):
+            resolved[canon] = "global_artist"
+        else:
+            resolved[canon] = kinds.most_common(1)[0][0]
+    return resolved
 
 
 def canonical_influence(tok):
