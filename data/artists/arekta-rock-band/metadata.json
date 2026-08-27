@@ -1,0 +1,45 @@
+{
+  "id": "arekta-rock-band",
+  "name": "Arekta Rock Band",
+  "also_known_as": ["Just Another Rock Band"],
+  "type": "band",
+  "formed_year": 2018,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Alternative Rock", "Indie Rock"],
+  "languages": ["bn"],
+  "members": [
+    { "name": "Riasat Azmi", "role": "Vocals", "years_active": "2018–present", "current": true },
+    { "name": "Ifaz Abrar Reza", "role": "Guitar", "years_active": "2018–present", "current": true },
+    { "name": "Sakib Manzur Zihan", "role": "Guitar", "years_active": "2018–present", "current": true },
+    { "name": "Arya", "role": "Bass", "years_active": "2018–present", "current": true },
+    { "name": "Dipto", "role": "Drums", "years_active": "(replaced founding drummer Rasha)", "current": true }
+  ],
+  "discography_summary": [
+    {
+      "title": "Ghum Paranor Gaan",
+      "year": null,
+      "type": "studio",
+      "notable_tracks": ["Eden", "Chaap", "Ojana"]
+    }
+  ],
+  "global_influences": [
+    {
+      "artist_or_genre": "Video-game and screen culture (general)",
+      "evidence": "The band's best-known song 'Eden' is reported as drawing on the video game GTA: Vice City — an influence vector from global entertainment media rather than from a musical act, and one with no equivalent in the founding-era or metal-era catalogue.",
+      "source": "The Business Standard feature, 'Arekta Rock Band: Music to break free from the shackles of the mundane'",
+      "confidence": "medium"
+    }
+  ],
+  "local_adaptation_notes": "The band's name is a Bangla translation of its own English-language messenger-group name ('Just Another Rock Band'), a small but telling instance of the 2010s pattern in which the English framing comes first and the Bangla is the deliberate localisation.",
+  "sound_evolution_summary": "Formed 2018 out of the earlier band Hash; built an audience on singles ('Eden', 'Chaap', the duet 'Ojana') before releasing the eight-track album 'Ghum Paranor Gaan' at its first solo show — a singles-first, album-later release order characteristic of the streaming era and the inverse of the cassette-era pattern.",
+  "concert_culture_notes": "Appeared at the Joy Bangla Concert in 2020 and 2023; launched its debut album at its own headline show ('Arekta Rock Show') rather than through a label campaign.",
+  "listener_community_notes": "Young, digital-first audience; the band is one of the clearest cases in the catalogue of a career built on streaming singles and self-promoted headline shows.",
+  "sources": [
+    { "title": "Arekta Rock Band: Music to break free from the shackles of the mundane", "url": "https://www.tbsnews.net/splash/arekta-rock-band-music-break-free-shackles-mundane-538702", "type": "feature", "accessed": "2026-08-27" },
+    { "title": "Arekta Rock Band to rock Dhaka after two years", "url": "https://www.thedailystar.net/entertainment/music/news/arekta-rock-band-rock-dhaka-after-two-years-3779141", "type": "news", "accessed": "2026-08-27" },
+    { "title": "Arekta Rock Band — Spotify artist page", "url": "https://open.spotify.com/artist/5c7JjKTazKNQubk2GjgbJT", "type": "streaming", "accessed": "2026-08-27" }
+  ],
+  "tags": ["streaming-era", "singles-first", "snippet-sourced"],
+  "last_updated": "2026-08-27"
+}

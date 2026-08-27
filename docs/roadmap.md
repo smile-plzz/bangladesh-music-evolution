@@ -1,51 +1,131 @@
 # Research Roadmap
 
-## Phase 1 — Foundation (Current)
+## Phase 1 — Foundation ✅ complete
 - [x] Repository setup and structure
-- [x] Full research proposal finalized
-- [x] Conceptual frameworks (BMEM / BMEF) documented
+- [x] Full research proposal
+- [x] Conceptual frameworks: BMEM (`frameworks/bmem.md`), BMEF (`frameworks/bmef.md`)
 - [x] Methodology specified
 - [x] Core genres and priority artists listed
-- [x] Literature review working draft (key academic + secondary sources)
-- [x] Artist metadata schema designed
-- [x] Initial artist metadata for Artcell and Warfaze
+- [x] Literature review with verified citations
+- [x] Artist and concert metadata schemas
 - [x] Draft master historical timeline (1971–present)
 
-## Phase 2 — Data Collection
-- [x] Historical timeline construction (first draft complete)
+## Phase 2 — Data Collection (in progress)
+- [x] Historical timeline construction
+- [x] **63 artists catalogued**, all schema-validated with zero errors. Spans
+      founding-era pioneers, the full metal genealogy, alternative rock, the
+      hip-hop lineage from its 1993 origin point, pop, and folk fusion including
+      the indigenous all-female band F Minor.
+- [x] Concert / event schema
+- [x] **23 events catalogued**, including the complete Joy Bangla Concert series
+      (2015–2024, 8 editions) and the RockNation series (2013–2016, 7 editions)
+- [ ] **Expand the artist catalogue toward 300.** 63/300. Highest-value
+      uncollected source: *Banglar Rock Metal* (Haque & Aman), which profiles
+      roughly 100 bands chronologically.
+- [ ] **Expand the event catalogue toward 500.** 23/500. Priority order, set by
+      where the gaps actually distort results (see
+      `docs/concert-ecosystem-map.md` §5):
+      1. Hip-hop and urban events — the typology defines an
+         `urban-hiphop-event` class and **zero** events fall into it, across
+         eight catalogued rappers.
+      2. University festivals — one entry, against a circuit the literature and
+         the artist records both call formative (BUET, IUT, NSU, BRAC, DU).
+      3. Independent indoor gigs — three entries; this is where the alternative
+         and indie strands actually live.
+      4. Ticketed commercial festivals — needed to test whether the
+         cross-strand finding holds outside state-adjacent programming.
+      5. Attendance and pricing, from ticketing platforms rather than press.
 - [ ] Expand discography and release metadata for priority artists
-- [x] Priority artist profiles complete and substantially expanded — **58 artists** catalogued in `data/artists/` (see `data/artists/README.md` for full checklist), spanning founding-era pioneers (Azam Khan, Souls, Feedback, Renaissance, Nova, Winning, Prometheus), the full metal-scene genealogy (Rockstrata → Poizon Green/Stentorian/Vibe/Metal Maze → Artcell/Karnival/De-illumination → Severe Dementia/Trainwreck/Owned), alternative rock (Shironamhin, Aurthohin, Black, Shunno, Chirkutt, Indalo, Shonar Bangla Circus, Yaatri, Shohojia), the full hip-hop lineage from its 1993 genre-origin point through the 2000s pioneer wave to a contemporary act (Ashraf Babu & Charu → Deshi MCs/Uptown Lokolz/Theology of Rap → Stoic Bliss, Muza, Hannan, Jalali Set, Shezan), and folk fusion (Arnob, Lalon Band, Maqsood O' Dhaka). Shohojia and Owned (2026-08-13) were re-investigated and catalogued from sourced biographical data (Last.fm, TBS News, Dhaka Tribune, The Daily Star); "Ashestoangels" was investigated and ruled out as a UK band; Kronic and Reborn remain uncatalogued (name-only mentions, no locatable details).
-- [ ] Public streaming and YouTube metrics collection — **blocked: no Spotify/YouTube API credentials available.** Requires the user to register a free developer app (Spotify Web API + YouTube Data API v3) before this can proceed; not something obtainable via web search/scraping alone at the scale needed for reliable metrics.
-- [x] Concert / event schema design (`data/schemas/concert.schema.json`)
-- [ ] Concert and festival event database (≥500 target) — 15 entries added (`data/concerts/`), including the full 2013–2016 RockNation festival series (7 editions, sourced from Wikipedia, spanning the original Dhaka run through the Sylhet I tour date); large-scale collection still pending
+- [ ] **Streaming and YouTube metrics — blocked.** Needs Spotify Web API and
+      YouTube Data API v3 credentials, which must be registered by the project
+      owner. Not obtainable by search or scraping at the scale required. This
+      blocks the preference network, sound-evolution measurement, and the whole
+      audience side of the study.
 - [ ] Social media and community discussion sampling
-- [ ] Artist interview / documentary / review corpus for influence claims
+- [ ] Artist interview / documentary corpus for influence claims — the single
+      best fix for the strand asymmetry documented in the paper §7.2
 
-## Phase 3 — Analysis
-- [x] Build Bangladesh Music Preference Network (BMPN) — prototype only (`data/networks/bmpn-prototype.json`, generated via `analysis/scripts/build_bmpn_prototype.py`); now 40 edges / 58 nodes (up from 38/52) after adding the remaining three RockNation editions (Revolution of Rock, Resurrection, Sylhet I); needs streaming/social data to move beyond concert co-billing
-- [x] Community detection and listener ecosystem mapping — connected-components pass only (`data/networks/bmpn-clusters.json`, via `analysis/scripts/build_bmpn_clusters.py`): one 15-artist metal/alt-rock cluster (up from 13), 43 isolated nodes. Graph is still too sparse for modularity-based detection (Louvain/Leiden) to be meaningful — revisit once streaming/social edges are added
-- [ ] Sound evolution case studies (Artcell, Meghdol, Warfaze, selected others)
-- [ ] Concert ecosystem typology and mapping
-- [ ] Temporal and genre evolution visualizations
-- [ ] Sentiment / thematic analysis of public discourse
+## Phase 3 — Analysis ✅ pipeline complete, results provisional on data
+- [x] **Analysis pipeline built** — seven re-runnable scripts, shared library,
+      all figures rendered from computed outputs (`analysis/`)
+- [x] **Multi-layer BMPN** — co-billing (bill-size normalised), personnel,
+      domestic influence, and inferred influence homophily; 178 edges over 63
+      nodes with per-edge provenance
+- [x] **Louvain community detection** — modularity 0.414 on observational
+      layers, five communities of 3+; supersedes the connected-components
+      placeholder
+- [x] **Temporal and genre evolution analysis** — formations and releases by
+      decade, strand lifecycles, release-format shift
+- [x] **Concert ecosystem typology** — rule-based classification with the rule
+      recorded per event
+- [x] **Influence-flow analysis** — 170 normalised citations, cross-tabs by
+      strand and era, localisation-mechanism markers
+- [x] **Sound evolution case studies** — five, in `analysis/case-studies/`
+- [x] **Visualisations** — seven figures in `analysis/visualizations/`
+- [ ] Sentiment / thematic analysis of public discourse — blocked with the
+      streaming and social data above
+- [ ] Audio-feature extraction for sound evolution — blocked likewise. Every
+      current claim about sound rests on documented description, not measurement.
 
 ## Phase 4 — Synthesis & Outputs
-- [ ] Bangladesh Musical Ecosystem Model (BMEM) validation and refinement
-- [ ] Genre Evolution Map
-- [ ] Future Trend Forecast
-- [ ] Open datasets and notebooks (where permissible)
-- [ ] Full thesis / research paper writing
+- [x] **BMEM validation and refinement** (`frameworks/bmem-validation.md`) —
+      all six dimensions tested, ten revisions proposed, two dimensions
+      corrected outright
+- [x] **Genre Evolution Map** (`docs/genre-evolution-map.md`)
+- [x] **Concert Ecosystem Map** (`docs/concert-ecosystem-map.md`)
+- [x] **Future Trend Forecast** (`docs/future-trends-forecast.md`) — graded by
+      evidence, with falsification conditions
+- [x] **Annotated bibliography** (`docs/annotated-bibliography.md`)
+- [x] **Research paper second draft** carrying computed results
+      (`docs/research-paper-draft-complete.md`)
+- [x] Open dataset and analysis scripts
+- [ ] Convert to thesis chapters or journal format
 - [ ] Revision and dissemination
-
-## Immediate Next Actions
-1. Expand the concert/event database beyond the 15 current entries — target BAMBA/university-fest lineups and landmark diaspora tours. Specifically source concert data for the 43 still-isolated artists. Verify approximate/unconfirmed venues and dates flagged `needs-verification`.
-2. Collect public Spotify/YouTube signals for core artists and integrate as a second edge type in the BMPN (currently concert-co-billing only). **Blocked — no API credentials available in this environment.** Next step is for the user to register Spotify Web API + YouTube Data API v3 developer credentials; until then this stays open.
-3. ~~Continue cataloguing artists referenced but not yet substantiated: Kronic, Nigar Sumi (Coke Studio Bangla vocalist), Reborn, and additional contemporary pop/hip-hop acts.~~ Investigated (2026-08-07): Nigar Sumi was already documented as Lalon Band's founder-vocalist (no new profile needed). Kronic and Reborn remain unsubstantiated — only appear in list-form scene round-ups with no locatable members/discography; not fabricated. Added four new, well-sourced hip-hop profiles instead: Ashraf Babu & Charu (`ashraf-babu-charu`, 1993 genre-origin duo), Uptown Lokolz (`uptown-lokolz`, 2005/2008), Theology of Rap (`theology-of-rap`, 2005/2010), and Shezan (`shezan`, contemporary rapper/producer) — 56 artists total, and the Hip-Hop/Rap genre strand now has a documented lineage from 1993 to the present.
-4. ~~Revisit Shohojia and Owned once better sources are found.~~ Done (2026-08-13): both catalogued from Last.fm, TBS News, Dhaka Tribune and The Daily Star sourcing — 58 artists total. New research targets surfaced by this pass: Vikings, AvoidRafa, Echoes, Nongar, Psychotron, Rim (all named in RockNation 2014-2016 lineups but not yet catalogued).
-5. Modularity-based community detection (e.g. Louvain) remains blocked on graph density — the connected-components pass (`bmpn-clusters.json`) is a placeholder; re-run `analysis/scripts/build_bmpn_clusters.py` as more edges are added and revisit Louvain once the graph is denser.
-6. ~~Deepen literature review (full texts of Quader & Redden 2014, Mitra thesis, theoretical sources).~~ Done for this pass — see `docs/literature-review.md`: corrected the Quader & Redden citation (2015, *Cultural Studies* 29(3)), added the companion Quader (2016) Bourdieu paper and source PhD thesis, added Pervez (2012) and Mridha & Begum (2023) for theoretical/historical grounding, and closed the previously-empty Hip-Hop/Rap literature gap (Hasan & Kundu 2021, 2022). Still open: Mitra (2014) thesis full text (Shodhganga record didn't resolve), Autul et al. (2024) full-text extraction (PDF located, needs `poppler`/`pdftotext`), Pervez (2012) venue-name reconciliation, and review of two flagged 2025-2026 hip-hop/uprising pieces.
-7. Completed 2026-08-13: sourced and catalogued the remaining three RockNation editions (Revolution of Rock 2014, Resurrection 2015, Sylhet I 2016) — 15 concerts total, BMPN largest cluster now 15 artists (up from 13).
 
 ---
 
-*Last updated: 2026-08-13*
+## Success criteria: current standing
+
+| Criterion | Target | Now |
+|---|---|---|
+| Timeline covering 50+ years | ✅ | 1972–2026 |
+| Artists catalogued | ≥300 | **63** |
+| Concerts analysed | ≥500 | **23** |
+| Preference network connecting artists | ✅ built | but it is a *co-appearance* network — see below |
+| Statistically meaningful listener ecosystems | — | communities detected at Q = 0.414, but they are co-appearance communities, not listener ones |
+| Visual genre evolution map | ✅ | `docs/genre-evolution-map.md` + 7 figures |
+| Findings consistent across independent sources | partly | cross-checking network results against the typology and influence analysis is what caught two errors |
+| Open dataset, framework, visualisations, thesis | ✅ / draft | thesis at second draft |
+
+**The honest headline:** the framework, pipeline and analytical outputs are
+complete and reusable. The dataset is at roughly a fifth of its artist target
+and a twentieth of its event target, and the audience-side data the central
+construct requires does not exist in this project at all.
+
+## Immediate next actions
+
+1. **Register Spotify Web API and YouTube Data API v3 credentials.** This is the
+   one blocker holding back the preference network, sound-evolution measurement,
+   sentiment analysis and every audience claim. Nothing else in the plan
+   unblocks as much.
+2. **Collect hip-hop and urban event data.** An entire typology class is empty
+   and eight catalogued acts are effectively invisible to the network. Requires
+   no credentials — only sources the press does not cover.
+3. **Collect university-festival lineups.** One entry against a formative circuit.
+4. **Re-research the hip-hop artist records against lyric and interview
+   sources.** The single political-content marker across eight rappers
+   contradicts the literature and is a documentation artefact (paper §7.3).
+5. **Add `domestic_influences` as a first-class schema field.** Only five
+   domestic transmission links exist across 63 acts, which reflects how records
+   were written rather than how much the scene borrows internally.
+6. **Verify the `snippet-sourced` records against full text.** The eight Joy
+   Bangla Concert records and five artist records added in the 2026-08-27 pass
+   were sourced from search summaries because the environment blocked page
+   retrieval.
+7. **Test the metal-recruitment question deliberately.** Heavy metal's latest
+   catalogued formation is 2007. Search specifically for post-2007 metal
+   formations; if few exist, the closure is real rather than a catalogue artefact.
+
+---
+
+*Last updated: 2026-08-27*

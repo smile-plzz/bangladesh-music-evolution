@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
-"""Connected-component clustering over the BMPN prototype.
+"""Connected-component clustering over the co-billing layer of the BMPN.
 
-The current graph (concert co-billing only, 38 edges) is too sparse for
-modularity-based community detection (e.g. Louvain) to be meaningful --
-most components are small and the result would overfit noise. Connected
-components give an honest, minimal first pass at "who has publicly
-shared a stage with whom" until streaming/playlist co-occurrence data
-(see roadmap.md) can support richer community detection.
+SUPERSEDED for community detection by analysis/scripts/analyze_bmpn.py, which
+runs Louvain over the multi-layer graph and writes bmpn-communities.json. That
+became possible once the graph was dense enough (152 observed edges, modularity
+0.414) for modularity-based detection to be meaningful; it was not when this
+script was written against a 38-edge graph.
+
+Kept because "who is reachable from whom through shared bills alone" is a
+different and still-useful question from "which acts cluster": components are a
+coverage diagnostic, communities are a structural claim.
 
 Output: data/networks/bmpn-clusters.json
 """
@@ -65,12 +68,11 @@ def main():
 
     output = {
         "description": (
-            "Connected-component clusters over the BMPN prototype "
-            "(concert co-billing edges only). This is a minimal, honest "
-            "first pass at listener-ecosystem grouping, not a modularity-"
-            "based community detection result -- the graph is currently too "
-            "sparse (38 edges / 52 nodes) for Louvain/Leiden to be meaningful. "
-            "Revisit once streaming/playlist co-occurrence edges are added."
+            "Connected components over the co-billing layer only: which acts "
+            "are reachable from which through shared bills. This is a coverage "
+            "diagnostic, not a community-detection result -- for communities "
+            "see bmpn-communities.json, produced by Louvain over the "
+            "multi-layer graph in analysis/scripts/analyze_bmpn.py."
         ),
         "method": "connected_components",
         "cluster_count": len(clusters),

@@ -1,8 +1,15 @@
 @import "tailwindcss";
 
+/* This app is designed dark-only: every page's utility classes assume a dark
+   ground and light text. The bare `body` rule below sits outside Tailwind's
+   cascade layers, so it overrides the `bg-neutral-950 text-neutral-100`
+   utilities that layout.tsx puts on <body>. Following prefers-color-scheme
+   here therefore made every page render as dark text on white for any visitor
+   whose OS is set to light mode. The tokens commit to the dark palette
+   instead. */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a;
+  --foreground: #ededed;
 }
 
 @theme inline {
@@ -12,15 +19,9 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", sans-serif;
 }

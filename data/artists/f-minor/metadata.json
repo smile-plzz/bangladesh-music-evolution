@@ -1,0 +1,38 @@
+{
+  "id": "f-minor",
+  "name": "F Minor",
+  "type": "band",
+  "formed_year": 2016,
+  "disbanded_year": null,
+  "origin_city": "Dhaka",
+  "genres": ["Folk Fusion", "Indigenous Folk", "Rock"],
+  "languages": ["bn", "garo", "marma"],
+  "members": [
+    { "name": "Pinky Chiran", "role": "Vocals", "years_active": "2016–present", "current": true },
+    { "name": "Nadia Ritchil", "role": "Guitar, Vocals", "years_active": "2016–present", "current": true },
+    { "name": "Gendaria Manda", "role": "Lead Guitar", "years_active": "2016–present", "current": true },
+    { "name": "Diba Chicham", "role": "Cajon, Drums", "years_active": "2016–present", "current": true },
+    { "name": "Akiu Marma", "role": "Keyboards", "years_active": "2016–present", "current": true }
+  ],
+  "discography_summary": [],
+  "global_influences": [
+    {
+      "artist_or_genre": "Indigenous folk traditions of Bangladesh (Garo, Marma)",
+      "evidence": "The band's members are drawn from the Garo and Marma communities and the folk music of those communities is described as its foremost influence — a local rather than global influence vector, and one absent from every other act in this catalogue.",
+      "source": "The Daily Star, 'F Minor: Winning hearts through diversity and rhythm'; The Business Standard, \"F Minor's fusion of ethnic and folk music\"",
+      "confidence": "high"
+    }
+  ],
+  "local_adaptation_notes": "Inverts the usual direction of the local-adaptation question. Where most acts in this catalogue take a global form and localise it, F Minor takes indigenous-community repertoire — from communities marginal to the Bangla-language mainstream — and arranges it for a band format. Its songs foreground women's rights and recognition, and the band frames its work as being for women's rights broadly, not only for indigenous communities.",
+  "sound_evolution_summary": "Launched October 2016; band-format arrangements (guitar, keys, cajon) of Garo and Marma folk material alongside covers in other genres.",
+  "concert_culture_notes": "Opened the main slate of the sixth Joy Bangla Concert (2020) at the Bangladesh Army Stadium, described in coverage as the country's first all-female folk band; also performs at indigenous cultural events such as Wangala.",
+  "listener_community_notes": "Reaches an audience that the rock/metal and pop strands do not: the band's visibility is tied to cultural-plurality and women's-rights framing as much as to genre affiliation.",
+  "sources": [
+    { "title": "F Minor: Winning hearts through diversity and rhythm", "url": "https://www.thedailystar.net/arts-entertainment/news/f-minor-winning-hearts-through-diversity-and-rhythm-1942197", "type": "feature", "accessed": "2026-08-27" },
+    { "title": "F Minor's fusion of ethnic and folk music", "url": "https://www.tbsnews.net/entertainment/f-minors-fusion-ethnic-and-folk-music", "type": "feature", "accessed": "2026-08-27" },
+    { "title": "F Minor for cultural plurality", "url": "https://www.newagebd.net/article/61600/f-minor-for-cultural-plurality", "type": "feature", "accessed": "2026-08-27" },
+    { "title": "F Minor: First Ever All-Female Indigenous Band", "url": "https://www.daily-sun.com/printversion/details/459803/F-Minor:-First-Ever-AllFemale-Indigenous-Band-", "type": "news", "accessed": "2026-08-27" }
+  ],
+  "tags": ["indigenous", "all-female", "folk-fusion", "snippet-sourced"],
+  "last_updated": "2026-08-27"
+}

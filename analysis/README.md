@@ -1,24 +1,86 @@
 # Analysis
 
-This directory contains analysis notebooks, scripts, and visualization outputs.
+The computational pipeline behind the results in
+`docs/research-paper-draft-complete.md`. Everything here is re-runnable and
+deterministic; figures read only from computed outputs, so no figure can
+disagree with a reported number.
 
-## Structure
+## Layout
 
 ```
 analysis/
-├── notebooks/          # Jupyter notebooks for exploratory and final analysis
-├── scripts/            # Data collection, cleaning, and processing scripts
-└── visualizations/     # Charts, network graphs, maps, timeline figures
+├── lib/common.py       # loaders, genre-strand and influence normalisation
+├── scripts/            # the pipeline (below)
+├── outputs/            # computed JSON and CSV — regenerated, not hand-edited
+├── case-studies/       # five sound-evolution studies
+└── visualizations/     # seven SVG figures
 ```
 
-## Planned Analyses
+## Running it
 
-1. **Temporal trends** — genre and artist activity over decades
-2. **Network construction** — Bangladesh Music Preference Network (BMPN)
-3. **Community detection** — listener ecosystem clusters
-4. **Concert ecosystem mapping**
-5. **Sound evolution case studies** (Artcell, Meghdol, Warfaze, etc.)
-6. **Sentiment / thematic analysis** of public comments
-7. **Future trend forecasting** based on emerging nodes and growth signals
+```bash
+pip install networkx matplotlib jsonschema scipy
 
-Scripts and notebooks will be added as data collection and analysis progress.
+python3 analysis/scripts/validate_data.py        # schema + referential integrity
+python3 analysis/scripts/build_bmpn.py           # network layers
+python3 analysis/scripts/analyze_bmpn.py         # communities + centrality
+python3 analysis/scripts/temporal_analysis.py    # decade curves, lifecycles
+python3 analysis/scripts/concert_ecosystem.py    # typology classification
+python3 analysis/scripts/influence_analysis.py   # citation network
+python3 analysis/scripts/make_visualizations.py  # figures (run last)
+```
+
+Order matters only in two places: `analyze_bmpn.py` reads what `build_bmpn.py`
+writes, and `make_visualizations.py` reads everything. `validate_data.py` exits
+non-zero on a schema or referential error, so it can gate CI.
+
+## Scripts
+
+| Script | Reads | Writes |
+|---|---|---|
+| `validate_data.py` | `data/artists`, `data/concerts`, `data/schemas` | `outputs/data-quality-report.json` |
+| `build_bmpn.py` | artists, concerts | `data/networks/bmpn-multilayer.json`, `bmpn-prototype.json` |
+| `analyze_bmpn.py` | `bmpn-multilayer.json` | `data/networks/bmpn-communities.json`, `outputs/bmpn-metrics.json`, `outputs/bmpn-centrality.csv` |
+| `temporal_analysis.py` | artists, concerts | `outputs/temporal-summary.json`, two CSVs |
+| `concert_ecosystem.py` | artists, concerts | `outputs/concert-ecosystem.json`, `outputs/concert-classification.csv` |
+| `influence_analysis.py` | artists | `outputs/influence-analysis.json`, `outputs/influence-citations.csv`, `data/networks/influence-network.json` |
+| `make_visualizations.py` | `outputs/`, `data/networks/` | `visualizations/fig1–7.svg` |
+| `build_bmpn_clusters.py` | `bmpn-prototype.json` | `data/networks/bmpn-clusters.json` — connected components; a coverage diagnostic, superseded for community detection by `analyze_bmpn.py` |
+
+## Two decisions worth knowing before reading the outputs
+
+**Observed vs inferred layers.** The network carries four edge layers. Three are
+observational — a documented shared bill, a shared named member, one act naming
+another as an influence. The fourth, `influence_homophily` (two acts citing the
+same global influence), is *inferred*: it proxies aesthetic proximity and is not
+evidence of shared audience. It is flagged on every edge, weighted at half, and
+excluded from the headline `observed` pass. Every network result is reported for
+three passes — `observed`, `full`, and `co_billing` alone — so the inferred layer
+can never silently drive a conclusion.
+
+**Bill-size normalisation.** Projecting a concert hypergraph onto artist pairs
+without correcting for bill size lets one twelve-act festival contribute 66
+edges. Each event contributes 1/(n−1) to every pair on its bill, so an act's
+total contribution per event is 1 regardless of bill size. Uncorrected, observed
+modularity is 0.154; corrected, 0.414. The raw shared-bill count is kept
+alongside as `weight`.
+
+## Figures
+
+| Figure | Shows |
+|---|---|
+| `fig1-formations-by-decade.svg` | Catalogued acts by decade of formation, stacked by strand |
+| `fig2-releases-by-decade.svg` | Dated releases by decade, stacked by strand |
+| `fig3-strand-timeline.svg` | Formation span and median per strand |
+| `fig4-bmpn-network.svg` | The network: giant component, detached components, and the acts with no documented link |
+| `fig5-top-influences.svg` | Most-cited named global influences |
+| `fig6-influence-by-era.svg` | Influence vectors by the citing act's founding era |
+| `fig7-concert-typology.svg` | Events and bill sizes per concert-ecosystem class |
+
+## What this pipeline cannot do
+
+No streaming, audio-feature, or audience-side data was obtainable (no API
+credentials — see `docs/roadmap.md`). So there is no sentiment analysis, no
+audio-feature sound-evolution measurement, and no listener-side edge type. The
+network here is a **co-appearance** network; calling it a preference network
+would overstate what its edges record.

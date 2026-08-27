@@ -1,0 +1,37 @@
+{
+  "id": "2020-joy-bangla-concert-vi",
+  "name": "Joy Bangla Concert 2020 (6th edition)",
+  "date": "2020-03-07",
+  "date_precision": "day",
+  "type": "festival",
+  "venue": {
+    "name": "Bangladesh Army Stadium",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "venue_type": "stadium"
+  },
+  "organizer": "Young Bangla / Centre for Research and Information (CRI)",
+  "artists": [
+    { "artist_id": "conclusion", "billing": "support" },
+    { "artist_id": "arekta-rock-band", "billing": "support" },
+    { "artist_id": "f-minor", "billing": "support" },
+    { "artist_id": "minar-rahman", "billing": "support" },
+    { "artist_id": "avoidrafa", "billing": "support" },
+    { "artist_id": "vikings", "billing": "support" },
+    { "artist_id": "shunno", "billing": "co-headliner" },
+    { "artist_id": "lalon-band", "billing": "co-headliner" },
+    { "artist_id": "arbovirus", "billing": "co-headliner" },
+    { "artist_id": "cryptic-fate", "billing": "co-headliner" },
+    { "artist_id": "nemesis", "billing": "co-headliner" },
+    { "artist_id": "chirkutt", "billing": "headliner" }
+  ],
+  "genres_represented": ["Alternative Rock", "Indie Rock", "Folk Fusion", "Indigenous Folk", "Pop", "Hard Rock", "Heavy Metal", "Nu Metal"],
+  "attendance_confidence": "unknown",
+  "notes": "Sixth and largest documented edition, run in two slots: an afternoon slate (Introit, Arekta Rock Band, Adverb, Sin, Conclusion) opening after the national anthem at 1:30pm, then the main lineup from around 4pm — F Minor (billed as the country's first all-female folk band), Minar and band, AvoidRafa, Vikings, Shunno, Lalon, Arbovirus, Cryptic Fate, Nemesis, Fuad and Friends, and Chirkutt. Introit, Adverb, Sin and Fuad and Friends are named in the source but not yet catalogued in data/artists/, so they are recorded here in the notes rather than as artist links; catalogue them before counting their edges. Notable moment: Aurthohin's 'Bassbaba' Sumon returned to the stage as part of Fuad and Friends. This edition is the widest genre span of any single bill in the dataset — indigenous folk, pop, alternative, hard rock and metal on one stage.",
+  "sources": [
+    { "title": "Joy Bangla Concert: Rocking youth with music on historic March 7", "url": "https://unb.com.bd/category/lifestyle/joy-bangla-concert-rocking-youth-with-music-on-historic-march-7/46402", "type": "news", "accessed": "2026-08-27" },
+    { "title": "Joy Bangla Concert in Mujib Borsho made it special", "url": "https://www.tbsnews.net/panorama/joy-bangla-concert-mujib-borsho-made-it-special-53452", "type": "feature", "accessed": "2026-08-27" }
+  ],
+  "tags": ["festival", "joy-bangla-series", "state-commemorative", "cross-strand-bill", "widest-genre-span", "snippet-sourced"],
+  "last_updated": "2026-08-27"
+}

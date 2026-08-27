@@ -1,0 +1,190 @@
+{
+  "generated": "2026-08-27",
+  "artist_count": 63,
+  "concert_count": 23,
+  "artist_target": 300,
+  "concert_target": 500,
+  "artists_with_concert_data": 28,
+  "artists_without_concert_data": 35,
+  "error_count": 0,
+  "warning_count": 35,
+  "billing_distribution": {
+    "co-headliner": 42,
+    "support": 25,
+    "headliner": 13,
+    "guest": 9
+  },
+  "strand_coverage": {
+    "Alternative/Indie": {
+      "artists": 16,
+      "with_concert_data": 11
+    },
+    "Folk & Folk Fusion": {
+      "artists": 5,
+      "with_concert_data": 4
+    },
+    "Heavy Metal": {
+      "artists": 12,
+      "with_concert_data": 4
+    },
+    "Hip-Hop/Rap": {
+      "artists": 8,
+      "with_concert_data": 1
+    },
+    "Mainstream Rock": {
+      "artists": 13,
+      "with_concert_data": 5
+    },
+    "Pop": {
+      "artists": 7,
+      "with_concert_data": 1
+    },
+    "Progressive Rock/Metal": {
+      "artists": 2,
+      "with_concert_data": 2
+    }
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "record": "2000-lrb-us-tour-msg",
+      "issue": "date precision 'year'"
+    },
+    {
+      "record": "2000-lrb-us-tour-msg",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "2009-artcell-10-years-insanity-sheraton",
+      "issue": "date precision 'month'"
+    },
+    {
+      "record": "2009-artcell-10-years-insanity-sheraton",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "2013-rocknation-ii",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "2013-rocknation-iii",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "2014-rocknation-overload",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "2014-rocknation-revolution-of-rock",
+      "issue": "date precision 'year'"
+    },
+    {
+      "record": "2014-rocknation-revolution-of-rock",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "2015-joy-bangla-concert-i",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "2015-rocknation-resurrection",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "2015-rocknation-resurrection",
+      "issue": "no artists linked"
+    },
+    {
+      "record": "2016-joy-bangla-concert-ii",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "2016-joy-bangla-concert-ii",
+      "issue": "no artists linked"
+    },
+    {
+      "record": "2016-rocknation-tours-sylhet-i",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "2019-artcell-20th-anniversary-iccb",
+      "issue": "date precision 'month'"
+    },
+    {
+      "record": "2025-james-european-tour-london-opener",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "ashraf-babu-charu",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "avoidrafa",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "bamba-eid-concert-jamuna-future-park",
+      "issue": "date precision 'approximate'"
+    },
+    {
+      "record": "bamba-eid-concert-jamuna-future-park",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "conclusion",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "f-minor",
+      "issue": "no discography entries"
+    },
+    {
+      "record": "hannan",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "metal-maze",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "owned",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "rockstrata",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "shezan",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "shohojia",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "shohojia",
+      "issue": "no global_influences documented"
+    },
+    {
+      "record": "theology-of-rap",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "trainwreck",
+      "issue": "no discography entries"
+    },
+    {
+      "record": "uptown-lokolz",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "vikings",
+      "issue": "flagged needs-verification"
+    },
+    {
+      "record": "vikings",
+      "issue": "no discography entries"
+    }
+  ]
+}

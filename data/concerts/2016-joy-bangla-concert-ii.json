@@ -1,0 +1,23 @@
+{
+  "id": "2016-joy-bangla-concert-ii",
+  "name": "Joy Bangla Concert 2016 (2nd edition)",
+  "date": "2016-03-07",
+  "date_precision": "day",
+  "type": "festival",
+  "venue": {
+    "name": "Bangladesh Army Stadium",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "venue_type": "stadium"
+  },
+  "organizer": "Young Bangla / Centre for Research and Information (CRI)",
+  "artists": [],
+  "genres_represented": [],
+  "attendance_confidence": "unknown",
+  "notes": "Second edition, confirmed to have taken place at the Army Stadium on 7 March 2016 and reported as the year the colourised version of the 7 March speech was presented at the event. No lineup was recoverable from accessible sources, so this record is deliberately empty of artist links rather than populated by inference from adjacent years — it documents that the edition happened and marks the gap.",
+  "sources": [
+    { "title": "Joy Bangla Concert (2017 preview referencing prior editions)", "url": "https://archive.dhakatribune.com/showtime/2017/03/04/joy-bangla-concert", "type": "news", "accessed": "2026-08-27" }
+  ],
+  "tags": ["festival", "joy-bangla-series", "state-commemorative", "lineup-unknown", "needs-verification"],
+  "last_updated": "2026-08-27"
+}

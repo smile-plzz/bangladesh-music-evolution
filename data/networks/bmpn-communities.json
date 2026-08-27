@@ -1,0 +1,822 @@
+{
+  "generated": "2026-08-27",
+  "method": "louvain",
+  "seed": 20260827,
+  "description": "Louvain communities over the BMPN. Reported for both the observed-layer graph and the full graph (which adds inferred influence-homophily edges at half weight). These supersede the earlier connected-components placeholder in bmpn-clusters.json, which remains for continuity.",
+  "observed": {
+    "modularity": 0.4139,
+    "communities": [
+      {
+        "community_id": 0,
+        "size": 16,
+        "members": [
+          "arbovirus",
+          "artcell",
+          "ashes",
+          "bay-of-bengal",
+          "chirkutt",
+          "cryptic-fate",
+          "f-minor",
+          "lalon-band",
+          "maqsood-o-dhaka",
+          "mechanix",
+          "meghdol",
+          "minar-rahman",
+          "nemesis",
+          "shironamhin",
+          "shunno",
+          "warfaze"
+        ],
+        "dominant_strand": "Alternative/Indie",
+        "strand_mix": {
+          "Alternative/Indie": 7,
+          "Folk & Folk Fusion": 4,
+          "Heavy Metal": 3,
+          "Progressive Rock/Metal": 1,
+          "Pop": 1
+        },
+        "internal_edges": 68,
+        "internal_density": 0.5667
+      },
+      {
+        "community_id": 1,
+        "size": 7,
+        "members": [
+          "arekta-rock-band",
+          "black",
+          "de-illumination",
+          "indalo",
+          "powersurge",
+          "severe-dementia",
+          "tahsan"
+        ],
+        "dominant_strand": "Alternative/Indie",
+        "strand_mix": {
+          "Alternative/Indie": 3,
+          "Heavy Metal": 3,
+          "Pop": 1
+        },
+        "internal_edges": 6,
+        "internal_density": 0.2857
+      },
+      {
+        "community_id": 2,
+        "size": 5,
+        "members": [
+          "aurthohin",
+          "avoidrafa",
+          "karnival",
+          "poizon-green",
+          "rockstrata"
+        ],
+        "dominant_strand": "Heavy Metal",
+        "strand_mix": {
+          "Heavy Metal": 2,
+          "Alternative/Indie": 1,
+          "Mainstream Rock": 1,
+          "Progressive Rock/Metal": 1
+        },
+        "internal_edges": 5,
+        "internal_density": 0.5
+      },
+      {
+        "community_id": 3,
+        "size": 4,
+        "members": [
+          "james-nagar-baul",
+          "lrb",
+          "renaissance",
+          "souls"
+        ],
+        "dominant_strand": "Mainstream Rock",
+        "strand_mix": {
+          "Mainstream Rock": 4
+        },
+        "internal_edges": 4,
+        "internal_density": 0.6667
+      },
+      {
+        "community_id": 4,
+        "size": 4,
+        "members": [
+          "conclusion",
+          "owned",
+          "vikings",
+          "winning"
+        ],
+        "dominant_strand": "Alternative/Indie",
+        "strand_mix": {
+          "Alternative/Indie": 2,
+          "Mainstream Rock": 2
+        },
+        "internal_edges": 3,
+        "internal_density": 0.5
+      },
+      {
+        "community_id": 5,
+        "size": 2,
+        "members": [
+          "habib-wahid",
+          "muza"
+        ],
+        "dominant_strand": "Pop",
+        "strand_mix": {
+          "Pop": 2
+        },
+        "internal_edges": 1,
+        "internal_density": 1.0
+      },
+      {
+        "community_id": 6,
+        "size": 2,
+        "members": [
+          "feedback",
+          "nova"
+        ],
+        "dominant_strand": "Mainstream Rock",
+        "strand_mix": {
+          "Mainstream Rock": 2
+        },
+        "internal_edges": 1,
+        "internal_density": 1.0
+      },
+      {
+        "community_id": 7,
+        "size": 2,
+        "members": [
+          "stentorian",
+          "yaatri"
+        ],
+        "dominant_strand": "Heavy Metal",
+        "strand_mix": {
+          "Heavy Metal": 1,
+          "Alternative/Indie": 1
+        },
+        "internal_edges": 1,
+        "internal_density": 1.0
+      },
+      {
+        "community_id": 8,
+        "size": 1,
+        "members": [
+          "ark"
+        ],
+        "dominant_strand": "Mainstream Rock",
+        "strand_mix": {
+          "Mainstream Rock": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 9,
+        "size": 1,
+        "members": [
+          "arnob"
+        ],
+        "dominant_strand": "Folk & Folk Fusion",
+        "strand_mix": {
+          "Folk & Folk Fusion": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 10,
+        "size": 1,
+        "members": [
+          "ashraf-babu-charu"
+        ],
+        "dominant_strand": "Hip-Hop/Rap",
+        "strand_mix": {
+          "Hip-Hop/Rap": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 11,
+        "size": 1,
+        "members": [
+          "azam-khan-uchcharon"
+        ],
+        "dominant_strand": "Mainstream Rock",
+        "strand_mix": {
+          "Mainstream Rock": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 12,
+        "size": 1,
+        "members": [
+          "deshi-mcs"
+        ],
+        "dominant_strand": "Hip-Hop/Rap",
+        "strand_mix": {
+          "Hip-Hop/Rap": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 13,
+        "size": 1,
+        "members": [
+          "hannan"
+        ],
+        "dominant_strand": "Hip-Hop/Rap",
+        "strand_mix": {
+          "Hip-Hop/Rap": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 14,
+        "size": 1,
+        "members": [
+          "imran-mahmudul"
+        ],
+        "dominant_strand": "Pop",
+        "strand_mix": {
+          "Pop": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 15,
+        "size": 1,
+        "members": [
+          "jalali-set"
+        ],
+        "dominant_strand": "Hip-Hop/Rap",
+        "strand_mix": {
+          "Hip-Hop/Rap": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 16,
+        "size": 1,
+        "members": [
+          "kona"
+        ],
+        "dominant_strand": "Pop",
+        "strand_mix": {
+          "Pop": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 17,
+        "size": 1,
+        "members": [
+          "metal-maze"
+        ],
+        "dominant_strand": "Heavy Metal",
+        "strand_mix": {
+          "Heavy Metal": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 18,
+        "size": 1,
+        "members": [
+          "miles"
+        ],
+        "dominant_strand": "Mainstream Rock",
+        "strand_mix": {
+          "Mainstream Rock": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 19,
+        "size": 1,
+        "members": [
+          "nancy"
+        ],
+        "dominant_strand": "Pop",
+        "strand_mix": {
+          "Pop": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 20,
+        "size": 1,
+        "members": [
+          "prometheus"
+        ],
+        "dominant_strand": "Mainstream Rock",
+        "strand_mix": {
+          "Mainstream Rock": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 21,
+        "size": 1,
+        "members": [
+          "shezan"
+        ],
+        "dominant_strand": "Hip-Hop/Rap",
+        "strand_mix": {
+          "Hip-Hop/Rap": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 22,
+        "size": 1,
+        "members": [
+          "shohojia"
+        ],
+        "dominant_strand": "Alternative/Indie",
+        "strand_mix": {
+          "Alternative/Indie": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 23,
+        "size": 1,
+        "members": [
+          "shonar-bangla-circus"
+        ],
+        "dominant_strand": "Alternative/Indie",
+        "strand_mix": {
+          "Alternative/Indie": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 24,
+        "size": 1,
+        "members": [
+          "stoic-bliss"
+        ],
+        "dominant_strand": "Hip-Hop/Rap",
+        "strand_mix": {
+          "Hip-Hop/Rap": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 25,
+        "size": 1,
+        "members": [
+          "theology-of-rap"
+        ],
+        "dominant_strand": "Hip-Hop/Rap",
+        "strand_mix": {
+          "Hip-Hop/Rap": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 26,
+        "size": 1,
+        "members": [
+          "trainwreck"
+        ],
+        "dominant_strand": "Heavy Metal",
+        "strand_mix": {
+          "Heavy Metal": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 27,
+        "size": 1,
+        "members": [
+          "uptown-lokolz"
+        ],
+        "dominant_strand": "Hip-Hop/Rap",
+        "strand_mix": {
+          "Hip-Hop/Rap": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 28,
+        "size": 1,
+        "members": [
+          "vibe"
+        ],
+        "dominant_strand": "Heavy Metal",
+        "strand_mix": {
+          "Heavy Metal": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      }
+    ]
+  },
+  "full": {
+    "modularity": 0.4166,
+    "communities": [
+      {
+        "community_id": 0,
+        "size": 15,
+        "members": [
+          "arbovirus",
+          "arekta-rock-band",
+          "ashes",
+          "aurthohin",
+          "avoidrafa",
+          "bay-of-bengal",
+          "chirkutt",
+          "cryptic-fate",
+          "f-minor",
+          "lalon-band",
+          "meghdol",
+          "minar-rahman",
+          "nemesis",
+          "shironamhin",
+          "shunno"
+        ],
+        "dominant_strand": "Alternative/Indie",
+        "strand_mix": {
+          "Alternative/Indie": 9,
+          "Folk & Folk Fusion": 3,
+          "Mainstream Rock": 1,
+          "Heavy Metal": 1,
+          "Pop": 1
+        },
+        "internal_edges": 65,
+        "internal_density": 0.619
+      },
+      {
+        "community_id": 1,
+        "size": 11,
+        "members": [
+          "artcell",
+          "de-illumination",
+          "karnival",
+          "mechanix",
+          "metal-maze",
+          "poizon-green",
+          "powersurge",
+          "rockstrata",
+          "severe-dementia",
+          "trainwreck",
+          "warfaze"
+        ],
+        "dominant_strand": "Heavy Metal",
+        "strand_mix": {
+          "Heavy Metal": 9,
+          "Progressive Rock/Metal": 2
+        },
+        "internal_edges": 30,
+        "internal_density": 0.5455
+      },
+      {
+        "community_id": 2,
+        "size": 7,
+        "members": [
+          "feedback",
+          "james-nagar-baul",
+          "lrb",
+          "maqsood-o-dhaka",
+          "nova",
+          "renaissance",
+          "souls"
+        ],
+        "dominant_strand": "Mainstream Rock",
+        "strand_mix": {
+          "Mainstream Rock": 6,
+          "Folk & Folk Fusion": 1
+        },
+        "internal_edges": 7,
+        "internal_density": 0.3333
+      },
+      {
+        "community_id": 3,
+        "size": 4,
+        "members": [
+          "conclusion",
+          "owned",
+          "vikings",
+          "winning"
+        ],
+        "dominant_strand": "Alternative/Indie",
+        "strand_mix": {
+          "Alternative/Indie": 2,
+          "Mainstream Rock": 2
+        },
+        "internal_edges": 3,
+        "internal_density": 0.5
+      },
+      {
+        "community_id": 4,
+        "size": 3,
+        "members": [
+          "black",
+          "indalo",
+          "tahsan"
+        ],
+        "dominant_strand": "Alternative/Indie",
+        "strand_mix": {
+          "Alternative/Indie": 2,
+          "Pop": 1
+        },
+        "internal_edges": 2,
+        "internal_density": 0.6667
+      },
+      {
+        "community_id": 5,
+        "size": 2,
+        "members": [
+          "habib-wahid",
+          "muza"
+        ],
+        "dominant_strand": "Pop",
+        "strand_mix": {
+          "Pop": 2
+        },
+        "internal_edges": 1,
+        "internal_density": 1.0
+      },
+      {
+        "community_id": 6,
+        "size": 2,
+        "members": [
+          "stentorian",
+          "yaatri"
+        ],
+        "dominant_strand": "Heavy Metal",
+        "strand_mix": {
+          "Heavy Metal": 1,
+          "Alternative/Indie": 1
+        },
+        "internal_edges": 1,
+        "internal_density": 1.0
+      },
+      {
+        "community_id": 7,
+        "size": 1,
+        "members": [
+          "ark"
+        ],
+        "dominant_strand": "Mainstream Rock",
+        "strand_mix": {
+          "Mainstream Rock": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 8,
+        "size": 1,
+        "members": [
+          "arnob"
+        ],
+        "dominant_strand": "Folk & Folk Fusion",
+        "strand_mix": {
+          "Folk & Folk Fusion": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 9,
+        "size": 1,
+        "members": [
+          "ashraf-babu-charu"
+        ],
+        "dominant_strand": "Hip-Hop/Rap",
+        "strand_mix": {
+          "Hip-Hop/Rap": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 10,
+        "size": 1,
+        "members": [
+          "azam-khan-uchcharon"
+        ],
+        "dominant_strand": "Mainstream Rock",
+        "strand_mix": {
+          "Mainstream Rock": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 11,
+        "size": 1,
+        "members": [
+          "deshi-mcs"
+        ],
+        "dominant_strand": "Hip-Hop/Rap",
+        "strand_mix": {
+          "Hip-Hop/Rap": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 12,
+        "size": 1,
+        "members": [
+          "hannan"
+        ],
+        "dominant_strand": "Hip-Hop/Rap",
+        "strand_mix": {
+          "Hip-Hop/Rap": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 13,
+        "size": 1,
+        "members": [
+          "imran-mahmudul"
+        ],
+        "dominant_strand": "Pop",
+        "strand_mix": {
+          "Pop": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 14,
+        "size": 1,
+        "members": [
+          "jalali-set"
+        ],
+        "dominant_strand": "Hip-Hop/Rap",
+        "strand_mix": {
+          "Hip-Hop/Rap": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 15,
+        "size": 1,
+        "members": [
+          "kona"
+        ],
+        "dominant_strand": "Pop",
+        "strand_mix": {
+          "Pop": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 16,
+        "size": 1,
+        "members": [
+          "miles"
+        ],
+        "dominant_strand": "Mainstream Rock",
+        "strand_mix": {
+          "Mainstream Rock": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 17,
+        "size": 1,
+        "members": [
+          "nancy"
+        ],
+        "dominant_strand": "Pop",
+        "strand_mix": {
+          "Pop": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 18,
+        "size": 1,
+        "members": [
+          "prometheus"
+        ],
+        "dominant_strand": "Mainstream Rock",
+        "strand_mix": {
+          "Mainstream Rock": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 19,
+        "size": 1,
+        "members": [
+          "shezan"
+        ],
+        "dominant_strand": "Hip-Hop/Rap",
+        "strand_mix": {
+          "Hip-Hop/Rap": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 20,
+        "size": 1,
+        "members": [
+          "shohojia"
+        ],
+        "dominant_strand": "Alternative/Indie",
+        "strand_mix": {
+          "Alternative/Indie": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 21,
+        "size": 1,
+        "members": [
+          "shonar-bangla-circus"
+        ],
+        "dominant_strand": "Alternative/Indie",
+        "strand_mix": {
+          "Alternative/Indie": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 22,
+        "size": 1,
+        "members": [
+          "stoic-bliss"
+        ],
+        "dominant_strand": "Hip-Hop/Rap",
+        "strand_mix": {
+          "Hip-Hop/Rap": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 23,
+        "size": 1,
+        "members": [
+          "theology-of-rap"
+        ],
+        "dominant_strand": "Hip-Hop/Rap",
+        "strand_mix": {
+          "Hip-Hop/Rap": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 24,
+        "size": 1,
+        "members": [
+          "uptown-lokolz"
+        ],
+        "dominant_strand": "Hip-Hop/Rap",
+        "strand_mix": {
+          "Hip-Hop/Rap": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      },
+      {
+        "community_id": 25,
+        "size": 1,
+        "members": [
+          "vibe"
+        ],
+        "dominant_strand": "Heavy Metal",
+        "strand_mix": {
+          "Heavy Metal": 1
+        },
+        "internal_edges": 0,
+        "internal_density": 0.0
+      }
+    ]
+  }
+}

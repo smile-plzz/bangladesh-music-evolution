@@ -1,0 +1,35 @@
+{
+  "id": "2023-joy-bangla-concert-vii",
+  "name": "Joy Bangla Concert 2023 (7th edition)",
+  "date": "2023-03-08",
+  "date_precision": "day",
+  "type": "festival",
+  "venue": {
+    "name": "Bangladesh Army Stadium",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "venue_type": "stadium"
+  },
+  "organizer": "Young Bangla / Centre for Research and Information (CRI)",
+  "artists": [
+    { "artist_id": "artcell", "billing": "headliner" },
+    { "artist_id": "avoidrafa", "billing": "support" },
+    { "artist_id": "lalon-band", "billing": "co-headliner" },
+    { "artist_id": "chirkutt", "billing": "co-headliner" },
+    { "artist_id": "cryptic-fate", "billing": "co-headliner" },
+    { "artist_id": "karnival", "billing": "co-headliner" },
+    { "artist_id": "meghdol", "billing": "co-headliner" },
+    { "artist_id": "nemesis", "billing": "co-headliner" },
+    { "artist_id": "arekta-rock-band", "billing": "support" }
+  ],
+  "genres_represented": ["Progressive Metal", "Progressive Rock", "Alternative Rock", "Indie Rock", "Folk Fusion", "Heavy Metal"],
+  "attendance_confidence": "unknown",
+  "notes": "Seventh edition, returning after a two-year Covid-19 hiatus and held on 8 March rather than 7 March. First appearance of Meghdol and Karnival on this series' bill, which is what connects the indie/literary and progressive strands to the festival cluster in the preference network. The series had run annually from 2015 to 2020 before the gap.",
+  "sources": [
+    { "title": "Joy Bangla Concert is back after a two-year hiatus", "url": "https://www.tbsnews.net/splash/young-music-lovers-rejoice-joy-bangla-concert-back-after-two-year-gap-593118", "type": "news", "accessed": "2026-08-27" },
+    { "title": "Joy Bangla Concert 2023 kicks off", "url": "https://www.tbsnews.net/splash/joy-bangla-concert-2023-kicks-596206", "type": "news", "accessed": "2026-08-27" },
+    { "title": "Joy Bangla Concert: An energetic comeback", "url": "https://www.thedailystar.net/news/bangladesh/news/joy-bangla-concert-energetic-comeback-3266566", "type": "news", "accessed": "2026-08-27" }
+  ],
+  "tags": ["festival", "joy-bangla-series", "state-commemorative", "cross-strand-bill", "post-covid-return", "snippet-sourced"],
+  "last_updated": "2026-08-27"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2015-joy-bangla-concert-i",
+  "name": "Joy Bangla Concert 2015 (1st edition)",
+  "date": "2015-03-07",
+  "date_precision": "day",
+  "type": "festival",
+  "venue": {
+    "name": "Bangladesh Army Stadium",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "venue_type": "stadium"
+  },
+  "organizer": "Young Bangla / Centre for Research and Information (CRI)",
+  "artists": [
+    { "artist_id": "artcell", "billing": "co-headliner" },
+    { "artist_id": "warfaze", "billing": "co-headliner" }
+  ],
+  "genres_represented": ["Progressive Metal", "Heavy Metal"],
+  "attendance_confidence": "unknown",
+  "notes": "First edition of the annual Joy Bangla Concert, staged on 7 March to commemorate Sheikh Mujibur Rahman's 1971 speech. Artcell opened the inaugural event and Warfaze also performed. The full 2015 bill was not recoverable from accessible sources — only these two acts are confirmed, so the record under-counts the lineup and the co-billing edges it produces are a floor, not the full set. Free entry, state-adjacent youth platform as organiser: the series is the clearest case in this dataset of rock music being used as national-commemorative programming rather than commercial promotion.",
+  "sources": [
+    { "title": "Joy Bangla Concert: Rock stars share best memories", "url": "https://www.tbsnews.net/glitz/joy-bangla-concert-rock-stars-share-best-memories-212905", "type": "news", "accessed": "2026-08-27" },
+    { "title": "Rock stars recount Joy Bangla Concert highlights from previous years", "url": "https://www.thedailystar.net/arts-entertainment/news/rock-stars-recount-joy-bangla-concert-highlights-previous-years-2057109", "type": "news", "accessed": "2026-08-27" }
+  ],
+  "tags": ["festival", "joy-bangla-series", "state-commemorative", "snippet-sourced", "needs-verification"],
+  "last_updated": "2026-08-27"
+}

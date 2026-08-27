@@ -1,0 +1,34 @@
+{
+  "id": "2019-joy-bangla-concert-v",
+  "name": "Joy Bangla Concert 2019 (5th edition)",
+  "date": "2019-03-07",
+  "date_precision": "day",
+  "type": "festival",
+  "venue": {
+    "name": "Bangladesh Army Stadium",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "venue_type": "stadium"
+  },
+  "organizer": "Young Bangla / Centre for Research and Information (CRI)",
+  "artists": [
+    { "artist_id": "bay-of-bengal", "billing": "support" },
+    { "artist_id": "shunno", "billing": "support" },
+    { "artist_id": "lalon-band", "billing": "co-headliner" },
+    { "artist_id": "arbovirus", "billing": "support" },
+    { "artist_id": "nemesis", "billing": "co-headliner" },
+    { "artist_id": "cryptic-fate", "billing": "co-headliner" },
+    { "artist_id": "chirkutt", "billing": "co-headliner" },
+    { "artist_id": "artcell", "billing": "headliner" }
+  ],
+  "genres_represented": ["Experimental Rock", "Alternative Rock", "Folk Fusion", "Heavy Metal", "Progressive Metal"],
+  "attendance_confidence": "unknown",
+  "notes": "Fifth edition. Reported running order opened with Chattogram's Bay of Bengal performing 'Maa Goo Vabna Keno', followed by Shunno ('Joy Bangla Banglar Joy'), then Lalon and Arbovirus, with Artcell closing. The opening slot going to a Chattogram act is the first documented instance in this catalogue of the series reaching outside the Dhaka band circuit — five years before the festival itself moved to Chattogram.",
+  "sources": [
+    { "title": "Joy Bangla concert 2019 resonates across Dhaka", "url": "https://www.thedailystar.net/arts-entertainment/music/news/joy-bangla-2019-resonates-across-dhaka-1711948", "type": "news", "accessed": "2026-08-27" },
+    { "title": "Joy Bangla Concert 2019 to rock the youth today", "url": "https://www.thedailystar.net/arts-entertainment/music/joy-bangla-concert-2019-rock-the-youth-today-1711390", "type": "news", "accessed": "2026-08-27" },
+    { "title": "Joy Bangla Concert 2019: A reviving event for the youngsters", "url": "https://www.dhakatribune.com/showtime/170622/joy-bangla-concert-2019-a-reviving-event-for-the", "type": "news", "accessed": "2026-08-27" }
+  ],
+  "tags": ["festival", "joy-bangla-series", "state-commemorative", "cross-strand-bill", "snippet-sourced"],
+  "last_updated": "2026-08-27"
+}

@@ -1,8 +1,8 @@
 {
-  "description": "Prototype Bangladesh Music Preference Network (BMPN) built from publicly documented concert co-billing only. Nodes = artists in data/artists/; edges = artists that shared a concert bill in data/concerts/, weighted by number of shared events. This is an early proxy for audience/genre-community structure, not a validated preference network — streaming/playlist co-occurrence and social-listening data are needed for a fuller model (see docs/roadmap.md).",
-  "node_count": 58,
-  "edge_count": 40,
-  "isolated_node_count": 39,
+  "description": "Concert co-billing layer of the BMPN. Nodes = artists in data/artists/; edges = artists that shared a documented concert bill in data/concerts/, weighted by number of shared events. This is the strongest observational layer; see bmpn-multilayer.json for the personnel, domestic-influence and influence-homophily layers and analysis/outputs/ for the network metrics.",
+  "node_count": 63,
+  "edge_count": 133,
+  "isolated_node_count": 35,
   "nodes": [
     {
       "id": "arbovirus",
@@ -13,7 +13,16 @@
         "Pop Rock",
         "Psychedelic Rock"
       ],
-      "event_count": 1
+      "event_count": 5
+    },
+    {
+      "id": "arekta-rock-band",
+      "name": "Arekta Rock Band",
+      "genres": [
+        "Alternative Rock",
+        "Indie Rock"
+      ],
+      "event_count": 2
     },
     {
       "id": "ark",
@@ -42,7 +51,7 @@
         "Progressive Rock",
         "Heavy Metal"
       ],
-      "event_count": 5
+      "event_count": 10
     },
     {
       "id": "ashes",
@@ -74,6 +83,16 @@
       "event_count": 1
     },
     {
+      "id": "avoidrafa",
+      "name": "AvoidRafa",
+      "genres": [
+        "Hard Rock",
+        "Progressive Metal",
+        "Alternative Rock"
+      ],
+      "event_count": 3
+    },
+    {
       "id": "azam-khan-uchcharon",
       "name": "Azam Khan & Uchcharon",
       "genres": [
@@ -81,6 +100,16 @@
         "Bangla Pop"
       ],
       "event_count": 0
+    },
+    {
+      "id": "bay-of-bengal",
+      "name": "Bay of Bengal",
+      "genres": [
+        "Experimental Rock",
+        "Progressive Rock",
+        "Heavy Metal"
+      ],
+      "event_count": 1
     },
     {
       "id": "black",
@@ -99,7 +128,7 @@
         "Alternative Rock",
         "Bangla Fusion"
       ],
-      "event_count": 1
+      "event_count": 7
     },
     {
       "id": "conclusion",
@@ -108,7 +137,7 @@
         "Alternative Rock",
         "Experimental Rock"
       ],
-      "event_count": 0
+      "event_count": 1
     },
     {
       "id": "cryptic-fate",
@@ -117,7 +146,7 @@
         "Heavy Metal",
         "Progressive Metal"
       ],
-      "event_count": 3
+      "event_count": 9
     },
     {
       "id": "de-illumination",
@@ -137,6 +166,16 @@
         "Gangsta Rap"
       ],
       "event_count": 0
+    },
+    {
+      "id": "f-minor",
+      "name": "F Minor",
+      "genres": [
+        "Folk Fusion",
+        "Indigenous Folk",
+        "Rock"
+      ],
+      "event_count": 1
     },
     {
       "id": "feedback",
@@ -216,7 +255,7 @@
         "Experimental Rock",
         "Grunge-influenced"
       ],
-      "event_count": 1
+      "event_count": 3
     },
     {
       "id": "kona",
@@ -235,7 +274,7 @@
         "Baul-influenced",
         "Rock"
       ],
-      "event_count": 1
+      "event_count": 7
     },
     {
       "id": "lrb",
@@ -275,7 +314,7 @@
         "Folk Rock",
         "Psychedelic Rock"
       ],
-      "event_count": 0
+      "event_count": 2
     },
     {
       "id": "metal-maze",
@@ -303,7 +342,7 @@
         "Indie",
         "Folk-influenced Pop"
       ],
-      "event_count": 0
+      "event_count": 1
     },
     {
       "id": "muza",
@@ -333,7 +372,7 @@
         "Mainstream Rock",
         "Alternative Rock"
       ],
-      "event_count": 2
+      "event_count": 8
     },
     {
       "id": "nova",
@@ -373,7 +412,7 @@
         "Groove Metal",
         "Heavy Metal"
       ],
-      "event_count": 2
+      "event_count": 3
     },
     {
       "id": "prometheus",
@@ -431,7 +470,7 @@
         "Folk Rock",
         "Symphonic Rock"
       ],
-      "event_count": 0
+      "event_count": 1
     },
     {
       "id": "shohojia",
@@ -461,7 +500,7 @@
         "Pop Rock",
         "Soft Rock"
       ],
-      "event_count": 1
+      "event_count": 5
     },
     {
       "id": "souls",
@@ -540,6 +579,15 @@
       "event_count": 0
     },
     {
+      "id": "vikings",
+      "name": "Vikings",
+      "genres": [
+        "Mainstream Rock",
+        "Hard Rock"
+      ],
+      "event_count": 1
+    },
+    {
       "id": "warfaze",
       "name": "Warfaze",
       "genres": [
@@ -547,7 +595,7 @@
         "Hard Rock",
         "Progressive Metal"
       ],
-      "event_count": 6
+      "event_count": 8
     },
     {
       "id": "winning",
@@ -570,83 +618,418 @@
   "edges": [
     {
       "source": "arbovirus",
-      "target": "chirkutt",
+      "target": "arekta-rock-band",
       "weight": 1,
+      "normalised_weight": 0.0909,
       "shared_events": [
-        "2013-rocknation-i-ruposhi-bangla"
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "arbovirus",
+      "target": "artcell",
+      "weight": 2,
+      "normalised_weight": 0.2857,
+      "shared_events": [
+        "2018-joy-bangla-concert-iv",
+        "2019-joy-bangla-concert-v"
+      ]
+    },
+    {
+      "source": "arbovirus",
+      "target": "avoidrafa",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "arbovirus",
+      "target": "bay-of-bengal",
+      "weight": 1,
+      "normalised_weight": 0.1429,
+      "shared_events": [
+        "2019-joy-bangla-concert-v"
+      ]
+    },
+    {
+      "source": "arbovirus",
+      "target": "chirkutt",
+      "weight": 5,
+      "normalised_weight": 0.6861,
+      "shared_events": [
+        "2013-rocknation-i-ruposhi-bangla",
+        "2017-joy-bangla-concert-iii",
+        "2018-joy-bangla-concert-iv",
+        "2019-joy-bangla-concert-v",
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "arbovirus",
+      "target": "conclusion",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
       ]
     },
     {
       "source": "arbovirus",
       "target": "cryptic-fate",
-      "weight": 1,
+      "weight": 5,
+      "normalised_weight": 0.6861,
       "shared_events": [
-        "2013-rocknation-i-ruposhi-bangla"
+        "2013-rocknation-i-ruposhi-bangla",
+        "2017-joy-bangla-concert-iii",
+        "2018-joy-bangla-concert-iv",
+        "2019-joy-bangla-concert-v",
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "arbovirus",
+      "target": "f-minor",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
       ]
     },
     {
       "source": "arbovirus",
       "target": "lalon-band",
-      "weight": 1,
+      "weight": 5,
+      "normalised_weight": 0.6861,
       "shared_events": [
-        "2013-rocknation-i-ruposhi-bangla"
+        "2013-rocknation-i-ruposhi-bangla",
+        "2017-joy-bangla-concert-iii",
+        "2018-joy-bangla-concert-iv",
+        "2019-joy-bangla-concert-v",
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "arbovirus",
+      "target": "minar-rahman",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
       ]
     },
     {
       "source": "arbovirus",
       "target": "nemesis",
-      "weight": 1,
+      "weight": 5,
+      "normalised_weight": 0.6861,
       "shared_events": [
-        "2013-rocknation-i-ruposhi-bangla"
+        "2013-rocknation-i-ruposhi-bangla",
+        "2017-joy-bangla-concert-iii",
+        "2018-joy-bangla-concert-iv",
+        "2019-joy-bangla-concert-v",
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "arbovirus",
+      "target": "powersurge",
+      "weight": 1,
+      "normalised_weight": 0.1429,
+      "shared_events": [
+        "2018-joy-bangla-concert-iv"
+      ]
+    },
+    {
+      "source": "arbovirus",
+      "target": "shironamhin",
+      "weight": 1,
+      "normalised_weight": 0.1429,
+      "shared_events": [
+        "2017-joy-bangla-concert-iii"
       ]
     },
     {
       "source": "arbovirus",
       "target": "shunno",
-      "weight": 1,
+      "weight": 5,
+      "normalised_weight": 0.6861,
       "shared_events": [
-        "2013-rocknation-i-ruposhi-bangla"
+        "2013-rocknation-i-ruposhi-bangla",
+        "2017-joy-bangla-concert-iii",
+        "2018-joy-bangla-concert-iv",
+        "2019-joy-bangla-concert-v",
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "arbovirus",
+      "target": "vikings",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
       ]
     },
     {
       "source": "arbovirus",
       "target": "warfaze",
-      "weight": 1,
+      "weight": 2,
+      "normalised_weight": 0.3095,
       "shared_events": [
-        "2013-rocknation-i-ruposhi-bangla"
+        "2013-rocknation-i-ruposhi-bangla",
+        "2017-joy-bangla-concert-iii"
+      ]
+    },
+    {
+      "source": "arekta-rock-band",
+      "target": "artcell",
+      "weight": 1,
+      "normalised_weight": 0.125,
+      "shared_events": [
+        "2023-joy-bangla-concert-vii"
+      ]
+    },
+    {
+      "source": "arekta-rock-band",
+      "target": "avoidrafa",
+      "weight": 2,
+      "normalised_weight": 0.2159,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi",
+        "2023-joy-bangla-concert-vii"
+      ]
+    },
+    {
+      "source": "arekta-rock-band",
+      "target": "chirkutt",
+      "weight": 2,
+      "normalised_weight": 0.2159,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi",
+        "2023-joy-bangla-concert-vii"
+      ]
+    },
+    {
+      "source": "arekta-rock-band",
+      "target": "conclusion",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "arekta-rock-band",
+      "target": "cryptic-fate",
+      "weight": 2,
+      "normalised_weight": 0.2159,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi",
+        "2023-joy-bangla-concert-vii"
+      ]
+    },
+    {
+      "source": "arekta-rock-band",
+      "target": "f-minor",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "arekta-rock-band",
+      "target": "karnival",
+      "weight": 1,
+      "normalised_weight": 0.125,
+      "shared_events": [
+        "2023-joy-bangla-concert-vii"
+      ]
+    },
+    {
+      "source": "arekta-rock-band",
+      "target": "lalon-band",
+      "weight": 2,
+      "normalised_weight": 0.2159,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi",
+        "2023-joy-bangla-concert-vii"
+      ]
+    },
+    {
+      "source": "arekta-rock-band",
+      "target": "meghdol",
+      "weight": 1,
+      "normalised_weight": 0.125,
+      "shared_events": [
+        "2023-joy-bangla-concert-vii"
+      ]
+    },
+    {
+      "source": "arekta-rock-band",
+      "target": "minar-rahman",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "arekta-rock-band",
+      "target": "nemesis",
+      "weight": 2,
+      "normalised_weight": 0.2159,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi",
+        "2023-joy-bangla-concert-vii"
+      ]
+    },
+    {
+      "source": "arekta-rock-band",
+      "target": "shunno",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "arekta-rock-band",
+      "target": "vikings",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "artcell",
+      "target": "avoidrafa",
+      "weight": 2,
+      "normalised_weight": 0.2679,
+      "shared_events": [
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
+      ]
+    },
+    {
+      "source": "artcell",
+      "target": "bay-of-bengal",
+      "weight": 1,
+      "normalised_weight": 0.1429,
+      "shared_events": [
+        "2019-joy-bangla-concert-v"
+      ]
+    },
+    {
+      "source": "artcell",
+      "target": "chirkutt",
+      "weight": 4,
+      "normalised_weight": 0.5536,
+      "shared_events": [
+        "2018-joy-bangla-concert-iv",
+        "2019-joy-bangla-concert-v",
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
       ]
     },
     {
       "source": "artcell",
       "target": "cryptic-fate",
-      "weight": 2,
+      "weight": 6,
+      "normalised_weight": 1.3869,
       "shared_events": [
         "2009-artcell-10-years-insanity-sheraton",
+        "2018-joy-bangla-concert-iv",
+        "2019-joy-bangla-concert-v",
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram",
         "2026-overload-festival-bccc"
+      ]
+    },
+    {
+      "source": "artcell",
+      "target": "karnival",
+      "weight": 2,
+      "normalised_weight": 0.2679,
+      "shared_events": [
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
+      ]
+    },
+    {
+      "source": "artcell",
+      "target": "lalon-band",
+      "weight": 4,
+      "normalised_weight": 0.5536,
+      "shared_events": [
+        "2018-joy-bangla-concert-iv",
+        "2019-joy-bangla-concert-v",
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
       ]
     },
     {
       "source": "artcell",
       "target": "mechanix",
       "weight": 1,
+      "normalised_weight": 0.3333,
       "shared_events": [
         "2009-artcell-10-years-insanity-sheraton"
       ]
     },
     {
       "source": "artcell",
-      "target": "powersurge",
-      "weight": 1,
+      "target": "meghdol",
+      "weight": 2,
+      "normalised_weight": 0.2679,
       "shared_events": [
-        "2016-rocknation-tours-sylhet-i"
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
+      ]
+    },
+    {
+      "source": "artcell",
+      "target": "nemesis",
+      "weight": 4,
+      "normalised_weight": 0.5536,
+      "shared_events": [
+        "2018-joy-bangla-concert-iv",
+        "2019-joy-bangla-concert-v",
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
+      ]
+    },
+    {
+      "source": "artcell",
+      "target": "powersurge",
+      "weight": 2,
+      "normalised_weight": 0.6429,
+      "shared_events": [
+        "2016-rocknation-tours-sylhet-i",
+        "2018-joy-bangla-concert-iv"
+      ]
+    },
+    {
+      "source": "artcell",
+      "target": "shunno",
+      "weight": 2,
+      "normalised_weight": 0.2857,
+      "shared_events": [
+        "2018-joy-bangla-concert-iv",
+        "2019-joy-bangla-concert-v"
       ]
     },
     {
       "source": "artcell",
       "target": "warfaze",
-      "weight": 3,
+      "weight": 4,
+      "normalised_weight": 2.3333,
       "shared_events": [
         "2009-artcell-10-years-insanity-sheraton",
+        "2015-joy-bangla-concert-i",
         "2016-rocknation-tours-sylhet-i",
         "2026-overload-festival-bccc"
       ]
@@ -655,6 +1038,7 @@
       "source": "aurthohin",
       "target": "karnival",
       "weight": 1,
+      "normalised_weight": 0.5,
       "shared_events": [
         "2013-rocknation-iii"
       ]
@@ -663,136 +1047,681 @@
       "source": "aurthohin",
       "target": "mechanix",
       "weight": 1,
+      "normalised_weight": 0.5,
       "shared_events": [
         "2013-rocknation-iii"
       ]
     },
     {
-      "source": "chirkutt",
+      "source": "avoidrafa",
+      "target": "chirkutt",
+      "weight": 3,
+      "normalised_weight": 0.3588,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi",
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
+      ]
+    },
+    {
+      "source": "avoidrafa",
+      "target": "conclusion",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "avoidrafa",
+      "target": "cryptic-fate",
+      "weight": 3,
+      "normalised_weight": 0.3588,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi",
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
+      ]
+    },
+    {
+      "source": "avoidrafa",
+      "target": "f-minor",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "avoidrafa",
+      "target": "karnival",
+      "weight": 2,
+      "normalised_weight": 0.2679,
+      "shared_events": [
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
+      ]
+    },
+    {
+      "source": "avoidrafa",
+      "target": "lalon-band",
+      "weight": 3,
+      "normalised_weight": 0.3588,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi",
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
+      ]
+    },
+    {
+      "source": "avoidrafa",
+      "target": "meghdol",
+      "weight": 2,
+      "normalised_weight": 0.2679,
+      "shared_events": [
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
+      ]
+    },
+    {
+      "source": "avoidrafa",
+      "target": "minar-rahman",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "avoidrafa",
+      "target": "nemesis",
+      "weight": 3,
+      "normalised_weight": 0.3588,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi",
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
+      ]
+    },
+    {
+      "source": "avoidrafa",
+      "target": "shunno",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "avoidrafa",
+      "target": "vikings",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "bay-of-bengal",
+      "target": "chirkutt",
+      "weight": 1,
+      "normalised_weight": 0.1429,
+      "shared_events": [
+        "2019-joy-bangla-concert-v"
+      ]
+    },
+    {
+      "source": "bay-of-bengal",
       "target": "cryptic-fate",
       "weight": 1,
+      "normalised_weight": 0.1429,
       "shared_events": [
-        "2013-rocknation-i-ruposhi-bangla"
+        "2019-joy-bangla-concert-v"
+      ]
+    },
+    {
+      "source": "bay-of-bengal",
+      "target": "lalon-band",
+      "weight": 1,
+      "normalised_weight": 0.1429,
+      "shared_events": [
+        "2019-joy-bangla-concert-v"
+      ]
+    },
+    {
+      "source": "bay-of-bengal",
+      "target": "nemesis",
+      "weight": 1,
+      "normalised_weight": 0.1429,
+      "shared_events": [
+        "2019-joy-bangla-concert-v"
+      ]
+    },
+    {
+      "source": "bay-of-bengal",
+      "target": "shunno",
+      "weight": 1,
+      "normalised_weight": 0.1429,
+      "shared_events": [
+        "2019-joy-bangla-concert-v"
+      ]
+    },
+    {
+      "source": "chirkutt",
+      "target": "conclusion",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "chirkutt",
+      "target": "cryptic-fate",
+      "weight": 7,
+      "normalised_weight": 0.954,
+      "shared_events": [
+        "2013-rocknation-i-ruposhi-bangla",
+        "2017-joy-bangla-concert-iii",
+        "2018-joy-bangla-concert-iv",
+        "2019-joy-bangla-concert-v",
+        "2020-joy-bangla-concert-vi",
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
+      ]
+    },
+    {
+      "source": "chirkutt",
+      "target": "f-minor",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "chirkutt",
+      "target": "karnival",
+      "weight": 2,
+      "normalised_weight": 0.2679,
+      "shared_events": [
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
       ]
     },
     {
       "source": "chirkutt",
       "target": "lalon-band",
-      "weight": 1,
+      "weight": 7,
+      "normalised_weight": 0.954,
       "shared_events": [
-        "2013-rocknation-i-ruposhi-bangla"
+        "2013-rocknation-i-ruposhi-bangla",
+        "2017-joy-bangla-concert-iii",
+        "2018-joy-bangla-concert-iv",
+        "2019-joy-bangla-concert-v",
+        "2020-joy-bangla-concert-vi",
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
+      ]
+    },
+    {
+      "source": "chirkutt",
+      "target": "meghdol",
+      "weight": 2,
+      "normalised_weight": 0.2679,
+      "shared_events": [
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
+      ]
+    },
+    {
+      "source": "chirkutt",
+      "target": "minar-rahman",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
       ]
     },
     {
       "source": "chirkutt",
       "target": "nemesis",
-      "weight": 1,
+      "weight": 7,
+      "normalised_weight": 0.954,
       "shared_events": [
-        "2013-rocknation-i-ruposhi-bangla"
+        "2013-rocknation-i-ruposhi-bangla",
+        "2017-joy-bangla-concert-iii",
+        "2018-joy-bangla-concert-iv",
+        "2019-joy-bangla-concert-v",
+        "2020-joy-bangla-concert-vi",
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
+      ]
+    },
+    {
+      "source": "chirkutt",
+      "target": "powersurge",
+      "weight": 1,
+      "normalised_weight": 0.1429,
+      "shared_events": [
+        "2018-joy-bangla-concert-iv"
+      ]
+    },
+    {
+      "source": "chirkutt",
+      "target": "shironamhin",
+      "weight": 1,
+      "normalised_weight": 0.1429,
+      "shared_events": [
+        "2017-joy-bangla-concert-iii"
       ]
     },
     {
       "source": "chirkutt",
       "target": "shunno",
-      "weight": 1,
+      "weight": 5,
+      "normalised_weight": 0.6861,
       "shared_events": [
-        "2013-rocknation-i-ruposhi-bangla"
+        "2013-rocknation-i-ruposhi-bangla",
+        "2017-joy-bangla-concert-iii",
+        "2018-joy-bangla-concert-iv",
+        "2019-joy-bangla-concert-v",
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "chirkutt",
+      "target": "vikings",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
       ]
     },
     {
       "source": "chirkutt",
       "target": "warfaze",
-      "weight": 1,
+      "weight": 2,
+      "normalised_weight": 0.3095,
       "shared_events": [
-        "2013-rocknation-i-ruposhi-bangla"
+        "2013-rocknation-i-ruposhi-bangla",
+        "2017-joy-bangla-concert-iii"
+      ]
+    },
+    {
+      "source": "conclusion",
+      "target": "cryptic-fate",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "conclusion",
+      "target": "f-minor",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "conclusion",
+      "target": "lalon-band",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "conclusion",
+      "target": "minar-rahman",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "conclusion",
+      "target": "nemesis",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "conclusion",
+      "target": "shunno",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "conclusion",
+      "target": "vikings",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "cryptic-fate",
+      "target": "f-minor",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "cryptic-fate",
+      "target": "karnival",
+      "weight": 2,
+      "normalised_weight": 0.2679,
+      "shared_events": [
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
       ]
     },
     {
       "source": "cryptic-fate",
       "target": "lalon-band",
-      "weight": 1,
+      "weight": 7,
+      "normalised_weight": 0.954,
       "shared_events": [
-        "2013-rocknation-i-ruposhi-bangla"
+        "2013-rocknation-i-ruposhi-bangla",
+        "2017-joy-bangla-concert-iii",
+        "2018-joy-bangla-concert-iv",
+        "2019-joy-bangla-concert-v",
+        "2020-joy-bangla-concert-vi",
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
       ]
     },
     {
       "source": "cryptic-fate",
       "target": "mechanix",
       "weight": 1,
+      "normalised_weight": 0.3333,
       "shared_events": [
         "2009-artcell-10-years-insanity-sheraton"
       ]
     },
     {
       "source": "cryptic-fate",
-      "target": "nemesis",
-      "weight": 1,
+      "target": "meghdol",
+      "weight": 2,
+      "normalised_weight": 0.2679,
       "shared_events": [
-        "2013-rocknation-i-ruposhi-bangla"
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
+      ]
+    },
+    {
+      "source": "cryptic-fate",
+      "target": "minar-rahman",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "cryptic-fate",
+      "target": "nemesis",
+      "weight": 7,
+      "normalised_weight": 0.954,
+      "shared_events": [
+        "2013-rocknation-i-ruposhi-bangla",
+        "2017-joy-bangla-concert-iii",
+        "2018-joy-bangla-concert-iv",
+        "2019-joy-bangla-concert-v",
+        "2020-joy-bangla-concert-vi",
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
+      ]
+    },
+    {
+      "source": "cryptic-fate",
+      "target": "powersurge",
+      "weight": 1,
+      "normalised_weight": 0.1429,
+      "shared_events": [
+        "2018-joy-bangla-concert-iv"
+      ]
+    },
+    {
+      "source": "cryptic-fate",
+      "target": "shironamhin",
+      "weight": 1,
+      "normalised_weight": 0.1429,
+      "shared_events": [
+        "2017-joy-bangla-concert-iii"
       ]
     },
     {
       "source": "cryptic-fate",
       "target": "shunno",
-      "weight": 1,
+      "weight": 5,
+      "normalised_weight": 0.6861,
       "shared_events": [
-        "2013-rocknation-i-ruposhi-bangla"
+        "2013-rocknation-i-ruposhi-bangla",
+        "2017-joy-bangla-concert-iii",
+        "2018-joy-bangla-concert-iv",
+        "2019-joy-bangla-concert-v",
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "cryptic-fate",
+      "target": "vikings",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
       ]
     },
     {
       "source": "cryptic-fate",
       "target": "warfaze",
-      "weight": 3,
+      "weight": 4,
+      "normalised_weight": 1.1429,
       "shared_events": [
         "2009-artcell-10-years-insanity-sheraton",
         "2013-rocknation-i-ruposhi-bangla",
+        "2017-joy-bangla-concert-iii",
         "2026-overload-festival-bccc"
+      ]
+    },
+    {
+      "source": "f-minor",
+      "target": "lalon-band",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "f-minor",
+      "target": "minar-rahman",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "f-minor",
+      "target": "nemesis",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "f-minor",
+      "target": "shunno",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "f-minor",
+      "target": "vikings",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
       ]
     },
     {
       "source": "indalo",
       "target": "powersurge",
       "weight": 1,
+      "normalised_weight": 1.0,
       "shared_events": [
         "2013-rocknation-ii"
       ]
     },
     {
       "source": "karnival",
+      "target": "lalon-band",
+      "weight": 2,
+      "normalised_weight": 0.2679,
+      "shared_events": [
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
+      ]
+    },
+    {
+      "source": "karnival",
       "target": "mechanix",
       "weight": 1,
+      "normalised_weight": 0.5,
       "shared_events": [
         "2013-rocknation-iii"
       ]
     },
     {
+      "source": "karnival",
+      "target": "meghdol",
+      "weight": 2,
+      "normalised_weight": 0.2679,
+      "shared_events": [
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
+      ]
+    },
+    {
+      "source": "karnival",
+      "target": "nemesis",
+      "weight": 2,
+      "normalised_weight": 0.2679,
+      "shared_events": [
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
+      ]
+    },
+    {
+      "source": "lalon-band",
+      "target": "meghdol",
+      "weight": 2,
+      "normalised_weight": 0.2679,
+      "shared_events": [
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
+      ]
+    },
+    {
+      "source": "lalon-band",
+      "target": "minar-rahman",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
       "source": "lalon-band",
       "target": "nemesis",
-      "weight": 1,
+      "weight": 7,
+      "normalised_weight": 0.954,
       "shared_events": [
-        "2013-rocknation-i-ruposhi-bangla"
+        "2013-rocknation-i-ruposhi-bangla",
+        "2017-joy-bangla-concert-iii",
+        "2018-joy-bangla-concert-iv",
+        "2019-joy-bangla-concert-v",
+        "2020-joy-bangla-concert-vi",
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
+      ]
+    },
+    {
+      "source": "lalon-band",
+      "target": "powersurge",
+      "weight": 1,
+      "normalised_weight": 0.1429,
+      "shared_events": [
+        "2018-joy-bangla-concert-iv"
+      ]
+    },
+    {
+      "source": "lalon-band",
+      "target": "shironamhin",
+      "weight": 1,
+      "normalised_weight": 0.1429,
+      "shared_events": [
+        "2017-joy-bangla-concert-iii"
       ]
     },
     {
       "source": "lalon-band",
       "target": "shunno",
-      "weight": 1,
+      "weight": 5,
+      "normalised_weight": 0.6861,
       "shared_events": [
-        "2013-rocknation-i-ruposhi-bangla"
+        "2013-rocknation-i-ruposhi-bangla",
+        "2017-joy-bangla-concert-iii",
+        "2018-joy-bangla-concert-iv",
+        "2019-joy-bangla-concert-v",
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "lalon-band",
+      "target": "vikings",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
       ]
     },
     {
       "source": "lalon-band",
       "target": "warfaze",
-      "weight": 1,
+      "weight": 2,
+      "normalised_weight": 0.3095,
       "shared_events": [
-        "2013-rocknation-i-ruposhi-bangla"
+        "2013-rocknation-i-ruposhi-bangla",
+        "2017-joy-bangla-concert-iii"
       ]
     },
     {
       "source": "maqsood-o-dhaka",
       "target": "mechanix",
       "weight": 1,
+      "normalised_weight": 0.25,
       "shared_events": [
         "bamba-eid-concert-jamuna-future-park"
       ]
@@ -801,6 +1730,7 @@
       "source": "maqsood-o-dhaka",
       "target": "nemesis",
       "weight": 1,
+      "normalised_weight": 0.25,
       "shared_events": [
         "bamba-eid-concert-jamuna-future-park"
       ]
@@ -809,6 +1739,7 @@
       "source": "maqsood-o-dhaka",
       "target": "renaissance",
       "weight": 1,
+      "normalised_weight": 0.25,
       "shared_events": [
         "bamba-eid-concert-jamuna-future-park"
       ]
@@ -817,6 +1748,7 @@
       "source": "maqsood-o-dhaka",
       "target": "warfaze",
       "weight": 1,
+      "normalised_weight": 0.25,
       "shared_events": [
         "bamba-eid-concert-jamuna-future-park"
       ]
@@ -825,6 +1757,7 @@
       "source": "mechanix",
       "target": "nemesis",
       "weight": 1,
+      "normalised_weight": 0.25,
       "shared_events": [
         "bamba-eid-concert-jamuna-future-park"
       ]
@@ -833,6 +1766,7 @@
       "source": "mechanix",
       "target": "renaissance",
       "weight": 1,
+      "normalised_weight": 0.25,
       "shared_events": [
         "bamba-eid-concert-jamuna-future-park"
       ]
@@ -841,40 +1775,123 @@
       "source": "mechanix",
       "target": "warfaze",
       "weight": 2,
+      "normalised_weight": 0.5833,
       "shared_events": [
         "2009-artcell-10-years-insanity-sheraton",
         "bamba-eid-concert-jamuna-future-park"
       ]
     },
     {
+      "source": "meghdol",
+      "target": "nemesis",
+      "weight": 2,
+      "normalised_weight": 0.2679,
+      "shared_events": [
+        "2023-joy-bangla-concert-vii",
+        "2024-joy-bangla-concert-viii-chattogram"
+      ]
+    },
+    {
+      "source": "minar-rahman",
+      "target": "nemesis",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "minar-rahman",
+      "target": "shunno",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "minar-rahman",
+      "target": "vikings",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "nemesis",
+      "target": "powersurge",
+      "weight": 1,
+      "normalised_weight": 0.1429,
+      "shared_events": [
+        "2018-joy-bangla-concert-iv"
+      ]
+    },
+    {
       "source": "nemesis",
       "target": "renaissance",
       "weight": 1,
+      "normalised_weight": 0.25,
       "shared_events": [
         "bamba-eid-concert-jamuna-future-park"
+      ]
+    },
+    {
+      "source": "nemesis",
+      "target": "shironamhin",
+      "weight": 1,
+      "normalised_weight": 0.1429,
+      "shared_events": [
+        "2017-joy-bangla-concert-iii"
       ]
     },
     {
       "source": "nemesis",
       "target": "shunno",
-      "weight": 1,
+      "weight": 5,
+      "normalised_weight": 0.6861,
       "shared_events": [
-        "2013-rocknation-i-ruposhi-bangla"
+        "2013-rocknation-i-ruposhi-bangla",
+        "2017-joy-bangla-concert-iii",
+        "2018-joy-bangla-concert-iv",
+        "2019-joy-bangla-concert-v",
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "nemesis",
+      "target": "vikings",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
       ]
     },
     {
       "source": "nemesis",
       "target": "warfaze",
-      "weight": 2,
+      "weight": 3,
+      "normalised_weight": 0.5595,
       "shared_events": [
         "2013-rocknation-i-ruposhi-bangla",
+        "2017-joy-bangla-concert-iii",
         "bamba-eid-concert-jamuna-future-park"
+      ]
+    },
+    {
+      "source": "powersurge",
+      "target": "shunno",
+      "weight": 1,
+      "normalised_weight": 0.1429,
+      "shared_events": [
+        "2018-joy-bangla-concert-iv"
       ]
     },
     {
       "source": "powersurge",
       "target": "warfaze",
       "weight": 1,
+      "normalised_weight": 0.5,
       "shared_events": [
         "2016-rocknation-tours-sylhet-i"
       ]
@@ -883,16 +1900,46 @@
       "source": "renaissance",
       "target": "warfaze",
       "weight": 1,
+      "normalised_weight": 0.25,
       "shared_events": [
         "bamba-eid-concert-jamuna-future-park"
       ]
     },
     {
-      "source": "shunno",
+      "source": "shironamhin",
+      "target": "shunno",
+      "weight": 1,
+      "normalised_weight": 0.1429,
+      "shared_events": [
+        "2017-joy-bangla-concert-iii"
+      ]
+    },
+    {
+      "source": "shironamhin",
       "target": "warfaze",
       "weight": 1,
+      "normalised_weight": 0.1429,
       "shared_events": [
-        "2013-rocknation-i-ruposhi-bangla"
+        "2017-joy-bangla-concert-iii"
+      ]
+    },
+    {
+      "source": "shunno",
+      "target": "vikings",
+      "weight": 1,
+      "normalised_weight": 0.0909,
+      "shared_events": [
+        "2020-joy-bangla-concert-vi"
+      ]
+    },
+    {
+      "source": "shunno",
+      "target": "warfaze",
+      "weight": 2,
+      "normalised_weight": 0.3095,
+      "shared_events": [
+        "2013-rocknation-i-ruposhi-bangla",
+        "2017-joy-bangla-concert-iii"
       ]
     }
   ]

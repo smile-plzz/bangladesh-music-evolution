@@ -1,0 +1,392 @@
+{
+  "generated": "2026-08-27",
+  "method_note": "Free-text influence citations were split on '/' and ',', stripped of parentheticals, and classified as a named global act, a generic tradition label, or a domestic (catalogued) act. Each canonical token's kind is resolved once over the whole corpus (see common.resolve_token_kinds), so an influence cannot count as a named act in one cross-tab and a tradition in another. Ranks count DISTINCT CITING ACTS, not citation rows, so an influence's rank reflects how many acts in this sample name it -- not its measured effect on the music.",
+  "artists_analysed": 63,
+  "raw_citation_entries": 83,
+  "normalised_citations": 170,
+  "distinct_named_global_influences": 46,
+  "distinct_tradition_labels": 73,
+  "evidence_quality": {
+    "citations_with_named_source": 83,
+    "source_rate": 1.0,
+    "confidence_distribution": {
+      "medium": 34,
+      "high": 31,
+      "low": 16,
+      "hypothesized": 2
+    }
+  },
+  "top_named_global_influences": {
+    "Metallica": 6,
+    "Megadeth": 5,
+    "Pink Floyd": 4,
+    "Sepultura": 3,
+    "Pantera": 3,
+    "Alice In Chains": 3,
+    "Motörhead": 3,
+    "Deep Purple": 3,
+    "Iron Maiden": 3,
+    "Dream Theater": 2,
+    "Nirvana": 2,
+    "Soundgarden": 2,
+    "The Doors": 2,
+    "Black Sabbath": 2,
+    "Lamb Of God": 2,
+    "Opeth": 1,
+    "Tupac": 1,
+    "Biggie": 1,
+    "Eminem": 1,
+    "Big L": 1,
+    "Karsh Kale": 1,
+    "Pearl Jam": 1,
+    "Stone Temple Pilots": 1,
+    "Eric Clapton": 1,
+    "Led Zeppelin": 1
+  },
+  "top_tradition_labels": {
+    "American Hip-Hop": 6,
+    "Jazz": 3,
+    "Grunge": 2,
+    "Western Hard Rock Traditions": 2,
+    "Western Rock": 2,
+    "Funk": 2,
+    "Western Pop": 2,
+    "Western Pop Rock": 2,
+    "Blues Rock": 2,
+    "Reggae": 2,
+    "Blues Traditions": 2,
+    "Unspecified In Available Sources": 2,
+    "Psychedelic": 2,
+    "Progressive Rock Traditions": 2,
+    "Soft Rock Traditions": 2
+  },
+  "named_influences_by_strand": {
+    "Alternative/Indie": {
+      "Alice In Chains": 2,
+      "Soundgarden": 2,
+      "Nirvana": 1,
+      "Pearl Jam": 1,
+      "Stone Temple Pilots": 1,
+      "Deftones": 1,
+      "Slipknot": 1,
+      "Queens of the Stone Age": 1
+    },
+    "Heavy Metal": {
+      "Metallica": 5,
+      "Megadeth": 4,
+      "Iron Maiden": 3,
+      "Pantera": 2,
+      "Black Sabbath": 2,
+      "Sepultura": 2,
+      "Motörhead": 2,
+      "Lamb Of God": 2
+    },
+    "Hip-Hop/Rap": {
+      "Tupac": 1,
+      "Biggie": 1,
+      "Eminem": 1,
+      "Big L": 1
+    },
+    "Mainstream Rock": {
+      "The Doors": 2,
+      "Eric Clapton": 1,
+      "Led Zeppelin": 1,
+      "Mark Knopfler": 1,
+      "Pink Floyd": 1,
+      "Queen": 1,
+      "Deep Purple": 1
+    },
+    "Pop": {
+      "Karsh Kale": 1
+    },
+    "Progressive Rock/Metal": {
+      "Pink Floyd": 2,
+      "Dream Theater": 1,
+      "Metallica": 1,
+      "Sepultura": 1,
+      "Pantera": 1,
+      "Opeth": 1,
+      "The Beatles": 1,
+      "Radiohead": 1
+    }
+  },
+  "named_influences_by_formation_era": {
+    "Founding era (pre-1985)": {
+      "citing_acts": 2,
+      "top": {
+        "Eric Clapton": 1,
+        "Led Zeppelin": 1,
+        "The Doors": 1,
+        "Mark Knopfler": 1,
+        "Iron Maiden": 1,
+        "Deep Purple": 1,
+        "Whitesnake": 1,
+        "Dokken": 1
+      }
+    },
+    "Metal & cassette era (1985-1999)": {
+      "citing_acts": 6,
+      "top": {
+        "Metallica": 3,
+        "Pantera": 3,
+        "Pink Floyd": 2,
+        "Sepultura": 2,
+        "Megadeth": 2,
+        "Deep Purple": 2,
+        "Black Sabbath": 2,
+        "Motörhead": 2
+      }
+    },
+    "Digital transition (2000-2009)": {
+      "citing_acts": 7,
+      "top": {
+        "Megadeth": 3,
+        "Pink Floyd": 2,
+        "Metallica": 2,
+        "Lamb Of God": 2,
+        "Tupac": 1,
+        "Biggie": 1,
+        "Eminem": 1,
+        "Big L": 1
+      }
+    },
+    "Streaming era (2010-)": {
+      "citing_acts": 1,
+      "top": {
+        "Pearl Jam": 1,
+        "Alice In Chains": 1,
+        "Soundgarden": 1,
+        "Stone Temple Pilots": 1
+      }
+    }
+  },
+  "cross_strand_influences": {
+    "Metallica": {
+      "citing_acts": 6,
+      "strands": {
+        "Heavy Metal": 5,
+        "Progressive Rock/Metal": 1
+      }
+    },
+    "Megadeth": {
+      "citing_acts": 5,
+      "strands": {
+        "Heavy Metal": 4,
+        "Progressive Rock/Metal": 1
+      }
+    },
+    "Pink Floyd": {
+      "citing_acts": 4,
+      "strands": {
+        "Progressive Rock/Metal": 2,
+        "Mainstream Rock": 1,
+        "Heavy Metal": 1
+      }
+    },
+    "Sepultura": {
+      "citing_acts": 3,
+      "strands": {
+        "Heavy Metal": 2,
+        "Progressive Rock/Metal": 1
+      }
+    },
+    "Pantera": {
+      "citing_acts": 3,
+      "strands": {
+        "Heavy Metal": 2,
+        "Progressive Rock/Metal": 1
+      }
+    },
+    "Alice In Chains": {
+      "citing_acts": 3,
+      "strands": {
+        "Alternative/Indie": 2,
+        "Progressive Rock/Metal": 1
+      }
+    },
+    "Motörhead": {
+      "citing_acts": 3,
+      "strands": {
+        "Heavy Metal": 2,
+        "Progressive Rock/Metal": 1
+      }
+    },
+    "Deep Purple": {
+      "citing_acts": 3,
+      "strands": {
+        "Heavy Metal": 2,
+        "Mainstream Rock": 1
+      }
+    },
+    "Dream Theater": {
+      "citing_acts": 2,
+      "strands": {
+        "Progressive Rock/Metal": 1,
+        "Heavy Metal": 1
+      }
+    },
+    "Nirvana": {
+      "citing_acts": 2,
+      "strands": {
+        "Alternative/Indie": 1,
+        "Progressive Rock/Metal": 1
+      }
+    }
+  },
+  "domestic_transmission": {
+    "edge_count": 5,
+    "links": [
+      {
+        "from": "avoidrafa",
+        "to": "aurthohin",
+        "confidence": "high",
+        "evidence": "Founder Raef Al Hasan Rafa spent roughly fifteen years as Aurthohin's drummer and vocalist before AvoidRafa became his own vehicle; his playing vocabulary and the band's progressive/hard-rock orientation carry directly from that tenure. This is a domestic transmission link rather than a global one."
+      },
+      {
+        "from": "conclusion",
+        "to": "owned",
+        "confidence": "high",
+        "evidence": "Band members unanimously credited Owned as their key inspiration, indicating a primarily domestic (rather than Western) lineage of influence — an example of intra-scene Bangladeshi alternative-rock genealogy rather than direct Western import."
+      },
+      {
+        "from": "muza",
+        "to": "habib-wahid",
+        "confidence": "medium",
+        "evidence": "Muza has cited Habib Wahid's songs as his direct musical inspiration, indicating a primarily domestic (rather than purely Western) lineage of folk-electronic fusion influence carried into the Bangladeshi-American diaspora."
+      },
+      {
+        "from": "nova",
+        "to": "feedback",
+        "confidence": "high",
+        "evidence": "Nova cites Azam Khan and Feedback directly alongside its Western influences, indicating the band's psychedelic/progressive sound was built on both foreign and domestic founding-generation reference points simultaneously."
+      },
+      {
+        "from": "poizon-green",
+        "to": "rockstrata",
+        "confidence": "high",
+        "evidence": "Poizon Green explicitly cites Bangladeshi founding-era metal band Rockstrata as a hugely influential domestic reference point, directly demonstrating intra-scene genealogical transmission from the country's 'big four founders of heavy metal' to a subsequent generation."
+      }
+    ]
+  },
+  "localisation_mechanisms": {
+    "totals": {
+      "bangla_language_choice": 36,
+      "folk_or_baul_motif": 20,
+      "political_or_social": 20,
+      "literary_or_poetic": 8,
+      "religious_or_spiritual": 4,
+      "urban_vernacular": 4
+    },
+    "by_strand": {
+      "Alternative/Indie": {
+        "political_or_social": 6,
+        "bangla_language_choice": 5,
+        "folk_or_baul_motif": 4,
+        "literary_or_poetic": 3,
+        "religious_or_spiritual": 1,
+        "urban_vernacular": 1
+      },
+      "Folk & Folk Fusion": {
+        "folk_or_baul_motif": 5,
+        "bangla_language_choice": 4,
+        "religious_or_spiritual": 2,
+        "literary_or_poetic": 1
+      },
+      "Heavy Metal": {
+        "bangla_language_choice": 10,
+        "political_or_social": 4,
+        "folk_or_baul_motif": 1
+      },
+      "Hip-Hop/Rap": {
+        "bangla_language_choice": 4,
+        "urban_vernacular": 3,
+        "folk_or_baul_motif": 2,
+        "political_or_social": 1
+      },
+      "Mainstream Rock": {
+        "bangla_language_choice": 8,
+        "political_or_social": 5,
+        "folk_or_baul_motif": 3,
+        "religious_or_spiritual": 1
+      },
+      "Pop": {
+        "folk_or_baul_motif": 4,
+        "literary_or_poetic": 3,
+        "political_or_social": 3,
+        "bangla_language_choice": 3
+      },
+      "Progressive Rock/Metal": {
+        "bangla_language_choice": 2,
+        "folk_or_baul_motif": 1,
+        "literary_or_poetic": 1,
+        "political_or_social": 1
+      }
+    },
+    "artists_with_no_documented_mechanism": [
+      "arekta-rock-band",
+      "conclusion",
+      "feedback",
+      "imran-mahmudul",
+      "indalo",
+      "nemesis",
+      "nova",
+      "owned",
+      "shezan",
+      "vibe",
+      "winning"
+    ],
+    "marker_definitions": {
+      "bangla_language_choice": [
+        "bangla lyric",
+        "in bangla",
+        "bangla-language",
+        "bengali lyric",
+        "wrote in bangla",
+        "bangla vocal",
+        "colloquial bangla"
+      ],
+      "folk_or_baul_motif": [
+        "folk",
+        "baul",
+        "lalon",
+        "bhawaiya",
+        "bhatiali",
+        "murshidi",
+        "maizbhandari"
+      ],
+      "literary_or_poetic": [
+        "poet",
+        "literary",
+        "literature",
+        "rabindra",
+        "nazrul",
+        "poetry",
+        "novel"
+      ],
+      "political_or_social": [
+        "political",
+        "protest",
+        "social commentary",
+        "uprising",
+        "injustice",
+        "liberation",
+        "social issue",
+        "class"
+      ],
+      "religious_or_spiritual": [
+        "sufi",
+        "spiritual",
+        "mystic",
+        "devotional"
+      ],
+      "urban_vernacular": [
+        "slang",
+        "code-switch",
+        "street",
+        "dhakaiya",
+        "colloquial",
+        "vernacular"
+      ]
+    }
+  }
+}
