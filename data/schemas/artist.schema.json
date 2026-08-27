@@ -197,6 +197,14 @@
     "origin_note": {
       "type": "string",
       "description": "Free-text qualifier on origin_city, e.g. diaspora status or birthplace."
+    },
+    "musicbrainz_id": {
+      "type": "string",
+      "description": "MusicBrainz Identifier (MBID) for this artist, if a matching entry exists. Enables programmatic lookups against MusicBrainz-linked sources (e.g. setlist.fm's API, which keys artists by MBID) and AcousticBrainz's archived audio-feature dumps without manual relinking later."
+    },
+    "wikidata_id": {
+      "type": "string",
+      "description": "Wikidata entity ID (e.g. 'Q12345'), if a matching entry exists. Wikidata is the preferred cross-reference target for MusicBrainz links since 2015 and offers a language-independent bridge to other catalogues."
     }
   }
 }

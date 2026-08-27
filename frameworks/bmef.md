@@ -80,6 +80,19 @@ imposed from the political periodisation.
 The phase boundaries are drawn from the data, so they will move as the
 catalogue grows. The 2020– phase in particular rests on a handful of events.
 
+**A phase this table cannot yet show.** Background industry sources (not yet
+catalogued as artist- or event-level records, so not represented above)
+describe mobile-operator ringback/caller-tune licensing as a major,
+telecom-mediated revenue mechanism for Bangladeshi labels through roughly the
+2000s–early 2010s — temporally overlapping Diversification and the start of
+Platformisation, and, by some regional accounts, larger than CD sales in that
+window. Nothing in this catalogue currently measures it: no artist or concert
+record carries monetisation data of any kind. It is named here rather than
+inserted as a phase row because the table's own standard — phases drawn from
+the data — has not been met for it yet. See
+`docs/research-landscape-extended.md` §5 for sourcing and the case for adding
+it once industry-side records exist.
+
 ## 4. Using BMEF
 
 For any claim of the form "X changed":
