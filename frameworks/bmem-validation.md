@@ -5,7 +5,7 @@ data. This document tests each of its six dimensions against what the catalogue
 and the analysis pipeline actually produced, and proposes revisions where the
 model was wrong or underspecified.
 
-Evidence base: 63 artists, 23 events, 178 network edges, 170 normalised
+Evidence base: 63 artists, 23 events, 179 network edges, 169 normalised
 influence citations. Outputs in `analysis/outputs/` and `data/networks/`.
 
 **Standard applied.** A dimension is *supported* where the data shows what the
@@ -31,7 +31,7 @@ a late one.
 
 ## Dimension 2 — Global Influence · **supported, with an evidentiary asymmetry**
 
-170 normalised citations across 63 acts, every one carrying a named source.
+169 normalised citations across 63 acts, every one carrying a named source.
 Metallica (6 citing acts), Megadeth (5) and Pink Floyd (4) are the scene-wide
 vectors, and only Pink Floyd crosses three strands.
 
@@ -77,7 +77,7 @@ artefact.
 The model treats the BMPN as an operationalisation of listener preference. The
 data does not support that reading of what was built.
 
-Community detection over the observed layers gives modularity 0.414 with five
+Community detection over the observed layers gives modularity 0.428 with six
 communities of three or more acts — a genuinely structured graph, and an
 interpretable one:
 
@@ -88,6 +88,7 @@ interpretable one:
 | Metal genealogy | 5 | Rockstrata, Poizon Green, Karnival, Aurthohin, AvoidRafa |
 | Classic mainstream rock | 4 | Souls, LRB, Nagar Baul, Renaissance |
 | Detached alternative | 4 | Conclusion, Owned, Vikings, Winning |
+| Founding-era cohort | 3 | Azam Khan &amp; Uchcharon, Feedback, Nova |
 
 **Correction: this is a co-appearance network, not a preference network.** Its
 edges record shared bills, shared members and stated influences. The classic
@@ -104,8 +105,8 @@ and is blocked (`docs/roadmap.md`).
 
 **A methodological result worth keeping.** Projecting a concert hypergraph onto
 artist pairs without correcting for bill size lets a single twelve-act festival
-contribute 66 edges. Uncorrected, observed-layer modularity was 0.154; with the
-1/(n-1) correction it is 0.414. Any future study building a scene network from
+contribute 66 edges. Uncorrected, observed-layer modularity is 0.159; with the
+1/(n-1) correction it is 0.428 — both reported by the same pipeline run. Any future study building a scene network from
 festival lineups needs this correction or it will measure festival size.
 
 ## Dimension 5 — Music Experience Culture · **corrected**

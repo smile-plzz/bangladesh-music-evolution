@@ -4,9 +4,15 @@
   "type": "band",
   "formed_year": 2004,
   "disbanded_year": null,
-  "origin_city": "Queens, New York (diaspora origin; Bangladesh-focused output)",
-  "genres": ["Hip-Hop", "Rap"],
-  "languages": ["bn", "en"],
+  "origin_city": "Queens, New York",
+  "genres": [
+    "Hip-Hop",
+    "Rap"
+  ],
+  "languages": [
+    "bn",
+    "en"
+  ],
   "members": [
     {
       "name": "Kazi Rahman",
@@ -62,7 +68,9 @@
       "title": "Light Years Ahead",
       "year": 2006,
       "type": "studio",
-      "notable_tracks": ["Abar Jigay"]
+      "notable_tracks": [
+        "Abar Jigay"
+      ]
     },
     {
       "title": "Kolponar Baire",
@@ -74,7 +82,9 @@
       "title": "Bangali Bangali",
       "year": 2022,
       "type": "single",
-      "notable_tracks": ["Bangali Bangali"]
+      "notable_tracks": [
+        "Bangali Bangali"
+      ]
     }
   ],
   "global_influences": [
@@ -106,6 +116,12 @@
       "type": "news"
     }
   ],
-  "tags": ["priority", "hip-hop", "diaspora", "founding-era"],
-  "last_updated": "2026-08-06"
+  "tags": [
+    "priority",
+    "hip-hop",
+    "diaspora",
+    "founding-era"
+  ],
+  "last_updated": "2026-08-27",
+  "origin_note": "Diaspora origin, Bangladesh-focused output."
 }

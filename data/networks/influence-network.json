@@ -1,7 +1,7 @@
 {
   "generated": "2026-08-27",
   "description": "Bipartite influence network: catalogued Bangladeshi acts on one side, the global acts and traditions they cite on the other, plus domestic act-to-act transmission edges. Built from the 'global_influences' field of the artist records; each edge keeps the citation's stated confidence and whether a source was named.",
-  "node_count": 183,
+  "node_count": 182,
   "edge_count": 175,
   "nodes": [
     {
@@ -480,12 +480,6 @@
       "label": "American Hip-Hop",
       "kind": "tradition",
       "citing_acts": 6
-    },
-    {
-      "id": "influence:Azam Khan",
-      "label": "Azam Khan",
-      "kind": "domestic_artist",
-      "citing_acts": 1
     },
     {
       "id": "influence:Azam Khan's Band Lineage",
@@ -1171,1051 +1165,1733 @@
       "source": "artist:arbovirus",
       "target": "influence:Nu Metal",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Arbovirus's debut album '64m 53s' is documented as blending grunge rock, nu metal, pop rock and psychedelic rock, and the band is directly credited with playing a pivotal role in popularizing nu metal within Bangladesh's rock landscape in the early 2000s — one of the clearer nu-metal-specific genre imports documented in this corpus.",
+      "citation_source": "Wikipedia Arbovirus (band)",
+      "raw_citation": "Nu Metal / Grunge (general Western)"
     },
     {
       "source": "artist:arbovirus",
       "target": "influence:Grunge",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Arbovirus's debut album '64m 53s' is documented as blending grunge rock, nu metal, pop rock and psychedelic rock, and the band is directly credited with playing a pivotal role in popularizing nu metal within Bangladesh's rock landscape in the early 2000s — one of the clearer nu-metal-specific genre imports documented in this corpus.",
+      "citation_source": "Wikipedia Arbovirus (band)",
+      "raw_citation": "Nu Metal / Grunge (general Western)"
     },
     {
       "source": "artist:arbovirus",
       "target": "influence:Blade II",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "The band's name derives directly from a line in the Blade II comic ('Vampirism is an arbovirus...'), an unusually explicit pop-culture (rather than purely musical) Western reference point embedded in the band's core identity.",
+      "citation_source": "Wikipedia Arbovirus (band)",
+      "raw_citation": "Blade II (comic book) — band name origin"
     },
     {
       "source": "artist:arekta-rock-band",
       "target": "influence:Video-game",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "The band's best-known song 'Eden' is reported as drawing on the video game GTA: Vice City — an influence vector from global entertainment media rather than from a musical act, and one with no equivalent in the founding-era or metal-era catalogue.",
+      "citation_source": "The Business Standard feature, 'Arekta Rock Band: Music to break free from the shackles of the mundane'",
+      "raw_citation": "Video-game and screen culture (general)"
     },
     {
       "source": "artist:arekta-rock-band",
       "target": "influence:Screen Culture",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "The band's best-known song 'Eden' is reported as drawing on the video game GTA: Vice City — an influence vector from global entertainment media rather than from a musical act, and one with no equivalent in the founding-era or metal-era catalogue.",
+      "citation_source": "The Business Standard feature, 'Arekta Rock Band: Music to break free from the shackles of the mundane'",
+      "raw_citation": "Video-game and screen culture (general)"
     },
     {
       "source": "artist:ark",
       "target": "influence:Western Hard Rock Traditions",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Ark emerged as part of the same 1990s hard-rock wave as LRB and Nagar Baul, together forming the 'Big Three of Rock' credited with popularizing rock music in Bangladesh, implying a shared set of Western rock reference points typical of the era's cassette/import exposure.",
+      "citation_source": "Wikipedia Ark (Bangladeshi band)",
+      "raw_citation": "Western hard rock traditions (general)"
     },
     {
       "source": "artist:arnob",
       "target": "influence:Jazz",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "The folk band Bangla, founded by Arnob in 1998, was explicitly noted as blending traditional Baul/Lalon material with Western flavours including jazz, blues and rock.",
+      "citation_source": "Wikipedia Shayan Chowdhury Arnob; Wikipedia Bangla (band)",
+      "raw_citation": "Jazz, Blues, Western rock (via band Bangla)"
     },
     {
       "source": "artist:arnob",
       "target": "influence:Blues",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "The folk band Bangla, founded by Arnob in 1998, was explicitly noted as blending traditional Baul/Lalon material with Western flavours including jazz, blues and rock.",
+      "citation_source": "Wikipedia Shayan Chowdhury Arnob; Wikipedia Bangla (band)",
+      "raw_citation": "Jazz, Blues, Western rock (via band Bangla)"
     },
     {
       "source": "artist:arnob",
       "target": "influence:Western Rock",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "The folk band Bangla, founded by Arnob in 1998, was explicitly noted as blending traditional Baul/Lalon material with Western flavours including jazz, blues and rock.",
+      "citation_source": "Wikipedia Shayan Chowdhury Arnob; Wikipedia Bangla (band)",
+      "raw_citation": "Jazz, Blues, Western rock (via band Bangla)"
     },
     {
       "source": "artist:arnob",
       "target": "influence:Santiniketan",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Arnob's formal training at Patha Bhavana and Kala Bhavana in Santiniketan (India) exposed him to a broader South Asian arts and music education that informed his cross-genre approach, distinct from the Dhaka rock-band pipeline.",
+      "citation_source": "Wikipedia Shayan Chowdhury Arnob",
+      "raw_citation": "Santiniketan / Visva-Bharati arts education"
     },
     {
       "source": "artist:arnob",
       "target": "influence:Visva-bharati Arts Education",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Arnob's formal training at Patha Bhavana and Kala Bhavana in Santiniketan (India) exposed him to a broader South Asian arts and music education that informed his cross-genre approach, distinct from the Dhaka rock-band pipeline.",
+      "citation_source": "Wikipedia Shayan Chowdhury Arnob",
+      "raw_citation": "Santiniketan / Visva-Bharati arts education"
     },
     {
       "source": "artist:artcell",
       "target": "influence:Dream Theater",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Band members have repeatedly cited Dream Theater (especially Images and Words and A Change of Seasons) as pivotal in shifting them toward progressive metal, odd time signatures, and technical playing. John Petrucci influenced Ershad's lead style; Mike Portnoy influenced Shaju's drumming.",
+      "citation_source": "Wikipedia Artcell page; Bass Musician Magazine interview with Cézanne (2021); Times of India interview (2007); official band materials",
+      "raw_citation": "Dream Theater"
     },
     {
       "source": "artist:artcell",
       "target": "influence:Metallica",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Early underground shows featured Metallica covers. Lincoln cites Metallica as a school-era influence. Frequently listed among core influences.",
+      "citation_source": "Official Artcell materials; Wikipedia; interviews",
+      "raw_citation": "Metallica"
     },
     {
       "source": "artist:artcell",
       "target": "influence:Pink Floyd",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Cited as a major influence on atmospheric and conceptual aspects. Cézanne (2007 interview) and other members reference Pink Floyd as among the biggest influences.",
+      "citation_source": "Times of India interview; later secondary sources",
+      "raw_citation": "Pink Floyd"
     },
     {
       "source": "artist:artcell",
       "target": "influence:Sepultura",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Sepultura and Pantera named as early heavy influences; Opeth cited by Cézanne for specific bass lines and later aesthetic direction.",
+      "citation_source": "Interviews and band statements",
+      "raw_citation": "Sepultura / Pantera / Opeth"
     },
     {
       "source": "artist:artcell",
       "target": "influence:Pantera",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Sepultura and Pantera named as early heavy influences; Opeth cited by Cézanne for specific bass lines and later aesthetic direction.",
+      "citation_source": "Interviews and band statements",
+      "raw_citation": "Sepultura / Pantera / Opeth"
     },
     {
       "source": "artist:artcell",
       "target": "influence:Opeth",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Sepultura and Pantera named as early heavy influences; Opeth cited by Cézanne for specific bass lines and later aesthetic direction.",
+      "citation_source": "Interviews and band statements",
+      "raw_citation": "Sepultura / Pantera / Opeth"
     },
     {
       "source": "artist:ashes",
       "target": "influence:Western Folk Rock",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Ashes is characterized as a rock band with a folk rock subgenre, distinguished by strong vocals, catchy melodies and emotionally resonant lyrics — a stylistic profile consistent with the broader folk-rock/alternative influence vectors documented for the genre in the BMEM framework, though specific artist-level influence citations were not found in available sources.",
+      "citation_source": "WikiPedia For All: Ashes profile",
+      "raw_citation": "Western folk rock / alternative rock traditions (general)"
     },
     {
       "source": "artist:ashes",
       "target": "influence:Alternative Rock Traditions",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Ashes is characterized as a rock band with a folk rock subgenre, distinguished by strong vocals, catchy melodies and emotionally resonant lyrics — a stylistic profile consistent with the broader folk-rock/alternative influence vectors documented for the genre in the BMEM framework, though specific artist-level influence citations were not found in available sources.",
+      "citation_source": "WikiPedia For All: Ashes profile",
+      "raw_citation": "Western folk rock / alternative rock traditions (general)"
     },
     {
       "source": "artist:ashraf-babu-charu",
       "target": "influence:American Hip-Hop",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Secondary sources describe early-1990s Bangladeshi hip-hop, of which this duo were the foundational act, as emerging under the influence of American rap; no single artist-level influence is documented for this specific duo in available sources.",
+      "citation_source": "Wikipedia: Bangladeshi hip hop",
+      "raw_citation": "American rap (general)"
     },
     {
       "source": "artist:aurthohin",
       "target": "influence:Funk",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Sumon's personal interest in slap bass steered Aurthohin's sound toward funk-rock, and influences spanning funk, jazz fusion and progressive metal are evident across the band's catalogue — a comparatively rare combination within Bangladeshi rock, distinguishing Aurthohin from straighter hard-rock or metal peers.",
+      "citation_source": "Wikipedia Aurthohin",
+      "raw_citation": "Funk, jazz fusion, and progressive metal traditions (general)"
     },
     {
       "source": "artist:aurthohin",
       "target": "influence:Jazz Fusion",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Sumon's personal interest in slap bass steered Aurthohin's sound toward funk-rock, and influences spanning funk, jazz fusion and progressive metal are evident across the band's catalogue — a comparatively rare combination within Bangladeshi rock, distinguishing Aurthohin from straighter hard-rock or metal peers.",
+      "citation_source": "Wikipedia Aurthohin",
+      "raw_citation": "Funk, jazz fusion, and progressive metal traditions (general)"
     },
     {
       "source": "artist:aurthohin",
       "target": "influence:Progressive Metal Traditions",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Sumon's personal interest in slap bass steered Aurthohin's sound toward funk-rock, and influences spanning funk, jazz fusion and progressive metal are evident across the band's catalogue — a comparatively rare combination within Bangladeshi rock, distinguishing Aurthohin from straighter hard-rock or metal peers.",
+      "citation_source": "Wikipedia Aurthohin",
+      "raw_citation": "Funk, jazz fusion, and progressive metal traditions (general)"
     },
     {
       "source": "artist:avoidrafa",
       "target": "influence:Heavy Metal",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Rafa's documented stylistic range across projects spans heavy metal, progressive metal, death metal, hard rock and art rock; AvoidRafa sits at the hard-rock/progressive end of that range.",
+      "citation_source": "Encyclopedic profile of Raef Al Hasan Rafa; MN2S artist roster listing",
+      "raw_citation": "Heavy metal, progressive metal and hard rock traditions (general)"
     },
     {
       "source": "artist:avoidrafa",
       "target": "influence:Progressive Metal",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Rafa's documented stylistic range across projects spans heavy metal, progressive metal, death metal, hard rock and art rock; AvoidRafa sits at the hard-rock/progressive end of that range.",
+      "citation_source": "Encyclopedic profile of Raef Al Hasan Rafa; MN2S artist roster listing",
+      "raw_citation": "Heavy metal, progressive metal and hard rock traditions (general)"
     },
     {
       "source": "artist:avoidrafa",
       "target": "influence:Hard Rock Traditions",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Rafa's documented stylistic range across projects spans heavy metal, progressive metal, death metal, hard rock and art rock; AvoidRafa sits at the hard-rock/progressive end of that range.",
+      "citation_source": "Encyclopedic profile of Raef Al Hasan Rafa; MN2S artist roster listing",
+      "raw_citation": "Heavy metal, progressive metal and hard rock traditions (general)"
     },
     {
       "source": "artist:azam-khan-uchcharon",
       "target": "influence:Western Pop",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Azam Khan and Uchcharon are credited with blending Western musical influences with Bengali lyrics, local stories and social realities to create a new pop musical movement; specific Western artist citations were not located in available sources.",
+      "citation_source": "Wikipedia Azam Khan (singer); Banglapedia",
+      "raw_citation": "Western pop/rock traditions (general, 1970s)"
     },
     {
       "source": "artist:azam-khan-uchcharon",
       "target": "influence:Rock Traditions",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Azam Khan and Uchcharon are credited with blending Western musical influences with Bengali lyrics, local stories and social realities to create a new pop musical movement; specific Western artist citations were not located in available sources.",
+      "citation_source": "Wikipedia Azam Khan (singer); Banglapedia",
+      "raw_citation": "Western pop/rock traditions (general, 1970s)"
     },
     {
       "source": "artist:bay-of-bengal",
       "target": "influence:Progressive",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "The band is described as experimental rock/metal built on flute melodies and keyboard-driven arrangements — an instrumentation choice that sits outside the guitar-first template of the Dhaka metal scene.",
+      "citation_source": "Encyclopedic band entry; band's own channel and page descriptions",
+      "raw_citation": "Progressive and experimental rock traditions (general)"
     },
     {
       "source": "artist:bay-of-bengal",
       "target": "influence:Experimental Rock Traditions",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "The band is described as experimental rock/metal built on flute melodies and keyboard-driven arrangements — an instrumentation choice that sits outside the guitar-first template of the Dhaka metal scene.",
+      "citation_source": "Encyclopedic band entry; band's own channel and page descriptions",
+      "raw_citation": "Progressive and experimental rock traditions (general)"
     },
     {
       "source": "artist:black",
       "target": "influence:Alice In Chains",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Black's playing style is explicitly documented as heavily influenced by grunge and alternative bands Alice in Chains, Nirvana, and Soundgarden, evident in heavy guitar riffs and complex drum beats, particularly on the band's breakthrough album Amar Prithibi.",
+      "citation_source": "Wikipedia Black (Bangladeshi band)",
+      "raw_citation": "Alice in Chains / Nirvana / Soundgarden"
     },
     {
       "source": "artist:black",
       "target": "influence:Nirvana",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Black's playing style is explicitly documented as heavily influenced by grunge and alternative bands Alice in Chains, Nirvana, and Soundgarden, evident in heavy guitar riffs and complex drum beats, particularly on the band's breakthrough album Amar Prithibi.",
+      "citation_source": "Wikipedia Black (Bangladeshi band)",
+      "raw_citation": "Alice in Chains / Nirvana / Soundgarden"
     },
     {
       "source": "artist:black",
       "target": "influence:Soundgarden",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Black's playing style is explicitly documented as heavily influenced by grunge and alternative bands Alice in Chains, Nirvana, and Soundgarden, evident in heavy guitar riffs and complex drum beats, particularly on the band's breakthrough album Amar Prithibi.",
+      "citation_source": "Wikipedia Black (Bangladeshi band)",
+      "raw_citation": "Alice in Chains / Nirvana / Soundgarden"
     },
     {
       "source": "artist:chirkutt",
       "target": "influence:International Festival",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Chirkutt's sustained international touring (SXSW 2016, South Asian Band Festival Delhi, India Music Week, Jaffna Music Festival) situates the band within a global folk-fusion/world-music festival circuit, indicating cross-pollination with international audiences and programming conventions rather than a single cited Western artist influence.",
+      "citation_source": "Official Chirkutt site bio; WOMEX artist profile",
+      "raw_citation": "International festival/world-music circuit (general)"
     },
     {
       "source": "artist:chirkutt",
       "target": "influence:World-music Circuit",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Chirkutt's sustained international touring (SXSW 2016, South Asian Band Festival Delhi, India Music Week, Jaffna Music Festival) situates the band within a global folk-fusion/world-music festival circuit, indicating cross-pollination with international audiences and programming conventions rather than a single cited Western artist influence.",
+      "citation_source": "Official Chirkutt site bio; WOMEX artist profile",
+      "raw_citation": "International festival/world-music circuit (general)"
     },
     {
       "source": "artist:cryptic-fate",
       "target": "influence:Western Heavy Metal Traditions",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Formed in February 1993 by Wahed and Sarfaraz specifically as a metal band in the early wave of Bangladeshi heavy metal, predating the country's later progressive-metal boom (Artcell, Karnival) and reflecting first-generation exposure to international metal via limited import/cassette channels typical of the era.",
+      "citation_source": "Wikipedia Cryptic Fate; bandmusicbd.blogspot.com profile",
+      "raw_citation": "Western heavy metal traditions (general, founding era)"
     },
     {
       "source": "artist:de-illumination",
       "target": "influence:International Symphonic Rock",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "De-illumination was explicitly formed with the vision of introducing symphonic rock/symphonic metal to Bangladeshi music, a genre founder Sazzad Arefeen had been studying since 1999 — a deliberate, research-driven import of a specific global metal subgenre rather than incidental exposure.",
+      "citation_source": "Wikipedia De-illumination",
+      "raw_citation": "International symphonic rock/metal traditions (general)"
     },
     {
       "source": "artist:de-illumination",
       "target": "influence:Metal Traditions",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "De-illumination was explicitly formed with the vision of introducing symphonic rock/symphonic metal to Bangladeshi music, a genre founder Sazzad Arefeen had been studying since 1999 — a deliberate, research-driven import of a specific global metal subgenre rather than incidental exposure.",
+      "citation_source": "Wikipedia De-illumination",
+      "raw_citation": "International symphonic rock/metal traditions (general)"
     },
     {
       "source": "artist:deshi-mcs",
       "target": "influence:Tupac",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Member SkibKhan is documented as hugely influenced by Tupac, Biggie, Eminem and Big L — a direct, explicit citation of core 1990s-2000s American hip-hop/gangsta rap figures shaping the group's foundational sound.",
+      "citation_source": "The Daily Star — We invented Bangla Rap: Mc Mugz",
+      "raw_citation": "Tupac / Biggie / Eminem / Big L"
     },
     {
       "source": "artist:deshi-mcs",
       "target": "influence:Biggie",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Member SkibKhan is documented as hugely influenced by Tupac, Biggie, Eminem and Big L — a direct, explicit citation of core 1990s-2000s American hip-hop/gangsta rap figures shaping the group's foundational sound.",
+      "citation_source": "The Daily Star — We invented Bangla Rap: Mc Mugz",
+      "raw_citation": "Tupac / Biggie / Eminem / Big L"
     },
     {
       "source": "artist:deshi-mcs",
       "target": "influence:Eminem",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Member SkibKhan is documented as hugely influenced by Tupac, Biggie, Eminem and Big L — a direct, explicit citation of core 1990s-2000s American hip-hop/gangsta rap figures shaping the group's foundational sound.",
+      "citation_source": "The Daily Star — We invented Bangla Rap: Mc Mugz",
+      "raw_citation": "Tupac / Biggie / Eminem / Big L"
     },
     {
       "source": "artist:deshi-mcs",
       "target": "influence:Big L",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Member SkibKhan is documented as hugely influenced by Tupac, Biggie, Eminem and Big L — a direct, explicit citation of core 1990s-2000s American hip-hop/gangsta rap figures shaping the group's foundational sound.",
+      "citation_source": "The Daily Star — We invented Bangla Rap: Mc Mugz",
+      "raw_citation": "Tupac / Biggie / Eminem / Big L"
     },
     {
       "source": "artist:f-minor",
       "target": "influence:Indigenous Folk Traditions Of Bangladesh",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "The band's members are drawn from the Garo and Marma communities and the folk music of those communities is described as its foremost influence — a local rather than global influence vector, and one absent from every other act in this catalogue.",
+      "citation_source": "The Daily Star, 'F Minor: Winning hearts through diversity and rhythm'; The Business Standard, \"F Minor's fusion of ethnic and folk music\"",
+      "raw_citation": "Indigenous folk traditions of Bangladesh (Garo, Marma)"
     },
     {
       "source": "artist:feedback",
       "target": "influence:Western Pop Rock",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Feedback's genre classification (pop rock, blues rock, jazz) and its origin performing at Dhaka's InterContinental Hotel in 1976 reflect the same expatriate/hotel-circuit Western-repertoire pipeline through which Souls and other founding-era bands absorbed international influences.",
+      "citation_source": "Wikipedia Feedback (band); Last.fm FeedBack (BD) biography",
+      "raw_citation": "Western pop rock, blues rock, and jazz traditions (general)"
     },
     {
       "source": "artist:feedback",
       "target": "influence:Blues Rock",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Feedback's genre classification (pop rock, blues rock, jazz) and its origin performing at Dhaka's InterContinental Hotel in 1976 reflect the same expatriate/hotel-circuit Western-repertoire pipeline through which Souls and other founding-era bands absorbed international influences.",
+      "citation_source": "Wikipedia Feedback (band); Last.fm FeedBack (BD) biography",
+      "raw_citation": "Western pop rock, blues rock, and jazz traditions (general)"
     },
     {
       "source": "artist:feedback",
       "target": "influence:Jazz Traditions",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Feedback's genre classification (pop rock, blues rock, jazz) and its origin performing at Dhaka's InterContinental Hotel in 1976 reflect the same expatriate/hotel-circuit Western-repertoire pipeline through which Souls and other founding-era bands absorbed international influences.",
+      "citation_source": "Wikipedia Feedback (band); Last.fm FeedBack (BD) biography",
+      "raw_citation": "Western pop rock, blues rock, and jazz traditions (general)"
     },
     {
       "source": "artist:habib-wahid",
       "target": "influence:Karsh Kale",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "While studying audio engineering in the UK, Habib Wahid worked with Asian-fusion producers such as Karsh Kale, directly shaping his approach to blending electronic/urban production techniques with South Asian folk material.",
+      "citation_source": "Wikipedia Habib Wahid; peoplepill.com profile",
+      "raw_citation": "Karsh Kale / British-Asian electronic music scene"
     },
     {
       "source": "artist:habib-wahid",
       "target": "influence:British-asian Electronic Music Scene",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "While studying audio engineering in the UK, Habib Wahid worked with Asian-fusion producers such as Karsh Kale, directly shaping his approach to blending electronic/urban production techniques with South Asian folk material.",
+      "citation_source": "Wikipedia Habib Wahid; peoplepill.com profile",
+      "raw_citation": "Karsh Kale / British-Asian electronic music scene"
     },
     {
       "source": "artist:habib-wahid",
       "target": "influence:EDM",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Wahid's signature style fuses traditional Baul/Lalon folk elements with modern techno, urban beats, and pop-electronic production, a direct adaptation of Western/global electronic dance music techniques to Bangla folk source material.",
+      "citation_source": "Wikipedia Habib Wahid; Putumayo artist profile",
+      "raw_citation": "EDM / techno production traditions"
     },
     {
       "source": "artist:habib-wahid",
       "target": "influence:Techno Production Traditions",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Wahid's signature style fuses traditional Baul/Lalon folk elements with modern techno, urban beats, and pop-electronic production, a direct adaptation of Western/global electronic dance music techniques to Bangla folk source material.",
+      "citation_source": "Wikipedia Habib Wahid; Putumayo artist profile",
+      "raw_citation": "EDM / techno production traditions"
     },
     {
       "source": "artist:hannan",
       "target": "influence:Global Protest",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Hannan's breakout track functions as a protest anthem within the July 2024 uprising context, situating his work within a broader global tradition of hip-hop as protest music; specific artist-level Western influence citations were not located in available sources.",
+      "citation_source": "Wikipedia Awaaz Utha; Artists at Risk Connection statement",
+      "raw_citation": "Global protest/hip-hop tradition (general)"
     },
     {
       "source": "artist:hannan",
       "target": "influence:Hip-hop Tradition",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Hannan's breakout track functions as a protest anthem within the July 2024 uprising context, situating his work within a broader global tradition of hip-hop as protest music; specific artist-level Western influence citations were not located in available sources.",
+      "citation_source": "Wikipedia Awaaz Utha; Artists at Risk Connection statement",
+      "raw_citation": "Global protest/hip-hop tradition (general)"
     },
     {
       "source": "artist:imran-mahmudul",
       "target": "influence:Contemporary Asian Pop",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Imran Mahmudul's musical approach is described as blending several cultural influences reflecting both his Bangladeshi heritage and his love of Asian pop music, distinguishing his sound from the more Western-rock-descended mainstream pop lineage.",
+      "citation_source": "Viberate artist profile",
+      "raw_citation": "Contemporary Asian pop"
     },
     {
       "source": "artist:indalo",
       "target": "influence:Pearl Jam",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "All band members are explicitly documented as greatly influenced by 1990s American grunge/alternative rock, specifically citing Pearl Jam, Alice in Chains, Soundgarden and Stone Temple Pilots as core inspirations.",
+      "citation_source": "Wikipedia Indalo (band)",
+      "raw_citation": "Pearl Jam / Alice in Chains / Soundgarden / Stone Temple Pilots"
     },
     {
       "source": "artist:indalo",
       "target": "influence:Alice In Chains",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "All band members are explicitly documented as greatly influenced by 1990s American grunge/alternative rock, specifically citing Pearl Jam, Alice in Chains, Soundgarden and Stone Temple Pilots as core inspirations.",
+      "citation_source": "Wikipedia Indalo (band)",
+      "raw_citation": "Pearl Jam / Alice in Chains / Soundgarden / Stone Temple Pilots"
     },
     {
       "source": "artist:indalo",
       "target": "influence:Soundgarden",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "All band members are explicitly documented as greatly influenced by 1990s American grunge/alternative rock, specifically citing Pearl Jam, Alice in Chains, Soundgarden and Stone Temple Pilots as core inspirations.",
+      "citation_source": "Wikipedia Indalo (band)",
+      "raw_citation": "Pearl Jam / Alice in Chains / Soundgarden / Stone Temple Pilots"
     },
     {
       "source": "artist:indalo",
       "target": "influence:Stone Temple Pilots",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "All band members are explicitly documented as greatly influenced by 1990s American grunge/alternative rock, specifically citing Pearl Jam, Alice in Chains, Soundgarden and Stone Temple Pilots as core inspirations.",
+      "citation_source": "Wikipedia Indalo (band)",
+      "raw_citation": "Pearl Jam / Alice in Chains / Soundgarden / Stone Temple Pilots"
     },
     {
       "source": "artist:jalali-set",
       "target": "influence:American Hip-Hop",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Jalali Set's sound is described as a fusion of hip-hop, trap and electronic music, reflecting direct absorption of contemporary American trap production techniques into the group's Level 13 (2016) material.",
+      "citation_source": "Various music-scene profiles; halftimeonline.net Bangladesh hip-hop overview",
+      "raw_citation": "American hip-hop / trap production"
     },
     {
       "source": "artist:jalali-set",
       "target": "influence:Trap Production",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Jalali Set's sound is described as a fusion of hip-hop, trap and electronic music, reflecting direct absorption of contemporary American trap production techniques into the group's Level 13 (2016) material.",
+      "citation_source": "Various music-scene profiles; halftimeonline.net Bangladesh hip-hop overview",
+      "raw_citation": "American hip-hop / trap production"
     },
     {
       "source": "artist:james-nagar-baul",
       "target": "influence:Eric Clapton",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "James is widely cited as being influenced by Clapton's blues-rock guitar style, shaping his own approach to rock guitar and phrasing.",
+      "citation_source": "Wikipedia James (musician); editorialge.com profile",
+      "raw_citation": "Eric Clapton"
     },
     {
       "source": "artist:james-nagar-baul",
       "target": "influence:Led Zeppelin",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Cited among the Western rock icons whose raw, electrifying energy James sought to blend with Bangladeshi folk lyrical spirituality.",
+      "citation_source": "Wikipedia; secondary profiles",
+      "raw_citation": "Led Zeppelin"
     },
     {
       "source": "artist:james-nagar-baul",
       "target": "influence:The Doors",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Named among core Western influences on James's songwriting and guitar/vocal style.",
+      "citation_source": "Wikipedia James (musician)",
+      "raw_citation": "The Doors / Mark Knopfler"
     },
     {
       "source": "artist:james-nagar-baul",
       "target": "influence:Mark Knopfler",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Named among core Western influences on James's songwriting and guitar/vocal style.",
+      "citation_source": "Wikipedia James (musician)",
+      "raw_citation": "The Doors / Mark Knopfler"
     },
     {
       "source": "artist:karnival",
       "target": "influence:The Beatles",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Karnival is explicitly cited as influenced by the Beatles, Pink Floyd and Radiohead among core references shaping its experimental, atmospheric rock direction.",
+      "citation_source": "Last.fm Karnival biography; The Daily Star feature",
+      "raw_citation": "The Beatles / Pink Floyd / Radiohead"
     },
     {
       "source": "artist:karnival",
       "target": "influence:Pink Floyd",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Karnival is explicitly cited as influenced by the Beatles, Pink Floyd and Radiohead among core references shaping its experimental, atmospheric rock direction.",
+      "citation_source": "Last.fm Karnival biography; The Daily Star feature",
+      "raw_citation": "The Beatles / Pink Floyd / Radiohead"
     },
     {
       "source": "artist:karnival",
       "target": "influence:Radiohead",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Karnival is explicitly cited as influenced by the Beatles, Pink Floyd and Radiohead among core references shaping its experimental, atmospheric rock direction.",
+      "citation_source": "Last.fm Karnival biography; The Daily Star feature",
+      "raw_citation": "The Beatles / Pink Floyd / Radiohead"
     },
     {
       "source": "artist:karnival",
       "target": "influence:Motörhead",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Founders Tinu and Tonmoy set out to create a 'grungy sound,' with Nirvana and Alice in Chains cited as direct grunge-era influences alongside Motorhead and Oasis.",
+      "citation_source": "Last.fm Karnival biography",
+      "raw_citation": "Motorhead / Alice in Chains / Nirvana / Oasis"
     },
     {
       "source": "artist:karnival",
       "target": "influence:Alice In Chains",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Founders Tinu and Tonmoy set out to create a 'grungy sound,' with Nirvana and Alice in Chains cited as direct grunge-era influences alongside Motorhead and Oasis.",
+      "citation_source": "Last.fm Karnival biography",
+      "raw_citation": "Motorhead / Alice in Chains / Nirvana / Oasis"
     },
     {
       "source": "artist:karnival",
       "target": "influence:Nirvana",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Founders Tinu and Tonmoy set out to create a 'grungy sound,' with Nirvana and Alice in Chains cited as direct grunge-era influences alongside Motorhead and Oasis.",
+      "citation_source": "Last.fm Karnival biography",
+      "raw_citation": "Motorhead / Alice in Chains / Nirvana / Oasis"
     },
     {
       "source": "artist:karnival",
       "target": "influence:Oasis",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Founders Tinu and Tonmoy set out to create a 'grungy sound,' with Nirvana and Alice in Chains cited as direct grunge-era influences alongside Motorhead and Oasis.",
+      "citation_source": "Last.fm Karnival biography",
+      "raw_citation": "Motorhead / Alice in Chains / Nirvana / Oasis"
     },
     {
       "source": "artist:karnival",
       "target": "influence:Porcupine Tree",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Cited as influences bridging the band's progressive and heavier metal-adjacent experimental tendencies.",
+      "citation_source": "Last.fm Karnival biography",
+      "raw_citation": "Porcupine Tree / Megadeth"
     },
     {
       "source": "artist:karnival",
       "target": "influence:Megadeth",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Cited as influences bridging the band's progressive and heavier metal-adjacent experimental tendencies.",
+      "citation_source": "Last.fm Karnival biography",
+      "raw_citation": "Porcupine Tree / Megadeth"
     },
     {
       "source": "artist:kona",
       "target": "influence:Contemporary Pop",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Kona's collaborations with producer Fuad al Muqtadir (e.g., 'Fuad featuring Kona') placed her classically trained voice within electronic/fusion pop production, mirroring the broader Habib Wahid-style folk-electronic fusion trend in Bangladeshi pop.",
+      "citation_source": "Wikipedia Dilshad Nahar Kona; TheAudioDB artist profile",
+      "raw_citation": "Contemporary pop / electronic-fusion production (via Fuad al Muqtadir collaborations)"
     },
     {
       "source": "artist:kona",
       "target": "influence:Electronic-fusion Production",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Kona's collaborations with producer Fuad al Muqtadir (e.g., 'Fuad featuring Kona') placed her classically trained voice within electronic/fusion pop production, mirroring the broader Habib Wahid-style folk-electronic fusion trend in Bangladeshi pop.",
+      "citation_source": "Wikipedia Dilshad Nahar Kona; TheAudioDB artist profile",
+      "raw_citation": "Contemporary pop / electronic-fusion production (via Fuad al Muqtadir collaborations)"
     },
     {
       "source": "artist:lalon-band",
       "target": "influence:Electric Rock Instrumentation Applied To Baul Repertoire",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "The band integrates traditional Baul folk traditions with contemporary rock elements, including electric guitars and synthesizers, to reinterpret Fakir Lalon Shah's philosophical songs — a direct technological/idiomatic adaptation of Western rock-band instrumentation rather than a specific cited Western artist influence.",
+      "citation_source": "Wikipedia Lalon Band",
+      "raw_citation": "Electric rock instrumentation applied to Baul repertoire (general)"
     },
     {
       "source": "artist:lrb",
       "target": "influence:Western Hard Rock",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Ayub Bachchu, previously a member of James's early band Feelings, drew on Western blues-rock and hard rock guitar traditions in developing LRB's sound; the band's original name derived from an inadvertent misattribution of the Australian band Little River Band before settling on Love Runs Blind.",
+      "citation_source": "Wikipedia Love Runs Blind; Ayub Bachchu Foundation biography",
+      "raw_citation": "Western hard rock/blues rock (general)"
     },
     {
       "source": "artist:lrb",
       "target": "influence:Blues Rock",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Ayub Bachchu, previously a member of James's early band Feelings, drew on Western blues-rock and hard rock guitar traditions in developing LRB's sound; the band's original name derived from an inadvertent misattribution of the Australian band Little River Band before settling on Love Runs Blind.",
+      "citation_source": "Wikipedia Love Runs Blind; Ayub Bachchu Foundation biography",
+      "raw_citation": "Western hard rock/blues rock (general)"
     },
     {
       "source": "artist:maqsood-o-dhaka",
       "target": "influence:Jazz",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Maqsoodul Haque built his musical foundation performing over 500 cover songs spanning pop/rock, funk/reggae, blues and jazz at the Chambeeli Restaurant, Hotel Intercontinental, from 1976 — directly informing the eclectic jazz-rock fusion identity of his later solo project.",
+      "citation_source": "Bangladesh Poet of Impropriety discography blog; Wikipedia Maqsoodul Haque",
+      "raw_citation": "Jazz, funk, reggae, and blues traditions (via Feedback-era cover repertoire)"
     },
     {
       "source": "artist:maqsood-o-dhaka",
       "target": "influence:Funk",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Maqsoodul Haque built his musical foundation performing over 500 cover songs spanning pop/rock, funk/reggae, blues and jazz at the Chambeeli Restaurant, Hotel Intercontinental, from 1976 — directly informing the eclectic jazz-rock fusion identity of his later solo project.",
+      "citation_source": "Bangladesh Poet of Impropriety discography blog; Wikipedia Maqsoodul Haque",
+      "raw_citation": "Jazz, funk, reggae, and blues traditions (via Feedback-era cover repertoire)"
     },
     {
       "source": "artist:maqsood-o-dhaka",
       "target": "influence:Reggae",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Maqsoodul Haque built his musical foundation performing over 500 cover songs spanning pop/rock, funk/reggae, blues and jazz at the Chambeeli Restaurant, Hotel Intercontinental, from 1976 — directly informing the eclectic jazz-rock fusion identity of his later solo project.",
+      "citation_source": "Bangladesh Poet of Impropriety discography blog; Wikipedia Maqsoodul Haque",
+      "raw_citation": "Jazz, funk, reggae, and blues traditions (via Feedback-era cover repertoire)"
     },
     {
       "source": "artist:maqsood-o-dhaka",
       "target": "influence:Blues Traditions",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Maqsoodul Haque built his musical foundation performing over 500 cover songs spanning pop/rock, funk/reggae, blues and jazz at the Chambeeli Restaurant, Hotel Intercontinental, from 1976 — directly informing the eclectic jazz-rock fusion identity of his later solo project.",
+      "citation_source": "Bangladesh Poet of Impropriety discography blog; Wikipedia Maqsoodul Haque",
+      "raw_citation": "Jazz, funk, reggae, and blues traditions (via Feedback-era cover repertoire)"
     },
     {
       "source": "artist:mechanix",
       "target": "influence:Megadeth",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Mechanix began by covering 'Holy Wars' (Megadeth), 'Tornado of Souls' (Megadeth), 'Master of Puppets' (Metallica), and 'Painkiller' (Judas Priest), directly establishing the band's core thrash/heavy metal influence set.",
+      "citation_source": "The Business Standard — Mechanix: 15 years in music; Metal Bangladesh profile",
+      "raw_citation": "Megadeth / Metallica / Judas Priest (via early cover repertoire)"
     },
     {
       "source": "artist:mechanix",
       "target": "influence:Metallica",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Mechanix began by covering 'Holy Wars' (Megadeth), 'Tornado of Souls' (Megadeth), 'Master of Puppets' (Metallica), and 'Painkiller' (Judas Priest), directly establishing the band's core thrash/heavy metal influence set.",
+      "citation_source": "The Business Standard — Mechanix: 15 years in music; Metal Bangladesh profile",
+      "raw_citation": "Megadeth / Metallica / Judas Priest (via early cover repertoire)"
     },
     {
       "source": "artist:mechanix",
       "target": "influence:Judas Priest",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Mechanix began by covering 'Holy Wars' (Megadeth), 'Tornado of Souls' (Megadeth), 'Master of Puppets' (Metallica), and 'Painkiller' (Judas Priest), directly establishing the band's core thrash/heavy metal influence set.",
+      "citation_source": "The Business Standard — Mechanix: 15 years in music; Metal Bangladesh profile",
+      "raw_citation": "Megadeth / Metallica / Judas Priest (via early cover repertoire)"
     },
     {
       "source": "artist:meghdol",
       "target": "influence:Charles Baudelaire",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "The band's name Meghdol was inspired by a Baudelaire poem (L'Étranger), reflecting literary rather than purely musical Western influence on the band's conceptual identity.",
+      "citation_source": "Wikipedia Meghdol",
+      "raw_citation": "Charles Baudelaire (literary)"
     },
     {
       "source": "artist:meghdol",
       "target": "influence:Western Alternative",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Band is characterized as blending indie rock, alternative rock, folk rock and psychedelic rock idioms without confining to a single genre.",
+      "citation_source": "Wikipedia Meghdol; Grokipedia Meghdol",
+      "raw_citation": "Western alternative/psychedelic rock traditions (general)"
     },
     {
       "source": "artist:meghdol",
       "target": "influence:Psychedelic Rock Traditions",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Band is characterized as blending indie rock, alternative rock, folk rock and psychedelic rock idioms without confining to a single genre.",
+      "citation_source": "Wikipedia Meghdol; Grokipedia Meghdol",
+      "raw_citation": "Western alternative/psychedelic rock traditions (general)"
     },
     {
       "source": "artist:metal-maze",
       "target": "influence:Metallica",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Before releasing original material, Metal Maze was active in the underground metal circuit performing covers of Metallica, Megadeth and Pantera, directly establishing the band's core thrash/heavy metal reference points.",
+      "citation_source": "Band Music of Bangladesh: Metal Maze profile",
+      "raw_citation": "Metallica / Megadeth / Pantera"
     },
     {
       "source": "artist:metal-maze",
       "target": "influence:Megadeth",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Before releasing original material, Metal Maze was active in the underground metal circuit performing covers of Metallica, Megadeth and Pantera, directly establishing the band's core thrash/heavy metal reference points.",
+      "citation_source": "Band Music of Bangladesh: Metal Maze profile",
+      "raw_citation": "Metallica / Megadeth / Pantera"
     },
     {
       "source": "artist:metal-maze",
       "target": "influence:Pantera",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Before releasing original material, Metal Maze was active in the underground metal circuit performing covers of Metallica, Megadeth and Pantera, directly establishing the band's core thrash/heavy metal reference points.",
+      "citation_source": "Band Music of Bangladesh: Metal Maze profile",
+      "raw_citation": "Metallica / Megadeth / Pantera"
     },
     {
       "source": "artist:miles",
       "target": "influence:Western Pop",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Miles began performing English-language rock/pop material (debut album Miles, 1982) before transitioning to Bangla songwriting; Shafin Ahmed's exposure to Western musical training in England is cited as a formative influence on the band's sound.",
+      "citation_source": "Wikipedia Miles (band); Wikipedia Shafin/Hamin Ahmed pages",
+      "raw_citation": "Western pop/rock (general)"
     },
     {
       "source": "artist:miles",
       "target": "influence:Rock",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Miles began performing English-language rock/pop material (debut album Miles, 1982) before transitioning to Bangla songwriting; Shafin Ahmed's exposure to Western musical training in England is cited as a formative influence on the band's sound.",
+      "citation_source": "Wikipedia Miles (band); Wikipedia Shafin/Hamin Ahmed pages",
+      "raw_citation": "Western pop/rock (general)"
     },
     {
       "source": "artist:minar-rahman",
       "target": "influence:Indie",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Minar's debut album Danpitey (2008), entirely self-written, composed and performed, is credited with introducing a blend of indie, folk and alternative pop at a time when these genres were rarely explored in Bangladesh's mainstream music industry, indicating direct absorption of global indie-pop songwriting conventions.",
+      "citation_source": "Wikipedia Minar Rahman; peoplepill.com profile",
+      "raw_citation": "Indie / folk / alternative pop traditions (general)"
     },
     {
       "source": "artist:minar-rahman",
       "target": "influence:Folk",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Minar's debut album Danpitey (2008), entirely self-written, composed and performed, is credited with introducing a blend of indie, folk and alternative pop at a time when these genres were rarely explored in Bangladesh's mainstream music industry, indicating direct absorption of global indie-pop songwriting conventions.",
+      "citation_source": "Wikipedia Minar Rahman; peoplepill.com profile",
+      "raw_citation": "Indie / folk / alternative pop traditions (general)"
     },
     {
       "source": "artist:minar-rahman",
       "target": "influence:Alternative Pop Traditions",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Minar's debut album Danpitey (2008), entirely self-written, composed and performed, is credited with introducing a blend of indie, folk and alternative pop at a time when these genres were rarely explored in Bangladesh's mainstream music industry, indicating direct absorption of global indie-pop songwriting conventions.",
+      "citation_source": "Wikipedia Minar Rahman; peoplepill.com profile",
+      "raw_citation": "Indie / folk / alternative pop traditions (general)"
     },
     {
       "source": "artist:muza",
       "target": "influence:Urban",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Muza layers traditional deshi instruments alongside non-traditional instruments (ukulele, flute) with electronic beats and urban production techniques, directly paralleling Habib Wahid's folk-EDM fusion approach but from a US diaspora production context.",
+      "citation_source": "Grokipedia Muza profile",
+      "raw_citation": "Urban/EDM production traditions (general)"
     },
     {
       "source": "artist:muza",
       "target": "influence:EDM Production Traditions",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Muza layers traditional deshi instruments alongside non-traditional instruments (ukulele, flute) with electronic beats and urban production techniques, directly paralleling Habib Wahid's folk-EDM fusion approach but from a US diaspora production context.",
+      "citation_source": "Grokipedia Muza profile",
+      "raw_citation": "Urban/EDM production traditions (general)"
     },
     {
       "source": "artist:nancy",
       "target": "influence:Contemporary Indian",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Nancy's music is described as combining traditional sounds from Bangladesh and India with contemporary pop beats, indicating direct absorption of South Asian regional pop production trends alongside indigenous folk/Nazrul material.",
+      "citation_source": "BiographyBD Nancy profile; peoplepill-style secondary profiles",
+      "raw_citation": "Contemporary Indian/South Asian pop"
     },
     {
       "source": "artist:nancy",
       "target": "influence:South Asian Pop",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Nancy's music is described as combining traditional sounds from Bangladesh and India with contemporary pop beats, indicating direct absorption of South Asian regional pop production trends alongside indigenous folk/Nazrul material.",
+      "citation_source": "BiographyBD Nancy profile; peoplepill-style secondary profiles",
+      "raw_citation": "Contemporary Indian/South Asian pop"
     },
     {
       "source": "artist:nemesis",
       "target": "influence:Unspecified In Available Sources",
       "confidence": "hypothesized",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Available sources document Nemesis's formation and hit singles but do not specify concrete Western artist or genre influences; flagged for further research (e.g., band interviews) rather than assumed.",
+      "citation_source": "Wikipedia Nemesis (Bangladeshi band)",
+      "raw_citation": "Unspecified in available sources"
     },
     {
       "source": "artist:nova",
       "target": "influence:Pink Floyd",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Nova is directly documented as influenced by Pink Floyd, Queen, Deep Purple and The Doors, alongside domestic figures Azam Khan and Feedback — one of the more explicit combined domestic-and-Western influence citations in the corpus.",
+      "citation_source": "Band Music of Bangladesh: Nova profile",
+      "raw_citation": "Pink Floyd / Queen / Deep Purple / The Doors"
     },
     {
       "source": "artist:nova",
       "target": "influence:Queen",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Nova is directly documented as influenced by Pink Floyd, Queen, Deep Purple and The Doors, alongside domestic figures Azam Khan and Feedback — one of the more explicit combined domestic-and-Western influence citations in the corpus.",
+      "citation_source": "Band Music of Bangladesh: Nova profile",
+      "raw_citation": "Pink Floyd / Queen / Deep Purple / The Doors"
     },
     {
       "source": "artist:nova",
       "target": "influence:Deep Purple",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Nova is directly documented as influenced by Pink Floyd, Queen, Deep Purple and The Doors, alongside domestic figures Azam Khan and Feedback — one of the more explicit combined domestic-and-Western influence citations in the corpus.",
+      "citation_source": "Band Music of Bangladesh: Nova profile",
+      "raw_citation": "Pink Floyd / Queen / Deep Purple / The Doors"
     },
     {
       "source": "artist:nova",
       "target": "influence:The Doors",
       "confidence": "high",
-      "sourced": true
-    },
-    {
-      "source": "artist:nova",
-      "target": "influence:Azam Khan",
-      "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Nova is directly documented as influenced by Pink Floyd, Queen, Deep Purple and The Doors, alongside domestic figures Azam Khan and Feedback — one of the more explicit combined domestic-and-Western influence citations in the corpus.",
+      "citation_source": "Band Music of Bangladesh: Nova profile",
+      "raw_citation": "Pink Floyd / Queen / Deep Purple / The Doors"
     },
     {
       "source": "artist:owned",
       "target": "influence:Deftones",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Drummer A.K. Samee has stated nu-metal bands including Deftones, Slipknot and Queens of the Stone Age were a large influence on the band's sound.",
+      "citation_source": "TBS News — 'Owned' owning Dhaka's rock scene",
+      "raw_citation": "Deftones, Slipknot, Queens of the Stone Age"
     },
     {
       "source": "artist:owned",
       "target": "influence:Slipknot",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Drummer A.K. Samee has stated nu-metal bands including Deftones, Slipknot and Queens of the Stone Age were a large influence on the band's sound.",
+      "citation_source": "TBS News — 'Owned' owning Dhaka's rock scene",
+      "raw_citation": "Deftones, Slipknot, Queens of the Stone Age"
     },
     {
       "source": "artist:owned",
       "target": "influence:Queens of the Stone Age",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Drummer A.K. Samee has stated nu-metal bands including Deftones, Slipknot and Queens of the Stone Age were a large influence on the band's sound.",
+      "citation_source": "TBS News — 'Owned' owning Dhaka's rock scene",
+      "raw_citation": "Deftones, Slipknot, Queens of the Stone Age"
     },
     {
       "source": "artist:poizon-green",
       "target": "influence:Black Sabbath",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "The band cites an unusually extensive and specific list of foreign power/thrash/death metal influences spanning multiple metal subgenres and eras, from 1970s proto-metal (Black Sabbath) through 1990s death metal (Cannibal Corpse, Morbid Angel).",
+      "citation_source": "Encyclopaedia Metallum: Poizon Green profile",
+      "raw_citation": "Black Sabbath / Sepultura / Pantera / Motörhead / Machine Head / Iron Maiden / Cannibal Corpse / Morbid Angel"
     },
     {
       "source": "artist:poizon-green",
       "target": "influence:Sepultura",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "The band cites an unusually extensive and specific list of foreign power/thrash/death metal influences spanning multiple metal subgenres and eras, from 1970s proto-metal (Black Sabbath) through 1990s death metal (Cannibal Corpse, Morbid Angel).",
+      "citation_source": "Encyclopaedia Metallum: Poizon Green profile",
+      "raw_citation": "Black Sabbath / Sepultura / Pantera / Motörhead / Machine Head / Iron Maiden / Cannibal Corpse / Morbid Angel"
     },
     {
       "source": "artist:poizon-green",
       "target": "influence:Pantera",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "The band cites an unusually extensive and specific list of foreign power/thrash/death metal influences spanning multiple metal subgenres and eras, from 1970s proto-metal (Black Sabbath) through 1990s death metal (Cannibal Corpse, Morbid Angel).",
+      "citation_source": "Encyclopaedia Metallum: Poizon Green profile",
+      "raw_citation": "Black Sabbath / Sepultura / Pantera / Motörhead / Machine Head / Iron Maiden / Cannibal Corpse / Morbid Angel"
     },
     {
       "source": "artist:poizon-green",
       "target": "influence:Motörhead",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "The band cites an unusually extensive and specific list of foreign power/thrash/death metal influences spanning multiple metal subgenres and eras, from 1970s proto-metal (Black Sabbath) through 1990s death metal (Cannibal Corpse, Morbid Angel).",
+      "citation_source": "Encyclopaedia Metallum: Poizon Green profile",
+      "raw_citation": "Black Sabbath / Sepultura / Pantera / Motörhead / Machine Head / Iron Maiden / Cannibal Corpse / Morbid Angel"
     },
     {
       "source": "artist:poizon-green",
       "target": "influence:Machine Head",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "The band cites an unusually extensive and specific list of foreign power/thrash/death metal influences spanning multiple metal subgenres and eras, from 1970s proto-metal (Black Sabbath) through 1990s death metal (Cannibal Corpse, Morbid Angel).",
+      "citation_source": "Encyclopaedia Metallum: Poizon Green profile",
+      "raw_citation": "Black Sabbath / Sepultura / Pantera / Motörhead / Machine Head / Iron Maiden / Cannibal Corpse / Morbid Angel"
     },
     {
       "source": "artist:poizon-green",
       "target": "influence:Iron Maiden",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "The band cites an unusually extensive and specific list of foreign power/thrash/death metal influences spanning multiple metal subgenres and eras, from 1970s proto-metal (Black Sabbath) through 1990s death metal (Cannibal Corpse, Morbid Angel).",
+      "citation_source": "Encyclopaedia Metallum: Poizon Green profile",
+      "raw_citation": "Black Sabbath / Sepultura / Pantera / Motörhead / Machine Head / Iron Maiden / Cannibal Corpse / Morbid Angel"
     },
     {
       "source": "artist:poizon-green",
       "target": "influence:Cannibal Corpse",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "The band cites an unusually extensive and specific list of foreign power/thrash/death metal influences spanning multiple metal subgenres and eras, from 1970s proto-metal (Black Sabbath) through 1990s death metal (Cannibal Corpse, Morbid Angel).",
+      "citation_source": "Encyclopaedia Metallum: Poizon Green profile",
+      "raw_citation": "Black Sabbath / Sepultura / Pantera / Motörhead / Machine Head / Iron Maiden / Cannibal Corpse / Morbid Angel"
     },
     {
       "source": "artist:poizon-green",
       "target": "influence:Morbid Angel",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "The band cites an unusually extensive and specific list of foreign power/thrash/death metal influences spanning multiple metal subgenres and eras, from 1970s proto-metal (Black Sabbath) through 1990s death metal (Cannibal Corpse, Morbid Angel).",
+      "citation_source": "Encyclopaedia Metallum: Poizon Green profile",
+      "raw_citation": "Black Sabbath / Sepultura / Pantera / Motörhead / Machine Head / Iron Maiden / Cannibal Corpse / Morbid Angel"
     },
     {
       "source": "artist:powersurge",
       "target": "influence:Metallica",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Founders Nahian and Samiul Islam explicitly formed the band in January 2006 drawing on American and German thrash/heavy metal influences; the band cites Metallica, Slayer, Megadeth and Exodus among core references.",
+      "citation_source": "Wikipedia Powersurge (band)",
+      "raw_citation": "Metallica / Slayer / Megadeth / Exodus (American thrash metal)"
     },
     {
       "source": "artist:powersurge",
       "target": "influence:Slayer",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Founders Nahian and Samiul Islam explicitly formed the band in January 2006 drawing on American and German thrash/heavy metal influences; the band cites Metallica, Slayer, Megadeth and Exodus among core references.",
+      "citation_source": "Wikipedia Powersurge (band)",
+      "raw_citation": "Metallica / Slayer / Megadeth / Exodus (American thrash metal)"
     },
     {
       "source": "artist:powersurge",
       "target": "influence:Megadeth",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Founders Nahian and Samiul Islam explicitly formed the band in January 2006 drawing on American and German thrash/heavy metal influences; the band cites Metallica, Slayer, Megadeth and Exodus among core references.",
+      "citation_source": "Wikipedia Powersurge (band)",
+      "raw_citation": "Metallica / Slayer / Megadeth / Exodus (American thrash metal)"
     },
     {
       "source": "artist:powersurge",
       "target": "influence:Exodus",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Founders Nahian and Samiul Islam explicitly formed the band in January 2006 drawing on American and German thrash/heavy metal influences; the band cites Metallica, Slayer, Megadeth and Exodus among core references.",
+      "citation_source": "Wikipedia Powersurge (band)",
+      "raw_citation": "Metallica / Slayer / Megadeth / Exodus (American thrash metal)"
     },
     {
       "source": "artist:powersurge",
       "target": "influence:Sepultura",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Named alongside American acts as direct genre-founding influences on the band's sound.",
+      "citation_source": "Wikipedia Powersurge (band)",
+      "raw_citation": "Sepultura / Kreator / Sodom (German/Brazilian thrash metal)"
     },
     {
       "source": "artist:powersurge",
       "target": "influence:Kreator",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Named alongside American acts as direct genre-founding influences on the band's sound.",
+      "citation_source": "Wikipedia Powersurge (band)",
+      "raw_citation": "Sepultura / Kreator / Sodom (German/Brazilian thrash metal)"
     },
     {
       "source": "artist:powersurge",
       "target": "influence:Sodom",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Named alongside American acts as direct genre-founding influences on the band's sound.",
+      "citation_source": "Wikipedia Powersurge (band)",
+      "raw_citation": "Sepultura / Kreator / Sodom (German/Brazilian thrash metal)"
     },
     {
       "source": "artist:powersurge",
       "target": "influence:Lamb Of God",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Cited as additional inspirations shaping the band's groove-metal and more expansive compositional elements beyond straight thrash.",
+      "citation_source": "Wikipedia Powersurge (band)",
+      "raw_citation": "Lamb of God / Dream Theater / Pink Floyd"
     },
     {
       "source": "artist:powersurge",
       "target": "influence:Dream Theater",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Cited as additional inspirations shaping the band's groove-metal and more expansive compositional elements beyond straight thrash.",
+      "citation_source": "Wikipedia Powersurge (band)",
+      "raw_citation": "Lamb of God / Dream Theater / Pink Floyd"
     },
     {
       "source": "artist:powersurge",
       "target": "influence:Pink Floyd",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Cited as additional inspirations shaping the band's groove-metal and more expansive compositional elements beyond straight thrash.",
+      "citation_source": "Wikipedia Powersurge (band)",
+      "raw_citation": "Lamb of God / Dream Theater / Pink Floyd"
     },
     {
       "source": "artist:prometheus",
       "target": "influence:Unspecified In Available Sources",
       "confidence": "hypothesized",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Available sources document Prometheus's formation, longevity and popular tracks but do not specify concrete Western artist or genre influences; flagged for further research rather than assumed.",
+      "citation_source": "The Daily Star — Biplob strikes the right note",
+      "raw_citation": "Unspecified in available sources"
     },
     {
       "source": "artist:renaissance",
       "target": "influence:Reggae",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Renaissance's core genre profile combines reggae, jazz and soft rock, with jazz manifesting in improvisational guitar/keyboard solos and harmonic extensions beyond standard rock progressions, and blues influences contributing gritty, emotive lead guitar phrasing — an unusually eclectic combination relative to the harder-rock-dominant mainstream of the era.",
+      "citation_source": "Wikipedia Renaissance (Bangladeshi band); Grokipedia profile",
+      "raw_citation": "Reggae, jazz, and blues traditions (general)"
     },
     {
       "source": "artist:renaissance",
       "target": "influence:Jazz",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Renaissance's core genre profile combines reggae, jazz and soft rock, with jazz manifesting in improvisational guitar/keyboard solos and harmonic extensions beyond standard rock progressions, and blues influences contributing gritty, emotive lead guitar phrasing — an unusually eclectic combination relative to the harder-rock-dominant mainstream of the era.",
+      "citation_source": "Wikipedia Renaissance (Bangladeshi band); Grokipedia profile",
+      "raw_citation": "Reggae, jazz, and blues traditions (general)"
     },
     {
       "source": "artist:renaissance",
       "target": "influence:Blues Traditions",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Renaissance's core genre profile combines reggae, jazz and soft rock, with jazz manifesting in improvisational guitar/keyboard solos and harmonic extensions beyond standard rock progressions, and blues influences contributing gritty, emotive lead guitar phrasing — an unusually eclectic combination relative to the harder-rock-dominant mainstream of the era.",
+      "citation_source": "Wikipedia Renaissance (Bangladeshi band); Grokipedia profile",
+      "raw_citation": "Reggae, jazz, and blues traditions (general)"
     },
     {
       "source": "artist:rockstrata",
       "target": "influence:Iron Maiden",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Bangladeshi heavy metal, including Rockstrata as one of its founding bands, is documented as originating from the evolution of British and American heavy metal of the 1980s, with Iron Maiden, Metallica and Megadeth cited as the greatest influences on the scene's founding generation.",
+      "citation_source": "Wikipedia Bangladeshi heavy metal",
+      "raw_citation": "Iron Maiden / Metallica / Megadeth"
     },
     {
       "source": "artist:rockstrata",
       "target": "influence:Metallica",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Bangladeshi heavy metal, including Rockstrata as one of its founding bands, is documented as originating from the evolution of British and American heavy metal of the 1980s, with Iron Maiden, Metallica and Megadeth cited as the greatest influences on the scene's founding generation.",
+      "citation_source": "Wikipedia Bangladeshi heavy metal",
+      "raw_citation": "Iron Maiden / Metallica / Megadeth"
     },
     {
       "source": "artist:rockstrata",
       "target": "influence:Megadeth",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Bangladeshi heavy metal, including Rockstrata as one of its founding bands, is documented as originating from the evolution of British and American heavy metal of the 1980s, with Iron Maiden, Metallica and Megadeth cited as the greatest influences on the scene's founding generation.",
+      "citation_source": "Wikipedia Bangladeshi heavy metal",
+      "raw_citation": "Iron Maiden / Metallica / Megadeth"
     },
     {
       "source": "artist:rockstrata",
       "target": "influence:Deep Purple",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "1970s hard rock/proto-metal acts are cited as additional formative influences on the same founding generation of Bangladeshi metal bands that included Rockstrata.",
+      "citation_source": "Wikipedia Bangladeshi heavy metal",
+      "raw_citation": "Deep Purple / Black Sabbath / Motörhead"
     },
     {
       "source": "artist:rockstrata",
       "target": "influence:Black Sabbath",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "1970s hard rock/proto-metal acts are cited as additional formative influences on the same founding generation of Bangladeshi metal bands that included Rockstrata.",
+      "citation_source": "Wikipedia Bangladeshi heavy metal",
+      "raw_citation": "Deep Purple / Black Sabbath / Motörhead"
     },
     {
       "source": "artist:rockstrata",
       "target": "influence:Motörhead",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "1970s hard rock/proto-metal acts are cited as additional formative influences on the same founding generation of Bangladeshi metal bands that included Rockstrata.",
+      "citation_source": "Wikipedia Bangladeshi heavy metal",
+      "raw_citation": "Deep Purple / Black Sabbath / Motörhead"
     },
     {
       "source": "artist:severe-dementia",
       "target": "influence:International Brutal",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Severe Dementia is classified as a Brutal Death Metal band with technical influences and was signed to the international label Demonstealer Records and later Transcending Obscurity Asia, indicating direct engagement with the global extreme-metal label/genre ecosystem rather than domestic mainstream rock influences.",
+      "citation_source": "Wikipedia Severe Dementia (band); Transcending Obscurity Asia signing announcement",
+      "raw_citation": "International brutal/technical death metal (general)"
     },
     {
       "source": "artist:severe-dementia",
       "target": "influence:Technical Death Metal",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Severe Dementia is classified as a Brutal Death Metal band with technical influences and was signed to the international label Demonstealer Records and later Transcending Obscurity Asia, indicating direct engagement with the global extreme-metal label/genre ecosystem rather than domestic mainstream rock influences.",
+      "citation_source": "Wikipedia Severe Dementia (band); Transcending Obscurity Asia signing announcement",
+      "raw_citation": "International brutal/technical death metal (general)"
     },
     {
       "source": "artist:shezan",
       "target": "influence:American Hip-Hop",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Secondary press (bdhiphop.com) describes his style as combining hip-hop production and rap delivery conventions with traditional Bengali sounds — East/West fusion rather than a single named influence.",
+      "citation_source": "bdhiphop.com coverage",
+      "raw_citation": "American hip-hop"
     },
     {
       "source": "artist:shironamhin",
       "target": "influence:Psychedelic",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Shironamhin is distinguished for extended psychedelic and progressive compositions and multi-instrumental experimentation, becoming a leading band of the Bengali progressive rock genre; debut album Jahaji is explicitly classified as psychedelic rock/folk rock.",
+      "citation_source": "Wikipedia Shironamhin",
+      "raw_citation": "Psychedelic and progressive rock traditions (general)"
     },
     {
       "source": "artist:shironamhin",
       "target": "influence:Progressive Rock Traditions",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Shironamhin is distinguished for extended psychedelic and progressive compositions and multi-instrumental experimentation, becoming a leading band of the Bengali progressive rock genre; debut album Jahaji is explicitly classified as psychedelic rock/folk rock.",
+      "citation_source": "Wikipedia Shironamhin",
+      "raw_citation": "Psychedelic and progressive rock traditions (general)"
     },
     {
       "source": "artist:shonar-bangla-circus",
       "target": "influence:Surreal Literature",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "The band's work leans heavily on surreal literature, long-form conceptual arcs and a theatrical sensibility, with songs unfolding slowly around philosophical inquiry into civilisation, decay and resistance — an approach paralleling international psychedelic/progressive-rock concept-album traditions rather than citing a specific Western artist.",
+      "citation_source": "The Business Standard — Shonar Bangla Circus profile",
+      "raw_citation": "Surreal literature and psychedelic/progressive rock traditions (general)"
     },
     {
       "source": "artist:shonar-bangla-circus",
       "target": "influence:Psychedelic",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "The band's work leans heavily on surreal literature, long-form conceptual arcs and a theatrical sensibility, with songs unfolding slowly around philosophical inquiry into civilisation, decay and resistance — an approach paralleling international psychedelic/progressive-rock concept-album traditions rather than citing a specific Western artist.",
+      "citation_source": "The Business Standard — Shonar Bangla Circus profile",
+      "raw_citation": "Surreal literature and psychedelic/progressive rock traditions (general)"
     },
     {
       "source": "artist:shonar-bangla-circus",
       "target": "influence:Progressive Rock Traditions",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "The band's work leans heavily on surreal literature, long-form conceptual arcs and a theatrical sensibility, with songs unfolding slowly around philosophical inquiry into civilisation, decay and resistance — an approach paralleling international psychedelic/progressive-rock concept-album traditions rather than citing a specific Western artist.",
+      "citation_source": "The Business Standard — Shonar Bangla Circus profile",
+      "raw_citation": "Surreal literature and psychedelic/progressive rock traditions (general)"
     },
     {
       "source": "artist:shunno",
       "target": "influence:Western Pop Rock",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Shunno's genre profile (alternative rock, pop rock, pop, soft rock) reflects a melodic, accessible rock idiom consistent with mainstream Western pop-rock conventions; specific artist-level influence citations were not located in available sources.",
+      "citation_source": "Wikipedia Shunno; Band Music of Bangladesh profile",
+      "raw_citation": "Western pop rock/soft rock traditions (general)"
     },
     {
       "source": "artist:shunno",
       "target": "influence:Soft Rock Traditions",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Shunno's genre profile (alternative rock, pop rock, pop, soft rock) reflects a melodic, accessible rock idiom consistent with mainstream Western pop-rock conventions; specific artist-level influence citations were not located in available sources.",
+      "citation_source": "Wikipedia Shunno; Band Music of Bangladesh profile",
+      "raw_citation": "Western pop rock/soft rock traditions (general)"
     },
     {
       "source": "artist:souls",
       "target": "influence:Western Rock",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Souls began performing cover songs of Western bands in Chittagong/Dhaka hotels in the early 1970s before shifting to original compositions, directly transmitting Western rock/pop conventions into the emerging Bangladeshi band scene.",
+      "citation_source": "Wikipedia Souls (band); Band Music of Bangladesh profile",
+      "raw_citation": "Western rock/pop cover circuit (general)"
     },
     {
       "source": "artist:souls",
       "target": "influence:Pop Cover Circuit",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Souls began performing cover songs of Western bands in Chittagong/Dhaka hotels in the early 1970s before shifting to original compositions, directly transmitting Western rock/pop conventions into the emerging Bangladeshi band scene.",
+      "citation_source": "Wikipedia Souls (band); Band Music of Bangladesh profile",
+      "raw_citation": "Western rock/pop cover circuit (general)"
     },
     {
       "source": "artist:stentorian",
       "target": "influence:Multi-subgenre Metal Traditions",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Stentorian's genre classification spans soft rock, power ballad, thrash metal and progressive metal simultaneously, indicating an eclectic, multi-influence approach rather than commitment to a single metal subgenre.",
+      "citation_source": "Wikipedia Stentorian (band)",
+      "raw_citation": "Multi-subgenre metal traditions (soft rock, power ballad, thrash metal, progressive metal)"
     },
     {
       "source": "artist:stoic-bliss",
       "target": "influence:American Hip-Hop",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Formed in Queens, New York, by Bangladeshi-American members, Stoic Bliss directly imported American hip-hop production and rap conventions, introducing them to Bangladeshi audiences largely via blogs before mainstream social media existed.",
+      "citation_source": "Wikipedia Stoic Bliss; Wikipedia Bangladeshi hip-hop",
+      "raw_citation": "American Hip-Hop"
     },
     {
       "source": "artist:tahsan",
       "target": "influence:Grunge",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Tahsan was formerly the keyboardist and second vocalist of Black, described as a grunge and alternative rock band, giving him a Western rock-idiom foundation prior to his romantic-pop solo career.",
+      "citation_source": "Wikipedia Tahsan Rahman Khan",
+      "raw_citation": "Grunge / Alternative Rock (via band Black)"
     },
     {
       "source": "artist:tahsan",
       "target": "influence:Alternative Rock",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Tahsan was formerly the keyboardist and second vocalist of Black, described as a grunge and alternative rock band, giving him a Western rock-idiom foundation prior to his romantic-pop solo career.",
+      "citation_source": "Wikipedia Tahsan Rahman Khan",
+      "raw_citation": "Grunge / Alternative Rock (via band Black)"
     },
     {
       "source": "artist:theology-of-rap",
       "target": "influence:American Hip-Hop",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Secondary sources describe T.O.R. as run on a strictly commercial model, distinguishing them from more scene/community-oriented crews, but do not document specific named artist influences.",
+      "citation_source": "Bangladeshi hip hop scene retrospectives (see sources)",
+      "raw_citation": "American hip-hop (general, commercial)"
     },
     {
       "source": "artist:trainwreck",
       "target": "influence:Lamb Of God",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Trainwreck's youthful lineup tore through Bangladesh's underground scene with explicitly Lamb of God-inspired riffs, directly citing the American groove/thrash metal band as its core reference point.",
+      "citation_source": "The Daily Star — A Trainwreck in Wacken!",
+      "raw_citation": "Lamb of God"
     },
     {
       "source": "artist:uptown-lokolz",
       "target": "influence:American Hip-Hop",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Member Black Zang described the group's approach as incorporating \"the essence of original African American rap\" while adapting it to their own colloquial-Bangla style, explicitly framed as adaptation rather than imitation.",
+      "citation_source": "Dhaka Tribune interview",
+      "raw_citation": "African American rap"
     },
     {
       "source": "artist:vibe",
       "target": "influence:Contemporaneous Bangladeshi Heavy Metal",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Vibe is documented as one of the leading emerging heavy metal bands of its era alongside Artcell and Cryptic Fate, and appeared on the same 2003 mixed compilation (Agontuk 1) as Aurthohin, Artcell, Black and Cryptic Fate — indicating the band developed within a tightly interconnected local metal/alternative peer scene rather than through isolated Western influence.",
+      "citation_source": "Wikipedia Vibe (Bangladeshi band)",
+      "raw_citation": "Contemporaneous Bangladeshi heavy metal/alternative peers (Artcell, Cryptic Fate)"
     },
     {
       "source": "artist:vibe",
       "target": "influence:Alternative Peers",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Vibe is documented as one of the leading emerging heavy metal bands of its era alongside Artcell and Cryptic Fate, and appeared on the same 2003 mixed compilation (Agontuk 1) as Aurthohin, Artcell, Black and Cryptic Fate — indicating the band developed within a tightly interconnected local metal/alternative peer scene rather than through isolated Western influence.",
+      "citation_source": "Wikipedia Vibe (Bangladeshi band)",
+      "raw_citation": "Contemporaneous Bangladeshi heavy metal/alternative peers (Artcell, Cryptic Fate)"
     },
     {
       "source": "artist:vikings",
       "target": "influence:Western Hard Rock Traditions",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Positioned in coverage as a Dhaka rock band of the late-1990s cohort; no specific influence statements by members were locatable in available sources.",
+      "citation_source": "Band pages and press coverage; no interview-level influence statement located",
+      "raw_citation": "Western hard rock traditions (general)"
     },
     {
       "source": "artist:warfaze",
       "target": "influence:Iron Maiden",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Early cover repertoire heavily featured Iron Maiden. Steve Harris-style bass approaches and dual-guitar / galloping aesthetics noted in secondary commentary. Foundational for the band's heavy metal identity.",
+      "citation_source": "Wikipedia Warfaze & Bangladeshi heavy metal pages; multiple interviews and retrospective articles",
+      "raw_citation": "Iron Maiden"
     },
     {
       "source": "artist:warfaze",
       "target": "influence:Deep Purple",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Documented early cover-band repertoire before original Bangla material. Helped acclimatize local audiences to hard rock and metal vocabulary.",
+      "citation_source": "Band history sources and interviews",
+      "raw_citation": "Deep Purple / Whitesnake / Dokken / Guns N' Roses / Scorpions"
     },
     {
       "source": "artist:warfaze",
       "target": "influence:Whitesnake",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Documented early cover-band repertoire before original Bangla material. Helped acclimatize local audiences to hard rock and metal vocabulary.",
+      "citation_source": "Band history sources and interviews",
+      "raw_citation": "Deep Purple / Whitesnake / Dokken / Guns N' Roses / Scorpions"
     },
     {
       "source": "artist:warfaze",
       "target": "influence:Dokken",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Documented early cover-band repertoire before original Bangla material. Helped acclimatize local audiences to hard rock and metal vocabulary.",
+      "citation_source": "Band history sources and interviews",
+      "raw_citation": "Deep Purple / Whitesnake / Dokken / Guns N' Roses / Scorpions"
     },
     {
       "source": "artist:warfaze",
       "target": "influence:Guns N' Roses",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Documented early cover-band repertoire before original Bangla material. Helped acclimatize local audiences to hard rock and metal vocabulary.",
+      "citation_source": "Band history sources and interviews",
+      "raw_citation": "Deep Purple / Whitesnake / Dokken / Guns N' Roses / Scorpions"
     },
     {
       "source": "artist:warfaze",
       "target": "influence:Scorpions",
       "confidence": "high",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Documented early cover-band repertoire before original Bangla material. Helped acclimatize local audiences to hard rock and metal vocabulary.",
+      "citation_source": "Band history sources and interviews",
+      "raw_citation": "Deep Purple / Whitesnake / Dokken / Guns N' Roses / Scorpions"
     },
     {
       "source": "artist:warfaze",
       "target": "influence:Metallica",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "global_artist",
+      "evidence": "Part of the wider influence ecosystem that shaped 1980s–90s Bangladeshi metal; frequently grouped with Iron Maiden as primary Western reference points for the scene.",
+      "citation_source": "Scene histories and peer commentary",
+      "raw_citation": "Metallica / broader thrash & classic metal"
     },
     {
       "source": "artist:warfaze",
       "target": "influence:Broader Thrash & Classic Metal",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Part of the wider influence ecosystem that shaped 1980s–90s Bangladeshi metal; frequently grouped with Iron Maiden as primary Western reference points for the scene.",
+      "citation_source": "Scene histories and peer commentary",
+      "raw_citation": "Metallica / broader thrash & classic metal"
     },
     {
       "source": "artist:winning",
       "target": "influence:Azam Khan's Band Lineage",
       "confidence": "medium",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Winning was formed by musicians who had previously played in pop pioneer Azam Khan's band, deciding to launch their own project — a direct domestic genealogical influence rather than a Western import, reflecting the same alumni-network pattern seen with Souls (which spun off LRB and Renaissance).",
+      "citation_source": "Wikipedia Winning (band)",
+      "raw_citation": "Azam Khan's band lineage"
     },
     {
       "source": "artist:winning",
       "target": "influence:Heavy Melody-influenced Rock",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Winning's most successful period (1991–1994) is associated with 'heavy melody-influenced rock songs that had that larger than life sound,' resulting in two consecutive hit albums — indicating absorption of a specific melodic hard-rock production aesthetic circulating in the era.",
+      "citation_source": "Band Music of Bangladesh: History of Bangladesh Band Music",
+      "raw_citation": "Heavy melody-influenced rock (general, 1990s)"
     },
     {
       "source": "artist:yaatri",
       "target": "influence:Mellow",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Yaatri is characterized as a 'mello rock' band with relatable pop melodies, reflecting a gentler, more accessible alternative-rock idiom than the harder rock/metal mainstream of its era; specific Western artist citations were not located in available sources.",
+      "citation_source": "The Amazing Music of Yaatri — Bangladesh.com",
+      "raw_citation": "Mellow/soft rock traditions (general)"
     },
     {
       "source": "artist:yaatri",
       "target": "influence:Soft Rock Traditions",
       "confidence": "low",
-      "sourced": true
+      "sourced": true,
+      "kind": "tradition",
+      "evidence": "Yaatri is characterized as a 'mello rock' band with relatable pop melodies, reflecting a gentler, more accessible alternative-rock idiom than the harder rock/metal mainstream of its era; specific Western artist citations were not located in available sources.",
+      "citation_source": "The Amazing Music of Yaatri — Bangladesh.com",
+      "raw_citation": "Mellow/soft rock traditions (general)"
     },
     {
       "source": "artist:avoidrafa",
       "target": "artist:aurthohin",
       "confidence": "high",
-      "kind": "domestic_transmission"
+      "kind": "domestic_transmission",
+      "evidence": "Founder Raef Al Hasan Rafa spent roughly fifteen years as Aurthohin's drummer and vocalist before AvoidRafa became his own vehicle; his playing vocabulary and the band's progressive/hard-rock orientation carry directly from that tenure. This is a domestic transmission link rather than a global one."
     },
     {
       "source": "artist:conclusion",
       "target": "artist:owned",
       "confidence": "high",
-      "kind": "domestic_transmission"
+      "kind": "domestic_transmission",
+      "evidence": "Band members unanimously credited Owned as their key inspiration, indicating a primarily domestic (rather than Western) lineage of influence — an example of intra-scene Bangladeshi alternative-rock genealogy rather than direct Western import."
     },
     {
       "source": "artist:muza",
       "target": "artist:habib-wahid",
       "confidence": "medium",
-      "kind": "domestic_transmission"
+      "kind": "domestic_transmission",
+      "evidence": "Muza has cited Habib Wahid's songs as his direct musical inspiration, indicating a primarily domestic (rather than purely Western) lineage of folk-electronic fusion influence carried into the Bangladeshi-American diaspora."
+    },
+    {
+      "source": "artist:nova",
+      "target": "artist:azam-khan-uchcharon",
+      "confidence": "high",
+      "kind": "domestic_transmission",
+      "evidence": "Nova cites Azam Khan and Feedback directly alongside its Western influences, indicating the band's psychedelic/progressive sound was built on both foreign and domestic founding-generation reference points simultaneously."
     },
     {
       "source": "artist:nova",
       "target": "artist:feedback",
       "confidence": "high",
-      "kind": "domestic_transmission"
+      "kind": "domestic_transmission",
+      "evidence": "Nova cites Azam Khan and Feedback directly alongside its Western influences, indicating the band's psychedelic/progressive sound was built on both foreign and domestic founding-generation reference points simultaneously."
     },
     {
       "source": "artist:poizon-green",
       "target": "artist:rockstrata",
       "confidence": "high",
-      "kind": "domestic_transmission"
+      "kind": "domestic_transmission",
+      "evidence": "Poizon Green explicitly cites Bangladeshi founding-era metal band Rockstrata as a hugely influential domestic reference point, directly demonstrating intra-scene genealogical transmission from the country's 'big four founders of heavy metal' to a subsequent generation."
     }
   ]
 }

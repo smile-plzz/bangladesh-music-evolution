@@ -46,7 +46,8 @@
       ]
     },
     "origin_city": {
-      "type": "string"
+      "type": "string",
+      "description": "City the act formed in, as a plain city name so it can be faceted. Put qualifiers (diaspora origin, birthplace, later relocation) in 'origin_note'."
     },
     "genres": {
       "type": "array",
@@ -192,6 +193,10 @@
     "last_updated": {
       "type": "string",
       "format": "date"
+    },
+    "origin_note": {
+      "type": "string",
+      "description": "Free-text qualifier on origin_city, e.g. diaspora status or birthplace."
     }
   }
 }

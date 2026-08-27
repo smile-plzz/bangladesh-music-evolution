@@ -19,7 +19,7 @@ or related-artist adjacency, which is blocked pending API credentials
 
 | File | Contents |
 |---|---|
-| `bmpn-multilayer.json` | The full graph: 63 nodes, 178 edges, four layers, per-edge provenance |
+| `bmpn-multilayer.json` | The full graph: 63 nodes, 179 edges, four layers, per-edge provenance |
 | `bmpn-prototype.json` | Co-billing layer only, in the original format the web frontend reads |
 | `bmpn-communities.json` | Louvain communities for the observed and full passes |
 | `bmpn-clusters.json` | Connected components over co-billing — a coverage diagnostic, superseded for community detection |
@@ -31,7 +31,7 @@ or related-artist adjacency, which is blocked pending API credentials
 |---|---:|---|---|
 | `co_billing` | 133 | A documented shared concert bill | yes |
 | `personnel` | 15 | A shared named member | yes |
-| `domestic_influence` | 5 | One catalogued act names another as an influence | yes |
+| `domestic_influence` | 6 | One catalogued act names another as an influence | yes |
 | `influence_homophily` | 36 | Two acts cite the same named global influence | **no — inferred** |
 
 `influence_homophily` proxies aesthetic proximity, not shared audience. It is
@@ -43,14 +43,15 @@ bills; `normalised_weight` divides each event's contribution by (n−1) so an ac
 contributes a total of 1 per event regardless of bill size. The normalised one
 feeds `combined_weight` and all analysis. Without it, the 2020 Joy Bangla
 Concert's twelve-act bill alone contributes 66 edges and observed modularity
-falls from 0.414 to 0.154.
+falls from 0.428 to 0.159 — both figures come from the same pipeline run, as
+the `observed` and `observed_uncorrected` passes.
 
 ## Current structure
 
 | Pass | Edges | Density | Largest component | Isolated | Modularity | Communities ≥3 |
 |---|---:|---:|---:|---:|---:|---:|
-| observed | 152 | 0.078 | 36 | 21 | 0.414 | 5 |
-| full | 178 | 0.091 | 40 | 19 | 0.417 | 5 |
+| observed | 153 | 0.078 | 36 | 20 | 0.428 | 6 |
+| full | 179 | 0.092 | 41 | 18 | 0.425 | 5 |
 | co-billing only | 133 | 0.068 | 24 | 39 | 0.182 | 3 |
 
 35 of 63 acts have no documented event. Low centrality in this graph is usually

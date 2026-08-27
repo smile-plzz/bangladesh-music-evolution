@@ -14,6 +14,15 @@
     "headliner": 13,
     "guest": 9
   },
+  "origin_cities": {
+    "Dhaka": 52,
+    "Chattogram": 5,
+    "Narayanganj": 2,
+    "Khulna": 1,
+    "New York City": 1,
+    "Netrakona": 1,
+    "Queens, New York": 1
+  },
   "strand_coverage": {
     "Alternative/Indie": {
       "artists": 16,

@@ -98,10 +98,10 @@ either shared personnel, or one act naming another. Dotted arrows are
 continuities asserted in the literature and the project's own notes but not
 carried by a structured edge.
 
-## 3. The five documented domestic transmissions
+## 3. The six documented domestic transmissions
 
-Only five acts in the catalogue name another catalogued Bangladeshi act as an
-influence. They are worth listing in full, because they are the entire
+Only six citations in the catalogue name another catalogued Bangladeshi act as
+an influence. They are worth listing in full, because they are the entire
 observational basis for "internal transmission" in this dataset:
 
 | From | To | What it shows |
@@ -111,8 +111,9 @@ observational basis for "internal transmission" in this dataset:
 | Conclusion | Owned | Peer-level transmission inside the alternative strand |
 | Nova | Feedback | The founding-era rock cohort citing each other |
 | Muza | Habib Wahid | Pop lineage: the electronic-pop template passed forward |
+| Nova | Azam Khan &amp; Uchcharon | The founding "Pop Guru" cited by the psychedelic-rock cohort that followed him |
 
-Five links across 63 acts is very thin. It reflects how the records were
+Six links across 63 acts is very thin. It reflects how the records were
 written — global influences were researched systematically, domestic ones only
 where a source happened to state them — more than it reflects how much the
 scene borrows internally. Making domestic influence a first-class field in

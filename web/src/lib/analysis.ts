@@ -87,6 +87,7 @@ export type ConcertEcosystem = {
   description: string;
   event_count: number;
   coverage_note: string;
+  classification_rules_in_order: string[];
   classes: Record<
     string,
     {
@@ -95,6 +96,7 @@ export type ConcertEcosystem = {
       cross_strand_rate: number | null;
       description: string;
       strand_mix: Record<string, number>;
+      events: { id: string; name: string; date: string; rule: string }[];
     }
   >;
 };
@@ -140,3 +142,125 @@ export const getConcertEcosystem = () =>
   readAnalysis<ConcertEcosystem>("concert-ecosystem.json");
 export const getInfluenceAnalysis = () =>
   readAnalysis<InfluenceAnalysis>("influence-analysis.json");
+
+// --- network + influence graph loaders -----------------------------------
+//
+// These read the pipeline's own output rather than recomputing anything in the
+// app: strand assignment in particular is decided once, in
+// analysis/lib/common.py, and stamped onto every network node. The site reads
+// it from there so a page can never disagree with a figure.
+
+export type MultiLayerNode = {
+  id: string;
+  name: string;
+  genres: string[];
+  strand: string;
+  formed_year: number | null;
+  origin_city: string;
+  event_count: number;
+  global_influence_tokens: string[];
+};
+
+export type EdgeLayer = {
+  weight: number;
+  observed: boolean;
+  normalised_weight?: number;
+  shared_events?: string[];
+  shared_members?: string[];
+  citations?: string[];
+  shared_influences?: string[];
+};
+
+export type MultiLayerEdge = {
+  source: string;
+  target: string;
+  combined_weight: number;
+  observed: boolean;
+  layers: Record<string, EdgeLayer>;
+};
+
+export type MultiLayerNetwork = {
+  description: string;
+  layer_weights: Record<string, number>;
+  observed_layers: string[];
+  node_count: number;
+  edge_count: number;
+  edges_per_layer: Record<string, number>;
+  observed_edge_count: number;
+  isolated_node_count: number;
+  nodes: MultiLayerNode[];
+  edges: MultiLayerEdge[];
+};
+
+export type CommunitySet = {
+  modularity: number;
+  communities: Community[];
+};
+
+export type Communities = {
+  description: string;
+  method: string;
+  observed: CommunitySet;
+  full: CommunitySet;
+};
+
+export type InfluenceNode = {
+  id: string;
+  label: string;
+  kind: "artist" | "global_artist" | "tradition" | "domestic_artist";
+  strand?: string;
+  formed_year?: number | null;
+  citing_acts?: number;
+};
+
+export type InfluenceEdge = {
+  source: string;
+  target: string;
+  confidence: string;
+  sourced?: boolean;
+  kind?: string;
+  evidence?: string;
+  citation_source?: string;
+  raw_citation?: string;
+};
+
+export type InfluenceNetwork = {
+  description: string;
+  node_count: number;
+  edge_count: number;
+  nodes: InfluenceNode[];
+  edges: InfluenceEdge[];
+};
+
+const NETWORK_ROOT = path.join(process.cwd(), "data", "networks");
+
+function readNetwork<T>(file: string): T | null {
+  const full = path.join(NETWORK_ROOT, file);
+  if (!fs.existsSync(full)) return null;
+  return JSON.parse(fs.readFileSync(full, "utf-8")) as T;
+}
+
+export const getMultiLayerNetwork = () =>
+  readNetwork<MultiLayerNetwork>("bmpn-multilayer.json");
+export const getCommunities = () =>
+  readNetwork<Communities>("bmpn-communities.json");
+export const getInfluenceNetwork = () =>
+  readNetwork<InfluenceNetwork>("influence-network.json");
+
+/** artist id -> BMEM strand, taken from the network nodes the pipeline wrote. */
+export function getStrandMap(): Record<string, string> {
+  const net = getMultiLayerNetwork();
+  if (!net) return {};
+  return Object.fromEntries(net.nodes.map((n) => [n.id, n.strand]));
+}
+
+/** concert id -> typology class, from the pipeline's classification. */
+export function getConcertClassMap(): Record<string, string> {
+  const eco = getConcertEcosystem();
+  if (!eco) return {};
+  const map: Record<string, string> = {};
+  for (const [klass, data] of Object.entries(eco.classes)) {
+    for (const ev of data.events ?? []) map[ev.id] = klass;
+  }
+  return map;
+}

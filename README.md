@@ -18,9 +18,9 @@ Bangladeshi Music Genres, Listener Cultures, and Global Musical Influences
 | Artists catalogued (target 300) | **63** |
 | Events catalogued (target 500) | **23** |
 | Schema / referential errors | **0** |
-| Influence citations (all sourced) | **170** normalised from 83 raw |
-| Network edges over 63 acts | **178** across 4 layers |
-| Louvain modularity, observational layers | **0.414** |
+| Influence citations (all sourced) | **169** normalised from 83 raw |
+| Network edges over 63 acts | **179** across 4 layers |
+| Louvain modularity, observational layers | **0.428** |
 
 The framework, pipeline and analytical outputs are complete and reusable. The
 dataset is at roughly a fifth of its artist target and a twentieth of its event
@@ -54,7 +54,7 @@ exist here at all — see *What this project cannot do* below.
    much as how music transmits, and is reported as a property of the evidence.
 
 3. **The network is genuinely structured, and it is not a preference network.**
-   Modularity 0.414 with five interpretable communities — but the edges record
+   Modularity 0.428 with six interpretable communities — but the edges record
    shared bills, shared members and stated influences. The classic
    mainstream-rock community exists because Ayub Bachchu moved between those
    bands; the folk strand's centrality is festival programming policy. It is a
@@ -67,7 +67,7 @@ exist here at all — see *What this project cannot do* below.
 
 A methodological result travels with these: projecting a concert hypergraph onto
 artist pairs without correcting for bill size lets one twelve-act festival
-contribute 66 edges and depresses observed modularity from 0.414 to 0.154. Any
+contribute 66 edges and depresses observed modularity from 0.428 to 0.159. Any
 scene network built from festival lineups needs the correction.
 
 ## What this project cannot do

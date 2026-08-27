@@ -5,8 +5,13 @@
   "formed_year": 1972,
   "disbanded_year": null,
   "origin_city": "Dhaka",
-  "genres": ["Mainstream Rock", "Bangla Pop"],
-  "languages": ["bn"],
+  "genres": [
+    "Mainstream Rock",
+    "Bangla Pop"
+  ],
+  "languages": [
+    "bn"
+  ],
   "members": [
     {
       "name": "Azam Khan (Mahbubul Haque Khan)",
@@ -19,7 +24,12 @@
     {
       "title": "Singles/hits (album details not fully documented in available sources)",
       "type": "compilation",
-      "notable_tracks": ["Rail Liner Oi Bostite", "Alal ar Dulal", "Saleka Maleka", "Papri Keno Bojhena"]
+      "notable_tracks": [
+        "Rail Liner Oi Bostite",
+        "Alal ar Dulal",
+        "Saleka Maleka",
+        "Papri Keno Bojhena"
+      ]
     }
   ],
   "global_influences": [
@@ -51,6 +61,15 @@
       "type": "news"
     }
   ],
-  "tags": ["mainstream-rock", "founding-era", "genre-originator"],
-  "last_updated": "2026-08-06"
+  "tags": [
+    "mainstream-rock",
+    "founding-era",
+    "genre-originator"
+  ],
+  "last_updated": "2026-08-27",
+  "also_known_as": [
+    "Azam Khan",
+    "Uchcharon",
+    "Uccharon"
+  ]
 }

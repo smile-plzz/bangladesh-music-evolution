@@ -20,6 +20,35 @@ const trees = [
     src: path.join(repoRoot, "analysis", "visualizations"),
     dest: path.resolve(__dirname, "../public/figures"),
   },
+  // The written research, so it can be read on the site rather than only on
+  // GitHub. Each tree keeps its own folder so the reading section can group by
+  // kind without parsing paths.
+  {
+    src: path.join(repoRoot, "docs"),
+    dest: path.resolve(__dirname, "../research-content/docs"),
+  },
+  {
+    src: path.join(repoRoot, "frameworks"),
+    dest: path.resolve(__dirname, "../research-content/frameworks"),
+  },
+  {
+    src: path.join(repoRoot, "analysis", "case-studies"),
+    dest: path.resolve(__dirname, "../research-content/case-studies"),
+  },
+  // Served as real files so the data page can hand visitors the dataset
+  // itself, not just a description of it.
+  {
+    src: path.join(repoRoot, "analysis", "outputs"),
+    dest: path.resolve(__dirname, "../public/downloads/outputs"),
+  },
+  {
+    src: path.join(repoRoot, "data", "networks"),
+    dest: path.resolve(__dirname, "../public/downloads/networks"),
+  },
+  {
+    src: path.join(repoRoot, "data", "schemas"),
+    dest: path.resolve(__dirname, "../public/downloads/schemas"),
+  },
 ];
 
 for (const { src, dest } of trees) {

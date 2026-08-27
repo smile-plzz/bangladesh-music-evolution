@@ -4,9 +4,15 @@
   "type": "band",
   "formed_year": 1977,
   "disbanded_year": null,
-  "origin_city": "Chittagong",
-  "genres": ["Mainstream Rock", "Blues Rock", "Folk Rock"],
-  "languages": ["bn"],
+  "origin_city": "Chattogram",
+  "genres": [
+    "Mainstream Rock",
+    "Blues Rock",
+    "Folk Rock"
+  ],
+  "languages": [
+    "bn"
+  ],
   "members": [
     {
       "name": "Faruq Mahfuz Anam (James / Guru James)",
@@ -50,7 +56,9 @@
       "title": "Jail Theke Bolchhi",
       "year": 1993,
       "type": "studio",
-      "notable_tracks": ["Jail Theke Bolchhi"]
+      "notable_tracks": [
+        "Jail Theke Bolchhi"
+      ]
     },
     {
       "title": "Dushtu Cheler Dol",
@@ -105,6 +113,11 @@
       "type": "profile"
     }
   ],
-  "tags": ["priority", "mainstream-rock", "big-three", "founding-era"],
-  "last_updated": "2026-08-06"
+  "tags": [
+    "priority",
+    "mainstream-rock",
+    "big-three",
+    "founding-era"
+  ],
+  "last_updated": "2026-08-27"
 }
